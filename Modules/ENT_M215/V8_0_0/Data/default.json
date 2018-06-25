@@ -1,0 +1,89 @@
+{
+    "config": {
+        "moduleName": "ent_m215"
+    },
+    "settings": {
+        
+    },
+    "data": {
+        "header": "CMT Music Awards 2015 Nominees",
+        "schema": "[{\"@context\":\"http://schema.org/\",\"@type\":\"LoseAction\",\"agent\":[{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 1 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 2 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 3 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 4 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 5 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"}]},{\"@context\":\"http://schema.org/\",\"@type\":\"LoseAction\",\"agent\":[{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 1 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 2 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 3 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 4 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 5 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"}]}]",
+        "awards": [
+            {
+                "awardTitle": "CMT Category 1: Viewer Voted - Funnel Voting Open, One Award Video",
+                "awardLayout": "landscape",
+                "vote": "http://www.cmt-l.mtvi.com/cmt-music-awards/2015/vote#cmt-award-1-viewer-voted-funnel-voting-open-one-award-video-sponsored",
+                "nominees": [
+                    {
+                        "nomineeText1": "Category 1: Nominee 1",
+                        "nomineeText2": "Landscape",
+                        "image": [
+                            {
+                                "url": "http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg",
+                                "width": 1920,
+                                "height": 1080,
+                                "aspectRatio": 1.7777777777778,
+                                "alt": ""
+                            }
+                        ],
+                        "nomineeUrl": "http://www.mtv.com/video-clips/ukp1yb/vma-2016-make-a-wish-kids-at-the-vmasss"
+                    },
+                    {
+                        "nomineeText1": "Category 1: Nominee 2 - CMT",
+                        "nomineeText2": "Landscape",
+                        "image": [
+                            {
+                                "url": "http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg",
+                                "width": 1920,
+                                "height": 1080,
+                                "aspectRatio": 1.7777777777778,
+                                "alt": ""
+                            }
+                        ],
+                        "nomineeUrl": "http://www.mtv.com/video-clips/ukp1yb/vma-2016-make-a-wish-kids-at-the-vmasss"
+                    },
+                    {
+                        "nomineeText1": "Category 1: Nominee 3 - CMT",
+                        "nomineeText2": "Landscape",
+                        "image": [
+                            {
+                                "url": "http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg",
+                                "width": 1920,
+                                "height": 1080,
+                                "aspectRatio": 1.7777777777778,
+                                "alt": ""
+                            }
+                        ]
+                    },
+                    {
+                        "nomineeText1": "Category 1: Nominee 4 - CMT",
+                        "nomineeText2": "Landscape",
+                        "image": [
+                            {
+                                "url": "http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg",
+                                "width": 1920,
+                                "height": 1080,
+                                "aspectRatio": 1.7777777777778,
+                                "alt": ""
+                            }
+                        ]
+                    },
+                    {
+                        "nomineeText1": "Category 1: Nominee 5 - CMT",
+                        "nomineeText2": "Landscape",
+                        "image": [
+                            {
+                                "url": "http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg",
+                                "width": 1920,
+                                "height": 1080,
+                                "aspectRatio": 1.7777777777778,
+                                "alt": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "promoType": "ent_m215"
+    }
+}

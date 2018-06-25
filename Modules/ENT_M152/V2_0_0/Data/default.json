@@ -1,0 +1,163 @@
+{
+  "config": {
+    "zone": "t3_lc_promo1",
+    "moduleName": "ent_m152"
+  },
+
+  "data": {
+    "header": {
+      "title": "Upcoming Events"
+    },
+    "items": [
+      {
+        "isAd": true,
+        "adSize": "300x250"
+      },
+      {
+        "URL": "/events/pw93qq/bellator-182-koreshkov-vs-njokuani",
+        "displayDate": "August 25, 2017",
+        "title": "Koreshkov vs. Njokuani",
+        "venue": {
+          "title": "Turning Stone Resort Casino",
+          "address": "Verona, NY"
+        },
+        "image": [
+          {
+            "width": 2082,
+            "height": 1170,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/site-images/B182_App_Header_2082x1170.jpg"
+          }
+        ],
+        "buttons": [
+          {
+            "isFirst": true,
+            "URL": "/events/pw93qq/bellator-182-koreshkov-vs-njokuani",
+            "label": "More info"
+          },
+          {
+            "isSecond": true,
+            "isPopup": true,
+            "URL": "http://www.ticketmaster.com/bellator-mma-verona-new-york-08-25-2017/event/000052BACF77370E?artistid=1319868&majorcatid=10004&minorcatid=830&tm_link=search_msg-0_000052BACF77370E",
+            "label": "Buy tickets"
+          }
+        ]
+      },
+      {
+        "URL": "/events/li28zv/bellator-183-henderson-vs-pitbull",
+        "displayDate": "September 23, 2017",
+        "title": "Henderson vs. Pitbull",
+        "venue": {
+          "title": "SAP Center",
+          "address": "San Jose, CA"
+        },
+        "image": [
+          {
+            "width": 2082,
+            "height": 1170,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/site-images/B183_App_Header_2082x1170.jpg"
+          }
+        ],
+        "buttons": [
+          {
+            "isFirst": true,
+            "URL": "/events/li28zv/bellator-183-henderson-vs-pitbull",
+            "label": "More info"
+          },
+          {
+            "isSecond": true,
+            "isPopup": true,
+            "URL": "https://www1.ticketmaster.com/bellator-mma-san-jose-california-09-23-2017/event/1C0052D5E8026E3F?artistid=1319868&majorcatid=10004&minorcatid=830",
+            "label": "Buy tickets"
+          }
+        ]
+      },
+      {
+        "URL": "/events/xo4ak2/bellator-184-dantas-vs-caldwell",
+        "displayDate": "October 06, 2017",
+        "title": "Dantas vs. Caldwell",
+        "venue": {
+          "title": "Global Event Center at WinStar World Casino & Resort",
+          "address": "Thackerville, OK"
+        },
+        "image": [
+          {
+            "width": 2082,
+            "height": 1170,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/promos/B184_App_Header_2082x1170.jpg"
+          }
+        ],
+        "buttons": [
+          {
+            "isFirst": true,
+            "URL": "/events/xo4ak2/bellator-184-dantas-vs-caldwell",
+            "label": "More info"
+          },
+          {
+            "isSecond": true,
+            "isPopup": true,
+            "URL": "https://www1.ticketmaster.com/bellator-mma-thackerville-oklahoma-10-06-2017/event/0C0052E72DD14623?artistid=1319868&majorcatid=10004&minorcatid=830&tm_link=artist_msg-0_0C0052E72DD14623",
+            "label": "Buy tickets"
+          }
+        ]
+      },
+      {
+        "URL": "/events/gq1ge4/bellator-185-mousasi-vs-shlemenko",
+        "displayDate": "October 20, 2017",
+        "title": "Mousasi vs. Shlemenko",
+        "venue": {
+          "title": "Mohegan Sun Arena",
+          "address": "Uncasville, CT"
+        },
+        "image": [
+          {
+            "width": 2082,
+            "height": 1170,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/promos/B185_App_Header_2082x1170.jpg"
+          }
+        ],
+        "buttons": [
+          {
+            "isFirst": true,
+            "URL": "/events/gq1ge4/bellator-185-mousasi-vs-shlemenko",
+            "label": "More info"
+          },
+          {
+            "isSecond": true,
+            "isPopup": true,
+            "URL": "https://www1.ticketmaster.com/bellator-mma-uncasville-connecticut-10-20-2017/event/1D0052EED8FC3C57?artistid=1319868&majorcatid=10004&minorcatid=830",
+            "label": "Buy tickets"
+          }
+        ]
+      },
+      {
+        "URL": "/events/atvvfn/bellator-dublin-gallagher-vs-tba",
+        "displayDate": "November 10, 2017",
+        "title": "Gallagher vs. TBA",
+        "venue": {
+          "title": "3Arena",
+          "address": "Dublin 1, Ireland"
+        },
+        "image": [
+          {
+            "width": 2082,
+            "height": 1170,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/promos/B187_App_Header_2082x1170.jpg"
+          }
+        ],
+        "buttons": [
+          {
+            "isFirst": true,
+            "URL": "/events/atvvfn/bellator-dublin-gallagher-vs-tba",
+            "label": "More info"
+          },
+          {
+            "isSecond": true,
+            "isPopup": true,
+            "URL": "http://www.ticketmaster.ie/bellator-dublin-bamma-32-dublin-11-10-2017/event/180052ED9C02868D?artistid=1580042&majorcatid=10004&minorcatid=742",
+            "label": "Buy tickets"
+          }
+        ]
+      }
+    ]
+  }
+}

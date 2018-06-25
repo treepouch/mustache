@@ -1,0 +1,48 @@
+{{#camerasSelect}}
+    <div class="live-stream__cameras-select">
+        <div class="live-stream__cameras-select-toggle"></div>
+        <div class="live-stream__cameras-select-wrapper">
+            {{<Modules/ENT_M234/V1_3_1/Controller/sponsor_ad}}
+                {{$adClass}}live-stream__sponsor-ad--desktop{{/adClass}}
+            {{/Modules/ENT_M234/V1_3_1/Controller/sponsor_ad}}
+
+            {{#.title}}
+                <div class="live-stream__cameras-select-title">
+                    {{.}}
+                </div>
+            {{/.title}}
+
+            <div class="live-stream__cameras-holder">
+                {{#muxId}}
+                    <div class="live-stream__mux-player"></div>
+                {{/muxId}}
+
+                <ul class="live-stream__cameras">
+                    {{#options}}
+                        <li class="live-stream__camera{{#tveAuth}} live-stream__camera--locked{{/tveAuth}}"{{#index}} data-index="{{.}}"{{/index}}>
+                            <div class="live-stream__camera-wrapper">
+                                <div class="live-stream__camera-view live-stream__camera-view-mux">
+                                    {{<common/image}}
+                                        {{$imageClass}}live-stream__camera-thumbnail{{/imageClass}}
+                                    {{/common/image}}
+                                    <div class="live-stream__camera-overlay live-stream__camera-overlay--selected" data-title=""></div>
+                                    <div class="live-stream__camera-overlay live-stream__camera-overlay--cta"{{#settings.watchNowTitle}} data-title="{{.}}"{{/settings.watchNowTitle}}></div>
+                                    <div class="live-stream__camera-overlay live-stream__camera-overlay--locked-cta"{{#settings.signInTitle}} data-title="{{.}}"{{/settings.signInTitle}}>
+                                        {{#settings.signInButtonTitle}}
+                                            <div class="live-stream__camera-overlay-button">{{.}}</div>
+                                        {{/settings.signInButtonTitle}}
+                                    </div>
+                                </div>
+                                <div class="live-stream__camera-view-copy">
+                                    {{#title}}<span class="live-stream__camera-title">{{.}}</span>{{/title}}
+                                </div>
+                            </div>
+
+                        </li>
+                    {{/options}}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+{{/camerasSelect}}

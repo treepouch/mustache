@@ -1,0 +1,24 @@
+{{#data}}
+    <div class="ent-m219-module-content">
+        {{^cta.url}}{{#featuredUrl}}<a href="{{.}}" class="video-loop-promo-featured-url">{{/featuredUrl}}{{/cta.url}}
+        <div class="video-loop-promo">
+            <video class="video-loop-promo-video js-video" data-postermobile="{{mobileImageUrl}}" data-src="{{videoUrl}}"></video>
+        </div>
+        <div class="video-loop-promo-meta-items{{#settings.isCentered}} video-loop-promo-centered{{/settings.isCentered}}">
+            <div class="video-loop-promo-meta-wrap">
+					{{#thumbnailImage}}<div class="thumbnail-image"><img src="{{.}}" /></div>{{/thumbnailImage}}
+					{{#tuneIn}}<div class="video-loop-promo-meta-tunein">{{.}}</div>{{/tuneIn}}
+					{{#headline}}<h1 class="video-loop-promo-meta-title">{{.}}</h1>{{/headline}}
+					{{#subHeadline}}<p class="video-loop-promo-meta-description">{{.}}</p>{{/subHeadline}}
+					{{#cta}}{{#cta.url}}<a href="{{.}}" class="video-loop-cta-btn-url">{{/cta.url}}<div class="video-loop-cta-btn"><span class="primary_btn">{{cta.text}}</span></div>{{#cta.url}}</a>{{/cta.url}}{{/cta}}
+				</div>
+            {{#ad}}
+                <div class="massive-promo__sponsor-info">
+                    <div class="massive-promo__sponsor-logo" data-adsize="{{size}}" data-campaign="{{campaign}}"></div>
+                </div>
+            {{/ad}}
+        </div>
+        {{^cta.url}}{{#featuredUrl}}</a>{{/featuredUrl}}{{/cta.url}}
+        <div class="bottom-gradient"></div>
+    </div>
+{{/data}}

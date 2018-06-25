@@ -1,0 +1,56 @@
+{
+    "config": {
+        "zone": "t1_lc_promo1",
+        "moduleName": "ent_m216"
+    },
+    "envelope": {
+        "version": "1.0",
+        "name": "entertainment-standard-json"
+    },
+    "status": {
+        "text": "OK",
+        "code": 100
+    },
+        "data": {
+            "promoId": "64oem5",
+            "promoType": "ENT_M216",
+            "title": "Trailblazing Parents",
+            "items": [{
+                "name": "Dennis & Judy Shepard",
+                "copy": "Judy & Dennis Shepard, <a href='/'>This is a link in the copy</a> who began the Matthew Shepard Foundation in his honor only weeks after his 1998 murder, have worked tirelessly to tell Matthew's story, raise awareness for anti-violence legislation and promote human dignity through education, outreach and advocacy programs. Their incredibly long battle for national support to fight hate crimes reached a major triumph in 2009 when President Obama signed the Matthew Shepard and James Byrd, Jr. Hate Crimes Prevention Act, expanding measures of protection for victims of violence targeted based on perceived gender, sexual orientation, gender identity or disability.",
+                "image": [{
+                    "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                    "width": 800,
+                    "height": 800,
+                    "aspectRatio": "1:1"
+                }],
+                "url": {
+                    "url": "http:\/\/www.matthewshepard.org\/",
+                    "popup": true
+                }
+            }, {
+                "name": "Marsha Aizumi",
+                "copy": "PFLAG mom Marsha Aizumi is the mother of a transgender son and founded the country's first and only PFLAG chapter for Asian-Pacific Islanders. Throughout her work she has developed safe and nurturing high school diploma programs to assist ostracized LGBT students.",
+                "image": [{
+                    "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                    "width": 800,
+                    "height": 800,
+                    "aspectRatio": "1:1"
+                }],
+                "url": {
+                    "url": "http:\/\/www.marshaaizumi.com\/",
+                    "popup": true
+                }
+            }, {
+                "name": "Sheila Lopez",
+                "copy": "PFLAG mom Sheila Lopez founded the first and only PFLAG chapter for Native Americans. After discovering PFLAG, Sheila became a leading LGBT advocate in the Southwest, offering support to her two gay children, as well as other Native American parents and LGBT youth.",
+                "image": [{
+                    "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                    "width": 800,
+                    "height": 800,
+                    "aspectRatio": "1:1"
+                }]
+            }]
+        },
+    "messages": {}
+}

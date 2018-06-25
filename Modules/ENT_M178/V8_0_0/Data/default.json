@@ -1,0 +1,30 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m178"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "result": {
+    "data": {
+      "promoId": "qx03vr",
+      "promoType": "ENT_M178",
+      "headerText": "the challenge",
+      "subheaderText": "real talk with the champs",
+      "headerLinkURL": "/video-clips/ulqmar/challenge-invasion-real-talk-with-the-champs-ii",
+      "tuneIn": "airs tonight 9/8c",
+      "image": {
+        "width": 1279,
+        "height": 720,
+        "url": "http://mtv.mtvnimages.com/images/challenge2905_sneak2.jpg"
+      }
+    }
+  },
+  "messages": {}
+}

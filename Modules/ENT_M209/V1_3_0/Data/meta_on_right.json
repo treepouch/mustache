@@ -1,0 +1,94 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m209"
+  },
+  "envelope":{
+    "version":"1.0",
+    "name":"entertainment-standard-json"
+  },
+  "status":{
+    "text":"OK",
+    "code":100
+  },
+  "settings":{
+    "share":{
+      "shortenerURL":"http:\/\/www.mtv-l.mtvi.com\/feeds\/bitly",
+      "twitter":{
+        "name":"MTV"
+      },
+      "email":{
+        "subject":"Watch {{title}} on www.mtv.com"
+      },
+      "options":[
+        {
+          "title":"Facebook",
+          "typeClass":"facebook"
+        },
+        {
+          "title":"Twitter",
+          "typeClass":"twitter"
+        },
+        {
+          "title":"Email",
+          "typeClass":"email"
+        },
+        {
+          "title":"Embed",
+          "typeClass":"embed"
+        }
+      ],
+      "embedOverlay":{
+        "typeClass":"embed",
+        "headline":"Embed",
+        "description":"Copy and paste the embed code below:",
+        "button":{
+          "title":"COPY EMBED CODE"
+        }
+      }
+    },
+    "metaPlacement": {
+      "isRight": true
+    },
+    "displayBoxAd": "300x250",
+    "slates":{
+      "unsupported":{
+        "default":{
+          "typeClass":"unsupported_slate",
+          "headline":"OUR BAD",
+          "description":"This video is not available on this device"
+        },
+        "iOS":{
+          "typeClass":"unsupported_slate",
+          "headline":"OUR BAD",
+          "description":"This website requires at least iOS 6 to view videos"
+        },
+        "Android":{
+          "typeClass":"unsupported_slate",
+          "headline":"OUR BAD",
+          "description":"This website requires at least Android 4.4.4 and Chrome browser to view videos"
+        }
+      }
+    }
+  },
+  "data":{
+    "parent": {
+      "title": "Wonderland",
+      "url": "#"
+    },
+    "id":"mgid:arc:video:mtv.com:b80375bc-2aba-11e5-b90b-0026b9414f30",
+    "title":"Shippers Rally Hard For Their Favorite Ship At The Fandom Awards",
+    "description": "Music show live from the heart of the downtown Los Angeles arts district. This week is a Steve Aoki takeover with live performances curated by the superstar DJ himself. Tune in for performances by Steve Aoki, Lil Jon, blink-182 and more.",
+    "displayDate":"aired 10/13/2016",
+    "episode": "season 1 ep 5",
+    "image":{
+      "width":1280,
+      "height":720,
+      "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/13\/448d7a85-8690-4e6b-841f-3ff6450684e8.jpg",
+      "aspectRatio":1.8
+    }
+  },
+  "messages":{
+
+  }
+}

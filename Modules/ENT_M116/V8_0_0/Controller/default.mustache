@@ -1,0 +1,68 @@
+{{#data}}
+    <div class="module_content toggleable_module open promo_{{promoId}}">
+
+        <div class="S002_line_list_header s_fonts_moduleHeader">
+            <div class="content dropdown-btn">
+
+                <span class="header_text section-header-lg">{{#defaultFilter}}{{.}}{{/defaultFilter}}{{^defaultFilter}}All Videos{{/defaultFilter}}</span>
+                <div class="menu_button closed"></div>
+
+                <div class="filter_list">
+                    <ul>
+                        {{#filters}}
+                            <li>{{.name}}<span>{{.count}} {{#settings.clipsLabel}}{{.}}{{/settings.clipsLabel}}</span></li>
+                        {{/filters}}
+                    </ul>
+                </div>
+                <span class="itemCount s_fonts_moduleHeaderCount">{{#itemCount}}{{.}}{{/itemCount}}{{^itemCount}}0{{/itemCount}} {{#settings.clipsLabel}}{{.}}{{/settings.clipsLabel}}</span>
+
+            </div>
+        </div>
+
+        <div class="subFilters_list">
+            {{> Modules/ENT_M116/V8_0_0/Controller/subFilters}}
+        </div>
+
+        <div class="toggleable_module_content">
+            {{#colors}}
+                <style>
+                    {{#primaryColor}}
+                        .ent_m116 .promo_{{promoId}} .S001_line_list_item .link_wrapper:hover h3,
+                        .ent_m116 .promo_{{promoId}} .S001_line_list_item .link_wrapper:hover h4 {
+                            color:{{.}};
+                        }
+
+                        .ent_m116 .promo_{{promoId}} .subFilters_list ul li:not(.selected):not(:hover) {
+                            color:{{.}};
+                        }
+
+                        .ent_m116 .promo_{{promoId}} .subFilters_list ul .selected,
+                        .ent_m116 .promo_{{promoId}} .subFilters_list ul li:hover {
+                            background: {{.}};
+                            {{#secondaryColor}}
+                                color:{{.}};
+                            {{/secondaryColor}}
+                        }
+
+                        .ent_m116 .promo_{{promoId}} .L001_line_list_load-more { &nbsp;
+                            {{#isLOGO}}
+                                border-color: {{primaryColor}};
+                                color: {{primaryColor}};
+                            {{/isLOGO}}
+                            {{^isLOGO}}
+                                background-color: {{primaryColor}};
+                                {{#secondaryColor}}
+                                    color: {{.}};
+                                {{/secondaryColor}}
+                            {{/isLOGO}}
+                        }
+                    {{/primaryColor}}
+                </style>
+            {{/colors}}
+            <ul class="L001_line_list s_layouts_lineList s_resets_oldDom_ul">
+                {{> Modules/ENT_M116/V8_0_0/Controller/items}}
+            </ul>
+            <div class="L001_line_list_load-more custom_button_hover s_buttons_button" style="display: none;"><span>Load More</span></div>
+        </div>
+    </div>
+{{/data}}

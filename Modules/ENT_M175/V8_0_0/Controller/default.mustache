@@ -1,0 +1,25 @@
+{{#data}}
+    <div class="module_content s_container">
+        {{#headline}}
+            <h2 class="headline section-header-md">
+                {{.}}
+            </h2>
+        {{/headline}}
+
+        <div class="L001_line_list">
+            {{#childPromoList}}
+                {{#url}}
+                    <li class="S001_line_list_item">
+                        <a class="link_wrapper" href={{.}}>
+                            {{> common/image }}
+                            {{#headline}}
+                                <h3 class="s_fonts_lineListHeader">{{.}}</h3>
+                            {{/headline}}
+                        </a>
+                    </li>
+                {{/url}}
+
+            {{/childPromoList}}
+        </div>
+    </div>
+{{/data}}

@@ -1,0 +1,45 @@
+{{#items}}
+    <div class="line-listing__item{{#isAd}} line-listing__item--ad{{/isAd}}">
+        {{^isAd}}
+            <div class="card" data-uri="{{id}}">
+                <div class="media media--video">
+                    <a class="media__link" href="{{url}}">
+                        <div class="media__content-holder js-media__holder">
+                            {{<common/image}}
+                                    {{$imageClass}}media__content{{/imageClass}}
+                            {{/common/image}}
+                        </div>
+                    </a>
+
+                    <div class="media__meta">
+                        {{#title}}
+                            <h3 class="media__title"><a class="media__link" href="{{url}}">{{.}}</a></h3>
+                        {{/title}}
+
+                        {{#duration}}
+                            <span class="media__duration">{{.}}</span>
+                        {{/duration}}
+
+                        {{#description}}
+                            <p class="media__description">{{.}}</p>
+                        {{/description}}
+                    </div>
+                    <script type="application/ld+json">
+                        {{> Partials/V1_0_0/common/schema.org/video_object}}
+                    </script>
+                </div>
+
+                {{#share}}
+                    <ul class="card__share js-share" data-url="{{url}}">
+                        {{#options}}
+                            <li class="card__share-button icon icon--{{.}} js-share__button" data-type="{{.}}"></li>
+                        {{/options}}
+                    </ul>
+                {{/share}}
+            </div>
+        {{/isAd}}
+        {{#isAd}}
+            <div data-adsize="{{size}}" data-campaign="{{campaign}}"></div>
+        {{/isAd}}
+    </div>
+{{/items}}

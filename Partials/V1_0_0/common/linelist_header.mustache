@@ -1,0 +1,27 @@
+{{#data}}
+<div class="S002_line_list_header{{#header.allowToggle}} toggleable_module_trigger{{/header.allowToggle}}{{#header.filters.0}} s_layouts_hasFilter{{/header.filters.0}}">
+    {{#header.filters.0}}
+        <div class="s_layouts_filter">
+            <h2 class="s_layouts_filterTitle content s_fonts_moduleHeader">
+                <span class="header_text">{{header.title}}</span>
+            </h2>
+            <ul class="s_layouts_filterDropdown s_fonts_filterDropdown">
+                {{#header.filters}}
+                    <li class="s_layouts_filterDropdownItem{{#isSelected}} s_states_itemSelected{{/isSelected}}" data-feedurl="{{url}}">{{name}}</li>
+                {{/header.filters}}
+            </ul>
+        </div>
+    {{/header.filters.0}}
+    {{^header.filters}}
+        <h2 class="content s_fonts_moduleHeader">
+            {{#header.title}}<span class="header_text">{{header.title}}</span>{{/header.title}}
+            {{#header.count}}<span class="itemCount s_fonts_moduleHeaderCount">{{header.count}}</span>{{/header.count}}
+        </h2>
+    {{/header.filters}}
+    {{#header.description}}
+        <h3 class="s_fonts_moduleDescription">{{header.description}}</h3>
+    {{/header.description}}
+
+    <div class="loading s_fonts_moduleHeaderDivider"><span></span></div>
+</div>
+{{/data}}

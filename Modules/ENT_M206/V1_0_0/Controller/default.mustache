@@ -1,0 +1,132 @@
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+		 It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+			PhotoSwipe keeps only 3 of them in the DOM to save memory.
+			Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar gallery__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter gallery__counter"></div>
+                <div class="gallery__buttons-wrapper">
+                    <button class="pswp__button pswp__button--close gallery__topbar-button has_icon close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share js-gallery__fullscreen-share gallery__topbar-button has_icon share" title="Share" data-id=""></button>
+
+                    <button class="pswp__button pswp__button--fs gallery__topbar-button has_icon full-screen" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom gallery__topbar-button has_icon zoom-in" title="Zoom in/out"></button>
+                </div>
+
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip gallery__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left gallery__nav-button has_icon arrow_left js-gallery_prev-button" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right gallery__nav-button has_icon arrow_right  js-gallery_next-button" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption gallery__caption">
+                <div class="pswp__caption__center gallery__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+{{#data}}
+    {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+    {{#headline}}
+        <h1 class="headline gallery__headline">{{.}}</h1>
+    {{/headline}}
+
+    {{#settings.ads.sponsorAd}}
+        <div class="gallery__ad-item--200x31 hasAd" data-adsize="{{settings.ads.sponsorAd}}" data-ad-sizes="{{settings.ads.sponsorAd}}"></div>
+    {{/settings.ads.sponsorAd}}
+
+    {{#description}}
+        <p class="description">{{.}}</p>
+    {{/description}}
+
+    {{#date}}
+        <span class="date">{{.}}</span>
+    {{/date}}
+
+    <div class="gallery">
+        {{#settings.socialHandlers.galleryShare.0}}
+            <ul class="gallery__share">
+                {{#settings.socialHandlers.galleryShare}}
+                    <li class="js-gallery__share-button gallery__share-button has_icon {{.typeClass}}">
+                        <span class="screen_reader_text">{{.title}}</span>
+                    </li>
+                {{/settings.socialHandlers.galleryShare}}
+            </ul>
+        {{/settings.socialHandlers.galleryShare.0}}
+        <div class="gallery__item-sizer"></div>
+        <div class="gallery__items-list">
+            {{#items}}
+                <figure class="gallery__item {{#adSize}}gallery__ad{{/adSize}}">
+                    {{#image}}
+                        <a target="_blank" href="{{.url}}?quality=0.85&width={{.width}}&height={{.height}}&crop=true" class="gallery__full-image notriforce" data-size="{{.width}}x{{.height}}" data-index="{{.index}}" data-shareurl="{{.shareUrl}}">
+                            {{<common/image}}
+                                {{$imageClass}}gallery__thumbnail {{.imageProportionsClass}}{{/imageClass}}
+                                {{$imageStyle}}style="width: {{.thumbWidth}}px; height: {{.thumbHeight}}px;"{{/imageStyle}}
+                            {{/common/image}}
+                            <div class="gallery__overlay">
+                                {{#caption}}
+                                    <figcaption class="gallery__overlay-description">{{.}}</figcaption>
+                                {{/caption}}
+                                {{#settings.socialHandlers.itemShare.0}}
+                                    <ul class="gallery__overlay-share">
+                                        {{#settings.socialHandlers.itemShare}}
+                                            <li class="js-gallery__item-share-button gallery__share-button gallery__share-button--horizontal has_icon {{.typeClass}}">
+                                                <span class="screen_reader_text">{{.title}}</span>
+                                            </li>
+                                        {{/settings.socialHandlers.itemShare}}
+                                    </ul>
+                                {{/settings.socialHandlers.itemShare.0}}
+                            </div>
+                        </a>
+                    {{/image}}
+                    {{#adSize}}
+                            <div data-adsize="{{settings.ads.boxAd}}" data-ad-sizes="{{settings.ads.boxAd}}"></div>
+                    {{/adSize}}
+                </figure>
+            {{/items}}
+        </div>
+
+    </div>
+{{/data}}

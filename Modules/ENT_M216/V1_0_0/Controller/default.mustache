@@ -1,0 +1,30 @@
+{{#data}}
+    <div class="ent_m216-module_content">
+        {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+    {{#title}}
+        <div class="ent_m216-title">{{.}}</div>
+    {{/title}}
+            <ul class="ent_m216-list">
+                {{#items}}
+                    <li class="ent_m216-list_item">
+                        {{#url}}<a class="ent_m216-link_wrapper" href="{{url}}" {{#popup}}target="_blank"{{/popup}}>{{/url}}
+                        <div class="ent_m216-thumbnail_holder">
+                            {{> common/image }}
+                        </div>
+                        {{#url}}</a>{{/url}}
+
+                        <div class="ent_m216-meta_holder">
+                            {{#url}}<a class="ent_m216-link_wrapper" href="{{url}}" {{#popup}}target="_blank"{{/popup}}>{{/url}}
+                            {{#name}}<div class="ent_m216-item_name">{{.}}</div>{{/name}}
+                            {{#url}}</a>{{/url}}
+                            <div class="ent_m216-social_wrap">
+                                {{#facebook}}<a class="ent_m216-icon has_icon facebook" href="{{.}}" target="_blank"></a>{{/facebook}}
+                                {{#twitter}}<a class="ent_m216-icon has_icon twitter" href="{{.}}" target="_blank"></a>{{/twitter}}
+                            </div>
+                            {{#copy}}<div class="ent_m216-item_copy">{{.}}</div>{{/copy}}
+                        </div>
+                    </li>
+                {{/items}}
+            </ul>
+    </div>
+{{/data}}

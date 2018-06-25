@@ -1,0 +1,24 @@
+{
+  "cmsPageInformation": {
+    "title": "ENT_P112 - Tentpole Event Award Winners",
+    "templateType": "standard"
+  },
+
+  "modules": [
+    {
+      "moduleName": "ENT_M200_Fragment",
+      "dataSetName": "default.json",
+      "zone": "header"
+    },
+    {
+      "moduleName": "ENT_M229_Fragment",
+      "dataSetName": "default.json",
+      "zone": "t1_lc_promo1"
+    },
+    {
+      "moduleName": "ENT_M006_Fragment",
+      "dataSetName": "default.json",
+      "zone": "footer"
+    }
+  ]
+}

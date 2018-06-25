@@ -1,0 +1,25 @@
+{
+    "envelope": {
+        "version": "1.0",
+        "name": "entertainment-standard-json"
+    },
+    "status": {
+        "text": "OK",
+        "code": 100
+    },
+    "result": {
+        "data": {
+            "promoId": "89mkyz",
+            "promoType": "ENT_M051",
+            "headerText": "MTV NEWS",
+            "subheaderText": "VACATION PHOTOS: AMBER, CATELYNN AND MACI ARE CHRONICLING THEIR TROPICAL GETAWAY",
+            "URL": "http://www.mtv.com/news/2989588/teen-mom-og-vacation-amber-catelynn-and-maci/",
+            "image": {
+                "width": 2376,
+                "height": 1337,
+                "url": "http://mtv.mtvnimages.com/arc/images/shows/teen-mom-2/photos/TM2Vacay.jpeg"
+            }
+        }
+    },
+    "messages": {}
+}

@@ -1,0 +1,20 @@
+<li class="category__external-voting {{^isAD}}external-voting{{/isAD}} {{#isAD}}external-voting-ad{{/isAD}}">
+    {{^isAD}}
+        <a href="{{#.url}}{{.}}{{/.url}}" class="external-voting__item">
+            <div class="external-voting__image-wrapper">
+                {{> common/image }}
+            </div>
+            <div class="external-voting__meta">
+                {{#.title}}
+                    <h3 class="external-voting__meta-title">{{.}}</h3>
+                {{/.title}}
+                {{#.description}}
+                    <p class="external-voting__meta-description">{{.}}</p>
+                {{/.description}}
+            </div>
+        </a>
+    {{/isAD}}
+    {{#isAD}}
+        <div data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div>
+    {{/isAD}}
+</li>

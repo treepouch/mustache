@@ -1,0 +1,21 @@
+{{#data}}
+    <div class="ent_m212-module-content">
+        <div class="ent_m212-text-promo {{#settings.adSize}}ent_m212-text-promo-has-ad{{/settings.adSize}}">
+            {{#headline}}
+                <h1 class="headline ent_m212-headline">{{headline}}</h1>
+            {{/headline}}
+            {{#subHeadline}}
+                <h2 class="subheadline ent_m212-subheadline">{{subHeadline}}</h2>
+            {{/subHeadline}}
+            {{#copy}}
+                <div class="ent_m212-copy">{{{copy}}}</div>
+            {{/copy}}
+        </div>
+
+        {{#settings.adSize}}
+            <div class="ent_m212-ad-wrap">
+                <div class="ent_m212-box-ad" data-adsize="{{settings.adSize}}"></div>
+            </div>
+        {{/settings.adSize}}
+    </div>
+{{/data}}

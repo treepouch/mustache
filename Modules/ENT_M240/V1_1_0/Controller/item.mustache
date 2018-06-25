@@ -1,0 +1,44 @@
+<div class="item{{#tveAuth.mobile}} locked-mobile{{/tveAuth.mobile}}{{#tveAuth.desktop}} locked-desktop{{/tveAuth.desktop}}{{#isPlaceholder}} item--placeholder{{/isPlaceholder}}{{#isFake}} item--fake{{/isFake}}"{{#id}} data-id="{{.}}"{{/id}}>
+    {{#url}}<a href="{{.}}" class="notriforce">{{/url}}
+        <div class="media-wrap">
+            <div class="media">
+                <div class="item-container containerx16x9">
+                    {{<common/image}}
+                        {{$imageClass}}content{{/imageClass}}
+                    {{/common/image}}
+                </div>
+            </div>
+            {{#badge}}
+                <div class="badge{{#.type}} {{.}}{{/.type}}">{{.title}}</div>
+            {{/badge}}
+
+            {{#duration}}
+                <div class="timestamp">{{.}}</div>
+            {{/duration}}
+        </div>
+
+        <div class="meta-wrap">
+            <div class="header">
+                {{#parentTitle}}
+                    <div>{{.}}</div>
+                {{/parentTitle}}
+
+                {{#meta}}
+                    <span>{{.}}</span>
+                {{/meta}}
+            </div>
+
+            {{#title}}
+                <div class="sub-header">
+                    <h4>{{.}}</h4>
+                </div>
+            {{/title}}
+
+            {{#description}}
+                <div class="deck">
+                    <p>{{.}}</p>
+                </div>
+            {{/description}}
+        </div>
+    {{#url}}</a>{{/url}}
+</div>

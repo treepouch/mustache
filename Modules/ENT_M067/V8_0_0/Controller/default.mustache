@@ -1,0 +1,66 @@
+{{#data}}
+
+    {{#promo}}
+        <div class="S002_line_list_header s_fonts_moduleHeader">
+            <div class="content"><span class="header_text  section-header-lg">{{headline}}</span></div>
+        </div>
+    {{/promo}}
+
+    <div class="module_content toggleable_module open">
+        {{#tveAuth}}
+            <div id="tve_banner_holder" class="tve-banner {{#.desktop}}locked-desktop{{/.desktop}} {{#.mobile}}locked-mobile{{/.mobile}}">
+                {{#promo}}
+                    {{#parameters}}
+                        {{{#messageHeader}}}
+                        <div id="tve-banner"><div id="tve-wrapper"><div class="col-lg-12"><div class="header">{{{messageHeader}}}</div><div class="deck">{{{messageBody}}}</div></div></div></div>
+                        {{{/messageHeader}}}
+                    {{/parameters}}
+                {{/promo}}
+            </div>
+        {{/tveAuth}}
+        <div class="toggleable_module_content">
+
+            <ul class="L001_line_list s_layouts_lineList s_resets_oldDom_ul">
+                {{> Modules/ENT_M067/V2_0_0/Controller/items}}
+            </ul>
+
+            {{#episodeGuideURL}}
+            <div class="cta-button">
+                <a href="{{.}}" class="btn btn-cta btn-block"><span>browse all episodes<span class="icon-chevron-right"></span></span></a>
+            </div>
+            {{/episodeGuideURL}}
+        </div>
+
+        <div id="season_watch_holder">
+            {{#seasonMessageHeader}}
+                <div id="season_watch_container">
+                    <div class="header">{{.}}</div>
+                    {{#seasonMessageBody}}<div class="deck">{{{.}}}</div>{{/seasonMessageBody}}
+                </div>
+            {{/seasonMessageHeader}}
+        </div>
+    </div>
+
+    {{#colors}}
+        <style>
+            {{#primaryColor}}
+                .S001_line_list_item .link_wrapper:hover h3, .S001_line_list_item .link_wrapper:hover h4{  color:{{.}};  }
+            {{/primaryColor}}
+            {{#isLOGO}}
+                {{#primaryColor}}.ent_m067 .btn { border-color: {{.}}; color: {{.}}; }{{/primaryColor}}
+            {{/isLOGO}}
+            {{^isLOGO}}
+            .ent_m067 .btn { &nbsp;
+                {{#primaryColor}}background-color:{{.}};{{/primaryColor}}{{#primaryTextColor}}color:{{.}};{{/primaryTextColor}}
+            }
+            {{/isLOGO}}
+
+            {{#darkTheme}}
+                .ent_m067 #tve-banner #tve-wrapper { background-color: #777; color:#fff; }
+                .ent_m067 .S002_line_list_header .content .header_text, .ent_m067 .S001_line_list_item .link_wrapper h4, .ent_m067 .S001_line_list_item .link_wrapper h3,
+                .ent_m067 .S001_line_list_item .link_wrapper p { color:#fff; }
+            {{/darkTheme}}
+        </style>
+    {{/colors}}
+
+{{/data}}

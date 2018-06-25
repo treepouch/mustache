@@ -1,0 +1,23 @@
+{
+    "data": {
+        "promoId": "c01hzp",
+        "promoType": "ENT_M122",
+        "promoData": {
+            "headline": "Bellator 181 Look Ahead",
+            "subHeadline": "Bellator 181",
+            "copy": "Bellator 181: Campos vs. Girtz 3 is coming your way from Oklahoma on July 14th. Below catch a glimpse at some of these fighters' best fights in the Bellator cage!",
+            "image": {
+                "width": 1920,
+                "height": 1080,
+                "url": "https://bellator.mtvnimages.com/images/shows/bellator/promos/B181_lookahead_promo.jpg"
+            },
+            "link": {
+                "text": "More Bellator 181",
+                "url": "/events/syc56o/bellator-181-campos-vs-girtz-3"
+            }
+        },
+        "relatedItems": [
+            {}
+        ]
+    }
+}

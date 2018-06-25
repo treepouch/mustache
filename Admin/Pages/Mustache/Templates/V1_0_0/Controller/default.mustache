@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{#templateInfo}}{{name}} | {{dataSetName}} | {{/templateInfo}}Mustache Templates</title>
+        <meta charset="UTF-8">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link href="/__crabapple_admin/media/mustache/base.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="mustache_header">
+            <nav class="mustache_header_group">
+                {{#navigation}}
+                    <div class="mustache_header_group_item">
+                        <h4 class="mustache_header_group_title">{{name}}</h4>
+                        <ul class="mustache_header_dropdown">
+                            {{#items}}
+                                <li class="mustache_header_dropdown_option{{#selected}} selected{{/selected}}">
+                                    <a href="{{URL}}">{{title}}</a>
+                                </li>
+                            {{/items}}
+                        </ul>
+                    </div>
+                {{/navigation}}
+            </nav>
+
+            <div class="mustache_header_group">
+                {{#templateInfo.standaloneURL}}
+                    <a class="mustache_header_group_item mustache_header_group_title" href="{{templateInfo.standaloneURL}}" title="Standalone page">Standalone</a>
+                {{/templateInfo.standaloneURL}}
+                {{#templateInfo.dataSets.0}}
+                    <div class="mustache_header_group_item">
+                        <span class="mustache_header_group_title">Data</span>
+                        <ul class="mustache_header_dropdown">
+                            {{#templateInfo.dataSets}}
+                                <li class="mustache_header_dropdown_option{{#selected}} selected{{/selected}}">
+                                    <a href="{{pageURL}}">{{name}}</a>
+                                </li>
+                            {{/templateInfo.dataSets}}
+                        </ul>
+                    </div>
+                {{/templateInfo.dataSets.0}}
+                {{#templateInfo.cssURLs.0}}
+                    <div class="mustache_header_group_item">
+                        <span class="mustache_header_group_title">CSS</span>
+                        <ul class="mustache_header_dropdown">
+                            {{#templateInfo.cssURLs}}
+                                <li class="mustache_header_dropdown_option{{#.selected}} selected{{/.selected}}">
+                                    <a href="{{.url}}">{{.name}}</a>
+                                </li>
+                            {{/templateInfo.cssURLs}}
+                        </ul>
+                    </div>
+                {{/templateInfo.cssURLs.0}}
+                <div class="mustache_header_group_item">
+                    <span class="mustache_header_group_title">Info</span>
+                    <div class="mustache_header_dropdown mustache_info">
+                        <h4>Current manifest:</h4>
+                        <p>{{manifestInformation.name}} - {{manifestInformation.description}}</p>
+
+                        {{#templateInfo}}
+                            <h4>Current template:</h4>
+                            <p>
+                                {{name}}
+                                {{#dataSetName}}
+                                    <br>Data set: {{dataSetName}}
+                                {{/dataSetName}}
+                                {{^dataSetName}}
+                                    <br>No data sets found
+                                {{/dataSetName}}
+                            </p>
+                        {{/templateInfo}}
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        {{#templateInfo.standaloneURL}}
+            <div class="mustache_view_resizable" data-name="templateViewer">
+                <div class="mustache_view_container">
+                    <iframe class="mustache_view" src="{{.}}"></iframe>
+                </div>
+                <div class="mustache_view_resizer"></div>
+            </div>
+        {{/templateInfo.standaloneURL}}
+
+        <script src="/__crabapple_admin/media/mustache/base.js"></script>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+{
+    "data": {
+        "promoId": "25vbw7",
+        "promoType": "ENT_M126",
+        "headline": "Fighter Stats",
+        "adSize": "300x250",
+        "fighter": {
+            "id": "4bde500b-f6b1-4d9a-bc69-84013971ffc9",
+            "name": "Julia Budd",
+            "fighterCharacteristics": [
+                {
+                    "label": "height",
+                    "value": "5'8"
+                },
+                {
+                    "label": "weight",
+                    "value": "145lbs"
+                },
+                {
+                    "label": "born",
+                    "value": "07/03/1983"
+                },
+                {
+                    "label": "association",
+                    "value": "Gibson Kickboxing"
+                },
+                {
+                    "label": "hometown",
+                    "value": "Port Moody, British Columbia, Canada"
+                }
+            ],
+            "fightsCharacteristics": {
+                "fight": [
+                    {
+                        "label": "wins",
+                        "value": "10",
+                        "ratio": 341.66666666667
+                    },
+                    {
+                        "label": "losses",
+                        "value": "2",
+                        "ratio": 68.333333333333
+                    }
+                ],
+                "fightsStatistic": [
+                    {
+                        "winLabel": "tko/ko",
+                        "winValue": "4",
+                        "lossLabel": "tko/ko",
+                        "lossValue": "4"
+                    },
+                    {
+                        "winLabel": "submission",
+                        "winValue": "1",
+                        "lossLabel": "submission",
+                        "lossValue": "1"
+                    },
+                    {
+                        "winLabel": "decisions",
+                        "winValue": "5",
+                        "lossLabel": "decisions",
+                        "lossValue": "5"
+                    },
+                    {
+                        "winLabel": "DQ",
+                        "winValue": "0",
+                        "lossLabel": "DQ",
+                        "lossValue": "0"
+                    }
+                ],
+                "contest": {
+                    "value": "0",
+                    "label": "no contest"
+                }
+            }
+        },
+        "socialHandles": [
+            {
+                "socialNetwork": "twitter",
+                "socialLink": "https://twitter.com/@juliabudd"
+            },
+            {
+                "socialNetwork": "instagram",
+                "socialLink": "https://instagram.com/jewel604/"
+            },
+            {
+                "socialNetwork": "facebook",
+                "socialLink": "https://www.facebook.com/pages/Julia-The-Jewel-Budd/204571886221402?fref=ts"
+            }
+        ]
+    }
+}

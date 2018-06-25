@@ -1,0 +1,225 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_l001"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "settings": { },
+  "data": {
+    "header":{
+      "title":"2015 Fandom Awards Videos",
+      "filters":[
+        {
+          "name":"All Videos",
+          "url":"http:\/\/www.mtv-l.mtvi.com\/feeds\/ent_m203\/V3_0_1\/9a3a0564-7f4c-4868-846a-9d0af0326ff2\/82d86e1b-f5ef-4a8f-aba1-3aaeb86b4db4\/90254fe6-1bc6-11e5-b90b-0026b9414f30\/1",
+          "isSelected":true
+        },
+        {
+          "name":"Promo",
+          "url":"http:\/\/www.mtv-l.mtvi.com\/feeds\/ent_m203\/V3_0_1\/9a3a0564-7f4c-4868-846a-9d0af0326ff2\/82d86e1b-f5ef-4a8f-aba1-3aaeb86b4db4\/90254fe6-1bc6-11e5-b90b-0026b9414f30\/1?subtypeFilter=80835685-8346-4fce-a981-df1bb5aa5276"
+        }
+      ]
+    },
+    "nextPage":{
+      "url":"http:\/\/www.mtv-l.mtvi.com\/feeds\/ent_m203\/V3_0_1\/9a3a0564-7f4c-4868-846a-9d0af0326ff2\/82d86e1b-f5ef-4a8f-aba1-3aaeb86b4db4\/90254fe6-1bc6-11e5-b90b-0026b9414f30\/2",
+      "label":"show more videos"
+    },
+    "items":[
+      {
+        "title":"Test Episode for Events",
+        "description":"This is a test episode for events so Eric can build feeds.",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/full-episodes\/d3kr9z\/2015-fandom-awards-test-episode-for-events",
+        "image":{
+          "width":1920,
+          "height":1080,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/fandom_awards\/2015\/images\/marquee\/show-day\/1920x1080.jpg"
+        },
+        "flags":[
+          {
+            "display":"full show",
+            "type":"linelist-item-badge"
+          },
+          {
+            "display":"11:18",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "label":"Promo",
+        "title":"Shippers Rally Hard For Their Favorite Ship At The Fandom Awards",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/2gtgub\/2015-fandom-awards-shippers-rally-hard-for-their-favorite-ship-at-the-fandom-awards",
+        "image":{
+          "width":1280,
+          "height":720,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/13\/448d7a85-8690-4e6b-841f-3ff6450684e8.jpg"
+        },
+        "flags":[
+          {
+            "display":"1:01",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "isAd":{
+          "adSize":"300x250"
+        }
+      },
+      {
+        "label":"Promo",
+        "title":"Fans Get Excited To See Who Wins Ship of the Year",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/vzwzyb\/2015-fandom-awards-fans-get-excited-to-see-who-wins-ship-of-the-year",
+        "image":{
+          "width":953,
+          "height":511,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/13\/soty.png"
+        },
+        "flags":[
+          {
+            "display":"0:31",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "label":"Promo",
+        "title":"We've Got Insider Access To The 2015 Fandom Awards",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/mb0150\/2015-fandom-awards-we-ve-got-insider-access-to-the-2015-fandom-awards",
+        "image":{
+          "width":1280,
+          "height":720,
+          "url":"http:\/\/mtv.mtvnimages.com\/uri\/mgid:file:gsp:egvrenditions:\/mtv.com\/2015\/07\/13\/12\/48\/23\/beca72d7-cebf-498b-90c6-69c568bba96b.jpg"
+        },
+        "flags":[
+          {
+            "display":"0:30",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"iJustine and Joey Graceffa Present for Fandom Army Of The Year",
+        "description":"Social stars iJustine and Joey Graceffa announce nominees for the Fandom Army Of The Year.",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/fpc049\/2015-fandom-awards-ijustine-and-joey-graceffa-present-for-fandom-army-of-the-year",
+        "image":{
+          "width":1264,
+          "height":682,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/12\/Screen%20Shot%202015-07-12%20at%208.59.50%20PM.png"
+        },
+        "flags":[
+          {
+            "display":"2:38",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Fandom Awards: Sneak Peek of All Time Low 'Something's Gotta Give'",
+        "description":"Tune in to the Fandom Awards on Sunday, July 12 at 8\/7c to see the full performance!",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/gucgoc\/2015-fandom-awards-2015-fandom-awards-sneak-peek-of-all-time-low-something-s-gotta-give",
+        "image":{
+          "width":1920,
+          "height":1080,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/12\/ATL%20Still_Pod.png"
+        },
+        "flags":[
+          {
+            "display":"0:30",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"Orlando Jones and Lyndie Greenwood Present Ship Of The Year",
+        "description":"The compeition is tough, see the nominees for Ship Of The Year.",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/4yt7d5\/2015-fandom-awards-orlando-jones-and-lyndie-greenwood-present-ship-of-the-year",
+        "image":{
+          "width":1271,
+          "height":687,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/12\/Screen%20Shot%202015-07-12%20at%208.53.41%20PM_1436748894228.png"
+        },
+        "flags":[
+          {
+            "display":"3:35",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Fandom Awards: Fifth Harmony Win Fandom Army Of The Year",
+        "description":"The gals of Fifth Harmony accept the trophy on behalf of Harmonizers across the globe. Watch the full Fandom Awards show on Sunday, July 12 at 8\/7c!",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/zbxfqa\/2015-fandom-awards-2015-fandom-awards-fifth-harmony-win-fandom-army-of-the-year",
+        "image":{
+          "width":1920,
+          "height":1080,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/12\/fifth-harmony-acceptance.jpg"
+        },
+        "flags":[
+          {
+            "display":"0:54",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"Bella Thorne and Gregg Sulkin Introduce Exclusive Ant-Man Clip",
+        "description":"Bella Thorne and Gregg Sulkin get cozy as they present an exclusive clip from Ant-Man",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/wme9tb\/2015-fandom-awards-bella-thorne-and-gregg-sulkin-introduce-exclusive-ant-man-clip",
+        "image":{
+          "width":1266,
+          "height":692,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/12\/Screen%20Shot%202015-07-12%20at%208.56.54%20PM.png"
+        },
+        "flags":[
+          {
+            "display":"1:24",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"Exclusive Clip: Hitman: 'Agent 47'",
+        "description":"Agent 47 is doing some recruiting looking for others just like himself. They'll need speed, strength, and intelligence to take down a massive army targeting them.",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/jnfm4q\/2015-fandom-awards-exclusive-clip-hitman-agent-47",
+        "image":{
+          "width":2864,
+          "height":1192,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/fandom_awards\/2015\/images\/video\/exclusive-clips\/hitman-agent-47\/2864x1192.jpg"
+        },
+        "flags":[
+          {
+            "display":"0:43",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"Who Will Win The Ship Of The Year Award?",
+        "description":"Just like when you share a Coke with your fellow fans, Ship Of The Year celebrates two characters sharing moments together on screen. Before the big reveal, MTV and friends rallied fans to the finish line.",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/b0o5dp\/2015-fandom-awards-who-will-win-the-ship-of-the-year-award",
+        "image":{
+          "width":1280,
+          "height":720,
+          "url":"http:\/\/mtv.mtvnimages.com\/uri\/mgid:file:gsp:egvrenditions:\/mtv.com\/2015\/07\/12\/05\/23\/MTVCOKEFA4H-TOCOLOR720x1280_-1918846404.jpg"
+        },
+        "flags":[
+          {
+            "display":"1:00",
+            "type":"linelist-item-label"
+          }
+        ]
+      }
+    ]
+  },
+  "messages":{
+
+  }
+}

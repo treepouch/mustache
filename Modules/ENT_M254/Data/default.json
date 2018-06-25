@@ -1,0 +1,76 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ENT_M254"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "data": {
+    "promoId": "dejd6u",
+    "promoType": "ENT_M254",
+    "header": {
+      "title": "Quiz: Which Iconic EMA Performance Are You?",
+      "publishedDate": "September 20, 2017"
+    },
+    "copy": "<h1>McConnell Gambled on Health Care and the Alabama Senate Race. He Lost.</h1><p>WASHINGTON — Senator Mitch McConnell, the Republican leader, is not a man who leaves things to chance. But this week, in both policy and politics, Mr. McConnell gambled — and lost big.</p><p>The defeat of Senator Luther Strange, the Alabama Republican who was defending the Senate seat he was appointed to, coupled with the implosion of the party’s last-ditch attempt to repeal the Affordable Care Act, marked twin setbacks for Mr. McConnell, who is struggling to govern with an already slim majority.</p><p>Now, a majority leader celebrated for years as a brilliant tactician looks vulnerable — to dissent within his Senate conference and to insurgents from President Trump’s populist wing of the party, who are looking to storm the Senate in 2018. And if Republicans fail to fulfill their next promise — overhauling the tax code — the consequences will be dire.</p><p>“We have to deliver on tax reform,” said Senator John Thune, the South Dakota Republican who is a member of the party’s leadership. “I don’t think failure is an option.”</p><p>Mr. Strange lost his primary runoff to Roy Moore, the colorful former chief justice of Alabama, who made attacking Mr. McConnell a central feature of his campaign. Allies of Mr. McConnell poured money into the primary contest, painting Mr. Strange as a reliable Trump loyalist and Mr. Moore as a lifelong, untrustworthy politician.</p><p>But that story line never broke through. In fact, the race spotlighted growing divisions between establishment Republicans personified by Mr. McConnell and his allies and Trump Republicans, even though it was Mr. Strange who had the president’s endorsement.</p><p>The gap was so wide that when Mr. Trump campaigned for Mr. Strange, he tried to distance Mr. Strange from Mr. McConnell.</p><p>“They say he’s friendly with Mitch — he doesn’t even know Mitch McConnell,” Mr. Trump told a raucous crowd of several thousand people.</p><p>That wasn’t quite true. The Senate Leadership Fund, a political action committee that Mr. McConnell helped found, spent nearly $9 million trying to elect Mr. Strange, said Steven Law, its president and chief executive officer.</p><p>With Democrats across the country energized by the election of Mr. Trump, some analysts say Democrats now have an outside chance to pick up the seat — even in a deeply conservative state like Alabama. But if Mr. Moore wins, he will almost certainly be a wild card in the Senate, where Mr. McConnell is already struggling to keep his majority of 52 Republicans in line.</p>",
+    "schema": "{\"@context\":\"http://schema.org/\",\"@type\":\"NewsArticle\",\"headline\":\"these ema stars love dogs\",\"thumbnailUrl\":\"http://mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/promos/1200x630-LadyGaga-and-dog.jpg\",\"datePublished\":\"2017-08-17T19:00:00-0400\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"MTVEMA.com\"},\"image\":{\"@context\":\"http://schema.org/\",\"@type\":\"ImageObject\",\"url\":\"http://mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/promos/3x1-LadyGaga-and-dog.jpg\",\"width\":3000,\"height\":1000},\"url\":\"http://www.mtvema.com/news/hzelz8/these-ema-stars-love-dogs\"}",
+    "images": [
+      {
+        "url": "//mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/promos/1920x640-Greenday.jpg",
+        "width": 1920,
+        "height": 640,
+        "aspectRatio": 3
+      },
+      {
+        "url": "//mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/3x2-Greenday.jpg",
+        "width": 1280,
+        "height": 853,
+        "aspectRatio": 1.5005861664713
+      },
+      {
+        "url": "//mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/promos/1920x1440-Greenday.jpg",
+        "width": 1920,
+        "height": 1440,
+        "aspectRatio": 1.3333333333333
+      },
+      {
+        "url": "//mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/promos/1200x630-Greenday.jpg",
+        "width": 1200,
+        "height": 630,
+        "aspectRatio": 1.9047619047619
+      }
+    ],
+    "image": [
+      {
+        "url": "//mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/promos/1920x640-Greenday.jpg",
+        "width": 1920,
+        "height": 640,
+        "aspectRatio": 3
+      },
+      {
+        "url": "//mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/3x2-Greenday.jpg",
+        "width": 1280,
+        "height": 853,
+        "aspectRatio": 1.5005861664713
+      },
+      {
+        "url": "//mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/promos/1920x1440-Greenday.jpg",
+        "width": 1920,
+        "height": 1440,
+        "aspectRatio": 1.3333333333333
+      },
+      {
+        "url": "//mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2017/images/promos/1200x630-Greenday.jpg",
+        "width": 1200,
+        "height": 630,
+        "aspectRatio": 1.9047619047619
+      }
+    ]
+  }
+}

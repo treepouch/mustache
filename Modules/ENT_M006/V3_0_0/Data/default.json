@@ -1,0 +1,86 @@
+{
+    "data": {
+        "promoId": "41dxtv",
+        "promoType": "ENT_M006",
+        "copyright": "&#169; 2017 Viacom International Inc. All Rights Reserved. MTV and all related titles and logos are trademarks of Viacom International Inc.",
+        "navs": [
+            {
+                "promoId": "d9xq21",
+                "title": "ENT_M006_MTV - Site Footer - Text Links",
+                "entries": [
+                    {
+                        "title": "FAQ/Help",
+                        "className": "faq_help",
+                        "url": "/legal/frequently-asked-questions"
+                    },
+                    {
+                        "title": "Jobs",
+                        "className": "jobs",
+                        "url": "http://www.viacomcareers.com/"
+                    },
+                    {
+                        "title": "Terms of Use [Updated 3/14/2017]",
+                        "className": "terms_of_use__updated_3_14_2017_",
+                        "url": "/legal/terms"
+                    },
+                    {
+                        "title": "Privacy Policy/Privacy Rights [Updated 6/22/2017]",
+                        "className": "privacy_policy_privacy_rights__updated_6_22_2017_",
+                        "url": "/legal/privacy"
+                    },
+                    {
+                        "title": "Copyright",
+                        "className": "copyright",
+                        "url": "/legal/copyright"
+                    },
+                    {
+                        "title": "Closed Captioning",
+                        "className": "closed_captioning",
+                        "url": "http://mainevents.mtvn.com/accessibility/"
+                    },
+                    {
+                        "title": "Ad Choices",
+                        "className": "ad_choices",
+                        "url": "http://srp.viacom.com/sitefaq.html"
+                    }
+                ]
+            },
+            {
+                "promoId": "qcx8dr",
+                "title": "ENT_M006_MTV - Site Footer - Social Icons",
+                "entries": [
+                    {
+                        "title": "facebook",
+                        "className": "facebook",
+                        "url": "http://www.facebook.com/MTV"
+                    },
+                    {
+                        "title": "Twitter",
+                        "className": "twitter",
+                        "url": "https://twitter.com/MTV"
+                    },
+                    {
+                        "title": "Tumblr",
+                        "className": "tumblr",
+                        "url": "http://mtv.tumblr.com/"
+                    },
+                    {
+                        "title": "Instagram",
+                        "className": "instagram",
+                        "url": "http://instagram.com/mtv"
+                    },
+                    {
+                        "title": "Vine",
+                        "className": "vine",
+                        "url": "https://vine.co/MTV"
+                    }
+                ]
+            }
+        ],
+        "settings": {
+            "subscriptionSuccessMessage": "Thank you for subscribing!",
+            "subscriptionFailMessage": "Sorry, please try again later.",
+            "notValidEmailMessage": "Please enter a valid email address."
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "config": {
+    "zone": "t6_lc_promo1",
+    "moduleName": "ENT_M258"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+    "data": {
+
+      "title": "Teen Wolf",
+      "description": "Storm clouds gather as Scott and the pack head into their final months of high school. But the best days of their lives turn bleak when they lose their closest ally. Before the end, Scott and Lydia will stand alone against the growing darkness and fight to stop the destruction of everything and everyone they love.",
+      "socialHandles": [
+        {
+          "handle": "https://twitter.com/MTVteenwolf",
+          "network": "twitter"
+        },
+        {
+        "handle": "http://www.facebook.com/TeenWolf",
+        "network": "facebook"
+        },
+        {
+        "handle": "http://teenwolf.tumblr.com/",
+        "network": "tumblr"
+        },
+        {
+        "handle": "https://instagram.com/teenwolf",
+        "network": "instagram"
+        }
+      ]
+      }
+
+}

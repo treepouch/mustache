@@ -1,0 +1,342 @@
+{
+    "config": {
+        "zone": "t2_lc_promo1",
+        "moduleName": "ent_m241"
+    },
+    "data": {
+        "promoId": "aj234",
+        "promoType": "ENT_M241",
+        "headline": "Artist name goes here",
+        "nextPageURL": "http://nextpage.com",
+        "noResultsText": "No Results",
+        "items": [
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            },
+            {
+                "type": "article",
+                "image": [{
+                    "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                    "width": 560,
+                    "height": 315,
+                    "aspectRatio": "1:1"
+                }],
+                "url": "http://www.mtv.com",
+                "label": "Item Label",
+                "title": "Item Title",
+                "subtitle": "Item Subtitle",
+                "publishDate": "12/12/2016",
+                "flag": {
+                    "content": "<span>Flag Content</span>"
+                },
+                "duration": "4:25",
+                "author": {
+                    "authorName": "John Doe",
+                    "authorImage": [{
+                        "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:214562?height=1012&width=1800&format=jpg&quality=.7",
+                        "width": 100,
+                        "height": 100,
+                        "aspectRatio": "1:1"
+                    }]
+                }
+            }
+        ]
+    },
+    "settings": {
+        "adSize": "300x250"
+    }
+}

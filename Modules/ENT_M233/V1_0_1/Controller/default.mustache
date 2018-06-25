@@ -1,0 +1,73 @@
+{{#data}}
+    {{#headline}}
+        <h2 class="top-moments__headline">{{headline}}</h2>
+    {{/headline}}
+    {{#subheadline}}
+        <div class="top-moments__subheadline">{{subheadline}}</div>
+    {{/subheadline}}
+    <div class="top-moments__two-col-grid">
+        {{#items}}
+            {{#isAD}}
+                <div class="top-moments__one-col-item top-moments__item top-moments__ad-item">
+                    <div data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div>
+                </div>
+            {{/isAD}}
+            {{^isAD}}
+                <a class="top-moments__{{.itemGridClass}} top-moments__item{{#alternativeGrid}} top-moments__item--alternative-grid{{/alternativeGrid}}" href="{{url}}">
+                {{#itemNumber}}
+                        <span class="top-moments__item-number">{{.}}</span>
+                {{/itemNumber}}
+                <div class="top-moments__image-wrapper">
+                        {{<common/image}}
+                            {{$imageClass}}top-moments__image {{.imagePositionClass}}{{/imageClass}}
+                        {{/common/image}}
+                        <div class="top-moments__image-overlay">
+                            {{#videoText}}<span class="top-moments__playIcon">{{.}}</span>{{/videoText}}
+                            {{#nestedLabel}}<span class="top-moments__nested-label">{{.}}</span>{{/nestedLabel}}
+                        </div>
+                        <div class="top-moments__share-button">Share</div>
+                    </div>
+
+                    <div class="top-moments__description">
+                        {{#label}}
+                            <span class="top-moments__label">{{.}}</span>
+                        {{/label}}
+                        {{#title}}
+                            <h3 class="top-moments__promo-title">{{.}}</h3>
+                        {{/title}}
+                        {{#copy}}
+                            <p class="top-moments__promo-description">{{.}}</p>
+                        {{/copy}}
+                    </div>
+                    {{#settings.share}}
+                        <div class="top-moments__share-overlay">
+                            {{#shareText}}
+                                <div class="top-moments__promo-description">{{.}}</div>
+                            {{/shareText}}
+                            {{#title}}
+                                <h4 class="top-moments__promo-title">{{.}}</h4>
+                            {{/title}}
+                            <div class="top-moments__share-wrap">
+                                <div class="top-moments__copy-overlay">
+                                    <span class="top-moments__copy-overlay-title"></span>
+                                    <input type="text" class="top-moments__copy-overlay-copy" readonly="readonly">
+                                </div>
+                                {{#settings.share.options}}
+                                    <div class="top-moments__share-item {{.typeClass}}">{{.shareText}}</div>
+                                {{/settings.share.options}}
+                            </div>
+
+                            <div class="top-moments__close-button"></div>
+                        </div>
+                    {{/settings.share}}
+                </a>
+            {{/isAD}}
+        {{/items}}
+
+    </div>
+            {{#featuredLink}}
+                <a href="{{.url}}" class="top-moments__featured-link">
+                    <span class="primary_btn">{{.copy}}</span>
+                </a>
+            {{/featuredLink}}
+{{/data}}

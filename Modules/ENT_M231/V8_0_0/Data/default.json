@@ -1,0 +1,17 @@
+{
+    "config": {
+        "zone": "t3_lc_promo1",
+        "moduleName": "ent_m231"
+    },
+
+    "settings": {
+        "displayAnchorButton": "true",
+        "adSize": "300x250"
+    },
+    "data": {
+        "title": "VMA 2016 Live Blog",
+        "placeholderMessage": "Stay tuned for live updates from the 2016 VMAs!",
+        "embedCode": "<iframe width=\"100%\" height=\"2000\" src=\"https:\/\/demo.liveblog.pro\/blogs\/576c4e25fe01ce35da710a16\/index.html\" frameborder=\"0\" allowfullscreen><\/iframe>",
+        "promoType": "ent_m231"
+    }
+}

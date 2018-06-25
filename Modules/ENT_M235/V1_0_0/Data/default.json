@@ -1,0 +1,219 @@
+{
+    "config": {
+        "zone": "t2_lc_promo1",
+        "moduleName": "ent_m235"
+    },
+    "envelope":{
+        "version":"1.0",
+        "name":"entertainment-standard-json"
+    },
+    "status":{
+        "text":"OK",
+        "code":100
+    },
+    "messages":{
+
+    },
+    "data": {
+        "promoId": "wgsmsc",
+        "promoType": "ENT_M235",
+        "nextPageURL": "http://www.mtvu-l.mtvi.com/feeds/ent_m235/V1_0_0/d524e8ae-f256-457d-9cac-adad7883c2d7?pageNumber=2",
+        "items": [
+            {
+                "isDeepLinked": true,
+                "schema": "{\"@context\":\"http://schema.org/\",\"@type\":\"ImageObject\",\"contentUrl\":\"http://mtv.mtvnimages.com/images/mtvu/MTVUTestMeme1.jpg\",\"name\":\"Sample Meme 1\",\"uploadDate\":\"2016-10-24T00:00:00-0400\",\"url\":\"http://testing.mtvu.vmn.io/images/js8n6f/1-1-sample-meme-1\"}",
+                "badge": {
+                    "title": "Meal Plan",
+                    "link": "http://www.mtvu-l.mtvi.com/shows/meal-plan"
+                },
+                "publishDate": "Wed, 14 Dec 2016 00:00:00 -0500",
+                "title": "Test Your Brain Food Knowledge: Finals Edition",
+                "duration": "5:17",
+                "topImage": {
+                    "image": [
+                        {
+                            "width": 1920,
+                            "height": 1080,
+                            "url": "http://mtv.mtvnimages.com/uri/mgid:file:gsp:egvrenditions:/mtv.com/images/mtvu/MealPlan/UHDMEALPLAN012.jpg"
+                        }
+                    ]
+                },
+                "videoMgid": "mgid:arc:video:mtvu.com:85938d0b-42c0-4a3b-bb6b-f4bf18ae3c9e",
+                "share": {
+                    "url": "http://www.mtvu-l.mtvi.com/video-clips/1pbh1z/meal-plan-test-your-brain-food-knowledge-finals-edition",
+                    "title": "Test Your Brain Food Knowledge: Finals Edition",
+                    "seriesTitle": "Meal Plan",
+                    "shortUrl": "http://on.mtv.com/2gwyOVU",
+                    "options": [
+                    {
+                        "type": "facebook"
+                    },
+                        {
+                            "type": "twitter"
+                        },
+                        {
+                            "body": "Test Your Brain Food Knowledge: Finals Edition\\n",
+                            "type": "email"
+                    }
+                ],
+                    "reporting": {
+                        "contentType": "Video",
+                        "episodeTitle": "Test Your Brain Food Knowledge: Finals Edition",
+                        "franchiseName": "Meal Plan"
+                    }
+                }
+            },
+            {
+                "badge": {
+                    "title": "Meal Plan",
+                    "link": "http://www.mtvu-l.mtvi.com/shows/meal-plan"
+                },
+                "publishDate": "Wed, 14 Dec 2016 00:00:00 -0500",
+                "title": "Test Your Brain Food Knowledge: Finals Edition",
+                "duration": "5:17",
+                "topImage": {
+                    "image": [
+                        {
+                            "width": 1920,
+                            "height": 1080,
+                            "url": "http://mtv.mtvnimages.com/uri/mgid:file:gsp:egvrenditions:/mtv.com/images/mtvu/MealPlan/UHDMEALPLAN012.jpg"
+                        }
+                    ]
+                },
+                "videoMgid": "mgid:arc:video:mtvu.com:85938d0b-42c0-4a3b-bb6b-f4bf18ae3c9e",
+                "share": {
+                    "url": "http://www.mtvu-l.mtvi.com/video-clips/1pbh1z/meal-plan-test-your-brain-food-knowledge-finals-edition",
+                "title": "Test Your Brain Food Knowledge: Finals Edition",
+                    "seriesTitle": "Meal Plan",
+                    "shortUrl": "http://on.mtv.com/2gwyOVU",
+                    "options": [
+                    {
+                        "type": "facebook"
+                    },
+                        {
+                            "type": "twitter"
+                        },
+                        {
+                            "body": "Test Your Brain Food Knowledge: Finals Edition\\n",
+                            "type": "email"
+                    }
+                ],
+                    "reporting": {
+                        "contentType": "Video",
+                        "episodeTitle": "Test Your Brain Food Knowledge: Finals Edition",
+                        "franchiseName": "Meal Plan"
+                }
+                }
+            },
+            {
+                "badge": {
+                    "title": "Meal Plan",
+                    "link": "http://www.mtvu-l.mtvi.com/shows/meal-plan"
+                },
+                "publishDate": "Mon, 12 Dec 2016 00:00:00 -0500",
+                "title": "Take a Trivia Break From Studying: Finals Edition",
+                "duration": "4:05",
+                "sideImage": {
+                    "image": [
+                        {
+                            "width": 1920,
+                            "height": 1080,
+                            "url": "http://mtv.mtvnimages.com/uri/mgid:file:gsp:egvrenditions:/mtv.com/images/mtvu/MealPlan/UHDMEALPLAN012.jpg"
+                        }
+                    ]
+                },
+                "share": {
+                    "url": "http://www.mtvu-l.mtvi.com/video-clips/80r5ew/meal-plan-take-a-trivia-break-from-studying-finals-edition",
+                "title": "Take a Trivia Break From Studying: Finals Edition",
+                    "seriesTitle": "Meal Plan",
+                    "shortUrl": "http://on.mtv.com/2hF8deh",
+                    "options": [
+                    {
+                        "type": "facebook"
+                    },
+                    {
+                        "type": "twitter"
+                    },
+                    {
+                        "body": "Take a Trivia Break From Studying: Finals Edition\\n",
+                        "type": "email"
+                    }
+                ],
+                    "reporting": {
+                        "contentType": "Video",
+                        "episodeTitle": "Take a Trivia Break From Studying: Finals Edition",
+                        "franchiseName": "Meal Plan"
+                }
+                }
+            },
+            {
+                "isAd": true,
+                "adSize": "300x250"
+            },
+            {
+                "is404": true,
+                "message": "Sorry! We can't find what you were looking for."
+            },
+            {
+                "isPinnedPromo": true,
+                "badge": [
+                    {
+                    "title": "Occupational Therapy",
+                    "link": "http://www.mtvu-l.mtvi.com/shows/occupational-therapy"
+                    }
+                ],
+                "cta": {
+                    "text": "CLICK HERE",
+                    "url": "www.mtv.com/shows"
+                },
+                "description": "Lorem ipsum",
+                "topImage": {
+                    "image": [
+                        {
+                            "width": 1920,
+                            "height": 1080,
+                            "url": "http://mtv.mtvnimages.com/uri/mgid:file:gsp:egvrenditions:/mtv.comu/MTVUUnavailableImage.png"
+                        }
+                    ]
+                }
+            },
+            {
+                "publishDate": "Thu, 08 Dec 2016 00:00:00 -0500",
+                "title": "Soundcloud CEO: Make Your Passion Your Work",
+                "duration": "1:39",
+                "topImage": {
+                    "image": [
+                    {
+                        "width": 1920,
+                        "height": 1080,
+                        "url": "http://mtv.mtvnimages.com/uri/mgid:file:gsp:egvrenditions:/mtv.com/images/mtvu/MealPlan/UHDMEALPLAN012.jpg"
+                    }
+                    ]
+                },
+                "share": {
+                    "url": "http://www.mtvu-l.mtvi.com/video-clips/3a6c0s/occupational-therapy-soundcloud-ceo-make-your-passion-your-work",
+                    "title": "Soundcloud CEO: Make Your Passion Your Work",
+                    "seriesTitle": "Occupational Therapy",
+                    "shortUrl": "http://on.mtv.com/2hnhMeA",
+                    "options": [
+                        {
+                            "type": "facebook"
+                        },
+                        {
+                            "type": "twitter"
+                        },
+                        {
+                            "body": "Soundcloud CEO: Make Your Passion Your Work\\nEric Wahlforss, co-founder of Soundcloud, says following his heart led him to find his passion.",
+                            "type": "email"
+                        }
+                    ],
+                    "reporting": {
+                        "contentType": "Video",
+                        "episodeTitle": "Soundcloud CEO: Make Your Passion Your Work",
+                        "franchiseName": "Occupational Therapy"
+                    }
+                }
+            }
+        ]
+    }
+}

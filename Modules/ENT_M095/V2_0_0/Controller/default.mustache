@@ -1,0 +1,46 @@
+{{#data}}
+    <div class="module_content {{#link}}has_button{{/link}}">
+
+        <div class="collection_header">
+            <a href="#" class="go_back"></a>
+            {{#headline}}
+                <h2 class="header">{{.}}</h2>
+            {{/headline}}
+            <a href="#" class="close_faq"></a><span class="subhead"></span>
+        </div>
+
+        <ul class="faq_categories scrollable">
+
+            {{#relatedItems}}
+                <li class="faq_category">
+
+                    <h2 class="category toggleable">
+                        {{.headline}}
+                        <span class="arrow">
+                            <span class="screen-reader-text">Open</span>
+                        </span>
+                    </h2>
+
+                    <div class="more">
+                        <div class="content">
+                        {{#promotedItems}}
+                           <h3 class="question">{{.headline}}</h3>
+                           <p class="answer">{{{.copy}}}</p>
+                        {{/promotedItems}}
+                        </div>
+                    </div>
+
+                </li>
+            {{/relatedItems}}
+
+        </ul>
+
+
+        {{#link}}
+            <div class="contact_support_wrapper">
+                <a href="{{.url}}" title="{{.text}}" class="show_more_btn">{{.text}}</a>
+            </div>
+        {{/link}}
+
+    </div>
+{{/data}}

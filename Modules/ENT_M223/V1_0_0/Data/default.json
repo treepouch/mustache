@@ -1,0 +1,21 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m223"
+  },
+  "data": {
+    "headline": "Dictionary",
+    "subHeadline": "Get all the dictionary terms here",
+    "image": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "url": "http://1.images.comedycentral.com/images/cc_test_images/keypeele_204_substitute_03.jpg"
+      }
+    ],
+    "ad": {
+      "size": "200x31",
+      "campaign": "campaignIdGoesHere"
+    }
+  }
+}

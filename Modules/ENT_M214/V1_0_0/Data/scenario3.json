@@ -1,0 +1,32 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m214"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "data": {
+    "promoId": "w8d58l",
+    "promoType": "ENT_M214",
+    "label": "Photo Gallery",
+    "title": "VMAs 2015 Red Carpet Fashion",
+    "description": "45 photos",
+    "url": "http:\/\/www.mtv.com\/photos\/vma-2015-red-carpet-fashion\/1737443\/10776063\/photo\/",
+    "image": [{
+      "width": 1920,
+      "height": 540,
+      "url": "http:\/\/mtv.mtvnimages.com\/arc\/images\/generic-promos\/ENT_M214_desktop.jpg"
+    }, {
+      "width": 650,
+      "height": 317,
+      "url": "http:\/\/mtv.mtvnimages.com\/arc\/images\/generic-promos\/ENT_M214_mobile.jpg"
+    }]
+  },
+  "messages": {}
+}

@@ -1,0 +1,98 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m232"
+  },
+
+    "settings": {
+        "adSize": "300x250"
+    },
+    "data": {
+        "moduleTitle": "VMA 2016 Schedule",
+        "eventDate": "August 28",
+        "eventWeekday": "Sunday",
+        "eventTimes": "6:30pm - 11:00pm",
+        "eventTimezone": "Eastern Time",
+        "eventLocation": "Madison Square Garden, New York",
+        "items": [
+            {
+                "time": {
+                    "time": "6:30",
+                    "suffix": "pm"
+                },
+                "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "duration": "2 hours",
+                "title": "Red Carpet",
+                "button": {
+                    "text": "Button",
+                    "url": "http://www.google.com"
+                },
+                "image": [
+                    {
+                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/1984/schedule_fpo.jpg",
+                        "width": 480,
+                        "height": 480,
+                        "aspectRatio": 1
+                    }
+                ]
+            },
+            {
+                "time": {
+                    "time": "8:00",
+                    "suffix": "pm"
+                },
+                "copy": "Curabitur interdum leo sit amet sollicitudin tincidunt.",
+                "duration": "1 hour",
+                "title": "Pre-Show",
+                "titleUrl": "http://www.google.com"
+            },
+            {
+                "time": {
+                    "time": "8:30",
+                    "suffix": "pm"
+                },
+                "isMinimized": true,
+                "title": "Song of the Summer Voting Closes"
+            },
+            {
+                "time": {
+                    "time": "8:55",
+                    "suffix": "pm"
+                },
+                "isMinimized": true,
+                "title": "Artist to Watch Hashtag Battle Voting Opens",
+                "titleUrl": "http://www.google.com"
+            },
+            {
+                "time": {
+                    "time": "9:00",
+                    "suffix": "pm"
+                },
+                "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "duration": "3 hours",
+                "title": "Main Show",
+                "button": {
+                    "text": "Button",
+                    "url": "http://www.google.com"
+                },
+                "image": [
+                    {
+                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/1984/schedule_fpo.jpg",
+                        "width": 480,
+                        "height": 480,
+                        "aspectRatio": 1
+                    }
+                ]
+            },
+            {
+                "time": {
+                    "time": "10:00",
+                    "suffix": "pm"
+                },
+                "isMinimized": true,
+                "title": "Artist to Watch Hashtag Battle Voting Closes"
+            }
+        ],
+        "promoType": "ent_m232"
+    }
+}

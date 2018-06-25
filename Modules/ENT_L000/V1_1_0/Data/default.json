@@ -1,0 +1,565 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_l000"
+  },
+  "settings": {
+  },
+  "data": {
+    "details": {
+      "title": "Football",
+      "description": "Everything related to the football collection - Videos, GIFs, Memes and More",
+      "image": [
+        {
+          "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_312_sigourneth.jpg",
+          "width": 640,
+          "height": 360
+        }
+      ],
+      "share": {
+        "url": "http://www.cc-l.mtvi.com/collection/v0g5k3/key-and-peele-football",
+        "title": "Football",
+        "options": [
+          "facebook",
+          "twitter",
+          "email"
+        ]
+      },
+      "ad": {
+        "size": "200x31"
+      }
+    },
+    "items": [
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "East/West College Bowl 2",
+        "description": "The best college athletes in the nation gear up for football fans' favorite annual tradition.",
+        "duration": "3:19",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Fudge",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/fəj/",
+        "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "caption": "Some caption",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isAd": "true",
+        "size": "300x250"
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "East/West College Bowl 2",
+        "description": "The best college athletes in the nation gear up for football fans' favorite annual tradition.",
+        "duration": "3:19",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+            "width": 556,
+            "height": 312
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Fudge",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/fəj/",
+        "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:34791c44-a679-4a36-b0f4-1e1334748cb4",
+        "title": "Quarterback Concussion",
+        "description": "After taking a huge hit, the Rhinos quarterback has trouble inspiring his team in the huddle.",
+        "duration": "3:35",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_4/kp_405_concussion_qb.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "East/West College Bowl 2",
+        "description": "The best college athletes in the nation gear up for football fans' favorite annual tradition.",
+        "duration": "3:19",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Fudge",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/fəj/",
+        "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+            "width": 556,
+            "height": 312
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "East/West College Bowl 2",
+        "description": "The best college athletes in the nation gear up for football fans' favorite annual tradition.",
+        "duration": "3:19",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Fudge",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/fəj/",
+        "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+            "width": 556,
+            "height": 312
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "East/West College Bowl 2",
+        "description": "The best college athletes in the nation gear up for football fans' favorite annual tradition.",
+        "duration": "3:19",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Fudge",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/fəj/",
+        "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+            "width": 556,
+            "height": 312
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Fudge",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/fəj/",
+        "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+            "width": 556,
+            "height": 312
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      }
+    ]
+  }
+}

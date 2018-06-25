@@ -1,0 +1,72 @@
+{
+  "config": {
+    "zone": "t2_rc_promo2",
+    "moduleName": "ent_m177"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "result": {
+    "data": {
+      "promoId": "u7paal",
+      "promoType": "ENT_M177",
+      "headerText": "most viewed videos",
+      "button": {
+        "text": "browse shows",
+        "url": "/shows"
+      },
+      "items": [
+        {
+          "header": "Wonderland (Season 1)",
+          "title": "ep. 1 - Performance: Ty Dolla $ign Performs \"Campaign\"",
+          "url": "http://www.mtv-l.mtvi.com/video-clips/wyx8z7/wonderland-ty-dolla-ign-performs-campaign-live-from-wonderland",
+          "duration": "03:07",
+          "airDate": "09/15/2016",
+          "image": {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/wonderland/videos/s01/e01/clips/WL101_PERF_TYDS_CAMPAIGN.jpeg"
+          }
+        },
+        {
+          "header": "MTV News",
+          "title": "The Grammys Go Political",
+          "url": "http://www.mtv-l.mtvi.com/video-clips/sb9kaa/mtvnews-series-the-grammys-go-political",
+          "duration": "01:01",
+          "image": {
+            "width": 2878,
+            "height": 1610,
+            "url": "http://mtv.mtvnimages.com/arc/images/news/2017/2017GRAMMYS_POLITICAL_V3_web2.jpeg"
+          }
+        },
+        {
+          "header": "MTV News",
+          "title": "Daily News Hit: Oct 18, 2016 - Debate #3",
+          "url": "http://www.mtv-l.mtvi.com/video-clips/09dr7h/mtvnews-series-daily-news-hit-oct-18-2016-debate-3",
+          "duration": "00:30",
+          "image": {
+            "width": 1920,
+            "height": 1081,
+            "url": "http://mtv.mtvnimages.com/arc/images/news/DailyNewsHits/photos/161018_Debate3_thumbnail.jpg"
+          }
+        },
+        {
+          "header": "MTV News",
+          "title": "Golden Globes 2017 - Diego Luna",
+          "url": "http://www.mtv-l.mtvi.com/video-clips/3jxt8f/mtvnews-series-golden-globes-2017-diego-luna",
+          "image": {
+            "width": 2880,
+            "height": 1612,
+            "url": "http://mtv.mtvnimages.com/arc/images/news/2017/BREAKOUT_DiegoLuna_1.jpeg"
+          }
+        }
+      ]
+    }
+  },
+  "messages": {}
+}

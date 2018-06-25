@@ -1,0 +1,56 @@
+{{#data}}
+    <div class="s_container">
+        {{#header}}
+            <div class="s_fonts_moduleHeaderAlt">
+                {{.title}}
+                <div class="s_fonts_moduleHeaderDivider"></div>
+            </div>
+        {{/header}}
+
+        <ul class="s_layouts_lineListAlt">
+            {{#items}}
+                {{#isAd}}
+                    <li class="s_layouts_lineListItemAlt s_layouts_lineListItemAd">
+                        <div class="ad_{{adSize}}" data-adsize="{{adSize}}"></div>
+                    </li>
+                {{/isAd}}
+
+                {{^isAd}}
+                    <li class="s_layouts_lineListItemAlt">
+                        {{#displayDate}}
+                            <h3 class="s_layouts_scheduleItemDateAlt s_fonts_scheduleItemDate">{{.}}</h3>
+                        {{/displayDate}}
+
+                        <a href="{{URL}}" class="thumbnail_holder s_layouts_lineListItemImageWrapperAlt">
+                            {{>common/image}}
+                        </a>
+
+                        {{#title}}
+                            <h2 class="s_label_promo2 s_fonts_mediumTitleMain">
+                                <a href="{{URL}}">{{.}}</a>
+                            </h2>
+                        {{/title}}
+
+                        {{#venue}}
+                            <div class="s_label_promo4 s_fonts_promo4">
+                                {{.title}}
+                                <br>
+                                {{.address}}
+                            </div>
+                        {{/venue}}
+
+                        <div class="s_layouts_genericButtons s_buttons_buttonsSlash">
+                            {{#buttons}}
+                                <a href="{{.URL}}"{{#.isPopup}} target="_blank"{{/.isPopup}}>
+                                    <div class="s_buttons_button s_buttons_buttonAlt{{#.isFirst}} s_buttons_buttonSlashBack{{/.isFirst}}{{#.isSecond}} s_buttons_buttonSlashForward{{/.isSecond}}">
+                                        {{.label}}
+                                    </div>
+                                </a>
+                            {{/buttons}}
+                        </div>
+                    </li>
+                {{/isAd}}
+            {{/items}}
+        </ul>
+    </div>
+{{/data}}

@@ -1,0 +1,32 @@
+{
+    "config": {
+        "zone": "t2_lc_promo2",
+        "moduleName": "ent_173"
+    },
+    "data": {
+        "promo": {
+            "shortId": "j25htv",
+            "displayType": "default",
+            "promoType": "ENT_M173",
+            "headline": "featured music",
+            "images": [
+                {
+                    "aspectRatio": null,
+                    "height": 305,
+                    "id": "2465167e-8f00-404f-b576-a4b21992b8e4",
+                    "resizer": "mtvnimages",
+                    "type": "",
+                    "url": "http://mtv.mtvnimages.com/images/grammys-hp.jpg",
+                    "width": 915
+                }
+            ],
+            "subHeadline": "SIX UNEXPECTED NOMINEES REVEAL THEIR PLANS FOR THE BIG NIGHT",
+            "url": "/news/2980109/grammy-surprise-nominees/",
+            "additionalPromoMetadata": [],
+            "copy": "",
+            "tuneIn": "grammys",
+            "parameters": [],
+            "links": []
+        }
+    }
+}

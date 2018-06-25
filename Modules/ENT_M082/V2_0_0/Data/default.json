@@ -1,0 +1,69 @@
+{
+  "result": {
+    "promo": {
+      "shortId": "3h6bu1",
+      "displayType": "default",
+      "promoType": "ENT_M082",
+      "parameters": {
+        "displayBoxAd": "true"
+      }
+    },
+    "data": {
+      "franchise": {
+        "id": "2ba72c27-bf7b-4dec-ad33-0d64ba114dd4",
+        "title": "Teen Mom",
+        "url": "http://www.mtv-l.mtvi.com/teen-mom",
+        "description": "The “Teen Mom” franchises chronicles the respective journeys of four young mothers as they navigate motherhood – all while growing up themselves.",
+        "shortDescription": "The “Teen Mom” franchises chronicles the respective journeys of four young mothers as they navigate motherhood – all while growing up themselves.",
+        "images": [
+          {
+            "aspectRatio": null,
+            "height": 603,
+            "id": "47c8e6c9-f6c8-4120-9ee8-a1ddf9edb070",
+            "resizer": "mtvnimages",
+            "type": "",
+            "url": "http://mtv.mtvnimages.com/crop-images/2015/03/09/teen_mom_jumbotron_02_1425932431082.jpg",
+            "width": 1920
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "e24715da-dd56-11e2-8a73-0026b9414f30",
+          "title": "Teen Mom 3",
+          "type": "series",
+          "canonicalURL": "http://www.mtv-l.mtvi.com/shows/teen-mom-3",
+          "images": [
+            {
+              "aspectRatio": "16:9",
+              "height": 400,
+              "id": "7007c3ce-5380-11e4-961a-0026b9414f30",
+              "resizer": "mtvnimages",
+              "type": "",
+              "url": "http://mtv.mtvnimages.com/crop-images/2014/10/13/teenmom3.jpg",
+              "width": 1600
+            },
+            {
+              "aspectRatio": null,
+              "height": 831,
+              "id": "cfc50765-743c-4503-af7c-4271a0321d30",
+              "resizer": "mtvnimages",
+              "type": "series_poster",
+              "url": "http://mtv.mtvnimages.com/arc/images/shows/teen-mom-3/promos-network-app/teen-mom-3_series_poster.jpg",
+              "width": 564
+            }
+          ],
+          "tuneIn": "",
+          "shortTuneIn": "",
+          "shortDescription": "Mackenzie, Katie, Briana, and Alex, are slowly adjusting to the first weeks of caring for a newborn. Now, they're knee deep in their role as parents, while also attempting to survive being teens.",
+          "shortTitle": "Teen Mom 3",
+          "description": "Teen Mom 3 is a spin-off of the MTV documentary series 16 and Pregnant. We are following the stories of Mackenzie, Katie, Briana, and Alex from the fourth season of 16 and Pregnant who are facing the challenges of their first years of motherhood. \n\nEach episode interweaves stories of four teenage girls who are navigating the bumpy terrain of adolescence, growing pains, and coming of age - all while facing the responsibility of being a young mother. \n\nEach story offers a unique look into the wide variety of challenges young mothers can face: marriage, relationships, family support, or lack thereof, adoption, finances, rumors among the community, graduating high school, starting college, getting (or losing) a job and the daunting and exciting step of moving out of the nest to create their own families"
+        },
+        {
+          "isAd": true,
+          "adSize": "300x250"
+        }
+      ]
+    }
+  }
+}

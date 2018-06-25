@@ -1,0 +1,169 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_l000"
+  },
+  "settings": {
+  },
+  "data": {
+    "promoId": "2s08ox",
+    "promoType": "ENT_M116",
+    "headline": "Video Clips",
+    "parameters": {
+      "displayFilter": "true",
+      "displayBoxAd": "true"
+    },
+    "version": "V4_0_0",
+    "nextPageURL": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/2?hash=77c7657cbdf1e2c49ada6267ab1cdb5f079effbf",
+    "items": [
+      {
+        "airDate": "1489755600",
+        "airDateNY": {
+          "year": "2017",
+          "shortYear": "17",
+          "month": "03",
+          "shortMonth": "3",
+          "day": "17",
+          "date": "17",
+          "monthText": "March"
+        },
+        "canonicalURL": "http://www.mtv-l.mtvi.com/video-clips/ilwxa7/are-you-the-one-deleted-scene-i-need-space",
+        "contentRating": "",
+        "contentStandards": "",
+        "contentUncensored": false,
+        "description": "Ozzy closes off after Joey and Hannah hook up.",
+        "distPolicy": {
+          "authTve": false,
+          "available": true,
+          "startDate": 1376237614,
+          "endDate": 1704067200,
+          "canonicalURL": "http://www.mtv-l.mtvi.com/video-clips/ilwxa7/are-you-the-one-deleted-scene-i-need-space"
+        },
+        "duration": "99.371",
+        "id": "aea8b113-92d4-46c9-8733-053f57f97380",
+        "images": [
+          {
+            "aspectRatio": "16:9",
+            "height": 1080,
+            "id": "134dbd5d-aef7-4dd3-9fdb-b11b9c4486a1",
+            "resizer": "mtvnimages",
+            "type": "",
+            "url": "https://mtv.mtvnimages.com/arc/images/shows/are-you-the-one/videos/HDRUO510ACLIP2_1.mp4.01_01_56_09.Still001_edited.jpg",
+            "width": 1920
+          }
+        ],
+        "number": "Season 5, Ep 10 · Bonus",
+        "publishDate": "1489755600",
+        "season": {
+          "id": "78ba782a-8085-11e6-bfd4-0026b9414f30",
+          "episodeNumber": "510",
+          "seasonNumber": 5,
+          "episodeAiringOrder": 10,
+          "title": "Season 5"
+        },
+        "shortDescription": "Ozzy closes off after Joey and Hannah hook up.",
+        "shortId": "ilwxa7",
+        "shortTitle": "Deleted Scene: I Need Space",
+        "show": {
+          "id": "2217ba2c-5e79-11e3-984c-0026b9414f30",
+          "title": "Are You The One?",
+          "type": "series"
+        },
+        "inPoint": 0,
+        "title": "Deleted Scene: I Need Space",
+        "subType": "Bonus",
+        "type": "video",
+        "url": "http://www.mtv-l.mtvi.com/video-clips/ilwxa7/are-you-the-one-deleted-scene-i-need-space",
+        "views": "0",
+        "durationFormatted": "01:39"
+      }
+    ],
+    "filters": [
+      {
+        "name": "All Videos",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?sortBy=OriginalPublishDate",
+        "count": 425,
+        "selected": true
+      },
+      {
+        "count": 49,
+        "name": "Season 5",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?season=5",
+        "selected": false
+      },
+      {
+        "count": 82,
+        "name": "Season 4",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?season=4",
+        "selected": false
+      },
+      {
+        "count": 92,
+        "name": "Season 3",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?season=3",
+        "selected": false
+      },
+      {
+        "count": 117,
+        "name": "Season 2",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?season=2",
+        "selected": false
+      },
+      {
+        "count": 81,
+        "name": "Season 1",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?season=1",
+        "selected": false
+      }
+    ],
+    "subFilters": [
+      {
+        "name": "All",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1",
+        "selected": true
+      },
+      {
+        "name": "Bonus",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?subFilterId=ce59bc87-c288-43f6-ba04-43eac54f4910",
+        "selected": false
+      },
+      {
+        "name": "Interview",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?subFilterId=be3540c3-5293-4a98-8b58-801337dac9f1&hash=eb70b3ab246c2db3e9c51ddd340e1584c048d920",
+        "selected": false
+      },
+      {
+        "name": "Promo",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?subFilterId=80835685-8346-4fce-a981-df1bb5aa5276&hash=7455bba426c7a7500e5ca17acede07be278e4043",
+        "selected": false
+      },
+      {
+        "name": "Sneak Peek",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?subFilterId=719b1d38-5a97-46e0-bd28-3cb6029339bc&hash=f4b550175db3c8293bfe607868273dcc8eaac768",
+        "selected": false
+      },
+      {
+        "name": "Trailer",
+        "url": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30/1?subFilterId=7b62bce7-4dd2-4d42-a355-7485c9d2f5f4",
+        "selected": false
+      }
+    ],
+    "sorting": "originalPublishDate",
+    "allSeasons": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "itemCount": 425,
+    "itemType": "clip",
+    "feedUrl": "http://www.mtv-l.mtvi.com/feeds/ent_m116/a6992a7d-2789-4605-ab6f-1d126a7f0edd/2217ba2c-5e79-11e3-984c-0026b9414f30",
+    "configParams": [],
+    "colors": {
+      "primaryColor": "#213344",
+      "secondaryColor": "#ffffff",
+      "isMTV": true
+    }
+  }
+}

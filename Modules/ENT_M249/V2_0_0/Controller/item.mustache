@@ -1,0 +1,42 @@
+<div class="vdl-item">
+    {{#url}}
+        <a href="{{.}}" {{#settings.isPopUp}}target="_blank"{{/settings.isPopUp}}>
+    {{/url}}
+        {{#.media}}
+            <div class="media-wrap">
+                <div class="media">
+                    <div class="item-container">
+                        <div class="content">
+                            {{>common/image}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/.media}}
+
+        {{#.meta}}
+            <div class="meta-wrap">
+                {{#label}}<div class="label">{{.}}</div>{{/label}}
+                {{#title}}<div class="header"><span>{{{.}}}</span></div>{{/title}}
+                {{#descriptor}}<div class="sub-header">{{.}}</div>{{/descriptor}}
+                {{#description}}<div class="deck"><span>{{{.}}}</span></div>{{/description}}
+                {{#socialHandles.0}}
+                    <div class="social">
+                        <div class="icon-group">
+                        {{#socialHandles}}
+                            <a href="{{url}}" target="_blank"><span class="vdl-icon-{{network}}"></span></a>
+                        {{/socialHandles}}
+                        </div>
+                    </div>
+                {{/socialHandles.0}}
+
+                {{#displayDate}}<div class="meta"><span>{{.}}</span></div>{{/displayDate}}
+            </div>
+        {{/.meta}}
+    {{#url}}
+        </a>
+    {{/url}}
+    {{#ad}}
+        <div class="sponsor-bug ad-item--200x31 hasAd" data-adsize="{{size}}" data-ad-sizes="{{size}}" data-campaign="{{campaign}}"></div>
+    {{/ad}}
+</div>

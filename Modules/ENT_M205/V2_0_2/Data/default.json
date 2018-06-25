@@ -1,0 +1,134 @@
+{
+  "config": {
+    "moduleName": "ent_m205"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "settings": {
+  },
+  "data": {
+    "promoId": "zoqs1i",
+    "promoType": "ENT_M205",
+    "header": {
+      "title": "2015 Fandom Awards News"
+    },
+    "nextPage": {
+      "url": "http:\/\/www.mtv-l.mtvi.com\/feeds\/ent_m205\/V2_0_2\/0e52e369-1635-445e-8831-7d920f09c195\/90254fe6-1bc6-11e5-b90b-0026b9414f30\/82d86e1b-f5ef-4a8f-aba1-3aaeb86b4db4\/2",
+      "label": "show more news"
+    },
+    "items": [
+      {
+        "label": "TV",
+        "title": "Olicity Is Our Ship Of The Year And We Can't Stop Smiling",
+        "url": "http:\/\/www.mtv.com\/news\/2211973\/olicity-ship-of-the-year\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:9963993"
+        },
+        "timestamp": "07\/13\/2015"
+      },
+      {
+        "label": "Movies",
+        "title": "The 17 Fandom Awards Moments That Rocked Your Face Right Off",
+        "url": "http:\/\/www.mtv.com\/news\/2211744\/fandom-awards-best-moments\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10614924"
+        },
+        "timestamp": "07\/12\/2015"
+      },
+      {
+        "label": "Movies",
+        "title": "Watch Rupert Friend Pull A 'Fifty Shades Of Grey' On Hannah Ware In Our Exclusive 'Hitman' Clip",
+        "url": "http:\/\/www.mtv.com\/news\/2211731\/hitman-agent-47-exclusive-clip\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10614878"
+        },
+        "timestamp": "07\/12\/2015"
+      },
+      {
+        "label": "Movies",
+        "title": "Paul Rudd Goes To Work In This Exclusive Clip From Marvel's 'Ant-Man'",
+        "url": "http:\/\/www.mtv.com\/news\/2211740\/ant-man-exclusive-clip\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10149755"
+        },
+        "timestamp": "07\/12\/2015"
+      },
+      {
+        "label": "Movies",
+        "title": "The MTV Fandom Awards Rocked Comic-Con, And Here Are 19 Pics To Prove It",
+        "url": "http:\/\/www.mtv.com\/news\/2209381\/mtv-fandom-awards-photos\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10611473"
+        },
+        "timestamp": "07\/10\/2015"
+      },
+      {
+        "isAd": {
+          "adSize": "300x250"
+        }
+      },
+      {
+        "label": "TV",
+        "title": "'The Hunger Games' Wins 'Fandom Of The Year' At Comic-Con",
+        "url": "http:\/\/www.mtv.com\/news\/2208765\/mtv-fandom-awards-2015-winners-list\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10611142"
+        },
+        "timestamp": "07\/10\/2015"
+      },
+      {
+        "label": "TV",
+        "title": "Which Fandom Will Win Big At The MTV Fandom Awards? Vote Now!",
+        "url": "http:\/\/www.mtv.com\/news\/2205562\/fandom-of-the-year-vote\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10529221"
+        },
+        "timestamp": "07\/07\/2015"
+      },
+      {
+        "label": "Music",
+        "title": "Flo Rida and All Time Low Are Hitting Up MTV's Fandom Fest",
+        "url": "http:\/\/www.mtv.com\/news\/2200222\/mtv-fandom-fest-flo-rida-all-time-low\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10589984"
+        },
+        "timestamp": "06\/30\/2015"
+      },
+      {
+        "label": "TV",
+        "title": "8 TV Ships That Never Really Set Sail (But Everyone Still Loves)",
+        "url": "http:\/\/www.mtv.com\/news\/2197654\/tv-ships-never-set-sail\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10589783"
+        },
+        "timestamp": "06\/30\/2015"
+      },
+      {
+        "label": "TV",
+        "title": "Who Will You Choose For Ship Of The Year?",
+        "url": "http:\/\/www.mtv.com\/news\/2197661\/ship-of-the-year-voting\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:9963993"
+        },
+        "timestamp": "06\/26\/2015"
+      },
+      {
+        "label": "Movies",
+        "title": "Are You Ready To Vote For Fandom -- And Ship -- Of The Year?",
+        "url": "http:\/\/www.mtv.com\/news\/2193562\/fandom-of-the-year-ship-of-the-year\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10574773"
+        },
+        "timestamp": "06\/23\/2015"
+      }
+    ]
+  },
+  "messages": {
+  }
+}

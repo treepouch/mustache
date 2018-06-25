@@ -1,0 +1,65 @@
+{{#data}}
+
+    {{#colorScheme.primary}}
+        <style>
+            .promo_{{shortId}} .item_label  { background-color: {{.}}; }
+            .promo_{{shortId}} .subheadline { color: {{.}};}
+            .promo_{{shortId}} .show_more_btn:hover {
+                background-color: {{.}};
+                border-color: {{.}};
+            }
+        </style>
+    {{/colorScheme.primary}}
+
+    {{#promoData}}
+
+        <div class="module_content {{#colorScheme.primary}}promo_{{shortId}}{{/colorScheme.primary}}">
+
+            {{#image}}
+                {{#headerImageLink}}
+                    <a href="{{.}}" class="s_layouts_imageContainerWrap">
+                        {{> common/image }}
+                    </a>
+                {{/headerImageLink}}
+
+                {{^headerImageLink}}
+                    <div class="s_layouts_imageContainerWrap">
+                        {{> common/image }}
+                    </div>
+                {{/headerImageLink}}
+            {{/image}}
+
+            <div class="s_layouts_textContainerWrap">
+                <div class="s_layouts_textContainer">
+
+                    {{#tuneIn}}
+                        <div class="item_label">{{.}}</div>
+                    {{/tuneIn}}
+                    {{#headline}}
+                        <h2 class="headline s_layouts_textContainerHeadline s_fonts_textContainerHeadline">{{.}}</h2>
+                    {{/headline}}
+                    {{#subHeadline}}
+                        <h3 class="subheadline item_label s_layouts_textContainerBadgeWrap">
+                            <span class="s_layouts_textContainerBadge s_fonts_badge">{{.}}</span>
+                        </h3>
+                    {{/subHeadline}}
+                    {{#copy}}
+                        <p class="copy s_layouts_textContainerCopy s_fonts_textContainerCopy">{{.}}</p>
+                    {{/copy}}
+
+                </div>
+            </div>
+        </div>
+    {{/promoData}}
+
+    <div class="s_container subPromosWrapper">
+        {{#relatedItems}}<div> </div>{{/relatedItems}}
+    </div>
+
+    {{#promoData.link}}
+        <div class="s_buttons_buttonWrapper s_container {{#colorScheme.primary}}promo_{{shortId}}{{/colorScheme.primary}}">
+            <a class="show_more_btn s_buttons_button s_textContainerButton s_buttons_textContainerButton" href="{{url}}">{{text}}</a>
+        </div>
+    {{/promoData.link}}
+
+{{/data}}

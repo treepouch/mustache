@@ -1,0 +1,35 @@
+{{#data}}
+	<div class="ent_m244-module-content card-grid">
+
+		{{#headline}}
+			<div class="ent_m244-header card-grid-header">
+				<h1 class="ent_m244-header__headline card-grid-headline">
+					{{headline}}
+				</h1>
+			</div>
+		{{/headline}}
+
+		<div class="ent_m244-item-wrap card-grid-item-wrap">
+			<ul class="ent_m244-item-container card-grid-container">
+				{{>Modules/ENT_M244/V8_0_0/Controller/items}}
+			</ul>
+			<div class="ent_m244-no-results">
+				{{#noResultsText}}
+					{{.}}
+				{{/noResultsText}}
+			</div>
+		</div>
+
+		{{#moduleURL}}
+			{{#url}}
+				<a class="ent_m244-link-wrap__link card-grid-item-link" href="{{url}}">
+					<div class="ent_m244-button card-grid-button">
+						<div class="ent_m244-link-wrap__link-text card-grid-item-link-text">
+							{{#text}}{{.}}{{/text}}
+						</div>
+					</div>
+				</a>
+			{{/url}}
+		{{/moduleURL}}
+    </div>
+{{/data}}

@@ -1,0 +1,39 @@
+{{#data}}
+    <div class="S002_line_list_header s_fonts_moduleHeader">
+        <div class="content"><span class="header_text  section-header-lg">{{headline}}</span></div>
+    </div>
+
+    <div class="module_content toggleable_module open">
+
+        <div class="toggleable_module_content">
+            {{#colors}}{{#primaryColor}}
+                <style>
+                    .S001_line_list_item .link_wrapper:hover h3, .S001_line_list_item .link_wrapper:hover h4{  color:{{.}};  }
+                </style>
+            {{/primaryColor}}{{/colors}}
+            <ul class="L001_line_list s_layouts_lineList s_resets_oldDom_ul">
+                {{> Modules/ENT_M101/V8_0_0/Controller/items}}
+            </ul>
+
+            {{#colors}}
+                <style>
+                    {{#isLOGO}}
+                        {{#primaryColor}}.ent_m101 .btn { border-color: {{.}}; color: {{.}}; }{{/primaryColor}}
+                    {{/isLOGO}}
+                    {{^isLOGO}}
+                    .ent_m101 .btn { &nbsp;
+                        {{#primaryColor}}background-color:{{.}};{{/primaryColor}}{{#primaryTextColor}}color:{{.}};{{/primaryTextColor}}
+                    }
+                    {{/isLOGO}}
+                </style>
+            {{/colors}}
+
+            {{#videoGuideURL}}
+                <div class="cta-button">
+                    <a href="{{.}}" class="btn btn-cta btn-block"><span>browse all clips<span class="icon-chevron-right"></span></span></a>
+                </div>
+            {{/videoGuideURL}}
+
+        </div>
+    </div>
+{{/data}}

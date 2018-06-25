@@ -1,0 +1,35 @@
+{
+    "config": {
+        "zone": "t2_lc_promo2",
+        "moduleName": "ent_173"
+    },
+    "data": {
+        "promoId": "o9jmb4",
+        "promoType": "ENT_M175",
+        "headline": "Hot 'n Sponsored",
+        "childPromoList": [
+            {
+                "promoId": "zqhgnq",
+                "promoType": "nested",
+                "headline": "take a trip back to the 90s!",
+                "url": "http://www.mtv.com/video-playlists/cc6lxf/icymi-1990s/cq57iw",
+                "image": {
+                    "width": 2524,
+                    "height": 1414,
+                    "url": "http://mtv.mtvnimages.com/images/1995.png"
+                }
+            },
+            {
+                "promoId": "guqoip",
+                "promoType": "nested",
+                "headline": "bebe rexha spends the day with her ultimate fan",
+                "url": "http://www.mtv.com/news/2963793/ufe-bebe-rexha-writegirl-la/",
+                "image": {
+                    "width": 2300,
+                    "height": 2300,
+                    "url": "http://mtv.mtvnimages.com/arc/images/sponsorships/DSC02434.JPG"
+                }
+            }
+        ]
+    }
+}

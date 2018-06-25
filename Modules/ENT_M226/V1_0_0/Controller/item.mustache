@@ -1,0 +1,15 @@
+<li class="linelist-item ">
+    <div class="linelist-item-image-wrapper">
+        {{> common/image }}
+    </div>
+    <a class="collection-card collection-card__info-wrapper" href="{{url}}">
+        <div class="collection-card__info">
+            <span class="collection-card__title">{{title}}</span>
+        </div>
+        {{#ad}}
+            <div class="collection-card__sponsor-info">
+                <div class="collection-card__sponsor-logo" data-adsize="{{size}}" data-campaign="{{campaign}}"></div>
+            </div>
+        {{/ad}}
+    </a>
+</li>

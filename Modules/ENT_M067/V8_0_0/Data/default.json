@@ -1,0 +1,136 @@
+{
+    "data": {
+        "promo": {
+            "shortId": "nudot7",
+            "displayType": "default",
+            "promoType": "ENT_M067",
+            "headline": "Latest Full Episodes",
+            "images": [],
+            "subHeadline": "",
+            "url": "",
+            "additionalPromoMetadata": [],
+            "copy": "",
+            "tuneIn": "",
+            "parameters": {
+                "fullEpisodeOnly": "true",
+                "displayFilter": "true",
+                "displayBoxAd": "true",
+                "messageHeader": "<span class=\"tve-lock\"> </span> sign in for full access",
+                "messageBody": "Select the video you want to watch and we'll show you a list of available TV providers.\nSign in with your account info and you'll be good to go."
+            },
+            "links": []
+        },
+        "items": [
+            {
+                "airDate": "1489021200",
+                "airDateNY": {
+                    "year": "2017",
+                    "shortYear": "17",
+                    "month": "03",
+                    "shortMonth": "3",
+                    "day": "08",
+                    "date": "8",
+                    "monthText": "March"
+                },
+                "canonicalURL": "http://www.mtv-l.mtvi.com/episodes/k1vgvo/catfish-the-tv-show-alante-nevaeh-season-6-ep-602",
+                "contentRating": "general audience",
+                "description": "Alante has spent the last 8 years planning a life with his online love Nevaeh.  She's perfect but her disappearances have Alante worried. Nev and Max help to uncover a mysterious truth that affects Alante's entire town.",
+                "distPolicy": {
+                    "authTve": true,
+                    "authReason": "not available for platform desktop, see DP for playlist 523bba58-6832-4b33-8384-f50a7d8ae3ae",
+                    "available": true,
+                    "startDate": 1489057200,
+                    "startDateFormatted": "Thu, 09 Mar 2017 11:00:00 +0000",
+                    "endDate": 2145916800,
+                    "endDateFormatted": "Fri, 01 Jan 2038 00:00:00 +0000",
+                    "episodeDescriptor": "Full Episode",
+                    "playlistDescriptor": "",
+                    "canonicalURL": "http://www.mtv-l.mtvi.com/episodes/k1vgvo/catfish-the-tv-show-alante-nevaeh-season-6-ep-602"
+                },
+                "fullEpisode": {
+                    "desktop": {
+                        "url": "http://www.mtv-l.mtvi.com/episodes/k1vgvo/catfish-the-tv-show-alante-nevaeh-season-6-ep-602",
+                        "authorization": {
+                            "tve": true
+                        },
+                        "available": true,
+                        "startDate": 1489057200,
+                        "startDateFormatted": "Thu, 09 Mar 2017 06:00:00 -0500",
+                        "endDate": 13600933200,
+                        "endDateFormatted": "Sat, 30 Dec 2400 00:00:00 -0500"
+                    },
+                    "mobile_web": {
+                        "url": "http://www.mtv-l.mtvi.com/episodes/k1vgvo/catfish-the-tv-show-alante-nevaeh-season-6-ep-602",
+                        "authorization": {
+                            "tve": true
+                        },
+                        "available": true,
+                        "startDate": 1489057200,
+                        "startDateFormatted": "Thu, 09 Mar 2017 06:00:00 -0500",
+                        "endDate": 13600933200,
+                        "endDateFormatted": "Sat, 30 Dec 2400 00:00:00 -0500"
+                    },
+                    "ios": {
+                        "url": "mtvnetworkapp://episode/ea9dead2-cd90-11e6-bfd4-0026b9414f30",
+                        "authorization": {
+                            "tve": true
+                        },
+                        "available": true,
+                        "startDate": 1489057200,
+                        "startDateFormatted": "Thu, 09 Mar 2017 06:00:00 -0500",
+                        "endDate": 13600933200,
+                        "endDateFormatted": "Sat, 30 Dec 2400 00:00:00 -0500"
+                    },
+                    "android": {
+                        "url": "mtvnetworkapp://episode/ea9dead2-cd90-11e6-bfd4-0026b9414f30",
+                        "authorization": {
+                            "tve": true
+                        },
+                        "available": true,
+                        "startDate": 1489057200,
+                        "startDateFormatted": "Thu, 09 Mar 2017 06:00:00 -0500",
+                        "endDate": 13600933200,
+                        "endDateFormatted": "Sat, 30 Dec 2400 00:00:00 -0500"
+                    }
+                },
+                "episodeType": "fullEpisode",
+                "duration": 2462,
+                "id": "ea9dead2-cd90-11e6-bfd4-0026b9414f30",
+                "images": [
+                    {
+                        "aspectRatio": "16:9",
+                        "height": 1080,
+                        "id": "a41c3fa5-6f4a-4efb-bfad-fe888891c9de",
+                        "resizer": "mtvnimages",
+                        "type": "",
+                        "url": "http://mtv.mtvnimages.com/arc/images/shows/catfish/videos/catfish602.jpg",
+                        "width": 1920
+                    }
+                ],
+                "number": "Season 6, Ep 2",
+                "pureNumber": "2",
+                "publishDate": "1489021200",
+                "season": {
+                    "id": "360ad15c-cd90-11e6-bfd4-0026b9414f30",
+                    "episodeNumber": "602",
+                    "seasonNumber": 6,
+                    "episodeAiringOrder": 2,
+                    "title": "Season 6"
+                },
+                "shortDescription": "Alante has spent the last 8 years planning a life with his online love Nevaeh.  She’s perfect but her disappearances have Alante worried. Nev and Max help to uncover a mysterious truth that affects Alante’s entire town. ",
+                "shortId": "k1vgvo",
+                "shortTitle": "Alante & Nevaeh",
+                "show": {
+                    "id": "696b503c-ffb0-45b7-831a-cdb9e32930fa",
+                    "title": "Catfish: The TV Show",
+                    "type": "series"
+                },
+                "title": "Alante & Nevaeh",
+                "type": "episode",
+                "url": "http://www.mtv-l.mtvi.com/episodes/k1vgvo/catfish-the-tv-show-alante-nevaeh-season-6-ep-602",
+                "views": 0,
+                "formatedDuration": "41:02"
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{{#data}}
+    <div class="module_content">
+        <div class="header"><h2>{{header}}</h2></div>
+        <div class="middle">
+            <ul class="list_horiz">
+                {{#categories}}
+                    <li class="{{className}}">
+                        <a href="{{url}}" title="{{title}}">
+                            <span></span>
+                            <h3><span>{{title}}</span></h3>
+                        </a>
+                    </li>
+                {{/categories}}
+            </ul>
+        </div>
+    </div>
+{{/data}}

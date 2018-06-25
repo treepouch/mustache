@@ -1,0 +1,17 @@
+{{#data}}
+    {{^cta.url}}{{#url}}<a href="{{.}}" class="hero-promo-target-url">{{/url}}{{/cta.url}}
+        <div class="hero-promo-container {{#settings.isCentered}}hero-promo-container--centered{{/settings.isCentered}}">
+            {{> common/image}}
+            <div class="hero-promo-content-meta-items">
+                <div class="hero-promo-content-meta-wrap">
+                    {{#label}}<div class="hero-promo-content-meta-label">{{.}}</div>{{/label}}
+                    {{#tuneIn}}<div class="hero-promo-content-meta-tunein">{{.}}</div>{{/tuneIn}}
+                    {{#title}}<div class="hero-promo-content-meta-title">{{.}}</div>{{/title}}
+                    {{#description}}<div class="hero-promo-content-meta-description">{{.}}</div>{{/description}}
+                    {{#cta}}{{#cta.url}}<a href="{{.}}">{{/cta.url}}<div class="hero-promo-load-more-btn"><span class="primary_btn">{{text}}</span></div>{{#cta.url}}</a>{{/cta.url}}{{/cta}}
+                </div>
+            </div>
+            <div class="hero-promo-container-overlay-background hideWithFade"></div>
+        </div>
+    {{^cta.url}}{{#url}}</a>{{/url}}{{/cta.url}}
+{{/data}}

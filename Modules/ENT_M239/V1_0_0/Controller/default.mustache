@@ -1,0 +1,32 @@
+{{#data}}
+    <div id="site-header">
+        <div class="container">
+            <div class="header">
+                <div class="navbar-container">
+                    <div class="logo-wrap"><a href="/"><div class="logo"></div></a></div>
+                    <div class="title-wrap">
+                        <div class="title {{#isLive}}is-live{{/isLive}}">
+                            <span>
+                                {{#headerUrl}}<a href="{{.}}">{{/headerUrl}}
+                                {{headerTitle}}
+                                {{#headerUrl}}</a>{{/headerUrl}}
+                            </span>
+                        </div>
+                        {{#subHeaderTitle}}
+                            <div class="tune-in">
+                               <span>
+                                    {{#headerUrl}}<a href="{{.}}">{{/headerUrl}}
+                                   {{subHeaderTitle}}
+                                   {{#headerUrl}}</a>{{/headerUrl}}
+                               </span>
+                            </div>
+                        {{/subHeaderTitle}}
+                    </div>
+                    <div class="modal-close-wrap">
+                        <div class="modal-close"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/data}}

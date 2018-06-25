@@ -1,0 +1,21 @@
+{
+    "config": {
+        "zone": "t3_lc_promo1",
+        "moduleName": "ent_m046"
+    },
+    "data": {
+        "promoId": "ent_m046",
+        "promo": {
+            "id": "da84e291-de28-4a43-a12d-4da8cfe1cc29",
+            "shortId": "r74xv5",
+            "displayType": "default",
+            "promoType": "ENT_M046",
+            "headline": "NEXT LIVE EVENT",
+            "copy": "Bellator 165",
+            "featuredUrls": [
+                "/events/pjdif7/bellator-165-chandler-vs-henderson"
+            ],
+            "NewnessExpirationDate": "Sat, 19 Nov 2016 21:00:00 -0500"
+        }
+    }
+}

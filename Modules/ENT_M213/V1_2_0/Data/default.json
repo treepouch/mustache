@@ -1,0 +1,77 @@
+{
+    "config": {
+        "moduleName": "ent_m213"
+    },
+    "envelope": {
+        "version": "1.0",
+        "name": "entertainment-standard-json"
+    },
+    "status": {
+        "text": "OK",
+        "code": 100
+    },
+        "settings": {
+            "displayAd": true
+        },
+        "data": {
+            "promoId": "66osja",
+            "promoType": "ENT_M213",
+            "header": {
+                "title": "Editorial Line Listing Module"
+            },
+            "items": [{
+                "title": "This is a header",
+                "url": "http:\/\/www.giantbomb.com",
+                "image": [{
+                    "url": "http:\/\/mtv.mtvnimages.com\/images\/103_512x320.jpg",
+                    "width": 512,
+                    "height": 320,
+                    "aspectRatio": 1.6
+                }],
+                "label": "subheader"
+            }, {
+                "title": "This is a header",
+                "url": "http:\/\/www.destructoid.com",
+                "image": [{
+                    "url": "http:\/\/mtv.mtvnimages.com\/images\/108_512x320.jpg",
+                    "width": 512,
+                    "height": 320,
+                    "aspectRatio": 1.6
+                }],
+                "label": "subheader"
+            }, {
+                "isAd": true
+            }, {
+                "title": "Vote For Best Movie Cat",
+                "url": "http:\/\/www.giantbomb.com",
+                "image": [{
+                    "url": "http:\/\/mtv.mtvnimages.com\/arc\/images\/events\/20141214-192655.jpg",
+                    "width": 712,
+                    "height": 306,
+                    "aspectRatio": 2.3267973856209
+                }],
+                "label": "voting"
+            }, {
+                "title": "Young Dave Vanian's Hair",
+                "url": "http:\/\/www.giantbomb.com",
+                "image": [{
+                    "url": "http:\/\/mtv.mtvnimages.com\/arc\/images\/events\/2c8865ba1af5359a8b150ef71268acf4.jpg",
+                    "width": 400,
+                    "height": 557,
+                    "aspectRatio": 0.7181328545781
+                }],
+                "label": "he is the singer of the damned"
+            }, {
+                "title": "This is Leo's Cat",
+                "url": "http:\/\/www.giantbomb.com",
+                "image": [{
+                    "url": "http:\/\/mtv.mtvnimages.com\/arc\/images\/events\/11722438_803606265252_6818346957270554302_o.jpg",
+                    "width": 1080,
+                    "height": 1080,
+                    "aspectRatio": "1:1"
+                }],
+                "label": "she is very cute"
+            }]
+        },
+    "messages": {}
+}

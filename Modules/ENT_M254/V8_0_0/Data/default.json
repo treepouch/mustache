@@ -1,0 +1,54 @@
+{
+  "data": {
+    "promoId": "dejd6u",
+    "promoType": "ENT_M254",
+    "header": {
+      "title": "The 2017 MTV EMAs Are Taking Over London",
+      "subhead": "It’s official: the 2017 MTV EMAs are heading to London, and it is going to rock.",
+      "publishedDate": "February 13, 2017"
+    },
+    "blocks": [
+      {
+        "image": {
+          "width": 1940,
+          "height": 720,
+          "url": "//mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2016/images/promos/london-site-1940x720.jpg"
+        }
+      },
+      {
+        "text": "The 24th annual mega-awards show will take over the city's epic SSE Arena, Wembley&nbsp;on 12th November 2017 for an evening of world-class performances from some of the biggest acts on the planet. It will be the sixth time that the UK has hosted the show, and the Mayor of London Sadiq Khan couldn't be more excited.<br />&nbsp;<br />"After two decades away, the MTV EMAS are returning to electrify the greatest city in the world once again," Khan said. Took the words right out of our mouths.<br />&nbsp;<br />Make sure you follow all things EMAs on Instagram, Snapchat, Twitter, Facebook and mtvema.com for all the latest announcements.&nbsp;<br />&nbsp;<br />Just 271 days to go&hellip;"
+      },
+      {
+        "video": {
+          "url": "http://www.mtvema-l.mtvi.com/video-clips/pwji95/2017-mtv-europe-music-awards",
+          "mgid": "mgid:arc:video:mtvema.com:de364a86-2847-4326-ae31-398737caa3ba",
+          "image": {
+            "width": 400,
+            "height": 300,
+            "url": "//media.mtvi.com/_!/intlod/MTVInternational/MBUS/TACTIC/201611/VIAMTVIPYC3293SEWP9/EVS_FB_live_1_911A_400x300_50.jpg"
+          }
+        }
+      }
+    ],
+    "schema": "{\"@context\":\"http://schema.org/\",\"@type\":\"NewsArticle\",\"headline\":\"The 2017 MTV EMAs Are Taking Over London\",\"thumbnailUrl\":\"http://mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2016/images/promos/london-site-1940x720.jpg\",\"datePublished\":\"2017-02-13T19:00:00-0500\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"MTVEMA.com\"},\"image\":{\"@context\":\"http://schema.org/\",\"@type\":\"ImageObject\",\"url\":\"http://mtv.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/mtvema/2016/images/promos/london-site-1940x720.jpg\",\"width\":1940,\"height\":720},\"url\":\"http://www.mtvema-l.mtvi.com/articles/u7lx37/mtv-ema-2017-london\"}"
+  },
+  "settings": {
+    "share": [
+      {
+        "title": "Facebook",
+        "typeClass": "facebook"
+      },
+      {
+        "title": "Twitter",
+        "typeClass": "twitter"
+      },
+      {
+        "title": "Email",
+        "typeClass": "email"
+      }
+    ],
+    "ad": {
+      "adSize": "300x250"
+    }
+  }
+}

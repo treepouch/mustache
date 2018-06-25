@@ -1,0 +1,15 @@
+{
+    "data": {
+        "promoId": "fxe3iv",
+        "promoType": "ENT_M058",
+        "tvSchedulePageURL": "http://www.logotv-l.mtvi.com/tv-schedule",
+        "ptsInformation": [
+            {
+                "showURL": "http://www.logotv-l.mtvi.com/tv-schedule",
+                "tuneIn": "11/10C",
+                "seriesName": "Ghostbusters"
+            }
+        ],
+        "fullHourShow": true
+    }
+}

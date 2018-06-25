@@ -1,0 +1,17 @@
+{
+    "config": {
+        "zone": "t1_lc_promo1",
+        "moduleName": "ent_m252"
+    },
+    "envelope": {
+        "version": "1.0",
+        "name": "entertainment-standard-json"
+    },
+    "status": {
+        "text": "OK",
+        "code": 100
+    },
+    "data": {
+        
+    }
+}

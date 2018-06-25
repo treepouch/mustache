@@ -1,0 +1,229 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m228",
+    "events": [
+      {
+        "name": "Expose filters",
+        "selector": ".filters",
+        "toggleClass": "filters--opened"
+      }
+    ]
+  },
+  "settings": {},
+  "data": {
+    "filters": {
+      "title": "FILTER SKETCHES",
+      "options": [
+        {
+          "url": "#someFilterURL",
+          "isSelected": true,
+          "title": "all sketches"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "latest"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "most popular"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "sports"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "politics"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "Obama"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "Luther"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "movies"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "celebrities"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "marriage"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "arguments"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "racism"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "music"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "school"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "crying"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "kids"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "eighties"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "PSAs"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "sex"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "season 5"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "season 4"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "season 3"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "season 2"
+        },
+        {
+          "url": "#someFilterURL",
+          "title": "season 1"
+        }
+      ]
+    },
+    "items": [
+      {
+        "title": "PHONE CALL",
+        "duration": "0:44",
+        "description": "During two different phone calls, two men rapidly change their styles of conversing.",
+        "url": "http://www.cc.com/video-clips/qvrhhj/key-and-peele-phone-call",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/pilot_episode/keynpeele_pilot_phone_640x360.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ]
+      },
+      {
+        "title": "I Said Bitch",
+        "duration": "4:02",
+        "description": "Two husbands look for safe places to talk about their wives.",
+        "url": "http://www.cc.com/video-clips/lzj724/key-and-peele-i-said-bitch",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_1/key_peele_bitch_640x360.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ]
+      },
+      {
+        "isAd": true,
+        "size": "300x250",
+        "campaign": "someCampaignId"
+      },
+      {
+        "title": "Ancestry Website",
+        "duration": "0:57",
+        "description": "Join ancestry.com today and begin a one-of-a-kind journey into your unique past.",
+        "url": "http://www.cc.com/video-clips/2nmzjn/key-and-peele-ancestry-website",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_1/keyandpeele_101_ancestry.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "title": "Exclusive - Obama's Anger Translator - Meet Luther - Uncensored",
+        "duration": "2:48",
+        "description": "Obama’s anger translator Luther has a lot to say to the American public.",
+        "url": "http://www.cc.com/video-clips/0py5fm/key-and-peele-exclusive---obama-s-anger-translator---meet-luther---uncensored",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/pilot_episode/key_peele_translate_meet_luther_640x360.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ]
+      },
+      {
+        "title": "Flash Mob",
+        "duration": "0:43",
+        "description": "A flash mob turns terrifying.",
+        "url": "http://www.cc.com/video-clips/mqwv20/key-and-peele-flash-mob",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_1/keyandpeele_107_flashmob_640x360.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ]
+      },
+      {
+        "title": "Obama Raps",
+        "duration": "0:50",
+        "description": "Obama teaches some street rappers a thing or two.",
+        "url": "http://www.cc.com/video-clips/cj4xob/key-and-peele-obama-raps",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_1/key_peele_obama_raps_640x360.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ]
+      },
+      {
+        "title": "Black Boy's Booty",
+        "duration": "0:52",
+        "description": "Jordan talks about the one time his mom spanked him in public.",
+        "url": "http://www.cc.com/video-clips/g5b20q/key-and-peele-black-boy-s-booty",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_1/key_peele_black_boys_booty_640x360.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ]
+      },
+      {
+        "title": "Yo' Mama Has Health Problems",
+        "duration": "3:05",
+        "description": "A meeting with a doctor becomes a Yo’ Mama jokefest.",
+        "url": "http://www.cc.com/video-clips/mnrd8a/key-and-peele-yo--mama-has-health-problems",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_1/key_peele_yo_mama_has_health_problems_640x360.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ]
+      }
+    ]
+  }
+}

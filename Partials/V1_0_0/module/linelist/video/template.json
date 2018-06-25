@@ -1,0 +1,98 @@
+{
+  "data": {
+    "nextPageURL": "http://bellator.spike.com/feeds/ent_m120_bellator/V1_0_3/5a2f4f7b-9e9e-4015-8ccb-637f7e6edfe0/15341033-4aa1-4f93-8ff7-3b6627abedd8/2/",
+    "nextPageButtonLabel": "More Videos",
+    "items": [
+      {
+        "itemId":"mgid:arc:video:spike.com:579a8d13-203c-4252-9777-9ed01cb5f1aa",
+        "title": "Uncut: Behind The Scenes of Bellator 145 in St. Louis",
+        "description": "Take an all-access look at Bellator 145: Pitbull vs. Straus and go behind the scenes of a night that brought two title fights to the Scottrade Center in St. Louis , MO. See what happens backstage as champions Patricio Pitbull and Will Brooks prepare for title defenses against challengers Daniel Straus and Marcin Held. Additionally, take a peek into the locker rooms of Bobby Lashley, James Thompson, Michael Chandler, David Rickels, Justin Lawrence, and Emmanuel Sanchez as they prepare for battle.If that wasn’t enough, see what happens when one of the biggest announcements of 2015 in the sport of MMA is made.",
+        "className":"clip",
+        "badgeTypeName":  "VIDEO CLIP",
+        "image": {
+          "width": 1812,
+          "height": 1044,
+          "aspectRatio":1.7,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/145/straus_makayla.jpg"
+        },
+        "duration": "10:52",
+        "url": "http://bellator.spike.com/video-clips/lp0ynf/bellator-145-uncut-behind-the-scenes-of-bellator-145-in-st-louis"
+      },
+      {
+        "itemId":"mgid:arc:video:spike.com:360302b4-5859-4127-8fbe-7596623a7fd0",
+        "title": "A New Champion - The Bellator 145 Moment",
+        "description": "A near finish. A close comeback. A near repeat of a previous encounter, but ultimately, a new champion is crowned.",
+        "className":"clip",
+        "badgeTypeName":  "VIDEO CLIP",
+        "image": {
+          "width": 1980,
+          "height": 1320,
+          "aspectRatio":1.5,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/145/StrausVsPitbull.jpg"
+        },
+        "duration": "1:52",
+        "url": "http://bellator.spike.com/video-clips/k0vs1g/bellator-145-a-new-champion-the-bellator-145-moment"
+      },
+      {
+        "itemId":"mgid:arc:fight:spike.com:a5514060-2368-4cb3-8fa7-49f55fe9528a",
+        "title": "Daniel Straus vs. Patricio Pitbull III",
+        "description": "Can Daniel Straus finally beat Patricio Pitbull, and secure the Bellator Featherweight championship?",
+        "className":"fight",
+        "badgeTypeName":  "FULL FIGHT",
+        "image": {
+          "width": 1980,
+          "height": 1320,
+          "aspectRatio":1.5,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/145/StrausVsPitbull.jpg"
+        },
+        "duration": "30:15",
+        "url": "http://bellator.spike.com/fight/bih4wa/bellator-145-daniel-straus-vs-patricio-pitbull-iii"
+      },
+      {
+        "itemId":"mgid:arc:fight:spike.com:693b680b-ea68-4245-80dd-6e78c812f202",
+        "title": "Marcin Held vs. Will Brooks",
+        "description": "Leglock specialist Marcin Held gets his crack at the Lightweight Championship. It's time to get ill.",
+        "className":"fight",
+        "badgeTypeName":  "FULL FIGHT",
+        "image": {
+          "width": 600,
+          "height": 347,
+          "aspectRatio":1.7,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/145/bel_145_brooks_held.jpg"
+        },
+        "duration": "31:49",
+        "url": "http://bellator.spike.com/fight/bozlxz/bellator-145-marcin-held-vs-will-brooks"
+      },
+      {
+        "itemId":"mgid:arc:fight:spike.com:b168797f-10b6-4ddc-a350-773f1d47a4fe",
+        "title": "David Rickels vs. Michael Chandler II",
+        "description": "Lightweights David \"Caveman\" Rickels and \"Iron\" Michael Chandler meet in a rematch of their clash from Bellator 93.",
+        "className":"fight",
+        "badgeTypeName":  "FULL FIGHT",
+        "image": {
+          "width": 600,
+          "height": 347,
+          "aspectRatio":1.7,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/145/bel_145_chandler_rickels.jpg"
+        },
+        "duration": "10:30",
+        "url": "http://bellator.spike.com/fight/p53y3q/bellator-145-david-rickels-vs-michael-chandler"
+      },
+      {
+        "itemId": "mgid:arc:episode:spike.com:43d44f7e-7c98-44a8-9785-25eadc7bc3ca",
+        "title": "Bellator MMA: Road to Vengeance Part 2",
+        "description": "In part 2 of Road to Vengeance, we see Michael Chandler training in Phoenix. And Daniel Straus disects his second fight with the Champion Patricio \"Pitbull\".",
+        "className":"episode",
+        "badgeTypeName":  "FULL EPISODE",
+        "image": {
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio":1.8,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/145/HDTSP601D-7.jpeg"
+        },
+        "duration": "20:00",
+        "url": "http://bellator.spike.com/full-episodes/1pxf3v/bellator-145-bellator-mma-road-to-vengeance-part-2"
+      }
+    ]
+  }
+}

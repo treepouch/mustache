@@ -1,0 +1,606 @@
+{
+    "config": {
+        "zone": "t2_lc_promo1",
+        "moduleName": "ent_m238"
+    },
+    "envelope": {
+        "version": "1.0",
+        "name": "entertainment-standard-json"
+    },
+    "status": {
+        "text": "OK",
+        "code": 100
+    },
+    "data": {
+        "promoId":"5i7eu4",
+        "promoType":"ENT_M238",
+        "settings":{
+            "displaySponsorAd":"200x31",
+            "displayBoxAd":"300x250"
+        },
+        "header":"ENT_M238 - Vote Now",
+        "subHeader":"Tap nominees to vote",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu diam a leo maximus sollicitudin.",
+        "categories":[
+            {
+                "awardType":"Viewer Voted",
+                "awardOrganization":"MTV Video Music Awards",
+                "awardCategory":"Category 1: Viewer Voted - Funnel Voting Open, One Award Video",
+                "displayVoteButton":true,
+                "layout":"landscape",
+                "funnelSite":"mtv.com",
+                "funnelCollection":"vma1920_award1",
+                "title":"Award 1: Viewer Voted - Funnel Voting Open, One Award Video",
+                "sortOrder":"1",
+                "nominees":[
+                    {
+                        "title":"Category 1, Nominee 1",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 1, Nominee 1"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award1_nominee1"
+                    },
+                    {
+                        "title":"Category 1, Nominee 2",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 1, Nominee 2"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award1_nominee2"
+                    },
+                    {
+                        "title":"Category 1, Nominee 3",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 1, Nominee 3"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award1_nominee3"
+                    },
+                    {
+                        "title":"Category 1, Nominee 4",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 1, Nominee 4"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award1_nominee4"
+                    },
+                    {
+                        "title":"Category 1, Nominee 5",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 1, Nominee 5"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award1_nominee5"
+                    }
+                ]
+            },
+            {
+                "awardType":"Viewer Voted",
+                "awardOrganization":"MTV Video Music Awards",
+                "awardCategory":"Category 2: Viewer Voted - Funnel Voting Open, One Award Video",
+                "displayVoteButton":true,
+                "layout":"circle",
+                "funnelSite":"mtv.com",
+                "funnelCollection":"vma1920_award2",
+                "title":"Award 2: Viewer Voted - Funnel Voting Open, One Award Video",
+                "sortOrder":"2",
+                "nominees":[
+                    {
+                        "title":"Category 2, Nominee 1",
+                        "description":"Circle",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 2, Nominee 1"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award2_nominee1"
+                    },
+                    {
+                        "title":"Category 2, Nominee 2",
+                        "description":"Circle",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 2, Nominee 2"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award2_nominee2"
+                    },
+                    {
+                        "title":"Category 2, Nominee 3",
+                        "description":"Circle",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 2, Nominee 3"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award2_nominee3"
+                    },
+                    {
+                        "title":"Category 2, Nominee 4",
+                        "description":"Circle",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 2, Nominee 4"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award2_nominee4"
+                    },
+                    {
+                        "title":"Category 2, Nominee 5",
+                        "description":"Circle",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 2, Nominee 5"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award2_nominee5"
+                    }
+                ]
+            },
+            {
+                "awardType":"Viewer Voted",
+                "awardOrganization":"MTV Video Music Awards",
+                "awardCategory":"Category 3: Viewer Voted - Funnel Voting Open, No Video",
+                "displayVoteButton":true,
+                "layout":"landscape",
+                "funnelSite":"mtv.com",
+                "funnelCollection":"vma1920_award3",
+                "title":"Award 3: Viewer Voted - Funnel Voting Open, No Video",
+                "sortOrder":"3",
+                "nominees":[
+                    {
+                        "title":"Category 3, Nominee 1",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 3, Nominee 1"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award3_nominee1"
+                    },
+                    {
+                        "title":"Category 3, Nominee 2",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 3, Nominee 2"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award3_nominee2"
+                    },
+                    {
+                        "title":"Category 3, Nominee 3",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 3, Nominee 3"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award3_nominee3"
+                    },
+                    {
+                        "title":"Category 3, Nominee 4",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 3, Nominee 4"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award3_nominee4"
+                    },
+                    {
+                        "title":"Category 3, Nominee 5",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 3, Nominee 5"
+                            }
+                        ],
+                        "funnelAnswer":"vma1920_award3_nominee5"
+                    }
+                ]
+            },
+            {
+                "awardType":"Viewer Voted",
+                "awardOrganization":"MTV Video Music Awards",
+                "awardCategory":"Category 4: Viewer Voted - Funnel Voting Open, One Video Per Nominee",
+                "displayVoteButton":true,
+                "layout":"landscape",
+                "funnelSite":"mtv.com",
+                "funnelCollection":"vma1920_award4",
+                "title":"Award 4: Viewer Voted - Funnel Voting Open, One Video Per Nominee",
+                "sortOrder":"4",
+                "nominees":[
+                    {
+                        "title":"Category 4, Nominee 1",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 4, Nominee 1"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award4_nominee1"
+                    },
+                    {
+                        "title":"Category 4, Nominee 2",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 4, Nominee 2"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award4_nominee2"
+                    },
+                    {
+                        "title":"Category 4, Nominee 3",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 4, Nominee 3"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award4_nominee3"
+                    },
+                    {
+                        "title":"Category 4, Nominee 4",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 4, Nominee 4"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award4_nominee4"
+                    },
+                    {
+                        "title":"Category 4, Nominee 5",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 4, Nominee 5"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award4_nominee5"
+                    }
+                ]
+            },
+            {
+                "awardType":"Viewer Voted",
+                "awardOrganization":"MTV Video Music Awards",
+                "awardCategory":"Category 5: Viewer Voted - Funnel Voting Closed, One Video Per Nominee",
+                "displayVoteButton":false,
+                "layout":"landscape",
+                "funnelSite":"mtv.com",
+                "funnelCollection":"vma1920_award5",
+                "title":"Award 5: Viewer Voted - Funnel Voting Closed, One Video Per Nominee",
+                "sortOrder":"5",
+                "nominees":[
+                    {
+                        "title":"Category 5, Nominee 1",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 5, Nominee 1"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award5_nominee1"
+                    },
+                    {
+                        "title":"Category 5, Nominee 2",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 5, Nominee 2"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award5_nominee2"
+                    },
+                    {
+                        "title":"Category 5, Nominee 3",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 5, Nominee 3"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award5_nominee3"
+                    },
+                    {
+                        "title":"Category 5, Nominee 4",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 5, Nominee 4"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award5_nominee4"
+                    },
+                    {
+                        "title":"Category 5, Nominee 5",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 5, Nominee 5"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award5_nominee5"
+                    }
+                ]
+            },
+            {
+                "awardType":"Board Voted",
+                "awardOrganization":"MTV Video Music Awards",
+                "awardCategory":"Category 6: Board Voted - No Voting, One Video Per Nominee",
+                "layout":"landscape",
+                "title":"Award 6: Board Voted - No Voting, One Video Per Nominee",
+                "sortOrder":"6",
+                "nominees":[
+                    {
+                        "title":"Category 6, Nominee 1",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 6, Nominee 1"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30"
+                    },
+                    {
+                        "title":"Category 6, Nominee 2",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 6, Nominee 2"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30"
+                    },
+                    {
+                        "title":"Category 6, Nominee 3",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 6, Nominee 3"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30"
+                    },
+                    {
+                        "title":"Category 6, Nominee 4",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 6, Nominee 4"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30"
+                    },
+                    {
+                        "title":"Category 6, Nominee 5",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 6, Nominee 5"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30"
+                    }
+                ]
+            },
+            {
+                "awardType":"Viewer Voted",
+                "awardOrganization":"MTV Video Music Awards",
+                "awardCategory":"Category 7: Viewer Voted - Offsite Voting Open, One Image w/ HTML Text Overlay",
+                "displayVoteButton":true,
+                "layout":"landscape",
+                "title":"Award 7: Viewer Voted - Offsite Voting Open, One Image w/ HTML Text Overlay",
+                "sortOrder":"7"
+            },
+            {
+                "awardType":"Viewer Voted",
+                "awardOrganization":"MTV Video Music Awards",
+                "awardCategory":"Category 8: Viewer Voted - Winner Announced, One Video Per Nominee",
+                "displayVoteButton":false,
+                "layout":"landscape",
+                "funnelSite":"mtv.com",
+                "funnelCollection":"vma1920_award8",
+                "title":"Award 8: Viewer Voted - Winner Announced, One Video Per Nominee",
+                "sortOrder":"8",
+                "nominees":[
+                    {
+                        "title":"Category 8, Nominee 1",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 8, Nominee 1"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award8_nominee1"
+                    },
+                    {
+                        "title":"Category 8, Nominee 2",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 8, Nominee 2"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award8_nominee2"
+                    },
+                    {
+                        "title":"Category 8, Nominee 3",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 8, Nominee 3"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award8_nominee3"
+                    },
+                    {
+                        "title":"Category 8, Nominee 4",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 8, Nominee 4"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award8_nominee4"
+                    },
+                    {
+                        "title":"Category 8, Nominee 5",
+                        "description":"Landscape",
+                        "image":[
+                            {
+                                "width":2866,
+                                "height":1506,
+                                "url":"http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                "alt":"Category 8, Nominee 5"
+                            }
+                        ],
+                        "videoId":"17ecf476-6961-11e2-8a73-0026b9414f30",
+                        "funnelAnswer":"vma1920_award8_nominee5"
+                    }
+                ]
+            }
+        ],
+        "ThankYouModal":{
+            "title":"Thanks for voting",
+            "subTitle":"Come back tomorrow to vote again."
+        },
+        "countDown":{
+            "title":"Daily voting closes in",
+            "subTitle":"Your votes will be cast at 12pm tonight. Come back tomorrow to vote again.",
+            "countDownTo":"Friday Dec 09 2016 23:59:59 EST"
+        }
+    },
+    "messages":{
+
+    }
+}

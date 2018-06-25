@@ -1,0 +1,86 @@
+{
+  "config": {
+    "zone": "t4_lc_promo1",
+    "moduleName": "ent_m117"
+  },
+  "data": {
+    "promoId": "6a3c4",
+    "header": {
+      "title": "PREVIEW LIMA VS. KORESHKOV",
+      "description":"Douglas Lima looks to defend his Welterweight Championship against Andrey Koreshkov as Bellator returns to Mohegan Sun. Plus, Michael Page, Chris Honeycutt, and Paul Daley. Don't miss Lima vs. Koreshkov, July 17, 9/8c live on Spike.",
+      "count": "5"
+    },
+    "items": [
+      {
+        "itemId":"mgid:arc:video:spike.com:5e69b6b3-a9d5-44c3-b8f3-a6fb3e1ed68d",
+        "title": "Bellator MMA: Lima vs Koreshkov",
+        "parentTitle":"Bellator 140",
+        "description": "Bellator 140 is a Welterweight party on Friday, July 17th on Spike! Champ Douglas Lima returns to defend his title vs Andrey Koreshkov. We also see WW's Chris Honeycutt take on Paul Bradley, Michael Page faces Rudy Bears, local start Brennan Ward vs Gavin Sterritt and finally Paul Daley battles Dennis Olson.",
+        "image": {
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio":1.8,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/140/BEL140_TICKET_SPOT_ALL.jpeg"
+        },
+        "duration": "0:30",
+        "url": "/video-clips/hum9kf/bellator-140-bellator-mma-lima-vs-koreshkov"
+      },
+      {
+        "itemId":"mgid:arc:video:spike.com:d2aaeace-29d2-4316-a7b8-8524d208836e",
+        "title": "5 Rounds with Douglas Lima",
+        "parentTitle":"Bellator 140",
+        "description": "Go 5 Rounds with Welterweight World Champion Douglas Lima as he discusses family, fighting and food. Watch his defend his belt July 17th 9/8c live on Spike.",
+        "image": {
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio":1.8,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/140/bel_140_5rounds_lima.jpeg"
+        },
+        "duration": "2:45",
+        "url": "/video-clips/xrjgt3/bellator-140-5-rounds-with-douglas-lima"
+      },
+      {
+        "itemId":"mgid:arc:video:spike.com:33cf36a8-b151-410c-bf84-2612dd8fa6bd",
+        "title": "Foundations: Brennan Ward",
+        "parentTitle":"Bellator 140",
+        "description": "See what 'Irish' Brennan Ward is really made of when Jimmy Smith recaps his last win over Curtis Millender. Don't miss Ward back in the Bellator cage July 17th 9/8c live on Spike",
+        "image": {
+          "width": 1980,
+          "height": 1080,
+          "aspectRatio":1.8,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/140/bel_140_foundations_brennan_ward.jpeg"
+        },
+        "duration": "1:17",
+        "url": "/video-clips/gds6bo/bellator-140-foundations-brennan-ward"
+      },
+      {
+        "itemId":"mgid:arc:video:spike.com:37443fd0-8bb6-461e-8ed1-7b320ec7876e",
+        "title": "Foundations: Paul Daley",
+        "parentTitle":"Bellator 140",
+        "description": "Paul Daley proved he wasn't just a knockout artist, but a true professional when he went toe to toe with Andre Santos. Watch him go to work again live Friday July 17th 9/8c on Spike",
+        "image": {
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio":1.8,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/140/bel140_foundations_paul_daley_bugless.jpeg"
+        },
+        "duration": "1:33",
+        "url": "/video-clips/2g7czz/bellator-140-foundations-paul-daley"
+      },
+      {
+        "itemId":"mgid:arc:video:spike.com:b168797f-10b6-4ddc-a350-773f1d47a4fe",
+        "title": "In Focus: Chris Honeycutt",
+        "parentTitle":"Bellator 140",
+        "description": "Fresno's own Chris Honeycutt prepares for his biggest test yet in Paul Bradley, July 17th live and free on Spike 9/8c!",
+        "image": {
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio":1.8,
+          "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/140/bellator_133_infocus_honeycutt_evergreen-1.jpeg"
+        },
+        "duration": "5:45",
+        "url": "/video-clips/fgyxd8/bellator-140-in-focus-chris-honeycutt"
+      }
+    ]
+  }
+}

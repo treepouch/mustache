@@ -1,0 +1,46 @@
+{
+    "config": {
+        "zone": "t4_lc_promo2",
+        "moduleName": "ent_m237"
+    },
+    "data": {
+        "promoId": "m000no",
+        "promoType": "ENT_M237",
+        "header": "Archive Navigation",
+        "archiveNavUrl": "/vma/archive",
+        "items": [
+          {
+            "url": "/vma/2016",
+            "text": "2016"
+          },
+          {
+            "url": "/vma/2015",
+            "text": "2015"
+          },
+          {
+            "url": "/vma/2014",
+            "text": "2014"
+          },
+          {
+            "url": "/vma/2013",
+            "text": "2013"
+          },
+          {
+            "url": "/vma/2012",
+            "text": "2012"
+          },
+          {
+            "url": "/vma/2011",
+            "text": "2011"
+          },
+          {
+            "url": "/vma/2010",
+            "text": "2010"
+          },
+          {
+            "url": "/vma/2009",
+            "text": "2009"
+          }
+        ]
+    }
+}

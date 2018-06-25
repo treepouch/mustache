@@ -1,0 +1,22 @@
+{{#data}}
+
+    {{#image}}
+        <div class="image_outer_wrapper">
+            <div class="image_inner_wrapper">
+                {{> common/image }}
+            </div>
+        </div>
+        <div class="overlay"></div>
+    {{/image}}
+
+    {{^image}}
+        {{#title}}
+            <div class="show-header noimage">
+                <div class="show-info">
+                    <span class="show-title">{{.}}</span>
+                </div>
+            </div>
+        {{/title}}
+    {{/image}}
+
+{{/data}}

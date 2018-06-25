@@ -1,0 +1,29 @@
+{{#data}}
+    <div class="carousel-header">
+        {{#headline}}
+            <h2>{{.}}</h2>
+        {{/headline}}
+    </div>
+    <div class="carousel">
+        {{#items}}
+            <div class="carousel-cell">
+            {{#.url}}
+                <a class="carousel-cell-link" href="{{.}}">
+            {{/.url}}
+            <div class="carousel-cell-image">
+                {{> common/image }}
+            </div>
+            {{#.title}}
+                <div class="carousel-cell-title">
+                    {{.}}
+                </div>
+            {{/.title}}
+            {{#.url}}
+                </a>
+            {{/.url}}
+            </div>
+        {{/items}}
+        <div class="flickity-prev-next-button previous disabled"></div>
+        <div class="flickity-prev-next-button next disabled"></div>
+    </div>
+{{/data}}

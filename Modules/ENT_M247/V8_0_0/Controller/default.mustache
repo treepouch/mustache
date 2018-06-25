@@ -1,0 +1,54 @@
+{{#data}}
+	<div class="ent_m247-module-content">
+		{{#headline}}
+			<div class="ent_m247-header">
+				<span class="ent_m247-header__text">
+					{{.}}
+				</span>
+			</div>
+		{{/headline}}
+		<div class="ent_m247-playlist-item-container">
+			{{#playlistItems}}
+				<div class="ent_m247-playlist-item">
+					<div class="ent_m247-playlist-item__image-wrap">
+						{{#link}}
+						<a class="ent_m247-playlist-item__link" href="{{link.url}}" target="_blank">
+						{{/link}}
+						{{> common/image }}
+						{{#link}}
+						</a>
+						{{/link}}
+					</div>
+
+					<div class="ent_m247-playlist-item__meta-wrap">
+						{{#text1}}
+							<span class="ent_m247-playlist-item__text1">{{.}}</span>
+						{{/text1}}
+
+						{{#text2}}
+							<span class="ent_m247-playlist-item__text2">{{.}}</span>
+						{{/text2}}
+
+						{{#publishDate}}
+							<span class="ent_m247-playlist-item__date">{{.}}</span>
+						{{/publishDate}}
+
+						{{#link}}
+						<a class="ent_m247-playlist-item__button-link" href="{{link.url}}" target="_blank">
+						{{/link}}
+							<div class="m247-playlist-item-button {{type}}">
+								<span class="m247-playlist-item-button__content {{type}}">
+									{{#link.text}}
+										{{.}}
+									{{/link.text}}
+								</span>
+							</div>
+						{{#link}}
+						</a>
+						{{/link}}
+					</div>
+				</div>
+			{{/playlistItems}}
+		</div>
+	</div>
+{{/data}}

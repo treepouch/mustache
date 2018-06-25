@@ -1,0 +1,24 @@
+{
+    "data": {
+        "promoId": "2fy0r7",
+        "promoType": "ENT_M062",
+        "tweet": {
+            "source": "twitter",
+            "socialItemType": "tweet",
+            "userId": 113780259,
+            "userName": "ScottCoker",
+            "userImage": "http://pbs.twimg.com/profile_images/675056396933718016/xeH26Vfb_normal.jpg",
+            "userRealName": "Scott Coker",
+            "date": 1495480418,
+            "text": "On June 24th, <a href='https://twitter.com/TheGarden'>@TheGarden</a>, plays host to our biggest night ever! <a href='https://twitter.com/hashtag/BellatorNYC?src=hash'>#BellatorNYC</a> <a href='https://twitter.com/hashtag/Bellator180?src=hash'>#Bellator180</a> <a href='https://t.co/klLxCZO9zO'>pic.twitter.com/klLxCZO9zO</a>",
+            "id": "866673412487356416"
+        },
+        "options": {
+            "tweet": "866673412487356416",
+            "disableTime": true,
+            "showFavoriteLink": true,
+            "showAuthorImage": true,
+            "iconLink": true
+        }
+    }
+}

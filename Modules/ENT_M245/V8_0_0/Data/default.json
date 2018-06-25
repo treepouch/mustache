@@ -1,0 +1,35 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m243"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "data": {
+    "promoId":"ccs1bo",
+    "promoType":"ENT_M243",
+    "meta-text-1":"Headline - text line one - Announcment",
+    "meta-text-2": "Subheadline - text line two",
+    "time": {
+      "days": 25,
+      "hours": 11,
+      "minutes": 49,
+    },
+    "image":[
+      {
+        "url":"http:\/\/mtv.mtvnimages.com\/arc\/images\/events\/vmas_2015_800x800.jpg",
+        "width":800,
+        "height":800,
+        "aspectRatio":"1:1"
+      }
+    ]
+  },
+  "messages": {
+  }
+}

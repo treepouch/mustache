@@ -1,0 +1,101 @@
+{{#items}}
+    {{#is404}}
+        <div class="feed-item feed-item__404 feed-item--appeared"><div class="error404-icon"></div><div class="message404">{{message}}</div><div class="error404-close"></div></div>
+        <div class="deepLinkedContent"></div>
+    {{/is404}}
+    {{#isAd}}
+        <div class="feed-item feed-item__ad"><div class="lineList_ad" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div></div>
+    {{/isAd}}
+
+    {{^isAd}}{{^is404}}
+        <div class="feed-item feed-item--{{#sideImage}}gif{{/sideImage}}{{#isPinnedPromo}}topImage{{/isPinnedPromo}}{{#videoMgid}}video{{/videoMgid}}"{{#itemId}}
+             data-contentId="{{itemId}}"{{/itemId}}>
+        {{#schema}}
+                <script type="application/ld+json">{{{.}}}</script>{{/schema}}
+
+        <div class="feed-item__{{#sideImage}}image{{/sideImage}}{{#isPinnedPromo}}image{{/isPinnedPromo}}{{#videoMgid}}video{{/videoMgid}}-holder"
+             {{#videoMgid}}data-uri='{{.}}'{{/videoMgid}}>
+        {{#topImage}}
+            {{<common/image}}
+            {{$imageClass}}feed-item__thumbnail{{/imageClass}}
+    {{/common/image}}
+    {{/topImage}}
+
+    {{#sideImage}}
+        {{>common/image}}
+    {{/sideImage}}
+    </div>
+
+        <div class="feed-item__meta">
+
+            <div class="feed-item__main">
+                <div class="feed-item__main-content">
+                    {{#badge}}
+                        <div class="feed-item__meta-header">
+                            <a href="{{.link}}" class="feed-item__category" data-filter="{{.urlkey}}">#{{.title}}</a>
+                        </div>
+                    {{/badge}}
+                    {{#title}}<h3 class="feed-item__title">{{.}}</h3>{{/title}}
+                    {{#duration}}<span class="feed-item__duration">({{.}})</span>{{/duration}}
+                    {{#description}}
+                        <div class="feed-item__copy">{{.}}</div>
+                    {{/description}}
+                </div>
+                {{#ad}}
+                    <div class="feed-item__sponsor">
+                        <div class="feed-item__sponsor-logo" data-adsize="{{size}}" data-campaign="{{campaign}}"></div>
+                    </div>
+                {{/ad}}
+            </div>
+
+            <div class="feed-item__meta-footer">
+
+                {{#cta}}
+                    <a href="{{url}}" class="page-overlay_button cta-btn">{{text}}</a>
+                {{/cta}}
+
+                {{#publishDate}}
+                    <div class="feed-item__date">{{publishDate}}</div>
+                {{/publishDate}}
+
+                {{#share}}
+                    <div class="feed-item__share">
+                        <div class="feed-item__share-trigger">Share</div>
+                        <div class="feed-item__share-overlay">
+                            <div class="feed-item__share-overlay-content">
+
+                                <div class="feed-item__share-link">
+                                    <div class="feed-item__share-link-label">Link Copied to Clipboard</div>
+                                    <div class="feed-item__share-link-input">{{url}}</div>
+                                </div>
+                                <ul class="feed-item__share-buttons js-share" data-url="{{url}}"
+                                    data-shortUrl="{{shortUrl}}" data-title="{{title}}"
+                                    data-seriestitle="{{seriesTitle}}">
+                                    <li class="feed-item__share-button facebook js-share__button"
+                                        data-type="facebook"></li>
+                                    <li class="feed-item__share-button twitter js-share__button"
+                                        data-type="twitter"></li>
+                                    <li class="feed-item__share-button email js-share__button" data-type="email"
+                                        data-subject="{{settings.email.subject}}" {{#options.2}}
+                                        data-body="{{body}}" {{/options.2}}></li>
+                                    {{#videoMgid}}
+                                        <li class="feed-item__share-button embed js-share__button" data-type="embed"
+                                            data-uri='{{.}}'></li>
+                                    {{/videoMgid}}
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                {{/share}}
+
+            </div>
+        </div>
+    </div>
+
+    {{#isDeepLinked}}
+        <div class="deepLinkedContent"></div>
+    {{/isDeepLinked}}
+
+{{/is404}}{{/isAd}}
+{{/items}}

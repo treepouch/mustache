@@ -1,0 +1,116 @@
+{
+    "config": {
+        "zone": "t2_lc_promo1",
+        "moduleName": "ent_m230"
+    },
+    "data": {
+        "promoId": "m000no",
+        "promoType": "ENT_M230",
+        "header": {
+            "title": "Winners"
+        },
+        "settings": {
+            "isMinimized": true
+        },
+        "winnersUrl": {
+            "label": "See all winners",
+            "url": "/vma/2015/winners"
+        },
+        "items": [
+            {
+                "awardTitle": "Video of the Year",
+                "title": "Taylor Swift",
+                "subtitle": "Bad Blood",
+                "url": {
+                    "href": "/vma/2015",
+                    "text": "Watch acceptance speech"
+                },
+                "image": [
+                    {
+                        "width": 640,
+                        "height": 480,
+                        "url": "http://cache.vevo.com/Content/VevoImages/video/278C325142167204907A6E6F32C465C3201586134455617.jpg"
+                    }
+                ],
+                "layout": "landscape"
+            },
+            {
+                "awardTitle": "Movie of the Year",
+                "subtitle": "American Sniper",
+                "image": [
+                    {
+                        "width": 1500,
+                        "height": 2143,
+                        "url": "http://mtv.mtvnimages.com/arc/images/events/movie-awards/American-Sniper-1sht-ITA.jpg"
+                    }
+                ],
+                "layout": "portrait"
+            },
+            {
+                "awardTitle": "Best Female Performance",
+                "title": "Mad Max: Fury Road",
+                "subtitle": "Charlize Theron",
+                "image": [
+                    {
+                        "width": 808,
+                        "height": 808,
+                        "url": "http://mtv.mtvnimages.com/arc/Female-MadMax-1x1.jpg"
+                    }
+                ],
+                "layout": "circle"
+            },
+            {
+                "isAd": {
+                    "adSize": "300x250"
+                }
+            },
+            {
+                "awardTitle": "Best Video with a Social Message",
+                "title": "Big Sean f/ Kanye West & John Legend",
+                "subtitle": "One Man Can Change The World",
+                "url": {
+                    "href": "/vma/2014",
+                    "text": "Watch acceptance speech"
+                },
+                "image": [
+                    {
+                        "width": 640,
+                        "height": 480,
+                        "url": "http://cache.vevo.com/Content/VevoImages/video/877FE3F49D961AD650C1A0E08EAD55F32015176161021808.jpg"
+                    }
+                ],
+                "layout": "landscape"
+            },
+            {
+                "awardTitle": "Breakthrough Performance",
+                "title": "The Maze Runner",
+                "subtitle": "Dylan O'Brien",
+                "url": {
+                    "href": "/vma/2014",
+                    "text": "Watch acceptance speech"
+                },
+                "image": [
+                    {
+                        "width": 640,
+                        "height": 640,
+                        "url": "http://mtv.mtvnimages.com/arc/images/events/movie-awards/10455434_765892404132_9118575752745996302_n.jpg"
+                    }
+                ],
+                "layout": "circle"
+            },
+            {
+                "awardTitle": "Best Villain",
+                "title": "KyLOL Ren",
+                "subtitle": "Adam Driver",
+                "image": [
+                    {
+                        "width": 794,
+                        "height": 794,
+                        "url": "http://mtv.mtvnimages.com/arc/images/events/movie-awards/2016/adam-driver.jpg"
+                    }
+                ],
+                "layout": "circle"
+            }
+        ]
+    }
+}

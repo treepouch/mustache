@@ -1,0 +1,65 @@
+{{#data}}
+    {{#tweet}}
+        <div class="module_content s_container">
+            <div class="s_layout_featured_tweet_wrapper wrapper">
+                {{#userImage}}
+                    <img class="avatar" src="{{.}}">
+                {{/userImage}}
+
+                <h2 class="heading">
+                    {{#userRealName}}
+                        <div class="author userRealName">{{.}}</div>
+                    {{/userRealName}}
+
+                    {{#linkMode}}
+                        {{#userName}}
+                            <a class="notriforce ico" href="https://twitter.com/@{{.}}/status/{{id}}" target="_blank">
+                                {{#headline}}
+                                    <span class="userRealName">{{.}}</span>
+                                {{/headline}}
+                                <span class="handle userName">@{{.}}</span>
+                            </a>
+                        {{/userName}}
+                    {{/linkMode}}
+
+                    {{^linkMode}}
+                        {{#userName}}
+                            <a class="notriforce ico" href="https://twitter.com/@{{.}}" target="_blank">
+                                <span class="handle userName">@{{.}}</span>
+                            </a>
+                        {{/userName}}
+                    {{/linkMode}}
+
+                    {{#date}}
+                        <span class="date header-date">{{.}}</span>
+                    {{/date}}
+                </h2>
+
+                {{#text}}
+                    <p class="copy text">{{{.}}}</p>
+                {{/text}}
+
+                {{#id}}
+                    <ul>
+                        {{#date}}
+                            <li class="date bottom-date">{{.}}</li>
+                        {{/date}}
+                        <li class="s_icons_hasIcon s_icons_colorInverted">
+                            <a class="notriforce tweet-link tweet__reply-link" href="https://twitter.com/intent/tweet?in_reply_to={{.}}" target="_blank">reply</a>
+                        </li>
+                        <li>
+                            <a class="notriforce tweet-link tweet__retweet-link" href="https://twitter.com/intent/retweet?tweet_id={{.}}" target="_blank">retweet</a>
+                        </li>
+                        <li>
+                            <a class="notriforce tweet-link tweet__favorite-link" href="https://twitter.com/intent/favorite?tweet_id={{.}}" target="_blank">like</a>
+                        </li>
+                    </ul>
+                {{/id}}
+
+                <span class="twitter has_icon twitter has_icon s_icons_hasIcon s_icons_twitter s_icons_colorInverted s_states_onlyScreenReaders">
+                    <span class="screen_reader_text s_states_onlyScreenReaders">Twitter</span>
+                </span>
+            </div>
+        </div>
+    {{/tweet}}
+{{/data}}

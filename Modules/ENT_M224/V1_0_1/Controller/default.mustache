@@ -1,0 +1,24 @@
+{{#data}}
+    {{#settings.colorScheme}}
+        <style>
+            {{#.primary}}
+                .primary-text-color--{{promoId}} {
+                    color: {{.}};
+                }
+            {{/.primary}}
+        </style>
+    {{/settings.colorScheme}}
+
+    <div class="dictionary-list">
+        <div class="dictionary-list__alphabet">
+        {{#alphaButtons}}
+            <span class="tab-letter {{#class}}{{.}}{{/class}}" data-letter="{{letter}}">{{letter}}</span>
+        {{/alphaButtons}}
+        </div>
+        <div class="dictionary-list__inner">
+            {{#items}}
+                {{> module/vertical_linelist/writings/writings }}
+            {{/items}}
+        </div>
+    </div>
+{{/data}}

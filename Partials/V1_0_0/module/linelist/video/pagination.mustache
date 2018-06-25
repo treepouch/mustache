@@ -1,0 +1,25 @@
+{{#items}}
+    <li class="S001_line_list_item s_layouts_lineListItem s_layouts_lineListVideoItem{{#isNowPlaying}} now_playing{{/isNowPlaying}}{{#isTVELocked}} tve_locked{{/isTVELocked}}" data-mgid="{{itemId}}">
+        {{#url}}<a class="link_wrapper" href="{{url}}">{{/url}}
+        <div class="thumbnail_holder s_layouts_lineListItemImageWrapper s_buttons_playHead"{{#isPlaying}} data-nowPlayingText="{{nowPlayingText}}"{{/isPlaying}}>
+            {{> common/image }}
+            {{#badgeTypeName}}<span class="item_label s_layouts_lineListBadge s_fonts_badge">{{.}}</span>{{/badgeTypeName}}
+        </div>
+        {{#categoryBadge}}
+            <div class="s_layouts_categoryHeaderWrap">
+                {{#categoryBadgeText}}<span class="s_category_fonts_label s_layouts_categorySubHeadline s_layouts_categoryHeader {{#isKickboxing}}kickboxing{{/isKickboxing}}">{{categoryBadgeText}}</span>{{/categoryBadgeText}}
+            </div>
+        {{/categoryBadge}}
+        <div class="s_layouts_lineListItemHeaderWrap">
+            {{#parentTitle}}
+                <h3 class="s_fonts_label s_label_promo2 s_layouts_lineListSubHeadline">{{parentTitle}}</h3>
+            {{/parentTitle}}
+            <h3 class="s_fonts_lineListHeader s_layouts_lineListHeader">{{title}}{{#duration}}<span class="s_fonts_lineListDuration">{{duration}}</span>{{/duration}}</h3>
+        </div>
+        {{#description}}
+            <p class="s_fonts_lineListDescription">{{description}}</p>
+            <div class="s_fonts_gradient"></div>
+        {{/description}}
+        {{#url}}</a>{{/url}}
+    </li>
+{{/items}}

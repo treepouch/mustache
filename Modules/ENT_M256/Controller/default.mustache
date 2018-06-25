@@ -1,0 +1,27 @@
+{{#data}}
+
+    <div class="contentMainWrapper">
+        {{#headline}}
+            <div class="contentHeader">
+                <h2 class="contentHeadline">{{.}}</h2>
+            </div>
+        {{/headline}}
+
+        <div class="contentWrapper bio contentText">
+
+            {{{bio}}}
+
+            {{#social}}
+            <ul class="list SocialIcons">
+                {{#follow}}
+                    <li class="list_item item_{{socialNetwork}}">
+                        <a href="{{handle}}" target="_blank" title="{{socialNetwork}}" class="{{socialNetwork}}">{{socialNetwork}}</a>
+                    </li>
+                {{/follow}}
+            </ul>
+            {{/social}}
+
+        </div>
+    </div>
+
+{{/data}}

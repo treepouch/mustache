@@ -1,0 +1,29 @@
+{
+  "cmsPageInformation": {
+    "title": "ENT_P107 - Tentpole Event Photo Gallery",
+    "templateType": "standard"
+  },
+
+    "modules": [
+        {
+            "moduleName": "ENT_M200_Fragment",
+            "dataSetName": "default.json",
+            "zone": "header"
+        },
+        {
+            "moduleName": "ENT_M204_Fragment",
+            "dataSetName": "default.json",
+            "zone": "t2_lc_promo1"
+        },
+        {
+            "moduleName": "ENT_M204_Fragment",
+            "dataSetName": "default.json",
+            "zone": "t2_lc_promo1"
+        },
+        {
+            "moduleName": "ENT_M006_Fragment",
+            "dataSetName": "default.json",
+            "zone": "footer"
+        }
+    ]
+}

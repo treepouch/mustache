@@ -1,0 +1,55 @@
+{{#data}}
+    {{#styleScheme}}
+        <style>
+            {{#logo}}
+                {{#primaryColor}}
+                    .ent_m068 .header h2.date-wrap {color:{{.}};}
+                    .ent_m068 .header ul.nav > li.shows {background-color:{{.}};}
+                    .ent_m068 .header ul.nav > li.shows ul.opened {background-color:{{.}};}
+                {{/primaryColor}}
+            {{/logo}}
+            {{^logo}}
+                {{#primaryColor}}
+                    .ent_m068 .header h2.date-wrap {color:{{.}};}
+
+                    .ent_m068 .header ul.nav > li.shows,
+                    .ent_m068 .header ul.nav > li.shows:hover,
+                    .ent_m068 .header ul.nav > li.shows ul.opened {background-color:{{primaryColor}}; color:{{#primaryTextColor}}{{.}}{{/primaryTextColor}}{{^primaryTextColor}}#fff{{/primaryTextColor}};}
+
+                    .ent_m068 .show-header.noimage {background-color:{{primaryColor}};}
+
+                    .ent_m068 .schedule li.date,
+                    .ent_m068 .schedule li .clickable .title a.fullepisode,
+                    .ent_m068 .schedule li .clickable .title a.fullepisode:hover,
+                    .ent_m068 .schedule li .more-wrapper a.fullepisode_mobile,
+                    .ent_m068 .schedule li .more-wrapper a.fullepisode_mobile:hover {background-color:{{primaryColor}}; color:{{#primaryTextColor}}{{.}}{{/primaryTextColor}}{{^primaryTextColor}}#fff{{/primaryTextColor}};}
+                {{/primaryColor}}
+
+                {{#tertiaryColor}}
+                    .ent_m068 .schedule li.light {background-color:{{tertiaryColor}};}
+                    {{#darkTheme}}
+                        .ent_m068 .schedule li.dark { background-color: rgb({{.r}},{{.g}},{{.b}});}
+                    {{/darkTheme}}
+                    .ent_m068 .schedule li.light,
+                    .ent_m068 .schedule li.dark,
+                    .ent_m068 .schedule li .clickable .time,
+                    .ent_m068 .schedule li .clickable .time span,
+                    .ent_m068 .schedule li .clickable .title h2,
+                    .ent_m068 .schedule li .clickable .title span {color:{{#primaryTextColor}}{{.}}{{/primaryTextColor}}{{^primaryTextColor}}#fff{{/primaryTextColor}};}
+                {{/tertiaryColor}}
+            {{/logo}}
+
+            {{#showHeadBGColor}}
+                .ent_m068 .show-header {background-color:{{.}};}
+            {{/showHeadBGColor}}
+        </style>
+    {{/styleScheme}}
+
+    {{>Modules/ENT_M068/V8_0_0/Controller/loaded-indicator}}
+
+{{/data}}
+
+{{#firstRender}}
+    {{>Modules/ENT_M068/V8_0_0/Controller/header}}
+    {{>Modules/ENT_M068/V8_0_0/Controller/schedule}}
+{{/firstRender}}

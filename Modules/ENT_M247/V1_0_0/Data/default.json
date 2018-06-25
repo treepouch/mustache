@@ -1,0 +1,30 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m241"
+  },
+  "data": {
+    "promoId": "aj234",
+    "promoType": "ENT_M247",
+    "headline": "Playlist Module",
+    "playlistItems": [
+      {
+        "publishDate": "1/31/17",
+        "text1": "Playlist Name",
+        "text2": "Playlist flavor text!",
+        "image":[
+          {
+            "url":"http:\/\/mtv.mtvnimages.com\/arc\/images\/events\/vmas_2015_800x800.jpg",
+            "width":800,
+            "height":800,
+            "aspectRatio":"1:1"
+          }
+        ],
+        "link": {
+          "url": "http://spotify.com",
+          "text": "Playlist Link"
+        }
+      }
+    ]
+  }
+}

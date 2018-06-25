@@ -1,0 +1,46 @@
+{{#items}}
+	{{#isAd}}
+		<li class="linelist-item linelist-item-ad"><div class="ad-label">{{adLabel}}</div><div class="lineList_ad" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div>
+        </li>
+	{{/isAd}}
+	{{^isAd}}
+		<li class="linelist-item {{#isTVELocked}} tve_locked{{/isTVELocked}}{{#layout}} linelist-item__layout--{{.}}{{/layout}}">
+			{{#url}}<a class="linelist-link-wrapper" href="{{.}}" {{#isPopup}}target="_blank"{{/isPopup}}>{{/url}}
+			<div class="linelist-item-image-wrapper">
+                {{#imageTitle}}
+                    <div class="linelist-item-image-title"><span class="linelist-item-image-title-inner">{{.}}</span></div>
+                {{/imageTitle}}
+				{{> common/image }}
+				{{#tveAuthDesktop}}
+					<div class="linelist-item-tve-lock desktop-tve-locked"></div>
+				{{/tveAuthDesktop}}
+				{{#tveAuthMobile}}
+                    <div class="linelist-item-tve-lock mobile-tve-locked"></div>
+                {{/tveAuthMobile}}
+				{{#flags}}
+                    {{#display}}
+                        <span class="{{#type}}{{.}}{{/type}}">{{display}}</span>
+                    {{/display}}
+                {{/flags}}
+			</div>
+			<div class="linelist-item-meta-wrapper">
+				{{#label}}
+					<span class="linelist-item-meta-label">{{.}}</span>
+				{{/label}}
+				{{#title}}
+                    <span class="linelist-item-meta-title">{{.}}</span>
+				{{/title}}
+				{{#description}}
+                    <span class="linelist-item-meta-description">{{.}}</span>
+				{{/description}}
+                {{#timestamp}}
+                    <span class="linelist-item-meta-timestamp">{{.}}</span>
+                {{/timestamp}}
+                {{#inlineUrl}}
+                    <a class="linelist-link-inline" href="{{href}}" {{#isPopup}}target="_blank"{{/isPopup}}>{{text}}</a>
+                {{/inlineUrl}}
+			</div>
+			{{#url}}</a>{{/url}}
+		</li>
+	{{/isAd}}
+{{/items}}

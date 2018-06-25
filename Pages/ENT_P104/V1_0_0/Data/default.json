@@ -1,0 +1,34 @@
+{
+  "cmsPageInformation": {
+    "title": "ENT_P104 - Tentpole Event Episode",
+    "templateType": "standard"
+  },
+
+  "modules": [
+    {
+      "moduleName": "ENT_M200_Fragment",
+      "dataSetName": "default.json",
+      "zone": "header"
+    },
+    {
+      "moduleName": "ENT_M209_Fragment",
+      "dataSetName": "default.json",
+      "zone": "t0_lc_promo1"
+    },
+    {
+      "moduleName": "ENT_M211_Fragment",
+      "dataSetName": "default.json",
+      "zone": "t0_rc_promo1"
+    },
+    {
+      "moduleName": "ENT_M203_Fragment",
+      "dataSetName": "default.json",
+      "zone": "t2_lc_promo1"
+    },
+    {
+      "moduleName": "ENT_M006_Fragment",
+      "dataSetName": "default.json",
+      "zone": "footer"
+    }
+  ]
+}

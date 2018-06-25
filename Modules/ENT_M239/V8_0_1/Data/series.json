@@ -1,0 +1,35 @@
+{
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "result": {
+    "settings": {
+      "context": "series"
+    },
+    "data": {
+      "promoId": "147b186b-a551-40f1-ad82-a62e9acb389d",
+      "promoType": "ENT_M239",
+      "logo": {
+        "url": "http://www.paramountnetwork-l.mtvi.com/"
+      },
+      "title": {
+        "text": "Waco",
+        "url": "http://www.paramountnetwork-l.mtvi.com/shows/waco"
+      },
+      "navigation": [
+        {
+          "text": "Episodes & Videos"
+        },
+        {
+          "text": "Cast"
+        }
+      ]
+    }
+  },
+  "messages": {}
+}

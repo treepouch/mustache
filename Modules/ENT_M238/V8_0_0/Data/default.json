@@ -1,0 +1,314 @@
+{
+    "config": {
+        "zone": "t2_lc_promo1",
+        "moduleName": "ent_m238"
+    },
+    "envelope": {
+        "version": "1.0",
+        "name": "entertainment-standard-json"
+    },
+    "status": {
+        "text": "OK",
+        "code": 100
+    },
+    "data": {
+        "promoId": "5i7eu4",
+        "promoType": "ENT_M238",
+        "settings": {
+            "displaySponsorAd": "200x31",
+            "share": {
+                "twitter": {
+                    "name": "MTV"
+                },
+                "email": {
+                    "subject": "Watch {{title}} on www.mtv.com"
+                },
+                "options": [
+                    {
+                        "title": "Facebook",
+                        "typeClass": "facebook"
+                    },
+                    {
+                        "title": "Twitter",
+                        "typeClass": "twitter"
+                    },
+                    {
+                        "title": "Email",
+                        "typeClass": "email"
+                    },
+                    {
+                        "title": "Whatsapp",
+                        "typeClass": "whatsapp"
+                    }
+                ]
+
+            },
+            "votingOverlay": {
+                "title": "we got your vote today",
+                "description": "come back tommorow to vote again"
+            }
+        },
+
+        "countVotedCategories": {
+            "voted" : "5",
+            "total" : "10"
+        },
+
+        "countDown": {
+            "hh" : 5,
+            "mm" : 10,
+            "ss": 10
+        },
+
+        "header": "vote now",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu diam a leo maximus sollicitudin.",
+        "categoriesType": [
+            {
+                "type": "voted",
+                "sortOrder": "1",
+                "categories": [
+                    {
+                        "title": "Award 1: Viewer Voted",
+                        "displayVoting": true,
+                        "layout": "landscape",
+                        "myVotes": [
+                            "Taylor Swift"
+                        ],
+                        "sortOrder": "1",
+                        "countVote": "2",
+                        "awardType": "Viewer Voted",
+                        "awardOrganization": "MTV Video Music Awards",
+                        "awardCategory": "Category 1: Viewer Voted - Funnel Voting Open, One Award Video",
+                        "funnelSite": "mtv.com",
+                        "funnelCollection": "vma1920_award2",
+                        "nominees": [
+                            {
+                                "title": "Category 1, Nominee 1",
+                                "description": "landscape",
+                                "isVoted": true,
+                                "votingDisable": true,
+                                "videoType": true,
+                                "url": "qwe",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 1506,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Category 1, Nominee 2",
+                                "description": "landscape",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 1506,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Category 1, Nominee 3",
+                                "description": "landscape lorim ipsum and some other words goes here",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 1506,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Category 1, Nominee 4",
+                                "description": "landscape lorim ipsum and some other words goes here",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 1506,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 1, Nominee 4"
+                                    }
+                                ]
+                            },
+                            {
+                                "isAD": true,
+                                "adSize": "300x250"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Award 2: Viewer Special",
+                        "awardType": "Viewer Voted",
+                        "awardOrganization": "MTV Video Music Awards",
+                        "awardCategory": "Category 1: Viewer Voted - Funnel Voting Open, One Award Video",
+                        "funnelSite": "mtv.com",
+                        "funnelCollection": "vma1920_award2",
+                        "externalVoting": [
+                            {
+                                "title": "vote on spotify by playing your favorite songs",
+                                "description": "listen to your favorite songs on mtv song of summer playlist to cast your vote",
+                                "url": "www.mtv.com",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 1506,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            },
+                            {
+                                "isAD": true,
+                                "adSize": "300x250"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Award 3: Viewer Voted",
+                        "displayVoting": true,
+                        "layout": "circle",
+                        "myVotes": [
+                            "Taylor Swift"
+                        ],
+                        "sortOrder": "1",
+                        "countVote": "2",
+                        "awardType": "Viewer Voted",
+                        "awardOrganization": "MTV Video Music Awards",
+                        "awardCategory": "Category 1: Viewer Voted - Funnel Voting Open, One Award Video",
+                        "funnelSite": "mtv.com",
+                        "funnelCollection": "vma1920_award2",
+                        "nominees": [
+                            {
+                                "title": "Category 3, Nominee 1",
+                                "description": "circle",
+                                "isVoted": true,
+                                "votingDisable": true,
+                                "url": "qwe",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 2866,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Category 3, Nominee 2",
+                                "description": "circle",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 2866,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Category 3, Nominee 3",
+                                "description": "circle lorim ipsum and some other words goes here",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 2866,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Category 3, Nominee 4",
+                                "description": "circle lorim ipsum and some other words goes here",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 2866,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 1, Nominee 4"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "professional",
+                "header": {
+                    "headline": "professional category",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu diam a leo maximus sollicitudin."
+                },
+                "categories": [
+                    {
+                        "title": "Award 1: Viewer Voted",
+                        "layout": "landscape",
+                        "sortOrder": "1",
+                        "awardType": "Viewer professional",
+                        "awardOrganization": "MTV Video Music Awards",
+                        "awardCategory": "Category 1: Viewer Voted - Funnel Voting Open, One Award Video",
+                        "funnelSite": "mtv.com",
+                        "funnelCollection": "vma1920_award2",
+                        "nominees": [
+                            {
+                                "title": "Category 1, Nominee 1",
+                                "description": "landscape",
+                                "myVote": true,
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 1506,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Category 1, Nominee 2",
+                                "description": "landscape",
+                                "myVote": true,
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 1506,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Award 1: Viewer Voted",
+                        "awardType": "Viewer Voted",
+                        "awardOrganization": "MTV Video Music Awards",
+                        "awardCategory": "Category 1: Viewer Voted - Funnel Voting Open, One Award Video",
+                        "funnelSite": "mtv.com",
+                        "funnelCollection": "vma1920_award2",
+                        "externalVoting": [
+                            {
+                                "title": "vote on spotify by playing your favorite songs",
+                                "description": "listen to your favorite songs on mtv song of summer playlist to cast your vote",
+                                "url": "mtv.com",
+                                "image": [
+                                    {
+                                        "width": 2866,
+                                        "height": 1506,
+                                        "url": "http://mtv.mtvnimages.com/arc/images/events/vmas/2014/katyperry2.png",
+                                        "alt": "Category 2, Nominee 1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+
+}

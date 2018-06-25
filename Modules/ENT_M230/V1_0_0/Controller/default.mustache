@@ -1,0 +1,70 @@
+{{#data}}
+    <div class="ent_m230-module-content">
+        <div class="ent_m230-wrap">
+            {{#header}}
+                <h2 class="ent_m230-module-header headline">{{header.title}}</h2>
+            {{/header}}
+
+            <div class="ent_m230-award-wrapper">
+                <ul class="ent_m230-winner-list">
+                    {{#items}}
+                        {{#isAd}}
+                            <li class="ent_m230-list-item m230-box-ad"><div data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div></li>
+                        {{/isAd}}
+                        {{^isAd}}
+                        <li class="ent_m230-list-item">
+                            <div class="ent_m230-item-content ent-m230-{{layout}}">
+                                {{#url}}
+                                <a class="ent_m230-item-link-wrapper" href="{{url.href}}">
+                                {{/url}}
+                                {{#awardTitle}}
+                                    <div class="ent_m230-award-title-wrap">
+                                        <div class="ent_m230-award-title">
+                                            {{awardTitle}}
+                                        </div>
+                                    </div>
+                                {{/awardTitle}}
+                                <div class="ent_m230-winner-image-wrap-{{layout}}">
+                                    {{#winnerUrl}}<a target="_blank" href="{{winnerUrl}}">{{/winnerUrl}}
+                                    {{> common/image }}
+                                    {{#winnerUrl}}</a>{{/winnerUrl}}
+                                </div>
+                                <div class="ent_m230-winner-meta">
+                                    {{#title}}
+                                        <div class="ent_m230-winner-title">
+                                            {{title}}
+                                        </div>
+                                    {{/title}}
+
+                                    {{#subtitle}}
+                                        <div class="ent_m230-winner-subtitle">
+                                            {{subtitle}}
+                                        </div>
+                                    {{/subtitle}}
+
+                                    {{#url.text}}
+                                        <div class="ent_m230-winner-url">
+                                            <span>{{url.text}}</span>
+                                        </div>
+                                    {{/url.text}}
+                                </div>
+                                {{#url}}
+                                    </a>
+                                {{/url}}
+                            </div>
+                        </li>
+                        {{/isAd}}
+                    {{/items}}
+                </ul>
+            </div>
+
+            {{#winnersUrl}}
+                <a href="{{winnersUrl.url}}">
+                    <div class="ent_m230-winners-link">
+                        <span class="primary_btn">{{winnersUrl.label}}</span>
+                    </div>
+                </a>
+            {{/winnersUrl}}
+        </div>
+    </div>
+{{/data}}

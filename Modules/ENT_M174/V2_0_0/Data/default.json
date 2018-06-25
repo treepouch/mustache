@@ -1,0 +1,216 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m174"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "result": {
+    "data": {
+      "promoId": "v1tbj1",
+      "promoType": "ENT_M174",
+      "trending": {
+        "items": [
+          {
+            "id": "mgid:wordpress:post:articles.mtv.com:2982616",
+            "url": "http://www.mtv.com/news/2982616/kailyn-lowry-pregnant-third-child-teen-mom-2/",
+            "title": "Kailyn Lowry Pregnant With Third Child",
+            "date": {
+              "date": "2017-02-24 01:02:35.000000",
+              "timezone_type": 1,
+              "timezone": "+00:00"
+            },
+            "dateJS": "Fri Feb 24 2017 01:02:35 +0000",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223784",
+            "categories": "TV",
+            "categoryUrl": "http://www.mtv.com/news/tv/",
+            "classModifier": " med",
+            "dateTimeStamp": "21 hours ago"
+          },
+          {
+            "id": "mgid:wordpress:post:articles.mtv.com:2980845",
+            "url": "http://www.mtv.com/news/2980845/harry-potter-beauty-and-the-beast-mash-up/",
+            "title": "Emma Watson Fell In Love With Lord Voldemort, And <em>Harry Potter</em> Is Now Ruined",
+            "date": {
+              "date": "2017-02-09 15:03:36.000000",
+              "timezone_type": 1,
+              "timezone": "+00:00"
+            },
+            "dateJS": "Thu Feb 09 2017 15:03:36 +0000",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:221813",
+            "categories": "Movies",
+            "categoryUrl": "http://www.mtv.com/news/movies/",
+            "classModifier": " med",
+            "dateTimeStamp": "15 days ago"
+          },
+          {
+            "id": "mgid:wordpress:post:articles.mtv.com:2986555",
+            "url": "http://www.mtv.com/news/2986555/debby-ryan-cw-pilot-insatiable/",
+            "title": "Disney Channel Alumna Debby Ryan Follows Cole Sprouse’s TV Footsteps",
+            "date": {
+              "date": "2017-02-24 00:06:13.000000",
+              "timezone_type": 1,
+              "timezone": "+00:00"
+            },
+            "dateJS": "Fri Feb 24 2017 00:06:13 +0000",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223795",
+            "categories": "TV",
+            "categoryUrl": "http://www.mtv.com/news/tv/",
+            "dateTimeStamp": "22 hours ago"
+          },
+          {
+            "id": "mgid:wordpress:post:articles.mtv.com:2986698",
+            "url": "http://www.mtv.com/news/2986698/kailyn-lowry-pregnant-thanks-support-teen-mom-2/",
+            "title": "Kailyn Lowry Thanks Fans Following Pregnancy Announcement",
+            "date": {
+              "date": "2017-02-24 15:46:30.000000",
+              "timezone_type": 1,
+              "timezone": "+00:00"
+            },
+            "dateJS": "Fri Feb 24 2017 15:46:30 +0000",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223829",
+            "categories": "TV",
+            "categoryUrl": "http://www.mtv.com/news/tv/",
+            "dateTimeStamp": "6 hours ago"
+          },
+          {
+            "id": "mgid:wordpress:post:articles.mtv.com:2986692",
+            "url": "http://www.mtv.com/news/2986692/kendall-jenner-looks-like-a-certain-momager/",
+            "title": "Kendall Jenner Looks A Lot Like A Certain Momager Here",
+            "date": {
+              "date": "2017-02-24 15:25:12.000000",
+              "timezone_type": 1,
+              "timezone": "+00:00"
+            },
+            "dateJS": "Fri Feb 24 2017 15:25:12 +0000",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223834",
+            "categories": "Style",
+            "categoryUrl": "http://www.mtv.com/news/style/",
+            "dateTimeStamp": "6 hours ago"
+          }
+        ],
+        "links": {
+          "_arcv2FeedCheckPassed": true,
+          "_arcv2ContentType": "Site:PromoResource",
+          "image": null,
+          "popUp": false,
+          "text": "show more stories",
+          "url": "http://www.mtv.com/#",
+          "type": "featured_URL"
+        },
+        "headerText": "trending stories"
+      },
+      "latest": {
+        "items": [
+          {
+            "id": "2986627",
+            "url": "http://www.mtv.com/news/2986627/arrival-screenwriter-secret-weapons-comic/",
+            "title": "How The <em>Arrival</em> Screenwriter’s ‘Frustrating’ Adolescence Inspired His New Superhero Comic",
+            "date": {
+              "date": "2017-02-24 16:19:07.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "dateJS": "Fri Feb 24 2017 16:19:07 -0500",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223880",
+            "categories": "Comics",
+            "categoryUrl": "http://www.mtv.com/news/comics/",
+            "dateTimeStamp": "18 minutes ago"
+          },
+          {
+            "id": "2987092",
+            "url": "http://www.mtv.com/news/2987092/chance-the-rapper-taylor-bennett-grown-up-fairy-tales/",
+            "title": "Chance The Rapper And His Little Brother Join Forces On A New Song",
+            "date": {
+              "date": "2017-02-24 16:15:02.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "dateJS": "Fri Feb 24 2017 16:15:02 -0500",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223946",
+            "categories": "Music",
+            "categoryUrl": "http://www.mtv.com/news/music/",
+            "dateTimeStamp": "22 minutes ago"
+          },
+          {
+            "id": "2986952",
+            "url": "http://www.mtv.com/news/2986952/lana-del-rey-love/",
+            "title": "Hits And Misses: Lana Del Rey’s Vision Of ‘Love’ (And More)",
+            "date": {
+              "date": "2017-02-24 16:10:28.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "dateJS": "Fri Feb 24 2017 16:10:28 -0500",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223908",
+            "categories": "Music",
+            "categoryUrl": "http://www.mtv.com/news/music/",
+            "dateTimeStamp": "27 minutes ago"
+          },
+          {
+            "id": "2986335",
+            "url": "http://www.mtv.com/news/2986335/are-you-the-one-all-stars-challenge-perfect-matches/",
+            "title": "<em>Are You The One?</em> Rewind: How The <em>All-Star Challenge</em> Couples Became Perfect Matches",
+            "date": {
+              "date": "2017-02-24 16:00:08.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "dateJS": "Fri Feb 24 2017 16:00:08 -0500",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223754",
+            "categories": "TV",
+            "categoryUrl": "http://www.mtv.com/news/tv/",
+            "dateTimeStamp": "37 minutes ago"
+          },
+          {
+            "id": "2986451",
+            "url": "http://www.mtv.com/news/2986451/pink-pussy-hats-and-shouts-to-hillary-its-woke-oscars-bingo/",
+            "title": "Pink Pussy Hats And Shouts To Hillary: It’s Woke Oscars Bingo",
+            "date": {
+              "date": "2017-02-24 15:56:56.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "dateJS": "Fri Feb 24 2017 15:56:56 -0500",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223945",
+            "categories": "Celebrity",
+            "categoryUrl": "http://www.mtv.com/news/celebrity/",
+            "dateTimeStamp": "40 minutes ago"
+          },
+          {
+            "id": "2986963",
+            "url": "http://www.mtv.com/news/2986963/lauren-conrad-jason-wahler-babies-connection-the-hills/",
+            "title": "Lauren Conrad's Future Offspring Already Shares A Connection With Jason Wahler's Baby On Board",
+            "date": {
+              "date": "2017-02-24 15:44:33.000000",
+              "timezone_type": 3,
+              "timezone": "America/New_York"
+            },
+            "dateJS": "Fri Feb 24 2017 15:44:33 -0500",
+            "image": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:223936",
+            "categories": "Celebrity",
+            "categoryUrl": "http://www.mtv.com/news/celebrity/",
+            "dateTimeStamp": "53 minutes ago"
+          }
+        ],
+        "links": {
+          "_arcv2FeedCheckPassed": true,
+          "_arcv2ContentType": "Site:PromoResource",
+          "image": null,
+          "popUp": false,
+          "text": "browse news",
+          "url": "http://www.mtv.com/news/",
+          "type": "featured_URL"
+        },
+        "headerText": "Latest Stories"
+      }
+    }
+  },
+  "messages": {}
+}

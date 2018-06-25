@@ -1,0 +1,28 @@
+{{#data}}
+    <div class="module_content">
+        <div class="header"><h1><span class="bgb">{{headline}}</span></h1></div>
+        {{#joke}}
+        <div class="middle">
+
+            <h3><a href="{{url}}"><span class="bgb">{{title}}</span></a></h3>
+            <div class="fulltext">
+                {{#truncatedText}}
+                    {{{.}}}... <a href="#" id="more" class="more">more<span><!-- --></span></a>
+                {{/truncatedText}}
+                {{^truncatedText}}
+                    {{text}}
+                {{/truncatedText}}
+                <span class="fulltext">
+                    {{{text}}}
+                </span>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="utils_social_buttons noAutoLinkTracking">
+                <a class="button twitter popup" href="{{twitterUrl}}" target="_blank">Tweet</a>&nbsp;
+                <a class="button facebook popup" href="{{facebookUrl}}" target="_blank">Share</a>
+            </div>
+        </div>
+        {{/joke}}
+    </div>
+{{/data}}

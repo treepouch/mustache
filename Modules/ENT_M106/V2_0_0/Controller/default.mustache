@@ -1,0 +1,28 @@
+{{#data}}
+
+    <div id="widget" class="promoWrapper">
+        {{#headline}}
+           <div class="promoHeader">{{.}}</div>
+        {{/headline}}
+
+        <div class="promoCopy">
+            {{#copy}} {{& copy}} {{/copy}}
+            {{#links}}
+                <a href="{{.url}}" target="_blank" class="promotionFont promotionFontRollover">{{.text}}</a>
+            {{/links}}
+            {{#subHeadline}}
+                <span>{{.}}</span>
+            {{/subHeadline}}
+        </div>
+    </div>
+
+    {{#parameters}}
+        <style>
+            .{{promoType}} {
+                color: {{#textcolor}}{{.}}{{/textcolor}};
+                {{#backgroundcolor}} background-color: {{.}}; {{/backgroundcolor}}
+            }
+        </style>
+    {{/parameters}}
+
+{{/data}}

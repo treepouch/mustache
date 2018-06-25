@@ -1,0 +1,10 @@
+<div class="voting__share">
+    <h4 class="voting__share-title">{{settings.languageSupport.votingShareTitle}}</h4>
+    <ul class="voting__share-list">
+        {{#options}}
+            <li class="voting__share-button has_icon {{typeClass}}">
+                <span class="screen_reader_text">{{title}}</span>
+            </li>
+        {{/options}}
+    </ul>
+</div>

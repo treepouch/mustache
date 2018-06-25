@@ -1,0 +1,60 @@
+{{#data}}
+    <div class="ent_m215-module-content">
+        <div class="ent_m215-wrap">
+            {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+            {{#header}}
+                <h1 class="ent_m215-module-header headline">{{header}}</h1>
+            {{/header}}
+
+            {{#awards}}
+                <div class="ent_m215-award-wrapper">
+                    {{#awardTitle}}
+                        <h2 class="ent_m215-award-title">{{awardTitle}}</h2>
+                    {{/awardTitle}}
+                    <ul class="ent_m215-nominee-list">
+                        {{#nominees}}
+                            <li class="ent_m215-nominee-{{awardLayout}}">
+                                <div class="ent_m215-nominee-image-wrap-{{awardLayout}}">
+                                    {{#nomineeUrl}}<a target="_blank" href="{{nomineeUrl}}">{{/nomineeUrl}}
+                                    {{> common/image }}
+                                    {{#nomineeUrl}}</a>{{/nomineeUrl}}
+                                </div>
+                                <div class="ent_m215-nominee-meta-wrap-{{awardLayout}} ">
+
+                                    <div class="ent_m215-nominee-meta-{{awardLayout}}">
+                                        {{#nomineeText1}}
+                                            {{#nomineeUrl}}<a target="_blank" href="{{nomineeUrl}}">{{/nomineeUrl}}
+                                            <div class="ent_m215-nominee-title-{{awardLayout}} {{#nomineeUrl}}has_url{{/nomineeUrl}}">
+                                                {{nomineeText1}}
+                                            </div>
+                                            {{#nomineeUrl}}</a>{{/nomineeUrl}}
+                                        {{/nomineeText1}}
+
+                                        {{#nomineeText2}}
+                                            <div class="ent_m215-nominee-subtitle-{{awardLayout}}">
+                                                {{nomineeText2}}
+                                            </div>
+                                        {{/nomineeText2}}
+
+                                        {{#nomineeText3}}
+                                            <div class="ent_m215-nominee-subtitle-{{awardLayout}}">
+                                                {{nomineeText3}}
+                                            </div>
+                                        {{/nomineeText3}}
+
+                                        {{#featuredUrl}}
+                                            <div class="ent_m215-nominee-featured-url-{{awardLayout}}">
+                                                <a href="{{featuredUrl.url}}">{{featuredUrl.text}}</a>
+                                            </div>
+                                        {{/featuredUrl}}
+                                    </div>
+
+                                </div>
+                            </li>
+                        {{/nominees}}
+                    </ul>
+                </div>
+            {{/awards}}
+        </div>
+    </div>
+{{/data}}

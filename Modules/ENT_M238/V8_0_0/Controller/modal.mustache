@@ -1,0 +1,108 @@
+<div id="modal" class="voting__modal voting__modal--hide" data-active="">
+    <span class="voting__modal-close">&times;</span>
+    <div class="voting__modal-content">
+        <div class="voting__recaptcha voting__modal--hide">
+            <span class="voting__recaptcha-copy">{{settings.languageSupport.votingCaptchaModalTitle}}</span>
+            <div class="voting__recaptcha-content" id="voting__recaptcha-content"></div>
+        </div>
+
+        <div class="voting__player-previous voting__modal__player-nav--hide"></div>
+        {{#thankYouModal}}
+            <div class="voting__thankyou voting__modal--hide">
+                <div class="voting__thankyou-image">
+                    {{> common/image }}
+                </div>
+                {{#thankyouTitle}}<span class="voting__thankyou-title">{{.}}</span>{{/thankyouTitle}}
+                {{#thankyouSubTitle}}<span class="voting__thankyou-subtitle">{{.}}</span>{{/thankyouSubTitle}}
+                {{#settings}}
+                    {{#authorization}}
+                        {{^isAuthorizedVoting}}
+                            <div class="voting__thankyou__vote-again-button">
+                                <span class="voting__thankyou__vote-again-button-copy">{{settings.languageSupport.votingThankYouModalVoteAgainCTABtnCopy}}</span>
+                            </div>
+                        {{/isAuthorizedVoting}}
+                    {{/authorization}}
+                    {{#share}}
+                        {{>Modules/ENT_M238/V1_1_0/Controller/share}}
+                    {{/share}}
+                {{/settings}}
+            </div>
+        {{/thankYouModal}}
+
+        <div class="voting__player-content voting__modal--hide">
+            <div class="voting__player-loading-progress hide">
+                <div class="voting__player-loading-progress--bounce1"></div>
+                <div class="voting__player-loading-progress--bounce2"></div>
+                <div class="voting__player-loading-progress--bounce3"></div>
+            </div>
+            <div class="voting__player-category-title"></div>
+            <div class="player_holder">
+                <div class="player_video"> </div>
+            </div>
+            <div class="voting__player-meta-container">
+                <div class="voting__player-meta-copy">
+                    <div class="voting__player-nominee-title"></div>
+                    <div class="voting__player-nominee-sub-title"></div>
+                </div>
+                <div class="voting__player-meta-status">
+                    <span class="voting__player-meta-status-current"></span>/<span class="voting__player-meta-status-total"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="voting__social-auth-options voting__modal--hide">
+            <div class="voting__social-auth-options__content">
+                <span class="voting__social-auth-options-copy">{{settings.languageSupport.votingSocialAuthModalTitle}}</span>
+                <span class="voting__social-auth-option__buttons">
+                            <span class="voting__social-auth-option__button--facebook-wrapper">
+                                <span class="voting__social-login-icon" id="voting__social-login-icon-facebook"></span>
+                                <span class="voting__social-login-text">{{settings.languageSupport.votingFacebookSignInButtonCopy}}</span>
+                            </span>
+                            <span class="voting__social-auth-option__button--google-plus-wrapper">
+                                <span class="voting__social-login-icon" id="voting__social-login-icon-google">
+                                    <img src="/site/assets/icons/google_signIn_icon.svg" />
+                                </span>
+                                <span class="voting__social-login-text">{{settings.languageSupport.votingGoogleSignInButtonCopy}}</span>
+                            </span>
+                            <span class="voting__social-auth-option__button--twitter-wrapper">
+                                <span class="voting__social-login-icon" id="voting__social-login-icon-twitter">
+                                    <img src="/site/assets/icons/twitter_signIn_icon.svg" />
+                                </span>
+                                <span class="voting__social-login-text">{{settings.languageSupport.votingTwitterSignInButtonCopy}}</span>
+                            </span>
+                        </span>
+                <span class="voting__social-auth-options__agreement__container">
+                            <span><input type="checkbox" name="voting__social-auth-options__agreement" class="voting__social-auth-options__agreement"></span>
+                            <span>{{{settings.languageSupport.votingAgreement}}}</span>
+                            <span class="voting__social-auth-options__agreement-message"></span>
+                        </span>
+            </div>
+        </div>
+
+        {{#geoRestriction}}
+            <div class="voting__geo-restrictions voting__modal--hide">
+                <div class="voting__geo-restrictions-content">
+                    {{#geoRestriction.geoRestrictionTitle}}<span class="voting__geo-restrictions-title">{{.}}</span>{{/geoRestriction.geoRestrictionTitle}}
+                    {{#geoRestriction.geoRestrictionSubTitle}}<span class="voting__geo-restrictions-subTitle">{{{.}}}</span>{{/geoRestriction.geoRestrictionSubTitle}}
+                    {{#geoRestriction.geoRestrictionButtonCopy}}<a href="{{geoRestriction.geoRestrictionButtonURL}}"><span class="voting__geo-restrictions-button">{{geoRestriction.geoRestrictionButtonCopy}}</span></a>{{/geoRestriction.geoRestrictionButtonCopy}}
+                </div>
+            </div>
+        {{/geoRestriction}}
+
+        <div class="voting__generic-failure voting__modal--hide">
+            <div class="voting__generic-failure-content">
+                <span class="voting__generic-failure-title">{{settings.languageSupport.votingGenericFailureTitle}}</span>
+                <span class="voting__generic-failure-subTitle">{{settings.languageSupport.votingGenericFailureSubTitle}}</span>
+            </div>
+        </div>
+
+        <div class="voting__reload voting__modal--hide">
+            <div class="voting__reload-content">
+                <span class="voting__reload-title">{{settings.languageSupport.votingReloadMessage}}</span>
+                <span class="voting__reload-animation"></span>
+            </div>
+        </div>
+
+        <div class="voting__player-next voting__modal__player-nav--hide"></div>
+    </div>
+</div>

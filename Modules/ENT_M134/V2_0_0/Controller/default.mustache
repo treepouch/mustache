@@ -1,0 +1,40 @@
+{{#data}}
+    <div class="collectionHeader">
+        <h2 class="headline">{{headline}}</h2>
+    </div>
+    <div class="faceWrapper">
+        <ul class="box">
+            {{#items}}
+                <li class="ent_m134_item">
+                    {{#url}}
+                        <a href="{{.}}" class="person">
+                    {{/url}}
+                    {{^url}}
+                        <div class="person">
+                    {{/url}}
+                        {{>common/image}}
+
+                        {{#copy}}
+                            <span class="copy">{{.}}</span>
+                        {{/copy}}
+
+                        <div class="person_details">
+                            {{#name}}
+                                <div class="name">{{.}}</div>
+                            {{/name}}
+
+                            {{#socialLink}}
+                                <a href="{{.url}}" class="social_link">{{.text}}</a>
+                            {{/socialLink}}
+                        </div>
+                    {{#url}}
+                        </a>
+                    {{/url}}
+                    {{^url}}
+                        </div>
+                    {{/url}}
+                </li>
+            {{/items}}
+        </ul>
+    </div>
+{{/data}}

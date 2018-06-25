@@ -1,0 +1,13 @@
+{
+    "data": {
+        "promoId": "kka0fg",
+        "promoType": "ENT_M098",
+        "headline": "about the show",
+        "title": "Catfish: The TV Show",
+        "description": "Catfish: The TV Show brings together couples who've interacted solely through LCD screens. Over the course of months they've supposedly fallen in love -- but what will happen when they meet in real life for the first time?",
+        "styleScheme": {
+            "primary": "#0040FF",
+            "secondary": "#ffffff"
+        }
+    }
+}

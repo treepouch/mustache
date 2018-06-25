@@ -1,0 +1,328 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m240"
+  },
+  "data": {
+    "header": "Up Next",
+    "items": [
+      {
+        "uri": "mgid:arc:video:mtv.com:3b30cb29-cd42-4b7f-a911-e01448dea6a4",
+        "url": "/video-clips/xivd2f/sweet-vicious-sneak-peek-the-station",
+        "title": "sneak peek: the station",
+        "description": "Ophelia encounters a sexual assault victim at the police station.",
+        "duration": "1:50",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "episode": "Season 1, Ep 2",
+        "tveAuth": {
+          "mobile": true,
+          "desktop": true
+        },
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/HDSWVS102ASNEAK2_1.mp4.01_01_33_02.Still003_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:bf25cc88-f4d3-4069-a517-b925c3b16c66",
+        "url": "/video-clips/wj6uv9/sweet-vicious-coming-to-mtv",
+        "title": "coming to mtv",
+        "description": "Sweet/Vicious is coming to MTV this fall.",
+        "duration": "1:00",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 2120,
+            "height": 978,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/sv.png"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:d0bcfd07-05d7-45d4-8d2d-c237e6f40193",
+        "url": "/video-clips/duo6yw/sweet-vicious-badass-moment-jules-takes-down-will",
+        "title": "Badass Moment: jules takes down will",
+        "description": "Jules sneaks into Will’s room and shows him who is boss.",
+        "duration": "0:49",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "episode": "Season 1, Ep 1",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/101badass1-tag.mp4.00_00_34_27.Still001_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:37452c91-543e-4008-badb-d90b9f31f610",
+        "url": "/video-clips/bpqybh/sweet-vicious-sneak-peek-the-encounter",
+        "title": "Sneak Peek: the encounter",
+        "description": "Ophelia encounters Jules as the vigilante for the first time. Watch Sweet/Vicious on Tuesday, November 15th at 10/9c.",
+        "duration": "1:17",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "episode": "Season 1, Ep 1",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/HDSWVS101ASNEAK1_1.mp4.01_00_36_17.Still003_Edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:5e4ca860-df74-4628-b1ab-28824edc13c2",
+        "url": "/video-clips/ut5xgl/sweet-vicious-sweet-attack-bear-hug-from-behind",
+        "title": "Sweet Attack: Bear Hug From Behind",
+        "description": "Taylor Dearden and Eliza Bennett practice the \"Bear Hug From Behind\" with Tyler Posey.",
+        "duration": "1:04",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/SweetVicious_SelfDefenseLessonB_v6_FINAL_2.mp4.00_00_23_09.Still003_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:f4372952-f37d-4c72-852c-48a47ad55d7c",
+        "url": "/video-clips/l7dv3a/sweet-vicious-sweet-attack-shoulder-grab-defense",
+        "title": "Sweet Attack: Shoulder Grab Defense",
+        "description": "Eliza Bennett and Taylor Dearden practice their \"Shoulder Grab Defense\" move on Tyler Posey.",
+        "duration": "1:26",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/SweetVicious_SelfDefenseLessonA_v6_FINAL_1_1.mp4.00_01_01_02.Still004_Edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:cfb1416b-e12c-4e55-89a1-c5a2831cbc80",
+        "url": "/video-clips/j4bkpd/sweet-vicious-sweet-attack-full-mount-escape",
+        "title": "Sweet Attack: Full Mount Escape",
+        "description": "Eliza Bennett and Taylor Dearden demonstrate the \"Full Mount Escape\" with the help of Tyler Posey.",
+        "duration": "1:29",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/SweetVicious_SelfDefenseLessonC_v7_FINAL_2.mp4.00_00_49_03.Still002_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:93d2ba74-cb7f-4779-97f9-7adf97c97eda",
+        "url": "/video-clips/bxmyb0/sweet-vicious-darlington",
+        "title": "Darlington",
+        "description": "Learn about Darlington, the school that knows how to make an impact.  New Series starts Tuesday, November 15th.",
+        "duration": "0:30",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/SWEET_VICIOUS_DARLINGTON_30_PRORES_NO_MTV_BUG.mp4.00_00_03_17.Still001_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:cccb4b2b-411d-4114-8a47-1d6f541377c2",
+        "url": "/preview/vb5fm1/sweet-vicious",
+        "title": "Revenge By Numbers",
+        "description": "We have zero tolerance for anyone who gets away with rape.",
+        "duration": "0:30",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/SWEET_VICIOUS_REVENGEbyNUMBERS_30_PRORES_NO_BUG.mp4.00_00_07_04.Still002_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:d7c2cfea-4510-4073-975d-a584072f2d2a",
+        "url": "/video-clips/o7jpz2/sweet-vicious-badass-moment-jules-s-threat",
+        "title": "Badass Moment: jules’s threat",
+        "description": "Jules refuses to let Ophelia get in her way.",
+        "duration": "1:02",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "episode": "Season 1, Ep 1",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/101badass3-tag.mp4.00_00_33_28.Still001_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:15615993-50f1-4702-b11a-8f6be2d595e8",
+        "url": "/video-clips/ja4lip/sweet-vicious-inside-the-episode-with-jennifer-kaytin-robinson",
+        "title": "Inside the Episode with Jennifer Kaytin Robinson",
+        "description": "Sweet/Vicious creator Jennifer Kaytin Robinson gives insight on how she created Jules, Ophelia and the pilot episode.",
+        "duration": "18:31",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "episode": "Season 1, Ep 1",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/sv_fbl.mp4.00_00_35_08.Still003_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:730f7855-0f31-432f-b783-46e48ebd54c0",
+        "url": "/preview/p6z8to/sweet-vicious",
+        "title": "supertease",
+        "description": "Check out what's in store for the vigilantes in Sweet/Vicious - Tuesdays at 10/9c.",
+        "duration": "1:00",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/HDSWVS101M4.mp4.01_00_25_03.Still003_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:e34c2548-b356-4eed-ae3b-625ce90f2196",
+        "url": "/video-clips/6315a1/sweet-vicious-badass-moment-ophelia-hits-the-bong",
+        "title": "Badass Moment: ophelia hits the bong",
+        "description": "Ophelia hits her six-foot bong without coughing.",
+        "duration": "0:43",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "episode": "Season 1, Ep 1",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/101badass2-tag.mp4.00_00_35_16.Still001_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:4fd96f82-52f5-4c8a-a536-70346abd9916",
+        "url": "/video-clips/jyrb39/sweet-vicious-sweet-vicious-inside-look",
+        "title": "Sweet/Vicious: Inside Look",
+        "description": "Hear about the show from the creator and stars of Sweet/Vicious!",
+        "duration": "2:08",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/SVPress_v4_FINALcolor.mp4.00_02_01_12.Still002_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:ad445d23-3999-4a79-b873-9346bbc42a69",
+        "url": "/video-clips/fcuhy1/sweet-vicious-psa",
+        "title": "PSA",
+        "description": "Sweet/Vicious stars Eliza Bennett and Taylor Dearden provide a helpful message about sexual assault and where to find help.",
+        "duration": "0:20",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 2516,
+            "height": 1362,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/psa.png"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:2aa762dd-c379-4bb4-a149-1f1f2ae65a07",
+        "url": "/video-clips/acqp1a/sweet-vicious-the-wall",
+        "title": "The Wall",
+        "description": "We’re crossing off every name until we make things right. Sweet/Vicious premieres November 15th at 10/9c on MTV.",
+        "duration": "0:30",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/SWEET_VICIOUS_WALL_30_PRORES_NO_BUG.mp4.00_00_23_11.Still006_edited.jpg"
+          }
+        ]
+      },
+      {
+        "uri": "mgid:arc:video:mtv.com:e28ad545-0571-40a5-9cfc-1662d920aa50",
+        "url": "/preview/pjjesx/sweet-vicious",
+        "title": "Sneak peek: training begins",
+        "description": "Jules begins to teach Ophelia how to fight.",
+        "duration": "1:07",
+        "parent": {
+          "title": "Sweet/Vicious",
+          "url": "/shows/sweet-vicious"
+        },
+        "episode": "Season 1, Ep 3",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/videos/HDSWVS103ASNEAK1_1.mp4.01_01_01_05.Still003_Edited.jpg"
+          }
+        ]
+      }
+    ]
+  }
+}

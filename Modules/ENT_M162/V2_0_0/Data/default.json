@@ -1,0 +1,197 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m162"
+  },
+
+  "settings": {
+    "loadMoreLabel": "More News"
+  },
+  "data": {
+    "header": {
+      "title": "Latest News",
+      "hasFilter": true,
+      "filters": [
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Latest News",
+          "isSelected": true
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/42625398-eabc-422f-837a-ed9d862082ed?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator Dublin"
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/24f6b96d-1d4d-4de8-bef8-59ad652a2c33?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator 185"
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/e0ce9db6-ed51-4b65-bd16-2524f323baad?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator 184"
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/8946db07-59ad-4202-a643-2b000bd52150?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator 183"
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/0ea767c8-4acd-414f-b66f-64400471ebe2?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator 182"
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/65dbccdb-85c7-4862-be90-c911734ab31a?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator 181"
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/917dabc5-a8be-4b4f-9801-c0c8d2d5ad9d?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator NYC"
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/30b9f17f-9b20-4677-a2e5-d46d73992f6f?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator 180"
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/a32484b1-d980-4fa9-82b3-e7ef43520777?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator 179"
+        },
+        {
+          "url": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/1/f05f96d9-2434-4c6c-bd7d-5434197b760e?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "title": "Bellator 178"
+        }
+      ],
+      "filterTitlePrefix": "Latest News: "
+    },
+    "items": [
+      {
+        "url": "/articles/dfygdw/spike-presents-an-encore-presentation-of-bellator-nyc-sonnen-vs-silva-this-friday",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/promos/BMMA_2017_PPV_1920x1080_REAIR.jpg"
+          }
+        ],
+        "badge": "Press",
+        "displayDate": "July 26, 2017",
+        "title": "SPIKE PRESENTS AN ENCORE PRESENTATION OF BELLATOR NYC: SONNEN VS SILVA THIS FRIDAY"
+      },
+      {
+        "url": "/articles/j0a2d6/explosive-welterweight-bout-pitting-paul-daley-and-lorenz-larkin-added-to-bellator-183",
+        "image": [
+          {
+            "width": 1024,
+            "height": 576,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/promos/B183_1920x1080_daley_v_larkin.jpg"
+          }
+        ],
+        "badge": "Press",
+        "displayDate": "July 25, 2017",
+        "title": "Explosive Welterweight Bout Pitting Paul Daley and Lorenz Larkin added to Bellator 183"
+      },
+      {
+        "url": "/articles/wrnjhl/gegard-mousasi-to-debut-at-bellator-185-against-alexander-shlemenko-on-october-20",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/site-images/B185_1920x1080_announce.jpg"
+          }
+        ],
+        "badge": "Press",
+        "displayDate": "July 17, 2017",
+        "title": "Gegard Mousasi to Debut at Bellator 185 Against Alexander Shlemenko on October 20"
+      },
+      {
+        "url": "/articles/cw5l6n/dantas-vs-caldwell-for-bantamweight-title-headlines-bellator-184-on-october-6",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/site-images/B184_1920x1080_announce.jpg"
+          }
+        ],
+        "badge": "Press",
+        "displayDate": "July 14, 2017",
+        "title": "Dantas vs. Caldwell for Bantamweight Title Headlines Bellator 184 on October 6"
+      },
+      {
+        "url": "/articles/7i0nek/bellator-signs-top-contender-gegard-mousasi",
+        "image": [
+          {
+            "width": "640",
+            "height": "360",
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/site-images/bellator-placeholder.jpg"
+          }
+        ],
+        "badge": "Press",
+        "displayDate": "July 10, 2017",
+        "title": "Bellator signs Top Contender Gegard Mousasi"
+      },
+      {
+        "url": "/articles/8k4ndi/bellator-183-bellator-kickboxing-7-set-for-saturday-september-23-in-san-jose",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/site-images/B183_1920x1080_announce.jpg"
+          }
+        ],
+        "badge": "Press",
+        "displayDate": "June 28, 2017",
+        "title": "Bellator 183 & Bellator Kickboxing 7 Set For Saturday, September 23 in San Jose"
+      },
+      {
+        "url": "/articles/s3de3p/bellator-announces-broadcast-duties-for-historic-event-at-madison-square-garden-on-saturday-june-24",
+        "image": [
+          {
+            "width": "640",
+            "height": "360",
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/site-images/bellator-placeholder.jpg"
+          }
+        ],
+        "badge": "Press",
+        "displayDate": "June 19, 2017",
+        "title": "Bellator Announces Broadcast Duties For Historic Event At Madison Square Garden On Saturday, June 24"
+      },
+      {
+        "url": "/articles/mnrty9/fans-invited-to-bellator-nation-rally-bellator-nyc-weigh-ins-inside-the-theater-at-msg-on-friday-june-23",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/site-images/BMMA_2017_PPV_1920x1080_V2.jpg"
+          }
+        ],
+        "badge": "Press",
+        "displayDate": "June 19, 2017",
+        "title": "Fans Invited to Bellator Nation Rally & Bellator NYC Weigh-Ins Inside The Theater at MSG on Friday, June 23"
+      },
+      {
+        "url": "/articles/zv06kj/bellator-nation-invited-to-exclusive-fan-fest-during-bellator-nyc-fight-week",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/promos/BNYC_Fan_Fest_1920x1080_v2.jpg"
+          }
+        ],
+        "badge": "Digital Press",
+        "displayDate": "June 16, 2017",
+        "title": "Bellator Nation Invited to Exclusive Fan Fest During Bellator NYC Fight Week"
+      },
+      {
+        "url": "/articles/hu120v/bellator-signs-veteran-commentators-mike-goldberg-and-mauro-ranallo",
+        "image": [
+          {
+            "width": "640",
+            "height": "360",
+            "url": "https://bellator.mtvnimages.com/images/shows/bellator/site-images/bellator-placeholder.jpg"
+          }
+        ],
+        "badge": "Press",
+        "displayDate": "June 13, 2017",
+        "title": "Bellator Signs Veteran Commentators Mike Goldberg and Mauro Ranallo"
+      }
+    ],
+    "nextPageURL": "/feeds/ent_m162/71e4d2f7-4b80-41b2-9c37-0b970ed8b47c/2?hash=da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  }
+}

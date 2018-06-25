@@ -1,0 +1,22 @@
+{{#data}}
+        <div class="massive-promo">
+            {{<common/image}}
+                {{$imageClass}}massive-promo__background{{/imageClass}}
+            {{/common/image}}
+            <div class="massive-promo__info-wrapper">
+                <div class="massive-promo__info">
+                    {{#headline}}
+                        <h1 class="massive-promo__title">{{.}}</h1>
+                    {{/headline}}
+                    {{#subHeadline}}
+                        <p class="massive-promo__description">{{.}}</p>
+                    {{/subHeadline}}
+                    {{#ad}}
+                        <div class="massive-promo__sponsor-info">
+                            <div class="massive-promo__sponsor-logo" data-adsize="{{size}}" data-campaign="{{campaign}}"></div>
+                        </div>
+                    {{/ad}}
+                </div>
+            </div>
+        </div>
+{{/data}}

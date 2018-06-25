@@ -1,0 +1,41 @@
+{{#data}}
+    {{#items.0}}
+        <div class="vdl-module-container promo-container module-stretch">
+            <div class="vdl-container">
+                <div class="items-container">
+                    <div class="items-wrap">
+                        {{#items}}
+                            <div class="vdl-item postcard-left">
+                                <a href="{{.url}}" {{#.isPopup}}target="_blank"{{/.isPopup}}>
+                                    <div class="media-wrap">
+                                        <div class="media">
+                                            <div class="item-container containerx1x1">
+                                                <div class="content">
+                                                    {{<common/image}}
+                                                        {{$imageClass}}content{{/imageClass}}
+                                                    {{/common/image}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="meta-wrap">
+                                        {{#subHeaderText}}
+                                            <div class="label">{{.}}</div>
+                                        {{/subHeaderText}}
+                                        {{#headerText}}
+                                            <div class="header"><span>{{.}}</span></div>
+                                        {{/headerText}}
+                                        {{#ad}}
+                                            <div class="ad-item--200x31" data-adsize="{{size}}" data-ad-sizes="{{size}}" data-campaign="{{campaign}}"></div>
+                                        {{/ad}}
+                                    </div>
+                                </a>
+                            </div>
+                        {{/items}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/items.0}}
+{{/data}}

@@ -1,0 +1,80 @@
+<div class="header">
+    {{^showSchedule}}
+        <a class="notriforce prev disabled "></a>
+    {{/showSchedule}}
+
+    {{#dateFormatted}}
+        <h2 class="date-wrap">
+            <span class="date day">{{.day}}</span>
+            <span class="date sec dot"> · </span>
+            {{^isWebView}}
+                <span class="date sec year">{{dateFormatted.date}}</span>
+            {{/isWebView}}
+            {{#isWebView}}
+                <span class="date sec year">{{dateFormatted.fullDate}}</span>
+            {{/isWebView}}
+        </h2>
+    {{/dateFormatted}}
+
+    {{^showSchedule}}
+        <a class="notriforce next"></a>
+    {{/showSchedule}}
+
+    {{#scheduleList}}
+        <ul class="nav">
+    {{/scheduleList}}
+    {{#settings}}
+        {{#channelFinder}}
+            <div class="channel-lookup-container">
+                <div class="channel-lookup-label">{{label}}</div>
+                <div id="innerLookup" class="channel-lookup-block">
+                    <form name="localizeForm" id="localizeForm" method="get" action="#">
+                        <div class="lookupLegend" style="">{{headline}}</div>
+                        <input id="aid" name="aid" value="paramount" type="hidden">
+                        <input id="stnlt" name="stnlt" value="11163" type="hidden">
+                        <input id="nstnlt" name="nstnlt" value="true" type="hidden">
+                        <input id="zip" size="8" maxlength="5" value="Enter Zip Code" autocomplete="off"
+                               type="text" align="left">
+                        <ul id="zcctype" class="zccprovider" name="zcctype">
+                            <li>TV Service Provider</li>
+                        </ul>
+                    </form>
+                    <div id="innerLookupResults"></div>
+                </div>
+            </div>
+        {{/channelFinder}}
+    {{/settings}}
+    {{#scheduleList}}
+            <li data-showid="{{.currentShowId}}" class="shows">
+                <span class="current-show">{{.currentShowTitle}}</span>
+                <ul>
+                    {{#showsList}}
+                        <li data-showid="{{.showId}}" data-tvscheduleurl="{{.scheduleURL}}">{{.title}}</li>
+                    {{/showsList}}
+                </ul>
+            </li>
+        </ul>
+    {{/scheduleList}}
+</div>
+
+{{^isWebView}}
+    {{#showSchedule}}
+        <a class="show-header notriforce {{^showImage}}noimage{{/showImage}}" href="{{.showURL}} ">
+            {{#showImage}}
+                <img data-size="{{.width}}x{{.height}}" src="{{.url}}"/>
+            {{/showImage}}
+            <div class="show-info">
+                {{#showTitle}}
+                    <span class="show-title">{{.}}</span>
+                {{/showTitle}}
+                {{#showTuneIn}}
+                    <span class="show-tunein">{{{.}}}</span>
+                {{/showTuneIn}}
+            </div>
+        </a>
+    {{/showSchedule}}
+{{/isWebView}}
+
+<ul class="schedule">
+
+</ul>

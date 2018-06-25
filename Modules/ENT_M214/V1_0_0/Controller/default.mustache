@@ -1,0 +1,15 @@
+{{#data}}
+    {{#url}}<a href="{{.}}">{{/url}}
+        <div class="hero-promo-container">
+            {{> common/image}}
+            <div class="hero-promo-content-meta-items">
+                <div class="hero-promo-content-meta-wrap">
+                    {{#label}}<div class="hero-promo-content-meta-label">{{.}}</div>{{/label}}
+                    {{#title}}<div class="hero-promo-content-meta-title">{{.}}</div>{{/title}}
+                    {{#description}}<div class="hero-promo-content-meta-description">{{.}}</div>{{/description}}
+                </div>
+            </div>
+            <div class="hero-promo-container-overlay-background hideWithFade"></div>
+        </div>
+    {{#url}}</a>{{/url}}
+{{/data}}

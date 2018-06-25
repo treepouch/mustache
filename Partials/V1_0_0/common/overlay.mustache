@@ -1,0 +1,27 @@
+{{#overlay}}
+    <div class="page-overlay{{#.typeClass}} {{.}}{{/.typeClass}}">
+        <div class="page-overlay_wrapper">
+            <div class="page-overlay_header">
+                <div class="page-overlay_close"></div>
+                {{#.headline}}
+                    <h2 class="page-overlay_headline">{{.}}</h2>
+                {{/.headline}}
+            </div>
+            <div class="page-overlay_body">
+                {{#.description}}
+                    <p class="page-overlay_description">{{.}}</p>
+                {{/.description}}
+                {{#.copy}}
+                    <div class="page-overlay_copy">{{.}}</div>
+                {{/.copy}}
+                {{#.button}}
+                    <button class="page-overlay_button">{{.title}}</button>
+                {{/.button}}
+            </div>
+        </div>
+
+        {{#notification}}
+            {{>common/overlay_notification}}
+        {{/notification}}
+    </div>
+{{/overlay}}

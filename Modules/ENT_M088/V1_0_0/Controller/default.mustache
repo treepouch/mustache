@@ -1,0 +1,24 @@
+{{#data}}
+    <div class="module_content">
+        <div class="middle">
+        {{#category}}
+            <div class="details {{className}}">
+                <div>
+                    <h1><span class="bgb">{{title}}</span></h1>
+                    <h2>{{description}}</h2>
+                </div>
+            </div>
+            <ul>
+                {{#jokes}}
+                    <li>
+                        <a href="{{url}}">
+                            <h3>{{title}}</h3>
+                            <span></span>
+                        </a>
+                    </li>
+                {{/jokes}}
+            </ul>
+        {{/category}}
+        </div>
+    </div>
+{{/data}}

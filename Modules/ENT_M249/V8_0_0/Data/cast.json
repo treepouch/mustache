@@ -1,0 +1,55 @@
+{
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "result": {
+    "settings": {},
+    "data": {
+      "title": "Cast",
+      "noGrayscale": true,
+      "items": [
+        {
+          "title": "Test Person 1",
+          "description": "Test biography 1",
+          "descriptor": "Cast Member",
+          "socialHandles": [
+            {
+              "network": "facebook",
+              "url": "www.facebook.com"
+            },
+            {
+              "network": "Google",
+              "url": "www.google.com"
+            }
+          ],
+          "additionalLinks": [
+            {
+              "text": "Test link 1",
+              "url": "www.google.com"
+            }
+          ],
+          "image": {
+            "width": 246,
+            "height": 270,
+            "url": "//paramountnetwork.mtvnimages.com/images/shows/bellator/fighter-thumbnail-images/charlie-ontiveros.png"
+          }
+        },
+        {
+          "title": "Test Person 2",
+          "description": "Test biography 2.",
+          "image": {
+            "width": 246,
+            "height": 270,
+            "url": "//paramountnetwork.mtvnimages.com/images/shows/bellator/fighter-thumbnail-images/charlie-ontiveros.png"
+          }
+        }
+      ]
+    }
+  },
+  "messages": {}
+}

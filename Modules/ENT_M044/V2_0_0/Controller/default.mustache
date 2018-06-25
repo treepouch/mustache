@@ -1,0 +1,131 @@
+{{#data}}
+    {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+    {{#header}}
+        <div class="s_container">
+            {{#title}}
+                <h1 class="s_fonts_articleHeadline s_layouts_articleHeadline">{{.}}</h1>
+            {{/title}}
+            {{#publishedDate}}
+                <div class="s_fonts_articleText">{{.}}</div>
+            {{/publishedDate}}
+            <div class="s_layouts_articleShareWrapper">
+                <!--
+                <div class="share_widget" data-widget="{block name="shareWidgetName"}articleShare{/block}" data-contenturi="id::{$articleInformation|mgid}::og::{make_url itemInformation=$articleInformation}"></div>
+                -->
+            </div>
+            <div id="shareMarkup">
+                <!--
+                    <ul>
+                        <li class="externalService2 has_icon tw s_icons_hasIcon s_icons_twitter share_btn"><span class="screen_reader_text">Tweet</span></li>
+                        <li class="externalService1 has_icon fb s_icons_hasIcon s_icons_facebook share_btn"><span class="screen_reader_text">Facebook</span></li>
+                        <li class="externalService4 has_icon email share_btn s_icons_hasIcon s_icons_email share_btn"><span class="screen_reader_text">Email</span></li>
+                        <li class="externalService3 has_icon link s_icons_hasIcon s_icons_link share_btn"><span class="screen_reader_text">More options</span></li>
+                    </ul>
+                -->
+            </div>
+        </div>
+    {{/header}}
+    {{#blocks}}
+        {{#.content}}
+            <div class="s_fonts_articleText s_layouts_articleText{{#ad}} has_ad{{/ad}}">
+            {{#ad}}
+                <div class="s_layouts_articleAdWrapper">
+                    <div class="ad_{{.}}" id="ad_{{.}}" data-adsize="{{.}}" data-ad-sizes="{{.}}" data-allowontablet="true">
+                    </div>
+                </div>
+            {{/ad}}
+            {{#.caption}}
+                <div class="s_fonts_articleImageCaption s_fonts_articleTextCaption s_layouts_articleTextCaption">
+                    {{.}}
+                </div>
+            {{/.caption}}
+            {{{.text}}}
+            </div>
+        {{/.content}}
+
+        {{#.imageBlock}}
+            <div class="s_layouts_articleImage{{#ad}} has_ad{{/ad}}">
+                <div class="s_layouts_articleImageWrapper {{#image.0.isRaw}}raw{{/image.0.isRaw}}">
+                    {{>common/image}}
+                </div>
+            {{#.caption}}
+                <div class="s_fonts_articleImageCaption s_layouts_articleImageCaption">
+                    {{.}}
+                </div>
+            {{/.caption}}
+            </div>
+            {{#ad}}
+            <div class="s_layouts_articleAdWrapper">
+                <div class="ad_{{.}}" id="ad_{{.}}" data-adsize="{{.}}" data-ad-sizes="{{.}}" data-allowontablet="true">
+                </div>
+            </div>
+            {{/ad}}
+        {{/.imageBlock}}
+
+        {{#.quote}}
+            <div class="s_layouts_articleQuote">
+                <div class="s_layouts_articleQuoteWrap">
+                    <p class="copy s_fonts_articleQuoteCopy">{{.}}</p>
+                </div>
+            </div>
+        {{/.quote}}
+
+        {{! Video in the block }}
+        {{#.video}}
+            <div class="s_layouts_articleEvent">
+                <div class="s_layouts_featuredContentItem">
+                    {{#.parentTitle}}
+                    <div class="s_layouts_featuredItemLabel s_fonts_label s_layout_label">{{.}}</div>
+                    {{/.parentTitle}}
+                    <h2 class="s_fonts_promoTitleMain">{{.title}}</h2>
+                    <p class="s_layouts_featuredItemDescription s_fonts_promoTextMain">{{.description}}</p>
+                    <a class="s_buttons_button s_not_selectable s_play_video" href="{{.url}}">{{.buttonLabel}}</a>
+                </div>
+                <a href="{{.url}}" class="image_link s_buttons_playHeadMedium">
+                    {{<common/image}}
+                        {{$imageClass}}video{{/imageClass}}
+                    {{/common/image}}
+                </a>
+            </div>
+        {{/.video}}
+
+        {{! Parent in the block }}
+        {{#.parent}}
+            <div class="s_layouts_articleEvent">
+                <div class="s_layouts_featuredContentItem">
+                    <div class="s_layouts_featuredItemLabel s_fonts_label s_layout_label">{{.parentTitle}}</div>
+                    <h2 class="s_fonts_promoTitleMain">{{.title}}</h2>
+                    <p class="s_layouts_featuredItemDescription s_fonts_promoTextMain">{{.description}}</p>
+                    <a class="s_buttons_button s_not_selectable" href="{{.url}}">{{.buttonLabel}}</a>
+                </div>
+                <a href="{{.url}}" class="image_link s_animation_hoverOverlay">
+                    {{<common/image}}
+                        {{$imageClass}}video{{/imageClass}}
+                    {{/common/image}}
+                </a>
+            </div>
+        {{/.parent}}
+    {{/blocks}}
+
+    {{#links}}
+        <div class="s_layouts_navigation s_container">
+        {{#.previous}}
+        <a href="{{.url}}" class="s_navigation_prevLink">
+            <div class="s_layouts_verticalListItemDateAlt s_fonts_verticalListItemDate">Previous Article</div>
+            <div class="s_fonts_articleText s_layouts_articleText">
+                {{.title}}
+            </div>
+        </a>
+        {{/.previous}}
+
+        {{#.next}}
+        <a href="{{.url}}" class="s_navigation_nextLink">
+            <div class="s_layouts_verticalListItemDateAlt s_fonts_verticalListItemDate">Next Article</div>
+            <div class="s_fonts_articleText s_layouts_articleText">
+                {{.title}}
+            </div>
+        </a>
+        {{/.next}}
+        </div>
+    {{/links}}
+{{/data}}

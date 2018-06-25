@@ -1,0 +1,84 @@
+{
+    "config": {
+        "zone": "t5_lc_promo1",
+        "moduleName": "ent_m168"
+    },
+    "data": {
+        "promoId": "e6zk2q",
+        "promoType": "ENT_M168",
+        "version": "V2_0_0",
+        "promo": {
+            "relatedItems": [
+                {
+                    "moduleName": "ENT_M061",
+                    "libraries": [],
+                    "driver": "ent_m061_V1_1_0",
+                    "promoType": "ENT_M061",
+                    "displayType": "default",
+                    "itemId": "36627faa-aa82-453b-91cb-e93a3eb139a9",
+                    "version": "V3",
+                    "feed": "http://www.mtv-l.mtvi.com/feeds/ent_m061/V1_1_0/36627faa-aa82-453b-91cb-e93a3eb139a9",
+                    "feedData": {
+                        "data": {
+                            "promoId": "ktosiv",
+                            "promoType": "ENT_M061",
+                            "adSize": "300x250",
+                            "displayOnDesktop": true,
+                            "displayOnMobile": true
+                        }
+                    },
+                    "scriptHash": "1993705aee35702"
+                },
+                {
+                    "moduleName": "ENT_M161_MTV",
+                    "libraries": [
+                        "{packagesJS}/triforce/views/ent_tfv300/v1.js",
+                        "{packagesJS}/triforce/views/ent_tfv300/v2.js"
+                    ],
+                    "driver": "ent_m161_mtv_V1_0_0",
+                    "promoType": "ENT_M161",
+                    "displayType": "default",
+                    "itemId": "d3742879-1e2f-42d0-8c6b-43c561ef21ed",
+                    "version": "V3",
+                    "feed": "http://www.mtv-l.mtvi.com/feeds/ent_m161_mtv/V1_0_0/d3742879-1e2f-42d0-8c6b-43c561ef21ed/2ba72c27-bf7b-4dec-ad33-0d64ba114dd4",
+                    "feedData": {
+                        "promo": {
+                            "shortId": "58ywk7",
+                            "displayType": "default",
+                            "promoType": "ENT_M161",
+                            "headline": "",
+                            "images": [],
+                            "subHeadline": "",
+                            "url": "",
+                            "additionalPromoMetadata": [],
+                            "copy": "",
+                            "tuneIn": "",
+                            "parameters": [],
+                            "links": []
+                        },
+                        "franchise": {
+                            "id": "2ba72c27-bf7b-4dec-ad33-0d64ba114dd4",
+                            "title": "Teen Mom",
+                            "url": "http://www.mtv-l.mtvi.com/teen-mom",
+                            "description": "The “Teen Mom” franchises chronicles the respective journeys of four young mothers as they navigate motherhood – all while growing up themselves.",
+                            "shortDescription": "The “Teen Mom” franchises chronicles the respective journeys of four young mothers as they navigate motherhood – all while growing up themselves.",
+                            "images": [
+                                {
+                                    "aspectRatio": null,
+                                    "height": 603,
+                                    "id": "47c8e6c9-f6c8-4120-9ee8-a1ddf9edb070",
+                                    "resizer": "mtvnimages",
+                                    "type": "",
+                                    "url": "http://mtv.mtvnimages.com/crop-images/2015/03/09/teen_mom_jumbotron_02_1425932431082.jpg",
+                                    "width": 1920
+                                }
+                            ]
+                        }
+                    },
+                    "scriptHash": "2177099db153126"
+                }
+            ]
+        }
+    }
+}
+

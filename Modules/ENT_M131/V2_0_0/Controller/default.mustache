@@ -1,0 +1,67 @@
+{{#data}}
+    <div class="module_content s_container{{#promo.adSize}} has_ad{{/promo.adSize}}">
+        {{#event}}
+        <div class="s_eventDetail">
+            <h1 class="s_label_promo2 s_fonts_promo2">
+                <span class="s_fonts_label s_eventDetailLabel">{{shortTitle}}</span> {{title}}
+            </h1>
+            <h2 class="s_fonts_promo4">
+                <span class="s_label_promo4">{{startDate}}</span>
+                {{#venue}}
+                    <span class="s_label_promo4">{{title}}</span>
+                    <span class="s_label_promo4">{{city}}{{#state}}, {{.}}{{/state}}</span>
+                {{/venue}}
+            </h2>
+            <div class="s_eventButtons">
+                {{>Modules/ENT_M131/V2_0_0/Controller/buttons}}
+            </div>
+        </div>
+        {{/event}}
+        <div class="s_eventSchedule">
+            {{>Modules/ENT_M131/V2_0_0/Controller/schedule}}
+        </div>
+
+        {{#promo.adSize}}
+        <div class="ad_{{.}}" data-adsize="{{.}}" data-allowontablet="true"></div>
+        {{/promo.adSize}}
+
+        <script type="application/ld+json">
+            [
+            {{#schedule}}
+                {
+                    "@context":"http://schema.org",
+                    "@type":"SportsEvent",
+                    "name":"{{title}}",
+                    "startDate": "{{startDate}}",
+                    {{#venue}}
+                    "location":{
+                        "@type":"EventVenue",
+                        "name":"{{title}}",
+                        "address":{
+                            "@type":"PostalAddress",
+                                {{#city}}"addressLocality":"{{.}}",{{/city}}
+                        {{#state}}"addressRegion":"{{.}}"}{{/state}}
+                        },
+                    {{/venue}}
+                    "offers":[
+                        {{#tickets_url}}
+                            {
+                            "@type":"Offer",
+                            "name":"General Admission",
+                            "url":"{{.}}"
+                            }
+                        {{/tickets_url}}
+                        {{#tickets_upgrade_url}}
+                            ,{
+                            "@type":"Offer",
+                            "name":"VIP",
+                            "url":"{{.}}"
+                            }
+                        {{/tickets_upgrade_url}}
+                    }]
+                }{{^isLast}},{{/isLast}}
+            {{/schedule}}
+            ]
+		</script>
+    </div>
+{{/data}}

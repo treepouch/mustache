@@ -1,0 +1,76 @@
+{
+  "config": {
+    "moduleName": "ent_m205"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "settings": {
+    "isMinimized": true
+  },
+  "data": {
+    "promoId": "9euhwv",
+    "promoType": "ENT_M205",
+    "header": {
+      "title": "News"
+    },
+    "nextPage": {
+      "url": "http:\/\/www.mtv-l.mtvi.com\/fandom-awards\/news",
+      "label": "see more news"
+    },
+    "items": [
+      {
+        "label": "TV",
+        "title": "Olicity Is Our Ship Of The Year And We Can't Stop Smiling",
+        "url": "http:\/\/www.mtv.com\/news\/2211973\/olicity-ship-of-the-year\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:9963993"
+        },
+        "timestamp": "07\/13\/2015"
+      },
+      {
+        "label": "Movies",
+        "title": "The 17 Fandom Awards Moments That Rocked Your Face Right Off",
+        "url": "http:\/\/www.mtv.com\/news\/2211744\/fandom-awards-best-moments\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10614924"
+        },
+        "timestamp": "07\/12\/2015"
+      },
+      {
+        "label": "Movies",
+        "title": "Watch Rupert Friend Pull A 'Fifty Shades Of Grey' On Hannah Ware In Our Exclusive 'Hitman' Clip",
+        "url": "http:\/\/www.mtv.com\/news\/2211731\/hitman-agent-47-exclusive-clip\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10614878"
+        },
+        "timestamp": "07\/12\/2015"
+      },
+      {
+        "label": "Movies",
+        "title": "Paul Rudd Goes To Work In This Exclusive Clip From Marvel's 'Ant-Man'",
+        "url": "http:\/\/www.mtv.com\/news\/2211740\/ant-man-exclusive-clip\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10149755"
+        },
+        "timestamp": "07\/12\/2015"
+      },
+      {
+        "label": "Movies",
+        "title": "The MTV Fandom Awards Rocked Comic-Con, And Here Are 19 Pics To Prove It",
+        "url": "http:\/\/www.mtv.com\/news\/2209381\/mtv-fandom-awards-photos\/",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:uma:image:mtv.com:10611473"
+        },
+        "timestamp": "07\/10\/2015"
+      }
+    ]
+  },
+  "messages": {
+  }
+}

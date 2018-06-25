@@ -1,0 +1,35 @@
+{{#data}}
+    {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+    <div class="s_container ent_m130 {{#isWorldChampion}} s_layouts_fighterCardWorldChampion{{/isWorldChampion}}">
+        {{#banner}}
+            {{<common/image}}
+                {{$imageClass}}s_layouts_fighterBannerBackgroundImage{{/imageClass}}
+            {{/common/image}}
+        {{/banner}}
+        <div class="s_layouts_figterBannerWrap">
+            {{#thumbnail}}
+                <div class="s_layouts_fighterCardImageWrapper">
+                    {{>common/image}}
+                </div>
+            {{/thumbnail}}
+            <div class="s_layouts_figterBannerInfo">
+                {{#name}}
+                    <h1 class="s_fonts_fightBannerName">{{.}}</h1>
+                {{/name}}
+                {{#title}}
+                    <h2 class="s_fonts_fightBannerTitle">{{.}}</h2>
+                {{/title}}
+                <div class="s_layouts_countdown">
+                    <ul class="s_layouts_countdownClocks">
+                        {{#records}}
+                            <li class="s_layouts_countdownClocksEntity">
+                                <span class="s_fonts_number">{{number}}</span>
+                                <span class="s_fonts_label">{{label}}</span>
+                            </li>
+                        {{/records}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/data}}

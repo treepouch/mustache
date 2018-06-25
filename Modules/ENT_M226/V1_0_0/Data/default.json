@@ -1,0 +1,74 @@
+{
+  "config": {
+    "moduleName": "ent_m226"
+  },
+  "data": {
+    "details": {
+      "promoId": "5wpw61",
+      "promoType": "ENT_M226",
+      "title": "More Collections"
+    },
+    "featured": {
+      "title": "Featured",
+      "description": "Everything related to the football collection - Videos, GIFs, Memes and More",
+      "url": "http://www.cc-l.mtvi.com/collection/v0g5k3/key-and-peele-football",
+      "image": [
+        {
+          "width": 1280,
+          "height": 720,
+          "url": "http://1.images.comedycentral.com/images/cc_test_images/key_peele_201_EastWest-1.png"
+        }
+      ]
+    },
+    "items": [
+      {
+        "title": "Football",
+        "description": "Everything related to the football collection - Videos, GIFs, Memes and More",
+        "url": "http://www.cc-l.mtvi.com/collection/v0g5k3/key-and-peele-football",
+        "image": [
+          {
+            "width": 1280,
+            "height": 720,
+            "url": "http://1.images.comedycentral.com/images/cc_test_images/key_peele_201_EastWest-1.png"
+          }
+        ]
+      },
+      {
+        "title": "Celebrity Favorites",
+        "description": "Key & Peele's best musical moments - Videos, GIFs, Memes and More",
+        "url": "http://www.cc-l.mtvi.com/collection/8v1vtu/key-and-peele-musicals",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_4B/keypeele_negrotown.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Weed",
+        "description": "Key & Peele clips, memes, gifs and dictionary terms about weed",
+        "url": "http://www.cc-l.mtvi.com/collection/tx13f4/key-and-peele-weed",
+        "image": [
+          {
+            "width": 640,
+            "height": 360,
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/key_peele_305_let_me_hit_that_1.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Twisted",
+        "description": "Clips, gifs, macros and dictionary terms from your favorite twist endings from Key & Peele all in one place",
+        "url": "http://www.cc-l.mtvi.com/collection/bbwpoa/key-and-peele-twisted",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_4B/kp_420_marbles.jpg"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m209",
+    "events": [
+      {
+        "name": "Show TVE no AuthZ error",
+        "actions": [
+          {
+            "selector": "body",
+            "toggleClass": "show_overlay"
+          },
+          {
+            "selector": ".ent_m209 .overlay",
+            "toggleClass": "shown"
+          },
+          {
+            "selector": ".ent_m209 .overlay",
+            "toggleClass": "animate"
+          }
+        ]
+      }
+    ]
+  },
+
+  "settings": {
+    "share": {
+      "options": [
+        {
+          "title": "Facebook",
+          "typeClass": "facebook"
+        },
+        {
+          "title": "Twitter",
+          "typeClass": "twitter"
+        },
+        {
+          "title": "Email",
+          "typeClass": "email"
+        }
+      ]
+    }
+  },
+
+  "data": {
+    "parentTitle": "2015 Fandom Awards",
+
+    "tveAuth": true,
+
+    "id": "mgid:arc:video:mtv.com:a73c7e58-14ca-43eb-83bf-3debe98120c9",
+    "promoId": "xxxx",
+    "promoType": "ent_m209",
+    "title": "sneak peek: aquapoop",
+    "description": "A deadly combination of curry and milkshakes gets messy at the beach.",
+    "displayDate": "02/06/2016 22:00",
+    "image": {
+      "url": "http://mtv.mtvnimages.com/arc/images/shows/greatest-party-story-ever/video/GPSE_102_AQUAPOOP.mp4.01_02_52_10.Still009.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+
+
+
+    "***COMMENT***": "WE DON'T NEED IT COMING IN THE FEED HERE. JUST TO SHOW ON MOCKS PAGE",
+    "overlay": {
+      "headline": "Error",
+      "description": "MTV is not included in your subscription package. Please contact Cablevision to add it. In the meantime, head to mtv.com for the latest videos."
+    },
+    "slate": {
+      "typeClass": "tve_locked_slate",
+      "headline": "sign in to watch now",
+      "description": "Don't miss out! Get full access to this show and many others. Sign in now with your TV provider (it's included with your TV subscription).",
+      "button": {
+        "typeClass": "sign_in",
+        "title": "Sign in"
+      }
+    }
+  }
+}

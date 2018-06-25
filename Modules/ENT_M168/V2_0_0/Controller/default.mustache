@@ -1,0 +1,17 @@
+{{#data}}
+    {{#promo}}{{#relatedItems}}
+        {{#feedData}}
+            {{#data}}{{#adSize}}
+                <div class="ent_m061" data-tfdriver="ent_m061">
+                    <div class="ad ad_{{.}} s_ads_{{.}} ad--mobile ad--desktop" data-adsize="{{.}}" data-ad-sizes="{{.}} data-allowontablet="false"></div>
+                </div>
+            {{/adSize}}{{/data}}
+            {{#franchise}}
+                <div class="ent_m161">
+                    <h2 class="headline">about {{title}}</h2>
+                    <div class="info">{{{description}}}</div>
+                </div>
+            {{/franchise}}
+        {{/feedData}}
+    {{/relatedItems}}{{/promo}}
+{{/data}}

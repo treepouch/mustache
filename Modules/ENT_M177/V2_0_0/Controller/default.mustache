@@ -1,0 +1,41 @@
+{{#data}}
+<div class="module_content s_container L002_line_list_vertical s_right_rail_sticky">
+    <div class="list_wrapper" style="width: 401px;">
+        {{#headerText}}
+            <div class="list_header section-header-md"><span class="icon-chevron-up"></span>{{.}}</div>
+        {{/headerText}}
+        <div class="toggleable_module_content">
+            <ul class="L001_line_list L001_line_list_vertical s_layouts_lineList s_resets_oldDom_ul">
+                {{#items}}
+                <li class="S002_line_list_item_vertical s_layouts_lineListItem s_layouts_lineListVideoItem">
+                    {{#url}}<a class="link_wrapper" href="{{.}}">{{/url}}
+                        <div class="thumbnail_holder s_layouts_lineListItemImageWrapper">
+                            {{> common/image }}
+                            {{#duration}}
+                                <div class="s_layouts_lineListDurationBadge">{{.}}</div>
+                            {{/duration}}
+                        </div>
+                        <div class="s_layouts_lineListMetaWrapper">
+                            {{#header}}
+                                <h3 class="s_fonts_lineListHeader s_layouts_lineListHeader">{{{.}}}</h3>
+                            {{/header}}
+                            {{#title}}
+                                <p class="s_fonts_lineListDescription">{{{.}}}</p>
+                            {{/title}}
+                            {{#airDate}}
+                                <div class="meta">{{.}}</div>
+                            {{/airDate}}
+                        </div>
+                    {{#url}}</a>{{/url}}
+                </li>
+                {{/items}}
+            </ul>
+            {{#button}}
+            <div class="s_layouts_buttonWrapper">
+                <a href="{{url}}" class="s_buttons_button s_buttons_buttonArrow">{{text}}</a>
+            </div>
+            {{/button}}
+        </div>
+    </div>
+</div>
+{{/data}}

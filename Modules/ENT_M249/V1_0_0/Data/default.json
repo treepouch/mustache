@@ -1,0 +1,152 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m249"
+  },
+
+  "settings": {
+    "loadMoreLabel": "Load More"
+  },
+  "data": {
+    "title": "Photo Galleries",
+    "items": [
+      {
+        "url": "http://www.spike-l.mtvi.com/photos/m7wxlw/-season-8-live-finale",
+        "isMedia": true,
+        "media": {
+          "image": [
+            {
+              "width": 1920,
+              "height": 1920,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/photo-galleries/IM8_Finale_Gallery_images_15.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Season 8 Live Finale",
+            "duration": "17 Photos"
+          }
+        }
+      },
+      {
+        "url": "http://www.spike-l.mtvi.com/photos/p39gfl/-live-tattoo",
+        "isMedia": true,
+        "media": {
+          "image": [
+            {
+              "width": 1920,
+              "height": 1920,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/photo-galleries/ink_master_finale_gallery_live_tattoo_1.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Live Tattoo",
+            "duration": "3 Photos"
+          }
+        }
+      },
+      {
+        "url": "http://www.spike-l.mtvi.com/photos/zfsa45/-24-hour-master-canvases",
+        "isMedia": true,
+        "media": {
+          "image": [
+            {
+              "width": 1920,
+              "height": 1920,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/photo-galleries/IM8_ryan_finale_gallery_image.jpg"
+            }
+          ],
+          "meta": {
+            "title": "24-Hour Master Canvases",
+            "duration": "3 Photos"
+          }
+        }
+      },
+      {
+        "url": "http://www.spike-l.mtvi.com/photos/2rnkdi/-elimination-tattoo-turn-the-tables-tattoo-marathon",
+        "isMedia": true,
+        "media": {
+          "image": [
+            {
+              "width": 615,
+              "height": 615,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/photo-galleries/Ink_Master_Gallery_815_ryan_day1.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Elimination Tattoo: Turn The Tables Tattoo Marathon",
+            "duration": "9 Photos"
+          }
+        }
+      },
+      {
+        "url": "http://www.spike-l.mtvi.com/photos/3bt3xk/-elimination-tattoo-make-me-a-cyborg",
+        "isMedia": true,
+        "media": {
+          "image": [
+            {
+              "width": 615,
+              "height": 615,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/photo-galleries/Ink_Master_Gallery_814_nunez.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Elimination Tattoo: \"Make Me A Cyborg\"",
+            "duration": "3 Photos"
+          }
+        }
+      },
+      {
+        "url": "http://www.spike-l.mtvi.com/photos/lr2zxf/-elimination-toddler-portraits",
+        "isMedia": true,
+        "media": {
+          "image": [
+            {
+              "width": 615,
+              "height": 615,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/photo-galleries/Ink_Master_Gallery_813_ashley.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Elimination: Toddler Portraits",
+            "duration": "6 Photos"
+          }
+        }
+      },
+      {
+        "url": "http://www.spike-l.mtvi.com/photos/jw70zb/-elimination-tattoo-tramp-stamps-cover-ups",
+        "isMedia": true,
+        "media": {
+          "image": [
+            {
+              "width": 615,
+              "height": 615,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/photo-galleries/Ink_Master_Gallery_811_ashley_after.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Elimination Tattoo: Tramp Stamps Cover Ups",
+            "duration": "7 Photos"
+          }
+        }
+      },
+      {
+        "url": "http://www.spike-l.mtvi.com/photos/hey0ob/-elimination-tattoos-hourglass",
+        "isMedia": true,
+        "media": {
+          "image": [
+            {
+              "width": 615,
+              "height": 615,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/photo-galleries/Ink_Master_Gallery_810_ashley.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Elimination Tattoos: Hourglass",
+            "duration": "9 Photos"
+          }
+        }
+      }
+    ],
+    "nextPageURL": "http://www.spike-l.mtvi.com/feeds/ent_m249/e1785785-82d5-44cd-bc25-cb3f8e779631/58c11111-a4a2-4bee-afa7-9f6596402c90?pageNumber=2"
+  }
+}

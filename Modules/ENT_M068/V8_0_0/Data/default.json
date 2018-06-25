@@ -1,0 +1,82 @@
+{
+    "promoId": "o9jmb4",
+    "promoType": "ENT_M068",
+    "feedURL": "",
+    "tvSchedulePageURL": "http://www.mtv.com/tv-schedule",
+    "date": "",
+    "dateFormatted": "Tuesday. March 7",
+    "scheduleList": {
+        "currentShowSchedule": "All shows",
+        "showsList": [
+            {
+                "id": "7a47fd30-d237-11e1-a549-0026b9414f30",
+                "title": "16 and Pregnant",
+                "type": "series",
+                "scheduleURL": "http://www.mtv.com/shows/16-and-pregnant/tv-schedule"
+            },
+            {
+                "id": "307b62c6-d609-11e5-8a89-0026b9414f30",
+                "title": "Stranded with a Million Dollars",
+                "type": "series",
+                "scheduleURL": "http://www.mtv.com/shows/stranded/tv-schedule"
+            },
+            {
+                "id": "7a483b06-d237-11e1-a549-0026b9414f30",
+                "title": "Teen Mom",
+                "type": "series",
+                "scheduleURL": "http://www.mtv.com/shows/teen-mom/tv-schedule"
+            },
+            {
+                "id": "7a48cd50-d237-11e1-a549-0026b9414f30",
+                "title": "Teen Mom 2",
+                "type": "series",
+                "scheduleURL": "http://www.mtv.com/shows/teen-mom-2/tv-schedule"
+            }
+        ]
+    },
+    "showSchedule": {
+        "showId": "2217ba2c-5e79-11e3-984c-0026b9414f30",
+        "showTitle": "Are You The One?",
+        "showURL": "http://www.mtv.com/shows/are-you-the-one",
+        "image": [
+            {
+                "height": 1080,
+                "url": "http://mtv.mtvnimages.com/crop-images/2014/05/26/promo_1401111344516.jpg",
+                "width": 1920
+            }
+        ],
+        "showTuneIn": "wednesdays 9/8c"
+    },
+    "episodesList": [
+        {
+            "dateTime": 1488801600,
+            "dateTimeFormatted": "3:30",
+            "AMPMTime": "am",
+            "onNow": true,
+            "newEpisode": true,
+            "seriesName": "16 and Pregnant",
+            "episodeName": "Aleah",
+            "seasonNumber": "5",
+            "episodeNumber": "219",
+            "episodeDescription": "Diabetic reformed bad girl must juggle a new baby and being a stepmom.",
+            "fullEpisodeURL": {
+                "webURL": "http://www.mtv.com/episodes/58sid9/16-and-pregnant-aleah-season-5-ep-507",
+                "appURL": "mtvnetworkapp://episode/971f4c50-d238-11e1-a549-0026b9414f30"
+            },
+            "image": [
+                {
+                    "height": 1080,
+                    "url": "http://mtv.mtvnimages.com/crop-images/2014/05/26/promo_1401111344516.jpg",
+                    "width": 1920
+                }
+            ],
+            "parentalRating": "TV-14",
+            "programLength": "2 HOUR 30 MIN",
+            "duration": 90
+        },
+        {
+            "isDateItem": true,
+            "dateFormatted": "Tuesday. March 8"
+        }
+    ]
+}

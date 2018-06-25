@@ -1,0 +1,31 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m177"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "result": {
+    "data": {
+      "promoId": "o4piq7",
+      "promoType": "ENT_M045",
+      "item": {
+        "headerText": "Watch episodes inside the MTV app!",
+        "linksText": "Watch Full Episodes",
+        "linksUrl": "/shows/are-you-the-one/episode-guide",
+        "image": {
+          "width": 2300,
+          "height": 646,
+          "url": "http://mtv.mtvnimages.com/arc/images/shows/are-you-the-one/photos/Jumbotron2.jpg"
+        }
+      }
+    }
+  },
+  "messages": {}
+}

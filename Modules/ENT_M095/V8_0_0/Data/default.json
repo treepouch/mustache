@@ -1,0 +1,107 @@
+{
+    "data": {
+        "promoId": "4guio8",
+        "promoType": "ENT_M095",
+        "headline": "FAQ",
+        "relatedItems": [
+            {
+                "promoId": "wnr785",
+                "headline": "CC.COM",
+                "promotedItems": [
+                    {
+                        "promoId": "0vnrz2",
+                        "headline": "Why are there ads on CC.com?",
+                        "copy": "The Comedy Central Science Research Lab has not yet developed a tree that grows money. Until we figure that out, please spend a few moments of your day with our advertisers."
+                    },
+                    {
+                        "promoId": "tb0fcx",
+                        "headline": "Can I license clips from Comedy Central shows for use in my own project?",
+                        "copy": "Yes! Please send a request including the name of your project, description of the clip(s) that you are interested in licensing, a description of the project and of how you intend to use the clip(s), and the rights and terms that you are looking for to  You can also call the clip licensing hotline at (212) 846-2504. All requests are subject to internal approval and license fees."
+                    },
+                    {
+                        "promoId": "n3tdgp",
+                        "headline": "I live outside of the U.S. Where can I watch Comedy Central shows?",
+                        "copy": "These sites may or may not have the same content as our U.S.-based site -- they might even have additional content that's not available on our U.S.-based site. Contact your local provider for additional information.<br><br> &bull"
+                    }
+                ]
+            },
+            {
+                "promoId": "8u0y8f",
+                "headline": "VIDEO PLAYBACK",
+                "promotedItems": [
+                    {
+                        "promoId": "7jtebr",
+                        "headline": "What should I do if ads aren't loading while I'm watching a video?",
+                        "copy": "Contact us at. Be sure to let us know what device, browser and operating system you were using when you experienced the problem, and which videos weren't working for you."
+                    },
+                    {
+                        "promoId": "raoenb",
+                        "headline": "How do I turn closed captions on and off, or change caption display?",
+                        "copy": "Fun fact: The button on the video player stands for Tap it to toggle captions on or off."
+                    },
+                    {
+                        "promoId": "qy2fj3",
+                        "headline": "Why can't I leave comments on videos anymore?",
+                        "copy": "We've decided to focus our energy on improving other parts of the site instead of on managing comments. This way, you can watch even more videos, and then take your thoughts to social media -- which we love, because we need something to read in the bathroom, too."
+                    }
+                ]
+            },
+            {
+                "promoId": "ltt7e9",
+                "headline": "FULL EPISODES ONLINE & ON THE APP",
+                "promotedItems": [
+                    {
+                        "promoId": "9hv7e7",
+                        "headline": "Can I watch full episodes on my phone or tablet?",
+                        "copy": "Of course -- it's easy. Just download the free Comedy Central app. New episodes become available the day after they air on TV. Plus, you can catch up on full seasons and watch hours of stand-up specials, digital shorts, extras and classic shows from our archive."
+                    },
+                    {
+                        "promoId": "suicr3",
+                        "headline": "How do I livestream content on the cc.com site?",
+                        "copy": "To watch the live channel digitally, log in to the app and select the tab. From there, you can stream away for the rest of your life (or until your responsibilities get in the way)."
+                    },
+                    {
+                        "promoId": "eaifo4",
+                        "headline": "How do I get help with the Comedy Central app?",
+                        "copy": "All versions of the app contain an in-depth FAQ, so if you've already downloaded it, check there first. If you still need help or want to send us app-related comments, complaints or compliments, drop us a line at Be sure to let us know what device and operating system you're using."
+                    },
+                    {
+                        "promoId": "iq3mp5",
+                        "headline": "Can I watch full episodes on my desktop?",
+                        "copy": "Can you ever: right here at"
+                    },
+                    {
+                        "promoId": "pd56m0",
+                        "headline": "Do I need a TV provider in order to watch full episodes?",
+                        "copy": "You don't need a TV provider to watch the latest full episodes of The Daily Show with Trevor Noah or @midnight with Chris Hardwick on your computer or on the Comedy Central app. Digital shorts and select episodes are also available without a TV provider. To access other full episodes, sign in with your TV provider."
+                    },
+                    {
+                        "promoId": "6r88my",
+                        "headline": "My favorite show used to be available online/on the app, but now it's gone. Where can I find it?",
+                        "copy": "Because of rights, syndication deals, contracts and other boring grown-up stuff, certain episodes and series will expire from digital platforms. The good news: They may become available again. And even if they don't, we still have plenty of other shows for you to watch."
+                    },
+                    {
+                        "promoId": "lquujb",
+                        "headline": "My favorite show used to be available online/on the app, but now it's gone. Where can I find it?",
+                        "copy": "Because of rights, syndication deals, contracts and other boring grown-up stuff, certain episodes and series will expire from digital platforms. The good news: They may become available again. And even if they don't, we still have plenty of other shows for you to watch."
+                    },
+                    {
+                        "promoId": "k8ol8u",
+                        "headline": "Why aren't there more episodes of my favorite show available online/on the app?",
+                        "copy": "More episodes could be on the way. For most returning shows, the full previous season will be made available shortly before the new season premieres. Unfortunately for some other shows, we may not be able to make full seasons available. :("
+                    },
+                    {
+                        "promoId": "n3i0e0",
+                        "headline": "When do new episodes get added online/to the app?",
+                        "copy": "For current shows, new episodes become available online and on the app the day after they air. Stand-up specials and archived shows are refreshed every month."
+                    },
+                    {
+                        "promoId": "7p0x93",
+                        "headline": "Are full episodes available digitally outside the U.S.?",
+                        "copy": "No, sorry. No, lo siento. Non, je suis desole. No, mi dispiace. Nein, tut mir leid. Onay, orrysay."
+                    }
+                ]
+            }
+        ]
+    }
+}

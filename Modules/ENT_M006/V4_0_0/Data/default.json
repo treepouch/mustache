@@ -1,0 +1,73 @@
+{
+    "config": {
+        "zone": "footer",
+        "moduleName": "ent_m006"
+    },
+    "data": {
+        "promo": {
+            "shortId": "41dxtv",
+            "displayType": "default",
+            "promoType": "ENT_M006",
+            "headline": "",
+            "images": [],
+            "subHeadline": "",
+            "url": "",
+            "additionalPromoMetadata": [],
+            "copy": "&#169; {CURRENT_YEAR} Viacom International Inc. All Rights Reserved. MTV and all related titles and logos are trademarks of Viacom International Inc.",
+            "tuneIn": "",
+            "parameters": [],
+            "links": []
+        },
+        "navs": [{
+            "title": "ENT_M006 - Site Footer - Text Links",
+            "url": null,
+            "entries": [{
+                "title": "FAQ/Help",
+                "url": "/legal/frequently-asked-questions"
+            }, {
+                "title": "Jobs",
+                "url": "http://www.viacomcareers.com/"
+            }, {
+                "title": "Terms of Use [Updated 9/30/2016]",
+                "url": "/legal/terms"
+            }, {
+                "title": "Privacy Policy/Privacy Rights [Updated 9/30/2016]",
+                "url": "/legal/privacy"
+            }, {
+                "title": "Copyright",
+                "url": "/legal/copyright"
+            }, {
+                "title": "Closed Captioning",
+                "url": "http://mainevents.mtvn.com/accessibility/"
+            }, {
+                "title": "Eventful",
+                "url": "http://losangeles.eventful.com/events"
+            }, {
+                "title": "Partners",
+                "url": "/asm/partners/"
+            }, {
+                "title": "Ad Choices",
+                "url": "http://srp.viacom.com/sitefaq.html"
+            }]
+        }, {
+            "title": "ENT_M006 - Site Footer - Social Icons",
+            "url": null,
+            "entries": [{
+                "title": "facebook",
+                "url": "http://www.facebook.com/MTV"
+            }, {
+                "title": "Twitter",
+                "url": "https://twitter.com/MTV"
+            }, {
+                "title": "Tumblr",
+                "url": "http://mtv.tumblr.com/"
+            }, {
+                "title": "Instagram",
+                "url": "http://instagram.com/mtv"
+            }, {
+                "title": "Vine",
+                "url": "https://vine.co/MTV"
+            }]
+        }]
+    }
+}

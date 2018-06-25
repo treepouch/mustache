@@ -1,0 +1,46 @@
+{
+    "config": {
+        "zone": "t2_lc_promo1",
+        "moduleName": "ent_m069"
+    },
+    "data": {
+        "promoId": "m000no",
+        "promoType": "ENT_M069",
+        "headline": "All Shows",
+        "items": [
+            {
+                "id": "f55fa4c7-6166-4859-b1e3-00e4c6427026",
+                "title": "Bellator MMA",
+                "url":  "http://bellator.spike-l.mtvi.com/",
+                "image": [
+                    {
+                        "width": "268",
+                        "height": "150",
+                        "url": "http://1.images.spike.com/images/shows/bellator/modules/bellator_showportal_large_rev1_300x138.png"
+                    },
+                    {
+                        "width": "138",
+                        "height": "300",
+                        "url": "http://1.images.spike.com/images/shows/bellator/modules/bellator_showportal_large_rev1_300x138.png"
+                    }
+                ]
+            },
+            {
+                "title": "Bellator MMA",
+                "url":  "http://bellator.spike-l.mtvi.com/",
+                "image": [
+                    {
+                        "width": "268",
+                        "height": "150",
+                        "url": "http://1.images.spike.com/images/shows/bellator/modules/bellator_showportal_large_rev1_300x138.png"
+                    },
+                    {
+                        "width": "138",
+                        "height": "300",
+                        "url": "http://1.images.spike.com/images/shows/bellator/modules/bellator_showportal_large_rev1_300x138.png"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "envelope":{
+    "version":"1.0",
+    "name":"entertainment-standard-json"
+  },
+  "status":{
+    "text":"OK",
+    "code":100
+  },
+  "result":{
+    "data":{
+      "text1":"You Are Here: Paradise",
+      "image":[
+        {
+          "url":"//mtv.mtvnimages.com/arc/images/shows/siesta-key/videos/siestasweep.jpg",
+          "width":2868,
+          "height":1296,
+          "aspectRatio":2.212962962963,
+          "alt":"You Are Here: Paradise"
+        }
+      ],
+      "text3":"Paradise is only a few steps away! Enter now for a chance to win round-trip airfare, two hotel rooms and a three-night stay in Siesta Key for you and three friends.",
+      "sweepstakes":{
+        "sweepstakesID":"siesta_key_sweepstakes",
+        "site_name":"mtv.com"
+      },
+      "adSize":"300x250",
+      "termsAndConditionsCopy":"By Clicking submit I agree to the <a target="         _blank" href="http:         //filesmtv-a.akamaihd.net/rules/siestakey/siestakey_073117.pdf">official rules</a> and MTV's <a target="_blank" href="http:         //www.mtv.com/legal/terms">terms and conditions</a> and <a target="_blank" href="http://www.mtv.com/legal/privacy">privacy policy</a>", optInCopy:""         Click here to get the latest on <sponsor> news and offers."Add a Yes/No field in Funnel with display text that will be replaced by the above. The field name must be called 'opt-in'"
+    }
+  },
+  "messages":{
+
+  }
+}

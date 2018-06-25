@@ -1,0 +1,34 @@
+{
+  "config": {
+    "zone": "t4_lc_promo1",
+    "moduleName": "ent_m044"
+  },
+  "data": {
+    "header": {
+      "title": "Spike Announces 'It Was Him: The Many Murders of Ed Edwards'",
+      "publishedDate": "November 11, 2016"
+    },
+    "blocks": [
+      {
+        "imageBlock": {
+          "image": [
+            {
+              "width": 600,
+              "height": 347,
+              "url": "http://1.images.spike.com/images/shows/spikelga.jpg"
+            }
+          ],
+          "caption": "Spike Announces 'It Was Him: The Many Murders of Ed Edwards'"
+        },
+        "ad": "300x250"
+      },
+      {
+        "content": {
+          "text": "\n\n\u003Cbr /\u003E\u003Cp\u003E\u003Cb\u003ENew York, NY, November 11, 2016\u003C/b\u003E \u2013 What would you do if an ancestry search revealed that your grandfather might be one of the most heinous serial killers of all time? For Wayne Wolfe, a shocking discovery made less than a year ago connected his family tree to deceased, convicted killer Ed Edwards. Now, with the help of \u003Ca href=\"http://www.spike.com/\"\u003ESpike TV\u003C/a\u003E, Objective Media Group, and investigator John Cameron, Wolfe will attempt to shed light on his family history and seek closure for his father.\u003C/p\u003E\n\n\u003Cp\u003EShortly after determining that Edwards was his grandfather, Wolfe learned of the incredibly compelling link between him and a string of astonishingly high-profile murders. In an attempt to shed light on his family history and find closure for his father, Wolfe joined forces with investigator John Cameron. Cameron, a cold-case expert and retired detective based in Great Falls, Montana, has been investigating the infamous mass murderer Edwards for almost a decade. Cameron\u2019s diligence and meticulously compiled evidence has potentially linked Edwards to some of the highest-profile serial cases in American history including the Zodiac Killer, Laci Peterson, and many others.\u003C/p\u003E\n\n\u003Cp\u003EEdwards was arrested in 2009 and found guilty of five grisly murders in the span of 20 years.  The cases all involved kidnapping, shootings, stabbings, torture, and auto theft. Edwards died of natural causes in prison in 2011, a mere four months before his scheduled execution date.\u003C/p\u003E\n\n\u003Cp\u003E\u201cIt Was Him: The Many Murders of Ed Edwards\u201d will be a six-part series and will comprise part of the network\u2019s new slate of non-scripted projects, along with the previously announced, \u201cTIME: The Kalief Browder Story\u201d and \u201cThe John McAfee Project.\u201d Spike Serialized series take a compelling, in-depth look into fascinating and often controversial subjects or individuals.\u003C/p\u003E",
+          "caption": "Spike Announces 'It Was Him: The Many Murders of Ed Edwards'"
+        }
+      }
+    ],
+    "schema": "{\"@context\":\"http://schema.org/\",\"@type\":\"NewsArticle\",\"headline\":\"Spike Announces 'It Was Him: The Many Murders of Ed Edwards'\",\"description\":\"The six-part series profiles the story of a man that ran an ancestry search on his grandfather and discovered some very daunting information.\",\"thumbnailUrl\":\"http://1.images.spike.com/images/shows/spikelga.jpg\",\"datePublished\":\"2016-11-11T16:00:00-0500\",\"articleBody\":\"\\n\\nNew York, NY, November 11, 2016 \\u2013 What would you do if an ancestry search revealed that your grandfather might be one of the most heinous serial killers of all time? For Wayne Wolfe, a shocking discovery made less than a year ago connected his family tree to deceased, convicted killer Ed Edwards. Now, with the help of Spike TV, Objective Media Group, and investigator John Cameron, Wolfe will attempt to shed light on his family history and seek closure for his father.\\n\\nShortly after determining that Edwards was his grandfather, Wolfe learned of the incredibly compelling link between him and a string of astonishingly high-profile murders. In an attempt to shed light on his family history and find closure for his father, Wolfe joined forces with investigator John Cameron. Cameron, a cold-case expert and retired detective based in Great Falls, Montana, has been investigating the infamous mass murderer Edwards for almost a decade. Cameron\\u2019s diligence and meticulously compiled evidence has potentially linked Edwards to some of the highest-profile serial cases in American history including the Zodiac Killer, Laci Peterson, and many others.\\n\\nEdwards was arrested in 2009 and found guilty of five grisly murders in the span of 20 years.  The cases all involved kidnapping, shootings, stabbings, torture, and auto theft. Edwards died of natural causes in prison in 2011, a mere four months before his scheduled execution date.\\n\\n\\u201cIt Was Him: The Many Murders of Ed Edwards\\u201d will be a six-part series and will comprise part of the network\\u2019s new slate of non-scripted projects, along with the previously announced, \\u201cTIME: The Kalief Browder Story\\u201d and \\u201cThe John McAfee Project.\\u201d Spike Serialized series take a compelling, in-depth look into fascinating and often controversial subjects or individuals.\",\"author\":\"Spike Staff\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"Spike\"}}"
+  }
+}

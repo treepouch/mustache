@@ -1,0 +1,41 @@
+{{#data}}
+    <div class="module_content">
+        {{#headerText}}
+            <h2 class="headline section-header-lg">{{.}}</h2>
+        {{/headerText}}
+
+        <ul class="L001_line_list">
+            {{#items}}
+                {{#isAd}}
+                    <li class="box_ad">
+                        <div class="lineList_ad" data-adsize="300x250" data-ad-sizes="300x250">
+                        </div>
+                    </li>
+                {{/isAd}}
+                {{^isAd}}
+                    <li class="S001_line_list_item">
+                        {{#canonicalURL}}
+                            <a href="{{.}}" class="link_wrapper">
+                        {{/canonicalURL}}
+
+                            {{> common/image }}
+
+                            {{#tuneIn}}
+                                <h4 class="s_fonts_lineListTuneIn item_sticker">{{.}}</h4>
+                            {{/tuneIn}}
+                            {{#title}}
+                                <h3 class="s_fonts_lineListHeader">{{.}}</h3>
+                            {{/title}}
+                            {{#shortDescription}}
+                                <p class="deck">{{.}}</p>
+                            {{/shortDescription}}
+
+                        {{#canonicalURL}}
+                            </a>
+                        {{/canonicalURL}}
+                    </li>
+                {{/isAd}}
+            {{/items}}
+        </ul>
+    </div>
+{{/data}}

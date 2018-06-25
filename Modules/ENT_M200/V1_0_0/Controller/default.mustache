@@ -1,0 +1,94 @@
+{{#data}}
+   <div class="events-header">
+        <div class="events-header_top-outer">
+            <div class="events-header_top-inner">
+                <div class="events-header_menu_holder">
+                    <div class="events-header_hamburger js-hamburger">
+                        <span class="events-header_hamburger-icon"></span>
+                        {{#settings.menuName}}
+                        <span class="screen-reader-text">{{.}}</span>
+                        {{/settings.menuName}}
+                    </div>
+                    <div class="events-header_site-logo">
+                        {{#settings.altTitle}}
+                            <span class="screen-reader-text">{{.}}</span>
+                        {{/settings.altTitle}}
+                    </div>
+                    <div class="events-header_slide-menu">
+                        {{#siteNavigation.0}}
+                        <ul class="events-header_site-nav">
+                        {{#siteNavigation}}
+                                {{^social}}
+                                <li class="events-header_site-nav_item{{#.entries.0}} js-has-subnav{{/.entries.0}}">
+                                    <a href="{{.url}}" class="events-header_site-nav_item-link{{#.entries.0}} has-subnav notriforce{{/.entries.0}}">{{.title}}</a>
+                                    {{#.entries.0}}
+                                        <div class="events-header_site-nav_sub-entries">
+                                            <ul class="events-header_site-nav_sub-entries_wrapper">
+                                            {{#entries}}
+                                                <li class="events-header_site-nav_sub-entries_item">
+                                                    <a href="{{.url}}" class="events-header_site-nav_sub-entries_link">{{.title}}</a>
+                                                </li>
+                                            {{/entries}}
+                                            </ul>
+                                        </div>
+                                    {{/.entries.0}}
+                                </li>
+                                {{/social}}
+
+                                {{#social}}
+                                    {{#entries.0}}
+                                        <li class="events-header_site-nav_item events-header_site-nav_item-social">
+                                            {{#entries}}
+                                                <a href="{{url}}" target="_blank" class="notriforce events-header_site-nav_item-social_link">
+                                                    <span class="has_icon {{typeClass}}"></span>
+                                                    <span class="screen-reader-text">{{title}}</span>
+                                                </a>
+                                            {{/entries}}
+                                        </li>
+                                    {{/entries.0}}
+                                {{/social}}
+                        {{/siteNavigation}}
+                        </ul>
+                        {{/siteNavigation.0}}
+                    </div>
+                    <div class="events-header_page-overlay"></div>
+                </div>
+
+                <a href="/" class="events-header_logo">
+                    <span class="events-header_logo-icon"></span>
+                </a>
+                <a href="{{#mainNavigation.0}}{{.url}}{{/mainNavigation.0}}" class="events-header_logo-title-wrapper">
+                    <h2 class="events-header_logo-title">{{.title}}</h2>
+                </a>
+            </div>
+            {{#mainNavigation.0}}
+            <div class="events-header_main-menu_wrapper">
+                <div class="events-header_main-menu_inner">
+                    <ul itemtype="http://www.schema.org/SiteNavigationElement" class="events-header_main-nav">
+                        {{#mainNavigation}}
+                            {{^social}}
+                                <li class="events-header_main-nav_item">
+                                    <a href="{{.url}}" class="events-header_main-nav_link">{{.title}}</a>
+                                </li>
+                            {{/social}}
+                            {{#social}}
+                                {{#entries.0}}
+                                <li class="events-header_main-nav_item-social events-header_main-nav_item">
+                                    {{#entries}}
+                                        <a href="{{.url}}" target="_blank" class="notriforce events-header_main-nav_item-social_link">
+                                            <span class="has_icon {{.typeClass}}"></span>
+                                            <span class="screen-reader-text">{{.title}}</span>
+                                        </a>
+                                    {{/entries}}
+                                </li>
+                                {{/entries.0}}
+                            {{/social}}
+                        {{/mainNavigation}}
+                    </ul>
+                    <div class="events-header_main-nav_mobile-overlay">MENU</div>
+                </div>
+            </div>
+            {{/mainNavigation.0}}
+        </div>
+    </div>
+{{/data}}

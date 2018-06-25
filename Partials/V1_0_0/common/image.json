@@ -1,0 +1,14 @@
+{
+  "image": [
+    {
+      "url": "http://mtv.mtvnimages.com/arc/images/FPO_event_banner_desktop.jpg",
+      "width": 1920,
+      "height": 540
+    },
+    {
+      "url": "http://mtv.mtvnimages.com/arc/images/FPO_event_banner_mobile.jpg",
+      "width": 650,
+      "height": 317
+    }
+  ]
+}

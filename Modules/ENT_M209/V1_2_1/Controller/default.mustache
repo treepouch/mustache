@@ -1,0 +1,160 @@
+{{#data}}
+    {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+
+    {{^settings.metaPlacement.isRight}}
+        <div class="module_content player">
+            <div class="player_holder">
+                {{<common/image}}
+                    {{$imageClass}}player_thumbnail{{/imageClass}}
+                {{/common/image}}
+
+                {{>Modules/ENT_M209/V1_2_1/Controller/slate}}
+
+                <div class="player_video"></div>
+            </div>
+
+            {{>Modules/ENT_M209/V1_2_1/Controller/tv_provider}}
+
+            <div class="player_panel">
+                {{#settings.share.options.0}}
+                    <ul class="player_share">
+                        {{#settings.share.options}}
+                            <li class="player_share-button has_icon {{.typeClass}}">
+                                <span class="screen_reader_text">{{.title}}</span>
+                            </li>
+                        {{/settings.share.options}}
+                    </ul>
+                {{/settings.share.options.0}}
+
+                <div class="player_meta">
+                    {{#parent.title}}
+                        <h2 class="player_parent-title">{{.}}</h2>
+                    {{/parent.title}}
+                    {{#title}}
+                        <h1 class="player_video-title">{{.}}</h1>
+                    {{/title}}
+                    {{#description}}
+                        <p class="player_description">{{.}}</p>
+                    {{/description}}
+                    {{#displayDate}}
+                        <div class="player_display-date">{{.}}</div>
+                    {{/displayDate}}
+                </div>
+            </div>
+
+            {{#settings.displayBoxAd}}
+                <div class="player_box-ad ad ad--{{.}}" data-adsize="{{.}}"></div>
+            {{/settings.displayBoxAd}}
+        </div>
+    {{/settings.metaPlacement.isRight}}
+
+    {{#settings.metaPlacement.isRight}}
+        <div class="player player--meta-on-right player--loading container">
+            {{#settings.displaySponsorAd}}
+                <div class="sponsorship-container">
+                    <div class="sponsor-ad" data-adsize="{{.}}"></div>
+                </div>
+            {{/settings.displaySponsorAd}}
+            <div class="module-container">
+                <div class="media-container">
+                    <div class="player_holder item-container video containerx16x9">
+                        {{<common/image}}
+                            {{$imageClass}}player_thumbnail content{{/imageClass}}
+                        {{/common/image}}
+
+                        {{>Modules/ENT_M209/V1_2_1/Controller/slate}}
+
+                        <div class="player_video content"></div>
+
+                        <div class="player_spinner"></div>
+                    </div>
+
+                    <div class="media-extra">
+                        {{#settings.share.options.0}}
+                            <ul class="buttons-wrap">
+                                {{#settings.share.options}}
+                                    <li class="player_share-button {{.typeClass}} button">
+                                        <span class="label">{{.title}}</span>
+                                    </li>
+                                {{/settings.share.options}}
+                            </ul>
+                        {{/settings.share.options.0}}
+
+                        {{#settings.giphy.enabled}}
+                            <div class="tag">
+                                <div class="giphy-button"></div>
+                            </div>
+                        {{/settings.giphy.enabled}}
+
+                        {{>Modules/ENT_M209/V1_2_1/Controller/tv_provider_tag}}
+                    </div>
+                </div>
+
+                <div class="meta-container">
+                    <div class="meta-wrap">
+                        <div class="group-wrap">
+                            <div class="scroll-area-wrap">
+                                {{#watchButton}}
+                                    <a href="{{.url}}" class="button ep-cta{{#.tveAuth.mobile}} locked-mobile{{/.tveAuth.mobile}}{{#.tveAuth.desktop}} locked-desktop{{/.tveAuth.desktop}}">
+                                        <span>{{.title}}</span>
+                                    </a>
+                                {{/watchButton}}
+
+                                {{#parent.title}}
+                                    <div class="header">
+                                        <h3>
+                                            {{#parent.url}}<a href="{{.}}">{{/parent.url}}
+                                                {{.}}
+                                            {{#parent.url}}</a>{{/parent.url}}
+                                        </h3>
+                                    </div>
+                                {{/parent.title}}
+
+                                {{#title}}
+                                    <div class="sub-header">
+                                        <h1>{{.}}</h1>
+                                    </div>
+                                {{/title}}
+
+                                <div class="meta">
+                                    {{#meta}}
+                                        <span>{{.}}</span>
+                                    {{/meta}}
+
+                                    {{#displayDate}}
+                                        <span>{{.}}</span>
+                                    {{/displayDate}}
+                                </div>
+
+                                {{#description}}
+                                    <div class="deck">
+                                        <p>{{.}}</p>
+                                    </div>
+                                {{/description}}
+
+                                {{#tags.0}}
+                                    <div class="tags">
+                                        {{#settings.tagsLabel}}
+                                            <span class="label">{{.}}</span>
+                                        {{/settings.tagsLabel}}
+                                        {{#tags}}
+                                            <a href="{{.url}}"><span class="tag">{{.title}}</span></a>
+                                        {{/tags}}
+                                    </div>
+                                {{/tags.0}}
+                            </div>
+
+                            <div class="meta-more" data-off="{{settings.showMoreLabel}}" data-on="{{settings.showLessLabel}}"></div>
+                        </div>
+
+                        {{#settings.displayBoxAd}}
+                            <div class="ad-container" data-adsize="{{.}}"></div>
+                        {{/settings.displayBoxAd}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/settings.metaPlacement.isRight}}
+
+    {{> common/overlay}}
+{{/data}}

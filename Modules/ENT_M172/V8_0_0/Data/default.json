@@ -1,0 +1,111 @@
+{
+    "envelope": {
+        "version": "1.0",
+        "name": "entertainment-standard-json"
+    },
+    "status": {
+        "text": "OK",
+        "code": 100
+    },
+    "result": {
+        "data": {
+            "promoId": "n53osc",
+            "promoType": "ENT_M172",
+            "links": [
+                {
+                    "url": "http://www.mtv.com/shows/",
+                    "text": "browse shows",
+                    "type": "featured_URL"
+                }
+            ],
+            "items": [
+                {
+                    "promoType": "nested",
+                    "displayType": "default",
+                    "headline": "the challenge",
+                    "subHeadline": "the champs are coming",
+                    "tuneIn": "airs tonight 9/8c",
+                    "url": "/video-clips/vm03mw",
+                    "image": {
+                        "aspectRatio": 1.7777777777778,
+                        "width": 1920,
+                        "height": 1080,
+                        "url": "http://mtv.mtvnimages.com/arc/images/shows/challenge/videos/Champ_Prep.mp4.00_00_37_05.Still001_edited.jpg"
+                    },
+                    "extraClasses": {
+                        "wrapper": "secondary_item_2"
+                    }
+                },
+                {
+                    "promoType": "nested",
+                    "displayType": "default",
+                    "headline": "teen mom 2",
+                    "subHeadline": "episode: kailyn + javi's future is up in the air",
+                    "tuneIn": "mondays 9/8c",
+                    "url": "/full-episodes/q69jl0",
+                    "image": {
+                        "aspectRatio": 1.7889182058047,
+                        "width": 1356,
+                        "height": 758,
+                        "url": "http://mtv.mtvnimages.com/images/tm2_721.jpg"
+                    },
+                    "extraClasses": {
+                        "wrapper": "secondary_item_2"
+                    }
+                },
+                {
+                    "promoType": "nested",
+                    "displayType": "default",
+                    "headline": "world star tv",
+                    "subHeadline": "episode: cp talks style + culture with migos",
+                    "tuneIn": "fridays 11/10c on mtv2",
+                    "url": "/full-episodes/ev71pv",
+                    "image": {
+                        "aspectRatio": 1.7777777777778,
+                        "width": 1920,
+                        "height": 1080,
+                        "url": "http://mtv.mtvnimages.com/images/WorldStarTV_103.jpg"
+                    },
+                    "extraClasses": {
+                        "wrapper": "secondary_item_2"
+                    }
+                },
+                {
+                    "promoType": "nested",
+                    "displayType": "default",
+                    "headline": "are you the one?",
+                    "subHeadline": "episode: shannon worries if she can trust tyler",
+                    "tuneIn": "wednesdays 9/8c",
+                    "url": "/full-episodes/5ll88m",
+                    "image": {
+                        "aspectRatio": 1.7891963109354,
+                        "width": 1358,
+                        "height": 759,
+                        "url": "http://mtv.mtvnimages.com/images/ayto_506.jpg"
+                    },
+                    "extraClasses": {
+                        "wrapper": "secondary_item_2"
+                    }
+                },
+                {
+                    "promoType": "nested",
+                    "displayType": "default",
+                    "headline": "nick cannon presents: wild 'n out",
+                    "subHeadline": "watch your favorite episodes",
+                    "url": "/shows/nick-cannon-presents-wild-n-out/episode-guide",
+                    "image": {
+                        "aspectRatio": 3,
+                        "width": 1920,
+                        "height": 640,
+                        "url": "http://mtv.mtvnimages.com/images/wno_808_flex.jpg"
+                    },
+                    "extraClasses": {
+                        "wrapper": "secondary_item_1",
+                        "link": "alt_ratio"
+                    }
+                }
+            ]
+        }
+    },
+    "messages": {}
+}

@@ -1,0 +1,29 @@
+{
+  "envelope":{
+    "version":"1.0",
+    "name":"entertainment-standard-json"
+  },
+  "status":{
+    "text":"OK",
+    "code":100
+  },
+  "result":{
+    "data":{
+      "headline":"The 2016 Woodies Premieres in",
+      "subheadline":"The 2016 Woodies in Austin, TX",
+      "urlText":"Live Now",
+      "url":"/woodies/videos",
+      "live_url":"/woodies/videos",
+      "rawTime":{
+        "date":"2017-04-24 11:00:00.000000",
+        "timezone_type":3,
+        "timezone":"America/New_York"
+      },
+      "end_timestamp":1493046000,
+      "timezone_offset":-14400
+    }
+  },
+  "messages":{
+
+  }
+}

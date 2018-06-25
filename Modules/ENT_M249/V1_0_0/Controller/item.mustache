@@ -1,0 +1,35 @@
+    <li class="line-listing__item{{#.type}} line-listing__item--{{.}}{{/.type}}{{#.isPlayable}} line-listing__item--playable{{/.isPlayable}}{{#.isMedia}} line-listing__item--media{{/.isMedia}}">
+    <a href="{{.url}}" class="line-listing__item-content">
+        {{#.media}}
+            <div class="line-listing__item-media">
+                {{<common/image}}
+                    {{$imageClass}}line-listing__item-thumbnail{{/imageClass}}
+                {{/common/image}}
+
+                {{#.meta}}
+                    <div class="line-listing__item-media-meta">
+                        {{#.title}}
+                            <h4 class="line-listing__item-title">{{.}}</h4>
+                        {{/.title}}
+
+                        {{#.duration}}
+                            <div class="line-listing__item-duration">{{.}}</div>
+                        {{/.duration}}
+                    </div>
+                {{/.meta}}
+            </div>
+        {{/.media}}
+
+        {{#.meta}}
+            <div class="line-listing__item-meta">
+                {{#.displayDate}}
+                    <div class="line-listing__item-date">{{.}}</div>
+                {{/.displayDate}}
+
+                {{#.title}}
+                        <h4 class="line-listing__item-title">{{.}}</h4>
+                {{/.title}}
+            </div>
+        {{/.meta}}
+    </a>
+</li>

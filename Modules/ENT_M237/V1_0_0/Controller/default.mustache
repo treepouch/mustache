@@ -1,0 +1,45 @@
+{{#data}}
+    <div class="ent_m237-module-content">
+        <div class="ent_m237-wrap">
+            {{#header}}
+                <h2 class="ent_m237-module-header headline">{{header}}</h2>
+            {{/header}}
+
+            <div class="ent_m237-list-wrapper">
+                <ul class="ent_m237-list">
+                    {{#items}}
+                        {{#url}}
+							<li class="ent_m237-list-item">
+                                <div class="ent_m237-list-item-wrapper">
+                                    <a href="{{url}}" class="ent_m237-list-item-link{{#isActive}} active{{/isActive}}">
+                                        {{#text}}
+                                            <span class="ent_m237-list-item-text">{{text}}</span>
+                                        {{/text}}
+                                    </a>
+                                </div>
+                            </li>
+                        {{/url}}
+                    {{/items}}
+                    {{#archiveNavUrl}}
+                        <li class="ent_m237-list-item see-all">
+                            <div class="ent_m237-list-item-wrapper">
+                                <a href="{{archiveNavUrl}}" class="ent_m237-list-item-link see-all">
+                                    <span class="ent_m237-list-item-text">See All</span>
+                                </a>
+                            </div>
+                        </li>
+                    {{/archiveNavUrl}}
+                </ul>
+            </div>
+
+            {{#archiveNavUrl}}
+                <div class="ent_m237-archive-nav-link-wrapper">
+                    <a href="{{archiveNavUrl}}" class="ent_m237-list-item-link see-all">
+                        <span class="ent_m237-list-item-text">See All</span>
+                        <!--<span class="ent_m237-archive-btn primary_btn">See All</span>-->
+                    </a>
+                </div>
+            {{/archiveNavUrl}}
+        </div>
+    </div>
+{{/data}}

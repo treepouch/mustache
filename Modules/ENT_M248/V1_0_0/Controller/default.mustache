@@ -1,0 +1,77 @@
+{{#data}}
+    <div class="ent_m248-wrap">
+        {{#headline}}
+            <h1 class="ent_m248-headline"><span class="ent_m248-headline-text">{{.}}</span></h1>
+        {{/headline}}
+        <div class="ent_m248-content-wrap">
+            {{#buildNav}}
+                <div class="ent_m248-nav-wrap">
+                    <span class="ent_m248-nav-text"> Jump to: </span>
+                    <ul class="ent_m248-nav-container">
+                        {{#data.groups}}
+                            <li class="ent_m248-nav-item" data-target-element="{{title}}" data-reporting-value="{{franchise}} {{title}}"> {{title}} </li>
+                        {{/data.groups}}
+                    </ul>
+
+                </div>
+            {{/buildNav}}
+            <div class="ent_m248-item-wrap {{^buildNav}}full-width{{/buildNav}}">
+                <div class="ent_m248-group-wrap">
+                    {{#groups}}
+                        <div class="ent_m248-group" data-target="{{title}}">
+                            {{#title}}
+                            <div class="ent_m248-group-header">
+                                <span class="ent_m248-group-header__text">
+                                    {{title}}
+                                </span>
+                            </div>
+                            {{/title}}
+                            <div class="ent_m248-group-container__item-wrap">
+                                {{#items}}
+                                    <div class="ent_m248-item">
+                                        <div class="ent_m248-item__image-wrap">
+                                            {{#url}}
+                                                <a class="ent_m248-item-image-link" href="{{.}}">
+                                            {{/url}}
+                                            {{#label}}
+                                                <div class="ent_m248-item__label">
+                                                    <span class="ent_m248-item__label">{{.}}</span>
+                                                </div>
+                                            {{/label}}
+                                            {{> common/image }}
+                                            {{#url}}
+                                                </a>
+                                            {{/url}}
+                                        </div>
+
+                                        <div class="ent_m248-item__meta-wrap">
+                                            {{#url}}
+                                                <a class="ent_m248-item-link" href="{{.}}">
+                                            {{/url}}
+
+                                            {{#text1}}
+                                                <span class="ent_m248-item-meta-text1">{{.}}</span>
+                                            {{/text1}}
+
+                                            {{#url}}
+                                                </a>
+                                            {{/url}}
+
+                                            {{#text2}}
+                                                <span class="ent_m248-item-meta-text2{{#isTruncated}} truncated{{/isTruncated}}">{{{.}}}</span>
+                                            {{/text2}}
+
+                                            {{#text3}}
+                                                <span class="ent_m248-item-meta-text3">{{.}}</span>
+                                            {{/text3}}
+                                        </div>
+                                    </div>
+                                {{/items}}
+                            </div>
+                        </div>
+                    {{/groups}}
+                </div>
+            </div>
+        </div>
+    </div>
+{{/data}}

@@ -1,0 +1,28 @@
+{{#data}}
+    <div id="{{settings.contentType}}" class="vdl-module-container {{settings.contentType}}-container{{#settings.moduleInverse}} module-inverse{{/settings.moduleInverse}}">
+        <div class="vdl-container">
+            {{#header}}
+                {{#title}}
+                    <header class="vdl-section-header">
+                        <span>{{.}}</span>
+                    </header>
+                {{/title}}
+            {{/header}}
+            <div class="items-container">
+                <div class="items-wrap">
+                    {{#items}}
+                        {{> Modules/ENT_M249/V2_0_0/Controller/item }}
+                    {{/items}}
+                </div>
+
+                {{#nextPageURL}}
+                    <div class="expand-wrap">
+                        <div class="vdl-btn load-more-btn js-load-more">
+                            {{settings.loadMoreLabel}}
+                        </div>
+                    </div>
+                {{/nextPageURL}}
+            </div>
+        </div>
+    </div>
+{{/data}}

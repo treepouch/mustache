@@ -1,0 +1,606 @@
+{
+        "data": {
+            "headline": "Explore past MTV VMAs",
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "text1": "VMA 2017",
+                            "group": "2010s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2017/MTV_VMA_2017_About-Image.png",
+                                    "width": 1280,
+                                    "height": 1280,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2017",
+                            "url": "http://www.mtv-l.mtvi.com/vma",
+                            "text2": "Really long text example Really long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text exampleReally long text example",
+                            "isTruncated": true
+                        },
+                        {
+                            "text1": "VMA 2016",
+                            "group": "2010s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2016/VMA_Winner-Placeholder-Moonman.png",
+                                    "width": 400,
+                                    "height": 400,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2016",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2016",
+                            "text2": "Beyoncé “Formation\" won Video Of The Year. Performances by Rihanna, Ariana Grande ft. Nicki Minaj, Future, Nick Jonas ft. Ty Dolla $ign, Beyoncé, Britney Spears, G-Eazy, and the Chainsmokers ft. Halsey."
+                        },
+                        {
+                            "text1": "VMA 2015",
+                            "group": "2010s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2015/MTV_VMA_ArchiveBanners_2000s_2015-Thumbnail.jpg",
+                                    "width": 1280,
+                                    "height": 1281,
+                                    "aspectRatio": 0.9992193598751
+                                }
+                            ],
+                            "label": "2015",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2015",
+                            "text2": "Taylor Swift ft. Kendrick Lamar \"Bad Blood” won Video Of The Year. Performances by Nicki Minaj, Taylor Swift, Macklemore & Ryan Lewis, Eric Nally, Melle Mel, Kool Moe Dee, Grandmaster Caz, The Weeknd, Demi Lovato, Iggy Azalea, Justin Bieber, Tori Kelly, Pharrell Williams, Twenty One Pilots, A$AP Rocky, and Miley Cyrus.",
+                            "text3": "hosted by Miley Cyrus",
+                            "isTruncated": true
+                        },
+                        {
+                            "text1": "VMA 2014",
+                            "group": "2010s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2014/MTV_VMA_ArchiveBanners_2000s_2014-Thumbnail.jpg",
+                                    "width": 1280,
+                                    "height": 1281,
+                                    "aspectRatio": 0.9992193598751
+                                }
+                            ],
+                            "label": "2014",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2014",
+                            "text2": "Miley Cyrus \"Wrecking Ball” won Video Of The Year. Performances by Ariana Grande, Nicki Minaj, Jessie J, Taylor Swift, Sam Smith, Usher"
+                        },
+                        {
+                            "text1": "VMA 2013",
+                            "group": "2010s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2013/MTV_VMA_ArchiveBanners_2000s_2013-Thumbnail.jpg",
+                                    "width": 1280,
+                                    "height": 1281,
+                                    "aspectRatio": 0.9992193598751
+                                }
+                            ],
+                            "label": "2013",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2013",
+                            "text2": "Justin Timberlake “Mirrors\" won Video Of The Year. Performances by Lady Gaga, Miley Cyrus, Robin Thicke, 2 Chainz, Kendrick Lamar, Kanye West, Justin Timberlake, NSYNC, Macklemore & Ryan Lewis, Mary Lambert, Jennifer Hudson, Drake, Bruno Mars, and Katy Perry."
+                        },
+                        {
+                            "text1": "VMA 2012",
+                            "group": "2010s",
+                            "image": [],
+                            "label": "2012",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2012",
+                            "text2": "Rihanna ft. Calvin Harris \"We Found Love” won Video Of The Year. Performances by Rihanna, ASAP Rocky, Calvin Harris, Pink, Frank Ocean, One Direction, Lil Wayne, 2 Chainz, Green Day, Alicia Keys, Nicki Minaj, and Taylor Swift.",
+                            "text3": "hosted by Kevin Hart"
+                        },
+                        {
+                            "text1": "VMA 2011",
+                            "group": "2010s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2011/MTV_VMA_ArchiveBanners_2000s_2011-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2011",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2011",
+                            "text2": "Katy Perry “Firework\" won Video Of The Year. Performances by Lady Gaga and Brian May, Jay-Z and Kanye West, Pitbull, Ne-Yo and Nayer, Adele, Chris Brown, Beyoncé, Young the Giant, Bruno Mars, and Lil Wayne."
+                        },
+                        {
+                            "text1": "VMA 2010",
+                            "group": "2010s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2010/MTV_VMA_ArchiveBanners_2000s_2010-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2010",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2010",
+                            "text2": "Lady Gaga \"Bad Romance” won Video Of The Year. Performances by Eminem, Rihanna, Justin Bieber, Usher, Florence + the Machine, Taylor Swift, Drake, Mary J. Blige, Swizz Beatz, B.o.B, Bruno Mars, Paramore, Linkin Park, and Kanye West ft. Pusha T.",
+                            "text3": "hosted by Chelsea Handler"
+                        }
+                    ],
+                    "title": "2010s",
+                    "target": [
+                        "2010s_target"
+                    ],
+                    "franchise": "vma"
+                },
+                {
+                    "items": [
+                        {
+                            "text1": "VMA 2009",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2009/MTV_VMA_ArchiveBanners_2000s_2009-Thumbnail.jpg",
+                                    "width": 1280,
+                                    "height": 1281,
+                                    "aspectRatio": 0.9992193598751
+                                }
+                            ],
+                            "label": "2009",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2009",
+                            "text2": "Beyoncé \"Single Ladies (Put a Ring on It)” won Video Of The Year. Performances by Janet Jackson, Katy Perry, Joe Perry, Taylor Swift, Lady Gaga, Green Day, Beyoncé, Muse, Pink, and Jay-Z ft. Alicia Keys.",
+                            "text3": "hosted by Russell Brand"
+                        },
+                        {
+                            "text1": "VMA 2008",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2008/MTV_VMA_ArchiveBanners_2000s_2008-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2008",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2008",
+                            "text2": "Britney Spears \"Piece of Me” won Video Of The Year. Performances by Rihanna, Lil Wayne ft. Leona Lewis and T-Pain, Paramore, Christina Aguilera, Kid Rock, Kanye West, Jonas Brothers, Pink, and T.I.",
+                            "text3": "hosted by Russell Brand"
+                        },
+                        {
+                            "text1": "VMA 2007",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2007/MTV_VMA_ArchiveBanners_2000s_2007-Thumbnail.jpg",
+                                    "width": 1271,
+                                    "height": 1271,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2007",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2007",
+                            "text2": "Rihanna ft. Jay-Z “Umbrella\" won Video Of The Year. Performances by Britney Spears, Chris Brown ft. Rihanna, Linkin Park, Alicia Keys, Timbaland, Nelly Furtado, D.O.E. and Sebastian, Keri Hilson, Justin Timberlake, Mark Ronson, Akon, Adam Levine, Wale, Daniel Merriweather, T.I., Petey Pablo, 50 Cent, Fall Out Boy, Lil Wayne, Brendon Urie, Gym Class Heroes, Ne-Yo, Patrick Stump, Panic! at the Disco, Cobra Starship, William Beckett, Travie McCoy, Kanye West, Soulja Boy, T-Pain, Jamie Foxx, Foo Fighters, Pat Smear, Serj Tankian, Queens of the Stone Age, Cee-Lo Green, Dave Grohl, Mastodon, Josh Homme, Lemmy Kilmister, and Eagles of Death Metal.",
+                            "isTruncated": true
+                        },
+                        {
+                            "text1": "VMA 2006",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2006/MTV_VMA_ArchiveBanners_2000s_2006-Thumbnail.jpg",
+                                    "width": 1270,
+                                    "height": 1271,
+                                    "aspectRatio": 0.99921321793863
+                                }
+                            ],
+                            "label": "2006",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2006",
+                            "text2": "Panic! at the Disco \"I Write Sins Not Tragedies” won Video Of The Year. Performances by Justin Timberlake ft. Timbaland, The Raconteurs and Lou Reed, Shakira ft. Wyclef Jean, Ludacris ft. Pharrell and the Pussycat Dolls, OK Go, The All-American Rejects, Beyoncé, T.I. ft. Young Dro, Panic! at the Disco, Busta Rhymes, Missy Elliott, Christina Aguilera, Tenacious D, and The Killers.",
+                            "text3": "hosted by Jack Black",
+                            "isTruncated": true
+                        },
+                        {
+                            "text1": "VMA 2005",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2005/MTV_VMA_ArchiveBanners_2000s_2005-Thumbnail.jpg",
+                                    "width": 1271,
+                                    "height": 1271,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2005",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2005",
+                            "text2": "Green Day \"Boulevard of Broken Dreams” won Video Of The Year. Performances by Green Day, Ludacris ft. Bobby Valentino, MC Hammer, Shakira ft. Alejandro Sanz, R. Kelly, The Killers, Diddy and Snoop Dogg, Don Omar, Tego Calderón, Daddy Yankee, Coldplay, Kanye West ft. Jamie Foxx, Mariah Carey ft. Jadakiss and Jermaine Dupri, 50 Cent ft. Mobb Deep and Tony Yayo, My Chemical Romance, and Kelly Clarkson.",
+                            "text3": "hosted by Diddy",
+                            "isTruncated": true
+                        },
+                        {
+                            "text1": "VMA 2004",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2004/MTV_VMA_ArchiveBanners_2000s_2004-Thumbnail.jpg",
+                                    "width": 1270,
+                                    "height": 1271,
+                                    "aspectRatio": 0.99921321793863
+                                }
+                            ],
+                            "label": "2004",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2004",
+                            "text2": "OutKast \"Hey Ya!” won Video Of The Year. Performances by Usher ft. Ludacris and Lil Jon, Jet, Hoobastank, Yellowcard, Kanye West ft. Chaka Khan and Syleena Johnson, Lil Jon & The East Side Boyz, Ying Yang Twins, Petey Pablo, Terror Squad ft. Fat Joe, Jessica Simpson, Nelly ft. Christina Aguilera, Alicia Keys ft. Lenny Kravitz and Stevie Wonder, The Polyphonic Spree, and OutKast.",
+                            "isTruncated": true
+                        },
+                        {
+                            "text1": "VMA 2003",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2003/MTV_VMA_ArchiveBanners_2000s_2003-Thumbnail.jpg",
+                                    "width": 1280,
+                                    "height": 1281,
+                                    "aspectRatio": 0.9992193598751
+                                }
+                            ],
+                            "label": "2003",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2003",
+                            "text2": "Missy Elliott \"Work It” won Video Of The Year. Performances by Madonna, Britney Spears, Christina Aguilera, Missy Elliott, Good Charlotte, Redman, Dave Navarro, 50 Cent, Snoop Dogg, Mary J. Blige, Method Man, Coldplay, Beyoncé, Jay-Z, and Metallica.",
+                            "text3": "hosted by Chris Rock"
+                        },
+                        {
+                            "text1": "VMA 2002",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2002/MTV_VMA_ArchiveBanners_2000s_2002-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2002",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2002",
+                            "text2": "Eminem \"Without Me” won Video Of The Year. Performances by Bruce Springsteen & the E Street Band, Pink, Ja Rule, Ashanti and Nas, Shakira, Eminem, P. Diddy ft. Busta Rhymes, Ginuwine, Pharrell and Usher, Sheryl Crow, The Hives, The Vines, Justin Timberlake ft. Clipse, and Guns N’ Roses.",
+                            "text3": "hosted by Jimmy Fallon"
+                        },
+                        {
+                            "text1": "VMA 2001",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2001/MTV_VMA_ArchiveBanners_2000s_2001-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2001",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2001",
+                            "text2": "Christina Aguilera, Lil' Kim, Mýa and Pink ft. Missy Elliott \"Lady Marmalade” won Video Of The Year. Performances by Jennifer Lopez ft. Ja Rule, Linkin Park and The X-Ecutioners, Alicia Keys, NSYNC ft. Michael Jackson, Jay-Z, Staind, Missy Elliott ft. Nelly Furtado, Ludacris and Trina, U2, and Britney Spears.",
+                            "text3": "hosted by Jamie Foxx"
+                        },
+                        {
+                            "text1": "VMA 2000",
+                            "group": "2000s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2000/MTV_VMA_ArchiveBanners_2000s_2000-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "2000",
+                            "url": "http://www.mtv-l.mtvi.com/vma/2000",
+                            "text2": "Eminem \"The Real Slim Shady” won Video Of The Year. Performances by Janet Jackson, Rage Against the Machine, Sisqo ft. Dru Hill, Britney Spears, Eminem, Red Hot Chili Peppers, NSYNC, Nelly, Christina Aguilera ft. Fred Durst, and blink-182.",
+                            "text3": "hosted by Marlon Wayans & Shawn Wayans"
+                        }
+                    ],
+                    "title": "2000s",
+                    "target": [
+                        "2000s_target"
+                    ],
+                    "franchise": "vma"
+                },
+                {
+                    "items": [
+                        {
+                            "text1": "VMA 1999",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1999/MTV_VMA_ArchiveBanners_1990s_1999-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1999",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1999",
+                            "text2": "Lauryn Hill \"Doo Wop (That Thing)” won Video Of The Year. Performances by Kid Rock ft. Run–D.M.C., Steven Tyler, Joe Perry and Joe C., Lauryn Hill, the Backstreet Boys, Ricky Martin, Nine Inch Nails, TLC, Fatboy Slim, Jay-Z ft. DJ Clue and Amil, Britney Spears and NSYNC, and Eminem, Dr. Dre and Snoop Dogg.",
+                            "text3": "hosted by Chris Rock"
+                        },
+                        {
+                            "text1": "VMA 1998",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1998/MTV_VMA_ArchiveBanners_1990s_1998-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1998",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1998",
+                            "text2": "Madonna \"Ray of Light” won Video Of The Year. Performances by Madonna ft. Lenny Kravitz, Pras ft. Ol' Dirty Bastard, Mýa, Wyclef Jean and Canibus, Hole, Master P ft. Silkk Tha Shocker, Mystikal and Mia X, Backstreet Boys, Beastie Boys, Brandy and Monica, Dave Matthews Band, Marilyn Manson, and the Brian Setzer Orchestra.",
+                            "text3": "hosted by Ben Stiller",
+                            "isTruncated": true
+                        },
+                        {
+                            "text1": "VMA 1997",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1997/MTV_VMA_ArchiveBanners_1990s_1997-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1997",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1997",
+                            "text2": "Jamiroquai \"Virtual Insanity” won Video Of The Year. Performances by Puff Daddy ft. Faith Evans, 112, Mase and Sting, Jewel, The Prodigy, The Wallflowers ft. Bruce Springsteen, Lil' Kim, Da Brat, Missy Elliott, Lisa \"Left-Eye\" Lopes and Angie Martinez, U2, Beck, the Spice Girls, Jamiroquai, and Marilyn Manson.",
+                            "text3": "hosted by Chris Rock"
+                        },
+                        {
+                            "text1": "VMA 1996",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1996/MTV_VMA_ArchiveBanners_1990s_1996-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1996",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1996",
+                            "text2": "The Smashing Pumpkins \"Tonight, Tonight” won Video Of The Year. Performances by The Smashing Pumpkins, The Fugees ft. Nas, Metallica, LL Cool J, Neil Young, Hootie & the Blowfish, Alanis Morissette, Bush, The Cranberries, Oasis, Bone Thugs-N-Harmony, and KISS.",
+                            "text3": "hosted by Dennis Miller"
+                        },
+                        {
+                            "text1": "VMA 1995",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1995/MTV_VMA_ArchiveBanners_1990s_1995-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1995",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1995",
+                            "text2": "TLC “Waterfalls\" won Video Of The Year. Performances by Michael Jackson ft. Slash, Live, TLC, R.E.M., Red Hot Chili Peppers, Bon Jovi, Alanis Morissette, Hootie & the Blowfish, Hole, Green Day, and White Zombie.",
+                            "text3": "hosted by Dennis Miller"
+                        },
+                        {
+                            "text1": "VMA 1994",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1994/MTV_VMA_ArchiveBanners_1990s_1994-Thumbnail.jpg",
+                                    "width": 1280,
+                                    "height": 1280,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1994",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1994",
+                            "text2": "Aerosmith \"Cryin’\" won Video Of The Year. Performances by Aerosmith, Boyz II Men, The Smashing Pumpkins, The Rolling Stones, Green Day, Beastie Boys, Alexandrov Red Army Ensemble with the Leningrad Cowboys, Salt-n-Pepa, Tom Petty and the Heartbreakers, Snoop Doggy Dogg, Stone Temple Pilots, and Bruce Springsteen.",
+                            "text3": "hosted by Roseanne Barr"
+                        },
+                        {
+                            "text1": "VMA 1993",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1993/MTV_VMA_ArchiveBanners_1990s_1993-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1993",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1993",
+                            "text2": "Pearl Jam “Jeremy\" won Video Of The Year. Performances by Madonna, Lenny Kravitz with John Paul Jones, Sting, Soul Asylum, Peter Buck and Victoria Williams, Aerosmith, Naughty By Nature, R.E.M., Spin Doctors, Pearl Jam with Neil Young, The Edge, and Janet Jackson.",
+                            "text3": "hosted by Christian Slater"
+                        },
+                        {
+                            "text1": "VMA 1992",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1992/MTV_VMA_ArchiveBanners_1990s_1992-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1992",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1992",
+                            "text2": "Van Halen \"Right Now” won Video Of The Year. Performances by The Black Crowes, Bobby Brown, U2 with Dana Carvey, Def Leppard, Nirvana, Elton John, Pearl Jam, Red Hot Chili Peppers, Michael Jackson, Bryan Adams, En Vogue, Eric Clapton, and Guns N' Roses with Elton John.",
+                            "text3": "hosted by Dana Carvey"
+                        },
+                        {
+                            "text1": "VMA 1991",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1991/MTV_VMA_ArchiveBanners_1990s_1991-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1991",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1991",
+                            "text2": "R.E.M. \"Losing My Religion” won Video Of The Year. Performances by Van Halen, C+C Music Factory, Poison, Mariah Carey, EMF, Paula Abdul, Queensrÿche, LL Cool J, Metallica, Don Henley, Guns N’ Roses, and Prince and The New Power Generation.",
+                            "text3": "hosted by Arsenio Hall"
+                        },
+                        {
+                            "text1": "VMA 1990",
+                            "group": "1990s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1990/MTV_VMA_ArchiveBanners_1990s_1990-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1990",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1990",
+                            "text2": "Sinéad O'Connor \"Nothing Compares 2 U” won Video Of The Year. Performances by Janet Jackson, Mötley Crüe, MC Hammer, INXS, Sinéad O'Connor, New Edition ft. Bobby Brown, Faith No More, Phil Collins, 2 Live Crew, World Party, Aerosmith, and Madonna.",
+                            "text3": "hosted by Arsenio Hall"
+                        }
+                    ],
+                    "title": "1990s",
+                    "target": [
+                        "1990s_target"
+                    ],
+                    "franchise": "vma"
+                },
+                {
+                    "items": [
+                        {
+                            "text1": "VMA 1989",
+                            "group": "1980s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1989/MTV_VMA_ArchiveBanners_1980s_1989-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1989",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1989",
+                            "text2": "Neil Young \"This Note's for You” won Video Of The Year. Performances by Madonna, Bobby Brown, Def Leppard, Tone-Loc, The Cult, Paula Abdul, Jon Bon Jovi and Richie Sambora, The Cure, Cher, The Rolling Stones, and Axl Rose with Tom Petty and the Heartbreakers.",
+                            "text3": "hosted by Arsenio Hall"
+                        },
+                        {
+                            "text1": "VMA 1988",
+                            "group": "1980s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1988/MTV_VMA_ArchiveBanners_1980s_1988-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1988",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1988",
+                            "text2": "INXS \"Need You Tonight/Mediate” won Video Of The Year. Performances by Rod Stewart, Jody Watley, Aerosmith, Elton John, Depeche Mode, Crowded House, Michael Jackson, Cher, The Fat Boys ft. Chubby Checker, Guns N' Roses, and INXS.",
+                            "text3": "hosted by Arsenio Hall"
+                        },
+                        {
+                            "text1": "VMA 1987",
+                            "group": "1980s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1987/MTV_VMA_ArchiveBanners_1980s_1987-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1987",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1987",
+                            "text2": "Peter Gabriel \"Sledgehammer\" won Video Of The Year. Performances by Los Lobos, Bryan Adams, The Bangles, Bon Jovi, Crowded House, Madonna, Whitesnake, Whitney Houston, The Cars, David Bowie, Prince, Cyndi Lauper, and Run-D.M.C. ft. Steven Tyler and Joe Perry.",
+                            "text3": "hosted by Downtown Julie Brown & Carolyne Heldman & Kevin Seal & Michael Tomioka & Dweezil Zappa"
+                        },
+                        {
+                            "text1": "VMA 1986",
+                            "group": "1980s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1986/MTV_VMA_ArchiveBanners_1980s_1986-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1986",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1986",
+                            "text2": "Dire Straits \"Money for Nothing\" won Video Of The Year. Performances by Robert Palmer, The Hooters, The Monkees, 'Til Tuesday, INXS, Van Halen, Mr. Mister, Simply Red, Whitney Houston, Pet Shop Boys, Tina Turner, and Genesis.",
+                            "text3": "hosted by Downtown Julie Brown & Mark P. Goodman & Alan Hunter & Martha Quinn & Dweezil Zappa"
+                        },
+                        {
+                            "text1": "VMA 1985",
+                            "group": "1980s",
+                            "image": [
+                                {
+                                    "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1985/MTV_VMA_ArchiveBanners_1980s_1985-Thumbnail.jpg",
+                                    "width": 1281,
+                                    "height": 1281,
+                                    "aspectRatio": 1
+                                }
+                            ],
+                            "label": "1985",
+                            "url": "http://www.mtv-l.mtvi.com/vma/1985",
+                            "text2": "Don Henley \"The Boys of Summer\" won Video Of The Year. Performances by Eurythmics, David Ruffin, Eddie Kendrick and Hall & Oates, Tears for Fears, John Cougar Mellencamp, Pat Benatar, Sting, and Eddie Murphy.",
+                            "text3": "hosted by Eddie Murphy"
+                        },
+                        {
+                            "text1": "VMA 1984",
+                            "group": "1980s",
+                            "image": [
+                                {
+                                "url": "//mtv.mtvnimages.com/arc/images/events/vmas/1984/MTV_VMA_ArchiveBanners_1980s_1984-Thumbnail.jpg",
+                                "width": 1281,
+                                "height": 1281,
+                                "aspectRatio": 1
+                            }
+                        ],
+                        "label": "1984",
+                        "url": "http://www.mtv-l.mtvi.com/vma/1984",
+                        "text2": "The Cars \"You Might Think\" won Video Of The Year. Performances by Rod Stewart, Madonna, Huey Lewis and the News, David Bowie, Tina Turner, ZZ Top, and Ray Parker, Jr.",
+                        "text3": "hosted by Dan Akroyd & Bette Midler"
+                    }
+                ],
+                "title": "1980s",
+                "target": [
+                    "1980s_target"
+                ],
+                "franchise": "vma"
+            },
+            {
+                "items": [
+                    {
+                        "text1": "VMA 1920",
+                        "group": "1920s",
+                        "image": [
+                            {
+                                "url": "//mtv.mtvnimages.com/arc/images/events/vmas/2014/MTV_VMA_ArchiveBanners_2000s_2014-Thumbnail.jpg",
+                                "width": 1280,
+                                "height": 1281,
+                                "aspectRatio": 0.9992193598751
+                            }
+                        ],
+                        "label": "1920",
+                        "url": "http://www.mtv-l.mtvi.com/vma/1920",
+                        "text2": "**TEST - DO NOT EDIT OR PUBLISH**",
+                        "text3": "hosted by Miley Cyrus"
+                    }
+                ],
+                "title": "1920s",
+                "target": [
+                    "1920s_target"
+                ],
+                "franchise": "vma"
+            }
+        ],
+        "buildNav": true
+    }
+}

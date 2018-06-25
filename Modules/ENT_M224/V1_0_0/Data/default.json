@@ -1,0 +1,98 @@
+{
+    "config": {
+        "zone": "t2_lc_promo2",
+        "moduleName": "ent_m224"
+    },
+
+    "settings": {
+        "shortenerURL": "http://www.cc-l.mtvi.com/feeds/bitly",
+        "twitter": {
+            "name": "comedycentral"
+        }
+    },
+    "feedUrl": "http://www.cc-l.mtvi.com/feeds/ent_m224/V1_0_0/fb65a6f0-11a0-44c2-a23f-2a75d81412c3/d07f03c4-1b6c-11e1-aca6-0026b9414f30",
+
+    "data": {
+        "letter" : "D",
+        "alphabet": [
+            { "letter" : "A" },
+            { "letter" : "B" },
+            { "letter" : "C" },
+            { "letter" : "D", "class" : "inactive active" },
+            { "letter" : "E" },
+            { "letter" : "F", "class" : "inactive" },
+            { "letter" : "G" },
+            { "letter" : "H" },
+            { "letter" : "I" },
+            { "letter" : "J" },
+            { "letter" : "K" },
+            { "letter" : "L" },
+            { "letter" : "M" },
+            { "letter" : "N" },
+            { "letter" : "O" },
+            { "letter" : "P" },
+            { "letter" : "Q" },
+            { "letter" : "R" },
+            { "letter" : "S" },
+            { "letter" : "T" },
+            { "letter" : "U" },
+            { "letter" : "V" },
+            { "letter" : "W" },
+            { "letter" : "X" },
+            { "letter" : "Y" },
+            { "letter" : "Z" }
+        ],
+        "items": [
+            {
+                "title": "Dicknanigans",
+                "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight.",
+                "partOfSpeech": "n.",
+                "pronunciation": "/dikˈnanəɡənz/",
+                "example": {
+                    "usage": "Wow! Did you see how hard that defensive tackle went down? He had Fudge all over him",
+                    "image": "http://1.images.comedycentral.com/images/test/dictionaryimagetest.jpg"
+                },
+                "audio": "http://www.cc-l.mtvi.com/",
+                "videoLink": "http://www.cc-l.mtvi.com/video-clips/d6pfmc/-east-west-college-bowl-2",
+                "share": "http://www.cc-l.mtvi.com/shows/key-and-peele/dictionary-terms/42tj8g/fudge"
+            },
+            {
+                "title": "Dookie Plant (test)",
+                "definition": "Any vegetation nourished by the result of someone's feces traveling through the sewers to the ocean, swimming with the dolphins, evaporating, forming a dookie cloud and then raining down.",
+                "partOfSpeech": "n.",
+                "pronunciation": "/ˈdo͞okē ,plant/",
+                "example": {
+                    "usage": "Wow! Did you see how hard that defensive tackle went down? He had Fudge all over him"
+                },
+                "audio": "http://www.cc-l.mtvi.com/",
+                "videoLink": "http://www.cc-l.mtvi.com/video-clips/d6pfmc/-east-west-college-bowl-2",
+                "share": "http://www.cc-l.mtvi.com/shows/key-and-peele/dictionary-terms/42tj8g/fudge"
+            },
+            {
+                "title": "Duplicitous",
+                "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight.",
+                "partOfSpeech": "n.",
+                "pronunciation": "/dikˈnanəɡənz/",
+                "example": {
+                    "usage": "Wow! Did you see how hard that defensive tackle went down? He had Fudge all over him",
+                    "image": "http://1.images.comedycentral.com/images/test/dictionaryimagetest.jpg"
+                },
+                "audio": "http://www.cc-l.mtvi.com/",
+                "videoLink": "http://www.cc-l.mtvi.com/video-clips/d6pfmc/-east-west-college-bowl-2",
+                "share": "http://www.cc-l.mtvi.com/shows/key-and-peele/dictionary-terms/42tj8g/fudge"
+            },
+            {
+                "title": "Durge",
+                "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight",
+                "partOfSpeech": "n.",
+                "pronunciation": "/fəj/",
+                "example": {
+                    "usage": "Wow! Did you see how hard that defensive tackle went down? He had Fudge all over him"
+                },
+                "audio": "http://www.cc-l.mtvi.com/",
+                "videoLink": "http://www.cc-l.mtvi.com/video-clips/d6pfmc/-east-west-college-bowl-2",
+                "share": "http://www.cc-l.mtvi.com/shows/key-and-peele/dictionary-terms/42tj8g/fudge"
+            }
+        ]
+    }
+}

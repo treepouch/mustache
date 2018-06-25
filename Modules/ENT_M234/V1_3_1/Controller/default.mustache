@@ -1,0 +1,68 @@
+{{#data}}
+    <div class="live-stream{{^camerasSelect}} live-stream--single-camera{{/camerasSelect}}">
+        <div class="live-stream__pinned-space-holder"></div>
+        <div class="live-stream__content-holder">
+            <div class="live-stream__content-wrapper">
+                {{#title}}
+                    <h1 class="live-stream__title headline">{{.}}</h1>
+                {{/title}}
+                {{<Modules/ENT_M234/V1_3_1/Controller/sponsor_ad}}
+                    {{$adClass}}live-stream__sponsor-ad--mobile{{/adClass}}
+                {{/Modules/ENT_M234/V1_3_1/Controller/sponsor_ad}}
+                <div class="live-stream__content{{^camerasSelect}} live-stream__content--no-cameras{{/camerasSelect}}">
+                    <div class="live-stream__player-holder {{#tveAuth}} live-stream__player-holder--locked{{/tveAuth}}">
+                        {{<common/image}}
+                            {{$imageClass}}live-stream__player-thumbnail{{/imageClass}}
+                        {{/common/image}}
+
+                        <div class="live-stream__player"></div>
+
+                        {{>Modules/ENT_M234/V1_3_1/Controller/slate}}
+                    </div>
+
+                    <div class="live-stream__player-info">
+                        <div class="live-stream__player-title"
+                            {{#settings.nowWatchingTitle}} data-title="{{.}}"{{/settings.nowWatchingTitle}}
+                        >{{playerTitle}}</div>
+                    </div>
+
+                    <div class="live-stream__provider-holder live-stream__provider-holder--mobile">
+                        {{>Modules/ENT_M234/V1_3_1/Controller/provider}}
+                    </div>
+
+                    {{>Modules/ENT_M234/V1_3_1/Controller/cameras_select}}
+
+                    {{#settings.boxAd.size}}
+                        <div class="live-stream__box-ad" data-adsize="{{.}}" data-ad-sizes="{{.}}"
+                            {{#settings.sponsorship.campaignID}} data-campaign="{{.}}"{{/settings.sponsorship.campaignID}}
+                        ></div>
+                    {{/settings.boxAd.size}}
+                </div>
+            </div>
+        </div>
+
+        <div class="live-stream__footer">
+            <div class="live-stream__footer-wrapper">
+                <div class="live-stream__provider-holder live-stream__provider-holder--desktop">
+                    {{>Modules/ENT_M234/V1_3_1/Controller/provider}}
+                </div>
+               {{>Modules/ENT_M234/V1_3_1/Controller/share}}
+            </div>
+        </div>
+        {{#settings.boxAd.size}}
+            <div class="live-stream__tablet-ad">
+                <div class="live-stream__box-ad" data-adsize="{{.}}" data-ad-sizes="{{.}}"
+                    {{#settings.sponsorship.campaignID}} data-campaign="{{.}}"{{/settings.sponsorship.campaignID}}
+                ></div>
+            </div>
+        {{/settings.boxAd.size}}
+
+        {{^camerasSelect}}
+            {{<Modules/ENT_M234/V1_3_1/Controller/sponsor_ad}}
+                {{$adClass}}live-stream__sponsor-ad--desktop{{/adClass}}
+            {{/Modules/ENT_M234/V1_3_1/Controller/sponsor_ad}}
+        {{/camerasSelect}}
+    </div>
+
+    {{>common/overlay}}
+{{/data}}

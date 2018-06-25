@@ -1,0 +1,15 @@
+{{<page/triforce_skeleton}}
+{{$cssLinks}} {{/cssLinks}}
+{{$additionalCSSLinks}}
+    <link href="/__crabapple_admin/media/mustache/standalone_template/base.css" rel="stylesheet">
+    <link href="{{#cssURL}}{{cssURL}}{{/cssURL}}{{^cssURL}}/media/events-base.css{{/cssURL}}" rel="stylesheet">
+{{/additionalCSSLinks}}
+{{$additionalFooterJSLinks}}
+    <script>
+        window._mustacheTemplateConfig = (function() {
+            return {{{mustacheTemplateConfig}}};
+        })();
+    </script>
+    <script src="/__crabapple_admin/media/mustache/standalone_template/base.js"></script>
+{{/additionalFooterJSLinks}}
+{{/page/triforce_skeleton}}

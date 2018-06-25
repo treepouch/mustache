@@ -1,0 +1,83 @@
+{{#items}}
+    {{#isAd}}
+        <li class="box_ad">
+            <div class="lineList_ad" data-adsize="300x250" data-ad-sizes="300x250">
+            </div>
+        </li>
+    {{/isAd}}
+    {{^isAd}}
+        <li class="S001_line_list_item s_layouts_lineListItem s_layouts_lineListVideoItem tve_locked" data-filter="catfish:thetvshow">
+            {{#itemURL}}
+                <a class="link_wrapper" href="{{.}}">
+            {{/itemURL}}
+
+                <div class="thumbnail_holder s_layouts_lineListItemImageWrapper">
+                    {{#isFullEpisode}}
+                        <div class="item_label s_layouts_lineListBadge s_fonts_badge">
+                            <small>Full Ep</small>
+                            <span>{{episodeAiringOrder}}</span>
+                        </div>
+                    {{/isFullEpisode}}
+
+                    <div class="s_tve_lock" style="display: none" {{#isTVELockedDesktop}}data-tve-desktop="{{.}}"{{/isTVELockedDesktop}} {{#isTVELockedMobile}}data-tve-mobile="{{.}}"{{/isTVELockedMobile}}></div>
+
+                    {{> common/image }}
+
+                    {{#duration}}
+                        <div class="s_layouts_lineListDurationBadge">
+                            {{.}}
+                        </div>
+                    {{/duration}}
+                </div>
+
+            {{#itemURL}}
+                </a>
+            {{/itemURL}}
+
+                <div class="meta-wrap">
+                    {{#showURL}}
+                        <a class="label item_sticker link_wrapper" href="{{.}}">
+                    {{/showURL}}
+                        {{showTitle}}
+                    {{#showURL}}
+                        </a>
+                    {{/showURL}}
+
+                    {{#itemURL}}
+                    <a class="link_wrapper" href="{{.}}">
+                    {{/itemURL}}
+
+                        {{#title}}
+                            <h3 class="s_fonts_lineListHeader">
+                                {{.}}
+                            </h3>
+                        {{/title}}
+
+                            <h4 class="sub-header">
+                                {{#seasonNumber}}
+                                    season {{.}}{{#episodeAiringOrder}}, ep {{.}}{{/episodeAiringOrder}}
+                                {{/seasonNumber}}
+                            </h4>
+                        {{#description}}
+                            <p class="deck">
+                                {{.}}
+                            </p>
+                        {{/description}}
+
+                        {{#airDate}}
+                            <span class="meta">
+                                aired {{.}}
+                            </span>
+                        {{/airDate}}
+
+                    {{#itemURL}}
+                        </a>
+                    {{/itemURL}}
+                </div>
+
+            {{#itemURL}}
+                </a>
+            {{/itemURL}}
+        </li>
+    {{/isAd}}
+{{/items}}

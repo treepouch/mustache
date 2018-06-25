@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{$head}}
+            <link rel="stylesheet" href="{{settings.baseCSS}}" />
+            {{$additionalCSSLinks}}{{/additionalCSSLinks}}
+
+            {{#metaHeaderFields}}
+                {{{.}}}
+            {{/metaHeaderFields}}
+        {{/head}}
+    </head>
+
+    <body>
+        {{$body}}
+            <div id="background_holder">
+                {{^configuration.site.leaderboardAfterHeader}}
+                    {{$leaderboard}}
+                        {{> page/leaderboard}}
+                    {{/leaderboard}}
+                {{/configuration.site.leaderboardAfterHeader}}
+
+                <div id="content_wrapper">
+                    {{$header}}
+                        {{#globalModules.header}}
+                            <div id="header" class="tunic module {{className}}">
+                                {{> page/cdn_include}}
+                            </div>
+                        {{/globalModules.header}}
+                    {{/header}}
+
+                    {{#configuration.site.leaderboardAfterHeader}}
+                        {{$leaderboard}}
+                            {{> page/leaderboard}}
+                        {{/leaderboard}}
+                    {{/configuration.site.leaderboardAfterHeader}}
+
+                    <div id="content_holder">
+                        {{#moduleListing.tiers}}
+                            <div id="{{tier}}" {{#tierClassName}}class="{{.}}"{{/tierClassName}}>
+                                {{#left.0}}
+                                    <div id="{{tierShort}}_lc">
+                                        {{#left}}
+                                            <div id="{{tierShort}}_lc_promo{{index}}"  class="tunic {{className}}">
+                                                {{#fragmentUrl}}
+                                                    {{> page/cdn_include}}
+                                                {{/fragmentUrl}}
+                                            </div>
+                                        {{/left}}
+                                    </div>
+                                {{/left.0}}
+
+                                {{#middle.0}}
+                                    <div id="{{tierShort}}_mc">
+                                        {{#middle}}
+                                            <div id="{{tierShort}}_mc_promo{{index}}" class="tunic {{className}}">
+                                                {{#fragmentUrl}}
+                                                    {{> page/cdn_include}}
+                                                {{/fragmentUrl}}
+                                            </div>
+                                        {{/middle}}
+                                    </div>
+                                {{/middle.0}}
+
+                                {{#right.0}}
+                                    <div id="{{tierShort}}_rc">
+                                        {{#right}}
+                                            <div id="{{tierShort}}_rc_promo{{index}}" class="tunic {{className}}">
+                                                {{#fragmentUrl}}
+                                                    {{> page/cdn_include}}
+                                                {{/fragmentUrl}}
+                                            </div>
+                                        {{/right}}
+                                    </div>
+                                {{/right.0}}
+                            </div>
+                        {{/moduleListing.tiers}}
+                    </div>
+                </div>
+
+                {{$footer}}
+                    {{#globalModules.footer}}
+                        <div id="footer" class="tunic module {{className}}">
+                            {{> page/cdn_include}}
+                        </div>
+                    {{/globalModules.footer}}
+                {{/footer}}
+
+                <div id="activityIndicator"></div>
+            </div>
+        {{/body}}
+
+        {{$foot}}
+            {{$footJSLinks}}
+                <script>
+                    {{#settings.tunicFeed}}
+                        var tunicFeedURL = '{{url}}';
+                        var tunicFeed = {{{data}}};
+                    {{/settings.tunicFeed}}
+                </script>
+                <script src="{{settings.baseJS}}"></script>
+            {{/footJSLinks}}
+
+            {{#settings.bentoJS}}
+                {{> page/cdn_include}}
+            {{/settings.bentoJS}}
+
+            {{#configuration.adobeTarget.enabled}}
+                <script async src="/site/assets/js/at.js"></script>
+            {{/configuration.adobeTarget.enabled}}
+
+
+            {{$additionalFootJSLinks}}{{/additionalFootJSLinks}}
+        {{/foot}}
+    <!--PAGEOK-->
+    </body>
+</html>

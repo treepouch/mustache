@@ -1,0 +1,28 @@
+{
+  "promoId": "6a3c4",
+  "header": {
+    "title": "Videos",
+    "filters": [
+      {
+        "name": "all videos",
+        "url": "",
+        "isSelected": true
+      },
+      {
+        "name": "acceptance speeches",
+        "url": "",
+        "isSelected": false
+      },
+      {
+        "name": "interviews",
+        "url": "",
+        "isSelected": false
+      },
+      {
+        "name": "performances",
+        "url": "",
+        "isSelected": false
+      }
+    ]
+  }
+}

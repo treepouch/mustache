@@ -1,0 +1,100 @@
+{
+	"config": {
+		"moduleName": "ent_m215"
+	},
+	"settings": {
+		
+	},
+	"data": {
+		"header": "CMT Music Awards 2016 Nominees",
+		"schema": "[{\"@context\":\"http://schema.org/\",\"@type\":\"LoseAction\",\"agent\":[{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 1 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 2 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 3 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 4 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 1: Nominee 5 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"}]},{\"@context\":\"http://schema.org/\",\"@type\":\"LoseAction\",\"agent\":[{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 1 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 2 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 3 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 4 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"},{\"@type\":\"Person\",\"name\":\"Category 2: Nominee 5 - CMT\",\"image\":\"http://cmt.mtvnimages.com/uri/mgid:file:gsp:cmtstor:/sitewide/assets/img/events/2015/cmt_music_awards/fpo_thumbnail.jpg\"}]}]",
+		"awards": [
+			{
+				"awardTitle": "Breakthrough Video of the Year",
+				"awardLayout": "circle",
+				"vote": "http://www.cmt-l.mtvi.com/cmt-music-awards/2015/vote#cmt-award-1-viewer-voted-funnel-voting-open-one-award-video-sponsored",
+				"nominees": [
+					{
+						"nomineeText1": "Chris Stapleton",
+						"nomineeText2": "Fire Away",
+						"image": [
+							{
+								"url": "http://cmt.mtvnimages.com/sitewide/assets/img/microsites/2016/cmt-music-awards/nominees/breakthrough/chris_stapleton-280x210.jpg?quality=0.8",
+								"width": 1920,
+								"height": 1080,
+								"aspectRatio": 1.7777777777778,
+								"alt": ""
+							}
+						]
+					},
+					{
+						"nomineeText1": "Brothers Osborne",
+						"nomineeText2": "Stay a Little Longer",
+						"image": [
+							{
+								"url": "http://cmt.mtvnimages.com/sitewide/assets/img/microsites/2016/cmt-music-awards/nominees/breakthrough/brothers_osborne-280x210.jpg?quality=0.8",
+								"width": 1920,
+								"height": 1080,
+								"aspectRatio": 1.7777777777778,
+								"alt": ""
+							}
+						]
+					},
+					{
+						"nomineeText1": "Cam",
+						"nomineeText2": "Burning House",
+						"image": [
+							{
+								"url": "http://cmt.mtvnimages.com/sitewide/assets/img/microsites/2016/cmt-music-awards/nominees/breakthrough/cam-280x210.jpg?quality=0.8",
+								"width": 1920,
+								"height": 1080,
+								"aspectRatio": 1.7777777777778,
+								"alt": ""
+							}
+						]
+					},
+					{
+						"nomineeText1": "Chris Janson",
+						"nomineeText2": "Buy Me a Boat",
+						"image": [
+							{
+								"url": "http://cmt.mtvnimages.com/sitewide/assets/img/microsites/2016/cmt-music-awards/nominees/breakthrough/chris_janson-280x210.jpg?quality=0.8",
+								"width": 1920,
+								"height": 1080,
+								"aspectRatio": 1.7777777777778,
+								"alt": ""
+							}
+						]
+					},
+					{
+						"nomineeText1": "Maren Morris",
+						"nomineeText2": "My Church",
+						"image": [
+							{
+								"url": "http://cmt.mtvnimages.com/sitewide/assets/img/microsites/2016/cmt-music-awards/nominees/breakthrough/maren_morris-280x210.jpg?quality=0.8",
+								"width": 1920,
+								"height": 1080,
+								"aspectRatio": 1.7777777777778,
+								"alt": ""
+							}
+						]
+					},
+					{
+						"nomineeText1": "Old Dominion",
+						"nomineeText2": "Break Up with Him",
+						"image": [
+							{
+								"url": "http://cmt.mtvnimages.com/sitewide/assets/img/microsites/2016/cmt-music-awards/nominees/breakthrough/old_dominion-280x210.jpg?quality=0.8",
+								"width": 1920,
+								"height": 1080,
+								"aspectRatio": 1.7777777777778,
+								"alt": ""
+							}
+						]
+					}
+				]
+			}
+		],
+		"promoType": "ent_m215"
+	}
+}

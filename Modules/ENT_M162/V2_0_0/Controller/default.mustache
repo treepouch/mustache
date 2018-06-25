@@ -1,0 +1,38 @@
+{{#data}}
+    <div class="s_container">
+        {{#header}}
+            <div class="s_layouts_moduleHeader s_fonts_moduleHeader{{#.filters.0}} s_layouts_hasFilter{{/.filters.0}}">
+                {{#.filters.0}}
+                    <div class="s_layouts_filter">
+                        <div class="s_layouts_filterTitle">{{header.title}}</div>
+                        <ul class="s_layouts_filterDropdown s_fonts_filterDropdown">
+                            {{#header.filters}}
+                                <li class="s_layouts_filterDropdownItem{{#.isSelected}} s_states_itemSelected{{/.isSelected}}">
+                                    {{.title}}
+                                </li>
+                            {{/header.filters}}
+                        </ul>
+                    </div>
+                {{/.filters.0}}
+
+                {{^.filters.0}}
+                    {{#header.title}}
+                        <h1>{{.}}</h1>
+                    {{/header.title}}
+                {{/.filters.0}}
+            </div>
+        {{/header}}
+
+        <ul class="s_layouts_verticalList">
+            {{#items}}
+                {{>Modules/ENT_M162/V2_0_0/Controller/item}}
+            {{/items}}
+        </ul>
+
+        <div class="s_buttons_buttonWrapper">
+            <div class="s_buttons_button s_buttons_loadMore{{^nextPageURL}} s_states_isHidden{{/nextPageURL}}">
+                {{settings.loadMoreLabel}}
+            </div>
+        </div>
+    </div>
+{{/data}}

@@ -1,0 +1,92 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m249"
+  },
+
+  "settings": {
+    "loadMoreLabel": "Load More"
+  },
+  "data": {
+    "title": "Playlists",
+    "items": [
+      {
+        "isMedia": true,
+        "isPlayable": true,
+        "type": "large",
+        "url": "http://www.spike-l.mtvi.com/video-playlists/xeg8on/-ink-master-season-premiere-sneak-peek-shop-wars/",
+        "media": {
+          "image": [
+            {
+              "width": "320",
+              "height": "180",
+              "url": "http://spike.mtvnimages.com/images/missing_image2.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Ink Master Season Premiere Sneak Peek: Shop Wars",
+            "duration": "4 Videos"
+          }
+        }
+      },
+      {
+        "isMedia": true,
+        "isPlayable": true,
+        "type": "large",
+        "url": "http://www.spike-l.mtvi.com/video-playlists/yur90h/-meet-the-ink-master-season-8-finalists/",
+        "media": {
+          "image": [
+            {
+              "width": 600,
+              "height": 347,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/video-clips/inkfinalistside.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Meet The Ink Master Season 8 Finalists",
+            "duration": "4 Videos"
+          }
+        }
+      },
+      {
+        "isMedia": true,
+        "isPlayable": true,
+        "type": "large",
+        "url": "http://www.spike-l.mtvi.com/video-playlists/8j0ri0/-elimination-tattoo-preview-turn-the-tables-tattoo-marathon/",
+        "media": {
+          "image": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/video-clips/HDINK815Bclip3.mp4.01_10_00_17.Still003.jpg"
+            }
+          ],
+          "meta": {
+            "title": "Elimination Tattoo Preview: Turn The Tables Tattoo Marathon",
+            "duration": "4 Videos"
+          }
+        }
+      },
+      {
+        "isMedia": true,
+        "isPlayable": true,
+        "type": "large",
+        "url": "http://www.spike-l.mtvi.com/video-playlists/qup066/-elimination-tattoo-preview-make-me-a-cyborg/",
+        "media": {
+          "image": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/video-clips/IM814_sneak_4-3.jpeg"
+            }
+          ],
+          "meta": {
+            "title": "Elimination Tattoo Preview: \"Make Me A Cyborg\"",
+            "duration": "4 Videos"
+          }
+        }
+      }
+    ],
+    "nextPageURL": "http://www.spike-l.mtvi.com/feeds/ent_m249/0dd44b23-5870-4506-97ba-cbf031171fd9/58c11111-a4a2-4bee-afa7-9f6596402c90?pageNumber=2"
+  }
+}

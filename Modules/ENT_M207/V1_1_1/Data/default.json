@@ -1,0 +1,73 @@
+{
+  "config": {
+    "moduleName": "ent_m207"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "settings": {
+    "adSize": "7x7"
+  },
+  "data": {
+    "promoId": "1j786t",
+    "promoType": "ENT_M207",
+    "title": "related videos",
+    "items": [
+      {
+        "id": "b80375bc-2aba-11e5-b90b-0026b9414f30",
+        "url": "http:\/\/www.mtv-l.mtvi.com\/video-clips\/2gtgub\/2015-fandom-awards-shippers-rally-hard-for-their-favorite-ship-at-the-fandom-awards",
+        "image": [
+          {
+            "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/13\/448d7a85-8690-4e6b-841f-3ff6450684e8.jpg",
+            "width": 1280,
+            "height": 720,
+            "aspectRatio": "16:9"
+          }
+        ],
+        "meta": "Promo",
+        "title": "Shippers Rally Hard For Their Favorite Ship At The Fandom Awards",
+        "duration": "1:00",
+        "date": "7\/13\/2015"
+      },
+      {
+        "id": "b802cdf6-2aba-11e5-b90b-0026b9414f30",
+        "url": "http:\/\/www.mtv-l.mtvi.com\/video-clips\/vzwzyb\/2015-fandom-awards-fans-get-excited-to-see-who-wins-ship-of-the-year",
+        "image": [
+          {
+            "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/13\/soty.png",
+            "width": 953,
+            "height": 511,
+            "aspectRatio": "15:8"
+          }
+        ],
+        "meta": "Promo",
+        "title": "Fans Get Excited To See Who Wins Ship of the Year",
+        "duration": "0:30",
+        "date": "7\/13\/2015"
+      },
+      {
+        "id": "b8036fb8-2aba-11e5-b90b-0026b9414f30",
+        "url": "http:\/\/www.mtv-l.mtvi.com\/video-clips\/mb0150\/2015-fandom-awards-we-ve-got-insider-access-to-the-2015-fandom-awards",
+        "image": [
+          {
+            "url": "http:\/\/mtv.mtvnimages.com\/uri\/mgid:file:gsp:egvrenditions:\/mtv.com\/2015\/07\/13\/12\/48\/23\/beca72d7-cebf-498b-90c6-69c568bba96b.jpg",
+            "width": 1280,
+            "height": 720,
+            "aspectRatio": "16:9"
+          }
+        ],
+        "meta": "Promo",
+        "title": "We've Got Insider Access To The 2015 Fandom Awards",
+        "duration": "0:30",
+        "date": "7\/13\/2015"
+      }
+    ]
+  },
+  "messages": {
+  }
+}

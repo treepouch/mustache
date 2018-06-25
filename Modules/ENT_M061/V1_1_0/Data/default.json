@@ -1,0 +1,12 @@
+{
+    "config": {
+        "zone": "t2_lc_promo1",
+        "moduleName": "ent_m061"
+    },
+    "data": {
+        "promoId": "112adc",
+        "promoType": "ENT_M061",
+        "adSize":"300x250",
+        "tabletAds":true
+    }
+}

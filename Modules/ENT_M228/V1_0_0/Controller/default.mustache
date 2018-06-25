@@ -1,0 +1,23 @@
+{{#data}}
+    {{#filters}}
+        <div class="filters js-filters">
+            <div class="filters__wrapper">
+                {{#title}}
+                    <div class="filters__heading">
+                        <div class="filters__toggle js-filters__toggle">{{.}}</div>
+                    </div>
+                {{/title}}
+                <ul class="filters__options-list">
+                    {{#options}}
+                        <li class="filters__option js-filters__option{{#.isSelected}} filters__option--selected{{/.isSelected}}" data-url="{{.url}}">{{.title}}</li>
+                    {{/options}}
+                </ul>
+            </div>
+        </div>
+    {{/filters}}
+
+    <section class="line-listing js-line-listing" data-nextpageurl="{{#nextPageURL}}{{url}}&#63;{{queryString}}{{/nextPageURL}}">
+        {{> Modules/ENT_M228/V1_0_0/Controller/items}}
+    </section>
+    <a href="#" class="line-listing-load-more js-load-more" style="display:none">Load More</a>
+{{/data}}

@@ -1,0 +1,196 @@
+{
+  "config": {
+    "zone": "header",
+    "moduleName": "ent_m200"
+  },
+  "envelope":{
+    "version":"1.0",
+    "name":"entertainment-standard-json"
+  },
+  "status":{
+    "text":"OK",
+    "code":100
+  },
+    "data":{
+      "title":"2015 Fandom Awards",
+      "mainNavigation":[
+        {
+          "title":"Home",
+          "url":"\/fandom-awards"
+        },
+        {
+          "title":"Videos",
+          "url":"\/fandom-awards\/videos"
+        },
+        {
+          "title":"Photos",
+          "url":"\/fandom-awards\/photos"
+        },
+        {
+          "title":"News",
+          "url":"\/fandom-awards\/news"
+        },
+        {
+          "title":"Generic",
+          "url":"\/fandom-awards\/events-generic-test"
+        },
+        {
+          "title":"Honorees",
+          "url":"\/fandom-awards\/honorees"
+        },
+        {
+          "social":true,
+          "entries":[
+            {
+              "title":"facebook",
+              "url":"http:\/\/facebook.com\/mtv",
+              "typeClass":"facebook"
+            },
+            {
+              "title":"twitter",
+              "url":"http:\/\/twitter.com\/mtv",
+              "typeClass":"twitter"
+            }
+          ]
+        }
+      ],
+      "siteNavigation":[
+        {
+          "title":"MTV Home",
+          "url":"http:\/\/www.mtv-l.mtvi.com\/"
+        },
+        {
+          "title":"Shows",
+          "url":"\/shows",
+          "entries":[
+            {
+              "title":"Full Episodes",
+              "url":"\/full-episodes"
+            },
+            {
+              "title":"Shows A-Z",
+              "url":"\/shows"
+            },
+            {
+              "title":"MTV2",
+              "url":"\/mtv2"
+            },
+            {
+              "title":"TV Schedule",
+              "url":"\/tv-schedule"
+            },
+            {
+              "title":"App",
+              "url":"\/app"
+            },
+            {
+              "title":"Movie Awards",
+              "url":"\/ontv\/movieawards\/"
+            },
+            {
+              "title":"Shows News",
+              "url":"\/news\/collection\/mtv-shows\/"
+            },
+            {
+              "title":"Music from the Shows",
+              "url":"http:\/\/soundtrack.mtv.com"
+            },
+            {
+              "title":"Casting Calls",
+              "url":"\/casting-calls"
+            }
+          ]
+        },
+        {
+          "title":"Music",
+          "url":"http:\/\/www.mtv.com\/music\/",
+          "entries":[
+            {
+              "title":"Music",
+              "url":"http:\/\/www.mtv.com\/music\/"
+            },
+            {
+              "title":"Artists A-Z",
+              "url":"http:\/\/www.mtv.com\/artists\/"
+            },
+            {
+              "title":"Music Videos",
+              "url":"http:\/\/www.mtv.com\/music\/videos\/"
+            },
+            {
+              "title":"Artist to Watch",
+              "url":"http:\/\/www.mtv.com\/artists\/collections\/artists-to-watch\/896317\/"
+            }
+          ]
+        },
+        {
+          "title":"News",
+          "url":"http:\/\/www.mtv.com\/news\/",
+          "entries":[
+            {
+              "title":"Latest News",
+              "url":"http:\/\/www.mtv.com\/news\/"
+            },
+            {
+              "title":"Music",
+              "url":"http:\/\/www.mtv.com\/news\/music\/"
+            },
+            {
+              "title":"Celebrity",
+              "url":"http:\/\/www.mtv.com\/news\/celebrity\/"
+            },
+            {
+              "title":"TV",
+              "url":"http:\/\/www.mtv.com\/news\/tv\/"
+            },
+            {
+              "title":"Movies",
+              "url":"http:\/\/www.mtv.com\/news\/movies\/"
+            },
+            {
+              "title":"Style",
+              "url":"http:\/\/www.mtv.com\/news\/style\/"
+            },
+            {
+              "title":"Politics",
+              "url":"http:\/\/www.mtv.com\/news\/politics\/"
+            },
+            {
+              "title":"Life",
+              "url":"http:\/\/www.mtv.com\/news\/life\/"
+            }
+          ]
+        },
+        {
+          "social":true,
+          "entries":[
+            {
+              "title":"facebook",
+              "url":"http:\/\/www.facebook.com\/MTV",
+              "typeClass":"facebook"
+            },
+            {
+              "title":"twitter",
+              "url":"https:\/\/twitter.com\/MTV",
+              "typeClass":"twitter"
+            },
+            {
+              "title":"tumblr",
+              "url":"http:\/\/mtv.tumblr.com\/",
+              "typeClass":"tumblr"
+            }
+          ]
+        }
+      ]
+    },
+    "settings":{
+      "searchURL":"\/search",
+      "searchPlaceholder":"SEARCH BRAND SITE",
+      "altTitle":"Brand Alt Title",
+      "menuName":"Brand Menu",
+      "signOutText":"TV Provider Sign Out"
+    },
+  "messages":{
+
+  }
+}

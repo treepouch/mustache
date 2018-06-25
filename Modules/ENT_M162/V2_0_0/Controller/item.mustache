@@ -1,0 +1,33 @@
+<li class="s_layouts_verticalListItem">
+    <a href="{{url}}" class="thumbnail_holder s_layouts_verticalListItemLink">
+        <div class="s_layouts_verticalListItemImage s_animation_hoverOverlay">
+            {{>common/image}}
+
+            {{#badge}}
+                <div class="s_layouts_lineListBadge s_fonts_badge">
+                    <span>{{.}}</span>
+                </div>
+            {{/badge}}
+        </div>
+
+        <div class="s_layouts_verticalListItemInfo">
+            {{#displayDate}}
+                <h3 class="s_layouts_verticalListItemDateAlt s_fonts_verticalListItemDate">
+                    {{.}}
+                </h3>
+            {{/displayDate}}
+
+            {{#title}}
+                <h2 class="s_fonts_verticalListItemHeadline">
+                    {{.}}
+                </h2>
+            {{/title}}
+
+            {{#description}}
+                <div class="s_layouts_verticalListItemDescription s_fonts_verticalListItemDescription">
+                    {{.}}
+                </div>
+            {{/description}}
+        </div>
+    </a>
+</li>

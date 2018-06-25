@@ -1,0 +1,149 @@
+{{#data}}
+<div id="videos" class="vdl-module-container videoguide-container{{#loadMore}} fade-flag{{/loadMore}}">
+    <div class="vdl-container">
+        <div class="dropdown-container">
+            <div class="dropdown-wrap">
+                <div class="dropdown {{#isSingleSeason}}disabled-mouse{{/isSingleSeason}}">
+                    <div class="vdl-btn btn-dropdown vdl-btn-outline dropdown-toggle no-select" data-toggle="dropdown">
+                        {{#seasons}}
+                            {{#.isSelected}}
+                                <span>{{label}}</span>
+                            {{/.isSelected}}
+                        {{/seasons}}
+                    </div>
+                    {{^isSingleSeason}}
+                        <ul class="dropdown-menu">
+                            {{#seasons}}
+                                <li class="season-item{{#.isSelected}} disabled active{{/.isSelected}}"><span>{{label}}</span></li>
+                            {{/seasons}}
+                        </ul>
+                    {{/isSingleSeason}}
+                </div>
+            </div>
+        </div>
+        {{#filters.0}}
+            <div class="filter-container">
+                <div class="filter-wrap">
+                    <div class="label">Filter By:</div>
+                    <div class="filters-list-wrap">
+                        <ul class="nav filter-list">
+                            {{#filters}}
+                                <li class="{{#.isSelected}} active{{/.isSelected}}">
+                                    <span id="{{label}}" data-feed-url="{{url}}" data-toggle="tab">{{label}}</span>
+                                </li>
+                            {{/filters}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {{/filters.0}}
+        <div class="tab-content">
+            <div class="loader content-loader hidden linelist-loading-graphic"></div>
+            {{#isEpisode}}
+                <div id="fullepisodes" class="fullepisodes tab-pane fade {{#isEpisode}}active in{{/isEpisode}} clearfix">
+                    <div class="items-wrap">
+                        {{#items}}
+                            <div class="vdl-item postcard-right" data-tve-desktop="{{#.tveAuth.desktop}}{{.}}{{/.tveAuth.desktop}}{{^.tveAuth.desktop}}false{{/.tveAuth.desktop}}" data-tve-mobile="{{#.tveAuth.mobile}}{{.}}{{/.tveAuth.mobile}}{{^.tveAuth.mobile}}false{{/.tveAuth.mobile}}">
+                                <div class="media-wrap">
+                                    <div class="media">
+                                        <div class="item-container">
+                                            <div class="content">
+                                                {{#image}}
+                                                    {{>common/image}}
+                                                {{/image}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="meta-wrap">
+                                    <div class="label-container">
+                                        {{#badge}}
+                                            <div class="label">{{title}}</div>
+                                        {{/badge}}
+                                    </div>
+                                    <div class="header">{{#subTitle}}{{.}}{{/subTitle}} {{#displayDate}}<span class="air-date">{{#subTitle}}&#8226;{{/subTitle}} {{.}}{{/displayDate}}</span></div>
+                                    <div class="sub-header">{{title}}</div>
+                                    <div class="deck"><span>{{description}}</span></div>
+                                    <div class="vdl-btn-group clearfix">
+                                        {{#button.0}}
+                                            <div class="vdl-btn">
+                                                {{#label.tve}}
+                                                    <a href="{{link}}">
+                                                        <span class="hidden watch-btn-copy" data-tve-auth="logged-out">{{label.tve}}</span>
+                                                        <span class="hidden watch-btn-copy" data-tve-auth="logged-in">{{label.now}}</span>
+                                                    </a>
+                                                {{/label.tve}}
+                                                {{^label.tve}}
+                                                    <a href="{{link}}">{{label}}</a>
+                                                {{/label.tve}}
+                                            </div>
+                                        {{/button.0}}
+                                        {{#button.1}}
+                                            <div class="vdl-btn vdl-btn-outline">
+                                                {{#label.tve}}
+                                                    <a href="{{link}}">
+                                                        <span class="hidden watch-btn-copy" data-tve-auth="logged-out">{{label.tve}}</span>
+                                                        <span class="hidden watch-btn-copy" data-tve-auth="logged-in">{{label.now}}</span>
+                                                    </a>
+                                                {{/label.tve}}
+                                                {{^label.tve}}
+                                                    <a href="{{link}}">{{label}}</a>
+                                                {{/label.tve}}
+                                            </div>
+                                        {{/button.1}}
+                                    </div>
+                                </div>
+                            </div>
+                        {{/items}}
+
+                    </div>
+                    {{#loadMore}}
+                        <div class="expand-wrap"><div class="vdl-btn load-more-btn" data-feed-url="{{.url}}">{{.label}}</div></div>
+                    {{/loadMore}}
+                </div>
+            {{/isEpisode}}
+            {{^isEpisode}}
+                <div id="videoclips" class="videoclips tab-pane fade {{^isEpisode}}active in{{/isEpisode}} clearfix">
+                    <div class="vdl-row">
+                        <div class="items-wrap">
+                            {{#items}}
+                                <div class="vdl-col-lg-4 vdl-col-md-6 vdl-col-sm-12">
+                                    <a href="{{url}}">
+                                        <div class="vdl-item">
+                                            <div class="media-wrap">
+                                                <div class="media">
+                                                    <div class="item-container containerx16x9">
+                                                        <div class="content">
+                                                            {{#image}}
+                                                                {{>common/image}}
+                                                            {{/image}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {{#badge}}
+                                                    <div class="badge episode">{{badge.title}}</div>
+                                                {{/badge}}
+                                                {{#duration}}
+                                                    <span class="timestamp">{{.}}</span>
+                                                {{/duration}}
+                                            </div>
+                                            <div class="meta-wrap">
+                                                <div class="meta"><span class="subtitle">{{subTitle}}</span>{{#displayDate}}<span class="air-time">{{.}}</span>{{/displayDate}}</div>
+                                                <div class="header">{{title}}</div>
+                                                <div class="deck"><span>{{description}}</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            {{/items}}
+                            {{#loadMore}}
+                                <div class="expand-wrap"><div class="vdl-btn load-more-btn" data-feed-url="{{.url}}">{{.label}}</div></div>
+                            {{/loadMore}}
+                        </div>
+                    </div>
+                </div>
+            {{/isEpisode}}
+        </div>
+    </div>
+</div>
+{{/data}}

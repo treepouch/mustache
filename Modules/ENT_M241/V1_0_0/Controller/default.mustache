@@ -1,0 +1,56 @@
+{{#data}}
+    <div class="ent_m241-module-content card-grid">
+		{{#headline}}
+		<div class="ent_m241-header card-grid-header">
+			<h1 class="ent_m241-headline card-grid-headline">
+					{{headline}}
+			</h1>
+		</div>
+		{{/headline}}
+
+		<div class="ent_m241-filter-wrap card-grid-filter-wrap">
+			<ul class="ent_m241-filter-container card-grid-filter-container">
+				{{#filters}}
+					<li class="ent_m241-filter-item card-grid-filter-item {{#active}}active{{/active}}" data-url="{{url}}">{{text}}</li>
+				{{/filters}}
+			</ul>
+			<div class="ent_m241-filter-load-graphic card-grid-filter-load-graphic">
+
+			</div>
+		</div>
+
+		<div class="ent_m241-item-wrap card-grid-item-wrap">
+			<ul class="ent_m241-item-container card-grid-container">{{>Modules/ENT_M241/V1_0_0/Controller/items}}</ul>
+			<div class="ent_m241-no-results card-grid-no-results">
+				{{#noResultsText}}
+					{{.}}
+				{{/noResultsText}}
+			</div>
+		</div>
+
+
+			<div class="ent_m241-load-more-wrap card-grid-button-wrap {{^items}}hidden{{/items}}">
+			{{#nextPageURL}}
+				<div class="ent_m241-load-more-button card-grid-button">
+					Show More
+				</div>
+			{{/nextPageURL}}
+
+			<div class="ent_m241-load-more-graphic card-grid-load-more-graphic">
+
+			</div>
+		</div>
+
+		{{#seoLinks}}
+		<div class="ent_m241-seo-link-wrap">
+			{{#seoNextPageUrl}}
+				<a class="ent_m241-seo-link" rel="next" href="{{seoNextPageUrl}}"></a>
+			{{/seoNextPageUrl}}
+			{{#seoPreviousPageUrl}}
+				<a class="ent_m241-seo-link" rel="prev" href="{{seoPreviousPageUrl}}"></a>
+			{{/seoPreviousPageUrl}}
+		</div>
+		{{/seoLinks}}
+
+    </div>
+{{/data}}

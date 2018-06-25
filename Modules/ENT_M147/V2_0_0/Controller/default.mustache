@@ -1,0 +1,20 @@
+{{#data}}
+
+    <div class="s_container {{#adSize}}has_ad{{/adSize}}">
+        {{#adSize}}
+            <div class="s_ads_searchAdWrapper">
+                <div class="ad_{{.}}" data-adsize="{{.}}" data-allowontablet="true" data-ad-sizes="{{.}}"></div>
+            </div>
+        {{/adSize}}
+
+        <form class="s_layouts_moduleSearchWrapper">
+            <input class="s_layouts_moduleSearchBar s_base_input_text" type="text" value="" placeholder="Search Fighters">
+            <input class="s_layouts_moduleSearchSubmit" type="submit" value="M">
+
+            <ul class="s_layouts_moduleSearchResults s_states_isHidden">
+                {{>Modules/ENT_M147/V2_0_0/Controller/search-results}}
+            </ul>
+        </form>
+    </div>
+
+{{/data}}

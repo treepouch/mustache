@@ -1,0 +1,19 @@
+{{#data}}
+    <div class="container">
+        <div class="module-container">
+            {{#header}}
+                <header class="header-md">
+                    <div class="label">{{.}}</div>
+                </header>
+            {{/header}}
+
+            <div class="items-container">
+                <div class="items-wrap">
+                    {{#items}}
+                        {{> Modules/ENT_M240/V1_1_0/Controller/item }}
+                    {{/items}}
+                </div>
+            </div>
+        </div>
+    </div>
+{{/data}}

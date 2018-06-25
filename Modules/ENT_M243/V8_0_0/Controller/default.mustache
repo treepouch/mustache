@@ -1,0 +1,59 @@
+{{#data}}
+    <style>
+        {{#text_color}}
+        .ent_m243-link .ent_m243-time,
+        .ent_m243-link:hover .ent_m243-time,
+        .ent_m243-link:hover,
+        .ent_m243-link .ent_m243-headline-live-button,
+        .ent_m243-link:hover .ent_m243-headline-live-button{
+            color: {{text_color}};
+
+        }
+        .ent_m243-link:hover .ent_m243-headline-live-button,
+        .ent_m243-link:hover .ent_m243-time {
+            border-color: {{text_color}};
+        }
+        {{/text_color}}
+
+        {{#hover_color}}
+        .ent_m243-time,
+        .ent_m243-link:hover,
+        .ent_m243-headline-live-button {
+            background: {{hover_color}};
+        }
+        {{/hover_color}}
+    </style>
+    <div class="ent_m243-module-content closed">
+        {{#url}}
+        <a href="{{.}}" class="ent_m243-link" target="_blank">
+        {{/url}}
+            <div class="ent_m243-header">
+                <h1 class="ent_m243-headline">
+                    <span class="ent_m243-headline-countdown">
+                    {{#headline}}
+                        {{.}}
+                    {{/headline}}
+                    </span>
+                    <span class="ent_m243-headline-live">
+                        {{#urlText}}
+                            <span class="ent_m243-headline-live-button" data-live-url="{{live_url}}">
+                                {{.}}
+                            </span>
+                        {{/urlText}}
+                        {{#subheadline}}
+                            <span class="ent_m243-headline-live-text">
+                                {{.}}
+                            </span>
+                        {{/subheadline}}
+                    </span>
+                    <span class="ent_m243-time" data-end-timestamp="{{end_timestamp}}" data-timezone-offset="{{timezone_offset}}">
+
+                    </span>
+                </h1>
+            </div>
+         {{#url}}
+         </a>
+         {{/url}}
+         <span class="ent_m243-close"></span>
+    </div>
+{{/data}}

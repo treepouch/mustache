@@ -1,0 +1,31 @@
+{
+    "config": {
+        "zone": "t1_lc_promo1",
+        "moduleName": "ent_m099"
+    },
+    "data": {
+        "promoId": "123456",
+        "promoType": "ENT_M099",
+        "parentPromo": {
+            "linkURL": "http://www.cc.com/shows/the-daily-show-with-trevor-noah",
+            "image": {
+                "width": 1920,
+                "height": 1080,
+                "url": "http://1.images.comedycentral.com/images/shows/tds/videos/season_22/22056/ds_22_056_massive.jpg"
+            },
+            "overlays": {
+                "headline": "I AM A HEADLINE",
+                "subHeadline": "SUB HEADLINE",
+                "copy": "Copy would go here if we had copy"
+            }
+        },
+        "childPromo": {
+            "headline": "PRESIDENT TRUMP'S MUSLIM-TARGETED TRAVEL BAN",
+            "subHeadline": "CHILD SUB HEADLINE",
+            "link": {
+                "url": "http://www.cc.com/full-episodes/rajor8/the-daily-show-with-trevor-noah-january-30--2017---sybrina-fulton---tracy-martin-season-22-ep-22056",
+                "label": "WATCH THE EPISODE"
+            }
+        }
+    }
+}

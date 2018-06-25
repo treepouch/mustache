@@ -1,0 +1,100 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m233"
+  },
+  "settings":{
+  },
+  "data": {
+    "headline": "icymi",
+    "subheadline": "In case you missed it",
+    "items": [
+        {
+          "itemNumber": 1,
+          "itemGridClass": "two-col-item",
+          "imagePositionClass": "left",
+          "type": "clip",
+          "shareText": "Share 8 clips",
+          "nestedLabel": "1:59",
+          "image": {
+            "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-rose-469501576.jpg",
+            "width": 600,
+            "height": 903
+          },
+          "label": "news",
+          "title": "First item title",
+          "copy": "Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        },
+      {
+        "itemNumber": 2,
+        "itemGridClass": "one-col-item",
+        "shareText": "Share clip",
+        "nestedLabel": "Play 8 clips",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-rose-469501576.jpg",
+          "width": 600,
+          "height": 903
+        },
+        "label": "news",
+        "title": "Big long and uncut Item title lorenm ipsum sit amet item title",
+        "copy": "Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California. Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+      },
+      {
+        "itemNumber": 3,
+        "itemGridClass": "one-col-item",
+        "imagePositionClass": "left",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-rose-469501576.jpg",
+          "width": 600,
+          "height": 903
+        },
+        "label": "news",
+        "title": "Item title",
+        "copy": "Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+      },
+      {
+        "itemNumber": 4,
+        "itemGridClass": "two-col-item",
+        "imagePositionClass": "right",
+        "alternativeGrid": true,
+        "nestedLabel": "",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-rose-469501576.jpg",
+          "width": 600,
+          "height": 903
+        },
+        "label": "news",
+        "title": "Item title",
+        "copy": "Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+      },
+      {
+        "isAD": true,
+        "itemGridClass": "one-col-item",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-rose-469501576.jpg",
+          "width": 600,
+          "height": 903
+        },
+        "label": "news",
+        "title": "Item title",
+        "copy": "Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+      },
+      {
+        "itemNumber": 5,
+        "itemGridClass": "one-col-item",
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-rose-469501576.jpg",
+          "width": 600,
+          "height": 903
+        },
+        "label": "news",
+        "title": "Item title",
+        "copy": "Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California. Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California. Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California. Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California. Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California. Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California. Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California. Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California. Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+      }
+    ],
+    "promoLink": {
+      "url": "http://example.com",
+      "copy": "see all moments"
+    }
+  }
+}

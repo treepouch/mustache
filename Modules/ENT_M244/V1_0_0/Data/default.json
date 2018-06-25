@@ -1,0 +1,88 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m243"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "data": {
+    "headline": "News",
+    "moduleURL": {
+      "text": "See More Music News",
+      "url": "/news/music"
+    },
+    "items": [
+      {
+        "image": [
+          {
+            "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:221725"
+          }
+        ],
+        "url": "http://www.mtv-l.mtvi.com/",
+        "label": "Music News",
+        "title": "Nicki Minaj And Gucci Mane Have Apparently Squashed Their Years-Long Beef",
+        "subtitle": "Nicki Minaj and Gucci Mane have reunited and apparently reconciled.",
+        "publishDate": "7m ago",
+        "authorInformation": {
+          "name": "Madeline Roth"
+        }
+      },
+      {
+        "image": [
+          {
+            "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:221714"
+          }
+        ],
+        "url": "http://www.mtv-l.mtvi.com/",
+        "label": "Music News",
+        "title": "Lady Gaga Breaks About 100 Traffic Laws In ‘John Wayne’ Video",
+        "subtitle": "Lady Gaga is a reckless vandal in her rollicking \"John Wayne\" video.",
+        "publishDate": "1h ago",
+        "authorInformation": {
+          "name": "Madeline Roth"
+        }
+      },
+      {
+        "image": [
+          {
+            "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:221708"
+          }
+        ],
+        "url": "http://www.mtv-l.mtvi.com/",
+        "label": "Music News",
+        "title": "MUNA Imagine A World Ruled By Empathy",
+        "subtitle": "On their debut, the L.A. synth-pop trio create a space of warmth and safety",
+        "publishDate": "1h ago",
+        "authorInformation": {
+          "name": "Molly Lambert"
+        }
+      },
+      {
+        "image": [
+          {
+            "url": "http://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:221704"
+          }
+        ],
+        "url": "http://www.mtv-l.mtvi.com/",
+        "label": "Music News",
+        "title": "It’s Time For Justin Bieber To Follow His Acting Dreams",
+        "subtitle": "Acting seems to bring him a joy that he hasn’t shown in years",
+        "publishDate": "1h ago",
+        "authorInformation": {
+          "name": "Anne T. Donahue"
+        }
+      },
+      {
+        "adSize": "300x250"
+      }
+    ]
+  },
+  "messages": {
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "config": {
+    "zone": "header",
+    "moduleName": "ent_m200"
+  },
+  "envelope":{
+    "version":"1.0",
+    "name":"entertainment-standard-json"
+  },
+  "status":{
+    "text":"OK",
+    "code":100
+  },
+  "data":{
+    "logoSVG": "\u003Csvg id=\"vh1-logo\" data-name=\"vh1-logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 85.09 44.1\"\u003E\u003Cdefs\u003E\u003Cstyle\u003E.cls-1{fill:#fff;}\u003C/style\u003E\u003C/defs\u003E\u003Ctitle\u003Evh1_logo\u003C/title\u003E\u003Cpath class=\"cls-1\" d=\"M0,0V44.1H85.09V0H0ZM64.5,25.71a0.52,0.52,0,0,1-.52.52h-7.1a0.52,0.52,0,0,0-.52.52v8.79a0.52,0.52,0,0,1-.52.52H48.53A0.52,0.52,0,0,1,48,35.54V26.75a0.52,0.52,0,0,0-.52-0.52H40.74v9.31a0.52,0.52,0,0,1-.52.52H32.9a0.52,0.52,0,0,1-.52-0.52V9.5a0.2,0.2,0,0,0-.19-0.18,0.2,0.2,0,0,0-.19.14L22.65,35.57a0.8,0.8,0,0,1-.7.49H16.11a0.79,0.79,0,0,1-.7-0.49l-9.68-27A0.34,0.34,0,0,1,6.08,8h7.75a0.75,0.75,0,0,1,.67.5l4.35,14.11a0.19,0.19,0,0,0,.36,0L23.57,8.53A0.75,0.75,0,0,1,24.24,8h16a0.52,0.52,0,0,1,.52.52v9.31h6.76A0.52,0.52,0,0,0,48,17.35V8.56A0.52,0.52,0,0,1,48.53,8h7.32a0.52,0.52,0,0,1,.52.52v8.79a0.52,0.52,0,0,0,.52.52H64.5v7.84Zm13.06,9.83a0.52,0.52,0,0,1-.52.52H69.73a0.52,0.52,0,0,1-.52-0.52V18.39a0.52,0.52,0,0,0-.52-0.52H64.5V12.54a1,1,0,0,1,.43-0.82l4.52-3.39a1.65,1.65,0,0,1,1-.3H77a0.52,0.52,0,0,1,.52.52v27Z\"/\u003E\u003C/svg\u003E",
+    "title":"2015 Fandom Awards",
+    "shortTuneIn": "08.28.16",
+    "mainNavigation":[
+      {
+        "title":"Home",
+        "url":"\/fandom-awards"
+      },
+      {
+        "title":"Videos",
+        "url":"\/fandom-awards\/videos"
+      },
+      {
+        "title":"Photos",
+        "url":"\/fandom-awards\/photos"
+      },
+      {
+        "title":"News",
+        "url":"\/fandom-awards\/news"
+      },
+      {
+        "title":"Generic",
+        "url":"\/fandom-awards\/events-generic-test"
+      },
+      {
+        "title":"Honorees",
+        "url":"\/fandom-awards\/honorees"
+      },
+      {
+        "social":true,
+        "entries":[
+          {
+            "title":"facebook",
+            "url":"http:\/\/facebook.com\/mtv",
+            "typeClass":"facebook"
+          },
+          {
+            "title":"twitter",
+            "url":"http:\/\/twitter.com\/mtv",
+            "typeClass":"twitter"
+          }
+        ]
+      }
+    ],
+    "siteNavigation":[
+      {
+        "title":"MTV Home",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/"
+      },
+      {
+        "title":"Shows",
+        "url":"\/shows",
+        "entries":[
+          {
+            "title":"Full Episodes",
+            "url":"\/full-episodes"
+          },
+          {
+            "title":"Shows A-Z",
+            "url":"\/shows"
+          },
+          {
+            "title":"MTV2",
+            "url":"\/mtv2"
+          },
+          {
+            "title":"TV Schedule",
+            "url":"\/tv-schedule"
+          },
+          {
+            "title":"App",
+            "url":"\/app"
+          },
+          {
+            "title":"Movie Awards",
+            "url":"\/ontv\/movieawards\/"
+          },
+          {
+            "title":"Shows News",
+            "url":"\/news\/collection\/mtv-shows\/"
+          },
+          {
+            "title":"Music from the Shows",
+            "url":"http:\/\/soundtrack.mtv.com"
+          },
+          {
+            "title":"Casting Calls",
+            "url":"\/casting-calls"
+          }
+        ]
+      },
+      {
+        "title":"Music",
+        "url":"http:\/\/www.mtv.com\/music\/",
+        "entries":[
+          {
+            "title":"Music",
+            "url":"http:\/\/www.mtv.com\/music\/"
+          },
+          {
+            "title":"Artists A-Z",
+            "url":"http:\/\/www.mtv.com\/artists\/"
+          },
+          {
+            "title":"Music Videos",
+            "url":"http:\/\/www.mtv.com\/music\/videos\/"
+          },
+          {
+            "title":"Artist to Watch",
+            "url":"http:\/\/www.mtv.com\/artists\/collections\/artists-to-watch\/896317\/"
+          }
+        ]
+      },
+      {
+        "title":"News",
+        "url":"http:\/\/www.mtv.com\/news\/",
+        "entries":[
+          {
+            "title":"Latest News",
+            "url":"http:\/\/www.mtv.com\/news\/"
+          },
+          {
+            "title":"Music",
+            "url":"http:\/\/www.mtv.com\/news\/music\/"
+          },
+          {
+            "title":"Celebrity",
+            "url":"http:\/\/www.mtv.com\/news\/celebrity\/"
+          },
+          {
+            "title":"TV",
+            "url":"http:\/\/www.mtv.com\/news\/tv\/"
+          },
+          {
+            "title":"Movies",
+            "url":"http:\/\/www.mtv.com\/news\/movies\/"
+          },
+          {
+            "title":"Style",
+            "url":"http:\/\/www.mtv.com\/news\/style\/"
+          },
+          {
+            "title":"Politics",
+            "url":"http:\/\/www.mtv.com\/news\/politics\/"
+          },
+          {
+            "title":"Life",
+            "url":"http:\/\/www.mtv.com\/news\/life\/"
+          }
+        ]
+      },
+      {
+        "social":true,
+        "entries":[
+          {
+            "title":"facebook",
+            "url":"http:\/\/www.facebook.com\/MTV",
+            "typeClass":"facebook"
+          },
+          {
+            "title":"twitter",
+            "url":"https:\/\/twitter.com\/MTV",
+            "typeClass":"twitter"
+          },
+          {
+            "title":"tumblr",
+            "url":"http:\/\/mtv.tumblr.com\/",
+            "typeClass":"tumblr"
+          }
+        ]
+      }
+    ]
+  },
+  "settings":{
+    "searchURL":"\/search",
+    "searchPlaceholder":"SEARCH BRAND SITE",
+    "altTitle":"Brand Alt Title",
+    "menuName":"Brand Menu",
+    "signOutText":"TV Provider Sign Out",
+    "menuTitle":"MENU"
+  },
+  "messages":{
+
+  }
+}

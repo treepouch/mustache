@@ -1,0 +1,140 @@
+{{#data}}
+<div class="site_header">
+
+    <div class="top_outer primary_background">
+        <div class="top_inner">
+            <div class="menu_holder">
+                <div class="hamburger" id="trigger">
+                    <span class="icon"></span>
+                    <span class="screen-reader-text">{{screenReaderText}} Menu</span>
+                </div>
+                <div class="site_logo">
+                    <a href="{{homeURL}}">
+                        <span data-graphics="A" class="icon"></span>
+                        <span class="screen-reader-text">{{screenReaderText}}</span>
+                    </a>
+                </div>
+                <div class="slide_menu" >
+                    <ul class="side_navigation">
+                        {{#siteNavigation}}
+                            <li class="{{className}}">
+                                {{#hasSubNav}}
+                                    <a href="{{urlSpecifiedByEditor}}" class="has_arrow" data-graphics-after="&#86;">{{title}}</a>
+                                    <div class="sub_entries">
+                                        <ul>
+                                        {{#entries}}
+                                        <li>
+                                            <a href="{{url}}">{{title}}</a>
+                                        </li>
+                                        {{/entries}}
+                                        </ul>
+                                        {{#seeAll}}
+                                            <a href="{{url}}" class="see_all">See all {{title}}</a>
+                                        {{/seeAll}}
+                                    </div>
+                                {{/hasSubNav}}
+                                {{^hasSubNav}}
+                                    <a href="{{url}}">{{title}}</a>
+                                {{/hasSubNav}}
+                            </li>
+                        {{/siteNavigation}}
+
+                        <li class="provider_signout" style="display:none;">TV Provider Sign Out</li>
+                        {{#socialNavigation}}
+                        <li class="social">
+                            {{#entries}}
+                                <a href="{{url}}">
+                                    <span class="icon" data-graphics="{{icon}}"></span>
+                                    <span class="screen-reader-text">{{title}}</span>
+                                </a>
+                            {{/entries}}
+                        </li>
+                        {{/socialNavigation}}
+                    </ul>
+                </div>
+                <div class="page_overlay"></div>
+            </div>
+            {{#show}}
+            <a href="{{canonicalURL}}" class="show_logo {{titleClassName}}">
+                    <span class="wrapper {{#subTitle}}with_subtitle{{/subTitle}}">
+                        <h1 class="title">{{title}}</h1>
+                        {{#subTitle}}
+                        <span class="subtitle">{{.}}</span>
+                        {{/subTitle}}
+                    </span>
+            </a>
+
+            {{#shortTuneIn}}
+                <div class="new_eps_info">
+                    <p>{{.}}</p>
+                </div>
+            {{/shortTuneIn}}
+            {{/show}}
+            {{^show}}
+            <a class="logo" href="/">
+                <span data-graphics="&#64;" class="icon"></span>
+            </a>
+            <div class="full_logo_wrapper">
+                <div class="logo_anim">
+                </div>
+            </div>
+            {{/show}}
+            <div class="search_wrapper">
+                <div class="form_containment" id="site_search">
+                    <form action="/search">
+                        <input type="text" name="keywords" class="search_input" placeholder="{{searchPlaceholder}}"/>
+                        <input type="submit" value="M" class="search_btn">
+                        <div class="preload_wrapper"></div>
+                    </form>
+                </div>
+                <div class="hide_search" data-graphics="W"></div>
+            </div>
+            {{#hasShowNavigation}}
+            <div class="show_menu_wrapper">
+                <div class="show_menu_btn">
+                    <span>Menu</span>
+                    <span data-graphics="V"></span>
+                </div>
+                <div class="show_menu_scroll_wrapper">
+                    <ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement" class="show_menu">
+                        {{#showNavigation}}
+                            <li class="{{className}}">
+                                {{#hasSubNav}}
+                                    <a href="{{urlSpecifiedByEditor}}" class="has_arrow notriforce" data-graphics-after=""&#86;>{{title}}</a>
+                                    <div class="sub_entries">
+                                        <ul>
+                                            {{#entries}}
+                                                <li>
+                                                    <a href="{{url}}">{{title}}</a>
+                                                </li>
+                                            {{/entries}}
+                                        </ul>
+                                        {{#seeAll}}
+                                            <a href="{{url}}">See all {{title}}</a>
+                                        {{/seeAll}}
+                                    </div>
+                                {{/hasSubNav}}
+                                {{^hasSubNav}}
+                                    <a href="{{url}}">{{title}}</a>
+                                {{/hasSubNav}}
+                            </li>
+                        {{/showNavigation}}
+
+                        <li class="social">
+                            {{#socialHandlers}}
+                            <a href="{{url}}" target="_blank" class="notriforce">
+                                <span data-graphics="{{icon}}" class="icon"></span>
+                                <span class="screen-reader-text">{{title}}</span>
+                            </a>
+                            {{/socialHandlers}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            {{/hasShowNavigation}}
+        </div>
+    </div>
+
+<div class="bottom_outer"></div>
+</div>
+{{/data}}

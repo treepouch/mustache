@@ -1,0 +1,62 @@
+<div class="vdl-item">
+    {{#url}}
+        <a href="{{.}}" {{#settings.isPopUp}}target="_blank"{{/settings.isPopUp}}>
+    {{/url}}
+        {{#.media}}
+            <div class="media-wrap">
+                <div class="media">
+                    <div class="item-container">
+                        <div class="content">
+                            {{>common/image}}
+                        </div>
+                    </div>
+                </div>
+                {{#settings.isTVELockedDesktop}}
+                    <span class="authorization">sign in to watch</span>
+                {{/settings.isTVELockedDesktop}}
+
+                {{#meta}}
+                    {{#duration}}
+                        <span class="timestamp">{{.}}</span>
+                    {{/duration}}
+                {{/meta}}
+            </div>
+        {{/.media}}
+
+        {{#.meta}}
+            <div class="meta-wrap">
+                {{#label}}<div class="label">{{.}}</div>{{/label}}
+                    <div class="header-icon"></div>
+                    {{#showTitle}}
+                        <div class="header"><span>{{.}}</span></div>
+                        {{#title}}<div class="sub-header">{{.}}</div>{{/title}}
+                    {{/showTitle}}
+                    {{^showTitle}}
+                        {{#title}}<div class="header"><span>{{{.}}}</span></div>{{/title}}
+                        {{#descriptor}}<div class="sub-header">{{.}}</div>{{/descriptor}}
+                    {{/showTitle}}
+
+                <div class="meta">{{#seasonNumber}}S{{.}}{{/seasonNumber}} {{#episodeAiringOrder}}E{{.}} • {{/episodeAiringOrder}}{{#showTitle}}{{^episodeAiringOrder}} • {{/episodeAiringOrder}}{{/showTitle}}{{#showTitle}}{{#descriptor}}{{.}} • {{/descriptor}}{{/showTitle}}{{#airDate}}<span class="air-meta">{{.}}</span>{{/airDate}}</div>
+
+                {{#description}}<div class="deck"><span>{{{.}}}</span></div>{{/description}}
+                {{#socialHandles.0}}
+                    <div class="social">
+                        <div class="icon-group">
+                        {{#socialHandles}}
+                            <a href="{{url}}" target="_blank"><span class="vdl-icon-{{network}}"></span></a>
+                        {{/socialHandles}}
+                        </div>
+                    </div>
+                {{/socialHandles.0}}
+
+                {{#displayDate}}<div class="meta"><span>{{.}}</span></div>{{/displayDate}}
+                {{#count}}<div class="meta"><span>{{.}}</span></div>{{/count}}
+            </div>
+        {{/.meta}}
+    {{#url}}
+        </a>
+    {{/url}}
+    {{#ad}}
+        <div class="sponsor-bug ad-item--200x31 hasAd" data-adsize="{{size}}" data-ad-sizes="{{size}}" data-campaign="{{campaign}}"></div>
+    {{/ad}}
+</div>

@@ -1,0 +1,27 @@
+{{#overlay}}
+    <div class="overlay{{#.typeClass}} {{.}}{{/.typeClass}}">
+        <div class="overlay_wrapper">
+            <div class="overlay_header">
+                <div class="overlay_close"></div>
+                {{#.headline}}
+                    <h2 class="overlay_headline">{{.}}</h2>
+                {{/.headline}}
+            </div>
+            <div class="overlay_body">
+                {{#.description}}
+                    <p class="overlay_description">{{.}}</p>
+                {{/.description}}
+                {{#.copy}}
+                    <div class="overlay_copy">{{.}}</div>
+                {{/.copy}}
+                {{#.button}}
+                    <button class="overlay_button">{{.title}}</button>
+                {{/.button}}
+            </div>
+        </div>
+
+        {{#notification}}
+            {{>Modules/ENT_M209/V1_0_0/Controller/overlay_notification}}
+        {{/notification}}
+    </div>
+{{/overlay}}

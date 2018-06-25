@@ -1,0 +1,51 @@
+{{#data}}
+<div class="carousel-wrapper">
+    {{#items}}
+    <div class="ent_m050_item">
+        {{#headerLinkURL}}<a href="{{.}}">{{/headerLinkURL}}
+            <div class="overlay s_layouts_carouselOverlay">
+                <div class="modal s_layouts_carouselModal">
+                    <div class="info s_layouts_carouselInfo">
+
+                        {{#headerText}}<h2 class="s_layout_label s_fonts_label">{{{.}}}</h2>{{/headerText}}
+                        {{#subheaderText}}<h3 class="s_layout_carousel_promo2 s_fonts_promoTitleMain">{{{.}}}</h3>{{/subheaderText}}
+                        {{#tuneIn}}<div class="s_layout_carousel_promo3 s_fonts_promo3">{{{.}}}</div>{{/tuneIn}}
+                        {{#copy}}<div class="s_layout_carousel_promo4 s_fonts_promo4">{{{.}}}</div>{{/copy}}
+
+                        {{#links}}
+                        <div class="watch-now">
+                            <div>
+                                <span></span>
+                                <p>{{{text}}}</p>
+                            </div>
+                        </div>
+                        {{/links}}
+
+                    </div>
+
+                    {{#buttons}}
+                        <div class="s_layout_carousel_buttons s_buttons_buttonsSlash">
+                            {{#links}}
+                                <a href="{{url}}">
+                                    <div class="s_buttons_button s_buttons_buttonAlt s_buttons_buttonSlash{{#first}}Back{{/first}}{{^first}}Forward{{/first}}">
+                                        <span>{{{text}}}</span>
+                                    </div>
+                                </a>
+                            {{/links}}
+                        </div>
+                    {{/buttons}}
+
+                </div>
+            </div>
+            {{#image}}
+            <div class="image-outerWrapper s_layouts_carouselImageOuterWrapper">
+                <div class="image-innerWrapper">
+                    {{> common/image}}
+                </div>
+            </div>
+            {{/image}}
+        {{#headerLinkURL}}</a>{{/headerLinkURL}}
+    </div>
+    {{/items}}
+</div>
+{{/data}}

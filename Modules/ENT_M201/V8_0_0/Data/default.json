@@ -1,0 +1,32 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m201"
+  },
+  "envelope":{
+    "version":"1.0",
+    "name":"entertainment-standard-json"
+  },
+  "status":{
+    "text":"OK",
+    "code":100
+  },
+  "data": {
+    "promoId":"p9f1fl",
+    "promoType":"ENT_M201",
+    "image":[
+      {
+        "width":1920,
+        "height":540,
+        "url":"http:\/\/mtv.mtvnimages.com\/arc\/images\/events\/movie_awards_2015_1920x540.jpg"
+      },
+      {
+        "width":650,
+        "height":317,
+        "url":"http:\/\/mtv.mtvnimages.com\/arc\/images\/events\/movie_awards_2015_650x317.jpg"
+      }
+    ]
+  },
+  "messages":{
+  }
+}

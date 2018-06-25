@@ -1,0 +1,21 @@
+{{#data}}
+    <div class="module-content">
+        {{#title}}
+            <div class="module-header">
+                <h3 class="module-header__title">{{.}}</h3>
+            </div>
+        {{/title}}
+
+        <ul class="line-listing js-listing">
+            {{#items}}
+                {{> Modules/ENT_M249/V1_0_0/Controller/item }}
+            {{/items}}
+        </ul>
+
+        {{#nextPageURL}}
+            <div class="button js-load-more">
+                {{settings.loadMoreLabel}}
+            </div>
+        {{/nextPageURL}}
+    </div>
+{{/data}}

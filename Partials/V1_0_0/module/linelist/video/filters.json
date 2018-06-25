@@ -1,0 +1,29 @@
+{
+  "promoId": "6a3c4",
+  "header": {
+    "title": "ALL BELLATOR 145 VIDEOS",
+    "count": "6",
+    "filters": [
+      {
+        "name": "All Videos",
+        "url": "http://bellator.spike.com/feeds/ent_m120_bellator/V1_0_3/5a2f4f7b-9e9e-4015-8ccb-637f7e6edfe0/15341033-4aa1-4f93-8ff7-3b6627abedd8/1",
+        "isSelected": true
+      },
+      {
+        "name": "Full Fights",
+        "url": "http://bellator.spike.com/feeds/ent_m120_bellator/V1_0_3/5a2f4f7b-9e9e-4015-8ccb-637f7e6edfe0/15341033-4aa1-4f93-8ff7-3b6627abedd8/1/10707a16-e16a-4778-bba2-7489b4f85508",
+        "isSelected": false
+      },
+      {
+        "name": "Fighter Features",
+        "url": "http://bellator.spike.com/feeds/ent_m120_bellator/V1_0_3/5a2f4f7b-9e9e-4015-8ccb-637f7e6edfe0/15341033-4aa1-4f93-8ff7-3b6627abedd8/1/e6aa1dbe-c4c6-4132-bbdc-e9e9ff501f6b",
+        "isSelected": false
+      },
+      {
+        "name": "Fight Highlights",
+        "url": "http://bellator.spike.com/feeds/ent_m120_bellator/V1_0_3/5a2f4f7b-9e9e-4015-8ccb-637f7e6edfe0/15341033-4aa1-4f93-8ff7-3b6627abedd8/1/44325bd7-2d13-40cb-87e2-0f2df2a2de23",
+        "isSelected": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m204"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "data": {
+    "promoId":"wayf41",
+    "promoType":"ENT_M204",
+    "header":{
+      "title":"2015 VMAs Photo Galleries"
+    },
+    "nextPage":{
+      "url":"http:\/\/www.mtv-l.mtvi.com\/feeds\/ent_m203\/V1_0_0\/9a3a0564-7f4c-4868-846a-9d0af0326ff2\/82d86e1b-f5ef-4a8f-aba1-3aaeb86b4db4\/90254fe6-1bc6-11e5-b90b-0026b9414f30\/2",
+      "label":"show more Photos"
+    },
+    "items":[
+      {
+        "title":"2015 Movie Awards: Backstage Moments",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/sug3np\/2015-movie-awards-backstage-moments\/80e0gm",
+        "image":{
+          "width":940,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-rose-469501448.jpg",
+          "aspectRatio":1.6
+        },
+        "flags":[
+          {
+            "display":"18 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Movie Awards: Show Highlights",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/gfcb0m\/2015-movie-awards-show-highlights\/qfmeie",
+        "image":{
+          "width":940,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amy-schumer-getty-469515810.jpg",
+          "aspectRatio":1.6
+        },
+        "flags":[
+          {
+            "display":"70 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "isAd":{
+          "adSize":"300x250"
+        }
+      },
+      {
+        "title":"2015 Movie Awards: Performances",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/lib6yc\/2015-movie-awards-performances\/rzvikr",
+        "image":{
+          "width":467,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/movieawards\/2015\/photo\/flipbooks\/15-performers\/469521560.jpg",
+          "aspectRatio":0.8
+        },
+        "flags":[
+          {
+            "display":"9 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Movie Awards: Post Party",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/lab3w4\/2015-movie-awards-post-party\/9hyzzi",
+        "image":{
+          "width":902,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/movieawards\/2015\/photo\/flipbooks\/15-after-party\/469542258.jpg",
+          "aspectRatio":1.5
+        },
+        "flags":[
+          {
+            "display":"11 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Movie Awards: Behind The Scenes",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/o1vzwx\/2015-movie-awards-behind-the-scenes\/bmj48t",
+        "image":{
+          "width":940,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/movieawards\/2015\/photo\/flipbooks\/15-behind-the-scenes\/JS2_7068.jpg",
+          "aspectRatio":1.6
+        },
+        "flags":[
+          {
+            "display":"10 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Movie Awards: Performances",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/lib6yc\/2015-movie-awards-performances\/rzvikr",
+        "image":{
+          "width":467,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/movieawards\/2015\/photo\/flipbooks\/15-performers\/469521560.jpg",
+          "aspectRatio":0.8
+        },
+        "flags":[
+          {
+            "display":"9 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Movie Awards: Post Party",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/lab3w4\/2015-movie-awards-post-party\/9hyzzi",
+        "image":{
+          "width":902,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/movieawards\/2015\/photo\/flipbooks\/15-after-party\/469542258.jpg",
+          "aspectRatio":1.5
+        },
+        "flags":[
+          {
+            "display":"11 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Movie Awards: Behind The Scenes",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/o1vzwx\/2015-movie-awards-behind-the-scenes\/bmj48t",
+        "image":{
+          "width":940,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/movieawards\/2015\/photo\/flipbooks\/15-behind-the-scenes\/JS2_7068.jpg",
+          "aspectRatio":1.6
+        },
+        "flags":[
+          {
+            "display":"10 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Movie Awards: Performances",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/lib6yc\/2015-movie-awards-performances\/rzvikr",
+        "image":{
+          "width":467,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/movieawards\/2015\/photo\/flipbooks\/15-performers\/469521560.jpg",
+          "aspectRatio":0.8
+        },
+        "flags":[
+          {
+            "display":"9 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Movie Awards: Post Party",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/lab3w4\/2015-movie-awards-post-party\/9hyzzi",
+        "image":{
+          "width":902,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/movieawards\/2015\/photo\/flipbooks\/15-after-party\/469542258.jpg",
+          "aspectRatio":1.5
+        },
+        "flags":[
+          {
+            "display":"11 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"2015 Movie Awards: Behind The Scenes",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/photos\/o1vzwx\/2015-movie-awards-behind-the-scenes\/bmj48t",
+        "image":{
+          "width":940,
+          "height":600,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/movieawards\/2015\/photo\/flipbooks\/15-behind-the-scenes\/JS2_7068.jpg",
+          "aspectRatio":1.6
+        },
+        "flags":[
+          {
+            "display":"10 pics",
+            "type":"linelist-item-label"
+          }
+        ]
+      }
+    ]
+  },
+  "messages":{
+
+  }
+}

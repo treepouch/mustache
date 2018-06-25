@@ -1,0 +1,81 @@
+{{#data}}
+<div class="vdl-module-container superhero-container massive-container{{#settings.legacyHero}} legacy-hero{{/settings.legacyHero}}">
+    <div class="vdl-container">
+
+        {{#header}}
+            <header class="vdl-section-header">
+                <span>{{title}}</span>
+            </header>
+        {{/header}}
+
+        <div class="items-container">
+            <div class="items-wrap">
+                {{#items}}
+                    <div class="vdl-item">
+                        {{#media}}
+                            <div class="media-wrap">
+                                <div class="media">
+                                    <div class="item-container">
+                                        <div class="content">
+                                            {{>common/image}}
+
+                                            {{^image}}
+                                                {{#videoLoop}}
+                                                    <video class="js-video" autoplay loop playsinline></video>
+                                                {{/videoLoop}}
+                                            {{/image}}
+                                        </div>
+
+                                        {{^image}}
+                                            {{#videoLoop}}
+                                                <div class="volumetoggle"></div>
+                                                <div class="play-button vdl-hidden"></div>
+                                            {{/videoLoop}}
+                                        {{/image}}
+                                    </div>
+                                </div>
+                            </div>
+                        {{/media}}
+                        {{#meta}}
+                            <div class="meta-wrap">
+                                {{#label}}
+                                    <div class="label">{{.}}</div>
+                                {{/label}}
+
+                                {{#header}}
+                                    <div class="header">
+                                        {{#.image}}
+                                            {{>common/image}}
+                                        {{/.image}}
+
+                                        {{^.image}}
+                                            {{text}}
+                                        {{/.image}}
+                                    </div>
+                                {{/header}}
+
+                                {{#subHeader}}
+                                    <div class="sub-header">{{.}}</div>
+                                {{/subHeader}}
+
+                                {{#buttons.0}}
+                                    <div class="vdl-btn-group">
+                                        {{#buttons}}
+                                            {{#link}}
+                                                <a href="{{.}}" {{#isPopUp}}target="_blank"{{/isPopUp}}><div class="vdl-btn vdl-btn-inverse">{{label}}</div></a>
+                                            {{/link}}
+                                            {{^link}}
+                                                <div class="vdl-btn vdl-btn-outline vdl-btn-inverse disabled">{{label}}</div>
+                                            {{/link}}
+                                        {{/buttons}}
+                                    </div>
+                                {{/buttons.0}}
+                            </div>
+                         {{/meta}}
+                    </div>
+                {{/items}}
+            </div>
+        </div>
+        </div>
+    </div>
+{{/data}}

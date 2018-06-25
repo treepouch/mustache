@@ -1,0 +1,20 @@
+{
+    "data": {
+        "promoId": "f06bpp",
+        "promoType": "ENT_M121",
+        "item": {
+            "itemId": "nt0gq5",
+            "canonicalUrl": "http://bellator.spike-l.mtvi.com/fight/nt0gq5/bellator-180-phil-davis-vs-ryan-bader",
+            "headline": "Phil Davis vs. Ryan Bader",
+            "subHeadline": "Full Fight",
+            "copy": "Phil Davis will defend his World Title against the Light Heavyweight division's most deserving challengers, Ryan Bader.",
+            "image": {
+                "width": 1435,
+                "height": 807,
+                "url": "https://bellator.mtvnimages.com/images/shows/bellator/episodes/2017/180/bel_180_davis_bader.jpg"
+            },
+            "itemType": "fight",
+            "duration": "29:08"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{{#partials}}
+    <div class="mustache_partial">
+        <h4 class="mustache_partial_head"><a href="{{standaloneURL}}" target="_parent">{{name}}</a></h4>
+        {{#fragmentURL}}
+            <div class="mustache_partial_container">
+                {{< page/cdn_include }}{{$url}}{{url}}{{/url}}{{$parameters}}{{{queryString}}}{{/parameters}}{{/ page/cdn_include}}
+            </div>
+        {{/fragmentURL}}
+    </div>
+{{/partials}}

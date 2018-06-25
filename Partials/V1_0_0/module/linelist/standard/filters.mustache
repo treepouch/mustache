@@ -1,0 +1,18 @@
+{{#header.title}}
+    {{#settings.isMinimized}}
+        <h2 class="linelist-module-header-title">{{header.title}}</h2>
+    {{/settings.isMinimized}}
+    {{^settings.isMinimized}}
+        <h1 class="linelist-module-header-title">{{header.title}}</h1>
+    {{/settings.isMinimized}}
+{{/header.title}}
+{{#header.filters}}
+    {{#.isSelected}}
+        <div class="linelist-filter-title linelist-module-filter-list-item  linelist-module-filter-list-item-selected">{{name}}</div>
+    {{/.isSelected}}
+{{/header.filters}}
+<ul class="linelist-module-filter-list">
+{{#header.filters}}
+    <li class="linelist-module-filter-list-item{{#.isSelected}} linelist-module-filter-list-item-selected{{/.isSelected}}" data-feedurl="{{url}}">{{name}}</li>
+{{/header.filters}}
+</ul>

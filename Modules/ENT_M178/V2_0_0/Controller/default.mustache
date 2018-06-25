@@ -1,0 +1,28 @@
+{{#data}}
+<div class="module_content s_container">
+    {{#headerLinkURL}}
+    <a href="{{.}}">
+    {{/headerLinkURL}}
+        {{> common/image }}
+        <div class="meta_items">
+            <div class="meta-wrap">
+                <div class="headers-wrap">
+                {{#tuneIn}}
+                    <div class="label item_sticker">
+                        <span>{{.}}</span>
+                    </div>
+                {{/tuneIn}}
+                {{#headerText}}
+                    <div class="header">{{.}}</div>
+                {{/headerText}}
+                </div>
+                {{#subheaderText}}
+                    <div class="subHeader">{{.}}<span class="icon-chevron-right"></span></div>
+                {{/subheaderText}}
+            </div>
+        </div>
+    {{#headerLinkURL}}
+    </a>
+    {{/headerLinkURL}}
+</div>
+{{/data}}

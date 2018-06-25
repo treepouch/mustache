@@ -1,0 +1,32 @@
+{{#data}}
+    <div class="module_content" itemscope itemtype="http://schema.org/Article">
+        <div class="header">
+            <h2><span class="bgb">{{joke.title}}</span></h2>
+        </div>
+
+        <div class="middle">
+            <meta itemprop="url" content="{{joke.url}}" />
+            <meta itemprop="name" content="{{joke.title}}" />
+            <meta itemprop="description" content="{{joke.text}}" />
+            <div class="arrow_area">
+                <div class="content_wrap">
+                    {{#previousUrl}}<a href="{{.}}" class="prev">Previous</a>{{/previousUrl}}
+                    {{#nextUrl}}<a href="{{.}}" class="next">Next</a>{{/nextUrl}}
+                    <p>{{{joke.text}}}</p>
+                </div>
+            </div>
+            <div class="module_teaser">
+                <div class="utils_social_buttons noAutoLinkTracking">
+                    <a class="button twitter popup" href="{{joke.twitterUrl}}">Tweet</a>&nbsp;
+                    <a class="button facebook popup" href="{{joke.facebookUrl}}">Share</a>
+                </div>
+                <div class="tags">
+                    Categories:
+                    {{#joke.categories}}
+                        <a href="{{url}}"><span>{{title}}</span></a>{{#append}}{{.}}{{/append}}
+                    {{/joke.categories}}
+                </div>
+            </div>
+        </div>
+    </div>
+{{/data}}

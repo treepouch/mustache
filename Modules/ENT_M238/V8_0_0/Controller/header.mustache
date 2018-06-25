@@ -1,0 +1,8 @@
+<div class="voting__header">
+    {{#moduleHeader}}<h1 class="voting__header-headline">{{.}}</h1>{{/moduleHeader}}
+    {{#moduleSubHeader}}<span class="voting__header-sub-header">{{.}}</span>{{/moduleSubHeader}}
+    {{#moduleDescription}}<span class="voting__header-description">{{.}}</span>{{/moduleDescription}}
+    {{#settings.displayPageLevelSponsorAd}}
+            <div class="voting__sponsor-ad" data-adsize="{{settings.displaySponsorAd}}" data-ad-sizes="{{settings.displaySponsorAd}}" {{#settings.displayPageLevelSponsorAd}}data-campaign="{{settings.displayPageLevelSponsorAd}}"{{/settings.displayPageLevelSponsorAd}}></div>
+    {{/settings.displayPageLevelSponsorAd}}
+</div>

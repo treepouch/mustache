@@ -1,0 +1,32 @@
+{{#data}}
+<div class="s_container">
+    <div class="module_content toggleable_module">
+        <div class="S002_line_list_header{{#header.allowToggle}} toggleable_module_trigger{{/header.allowToggle}}{{#header.filters.0}} s_layouts_hasFilter{{/header.filters.0}}">
+            {{#header.filters.0}}
+                <div class="s_layouts_filter">
+                {{> module/linelist/video/filters }}
+                </div>
+            {{/header.filters.0}}
+            {{^header.filters}}
+                <h2 class="content s_fonts_moduleHeader">
+                    {{#header.title}}<span class="header_text">{{header.title}}</span>{{/header.title}}
+                    {{#header.count}}<span class="itemCount s_fonts_moduleHeaderCount">{{header.count}}</span>{{/header.count}}
+                </h2>
+            {{/header.filters}}
+            {{#header.description}}
+                <h3 class="s_fonts_moduleDescription">{{header.description}}</h3>
+            {{/header.description}}
+            {{#header.allowToggle}}
+                <span class="toggleable_header_icon"><span></span></span>
+            {{/header.allowToggle}}
+            <div class="loading s_fonts_moduleHeaderDivider"><span></span></div>
+        </div>
+        <div class="toggleable_module_content">
+            <ul class="L001_line_list s_layouts_lineList s_resets_oldDom_ul">
+                {{> module/linelist/video/pagination }}
+            </ul>
+            <div class="s_buttons_buttonWrapper"><div class="L001_line_list_load-more custom_button_hover s_layouts_lineListButton s_buttons_button s_buttons_loadMore{{^nextPageURL}} s_states_isHidden{{/nextPageURL}}">{{nextPageButtonLabel}}</div></div>
+        </div>
+    </div>
+</div>
+{{/data}}

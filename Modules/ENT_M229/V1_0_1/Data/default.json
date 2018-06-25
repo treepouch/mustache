@@ -1,0 +1,254 @@
+{
+    "config": {
+        "moduleName": "ent_m229"
+    },
+    "settings": {
+
+    },
+    "data": {
+        "promoId": "1j786t",
+        "promoType": "ent_m215",
+        "header": "ENT_M229 Event Winners Promo",
+        "awards": [
+            {
+                "awardTitle": "Best Music Video",
+                "awardLayout": "landscape",
+                "winner": [
+                    {
+                        "winnerText1": "Johnny Songman & Kelly Singstress",
+                        "winnerText2": "This is the winner subtitle line one.",
+                        "winnerText3": "Optional third line of text, which goes here",
+                        "image":[{
+                            "width":1920,
+                            "height":1080,
+                            "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/fandom_awards\/2015\/images\/marquee\/show-day\/1920x1080.jpg"
+                        }],
+                        "winnerUrl": "http://www.viacom.com",
+                        "winnerFeaturedUrl": {
+                            "url": "www.mtv.com",
+                            "text": "Check out the featured url"
+                        }
+                    }
+                ],
+                "nominees": [
+                    {
+                        "nomineeText1": "Music Video Nominee",
+                        "nomineeText2": "Nominee subtitle",
+                        "image":[{
+                            "width":1920,
+                            "height":1080,
+                            "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/fandom_awards\/2015\/images\/marquee\/show-day\/1920x1080.jpg"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Music Video Nominee",
+                        "nomineeText2": "Nominee subtitle",
+                        "image":[{
+                            "width":1920,
+                            "height":1080,
+                            "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/fandom_awards\/2015\/images\/marquee\/show-day\/1920x1080.jpg"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Music Video Nominee",
+                        "nomineeText2": "Nominee subtitle which is longer so it extends onto a third line!",
+                        "image":[{
+                            "width":1920,
+                            "height":1080,
+                            "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/fandom_awards\/2015\/images\/marquee\/show-day\/1920x1080.jpg"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Music Video Nominee",
+                        "nomineeText2": "Nominee subtitle",
+                        "image":[{
+                            "width":1920,
+                            "height":1080,
+                            "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/fandom_awards\/2015\/images\/marquee\/show-day\/1920x1080.jpg"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    }
+                ]
+            },
+
+
+
+            {
+                "awardTitle": "Best Person",
+                "awardLayout": "circle",
+                "winner": [
+                    {
+                        "winnerText1": "Jane Doe",
+                        "winnerText2": "Winner Subtitle!",
+                        "image":[{
+                            "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                            "width": 800,
+                            "height": 800,
+                            "aspectRatio": "1:1"
+                        }],
+                        "winnerUrl": "http://www.viacom.com",
+                        "winnerFeaturedUrl": {
+                            "url": "www.mtv.com",
+                            "text": "Check out the featured url"
+                        }
+                    }
+                ],
+                "nominees": [
+                    {
+                        "nomineeText1": "John Doe",
+                        "nomineeText2": "Nominee Subtitle!",
+                        "image": [{
+                            "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                            "width": 800,
+                            "height": 800,
+                            "aspectRatio": "1:1"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Ronald Reagan",
+                        "nomineeText2": "'Tear down this wall'",
+                        "image": [{
+                            "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                            "width": 800,
+                            "height": 800,
+                            "aspectRatio": "1:1"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Captain Crunch",
+                        "nomineeText2": "High Lord of Cereal",
+                        "image": [{
+                            "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                            "width": 800,
+                            "height": 800,
+                            "aspectRatio": "1:1"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Dwayne 'The Rock' Johnson",
+                        "nomineeText2": "Can you smell what hes cookin?",
+                        "image": [{
+                            "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                            "width": 800,
+                            "height": 800,
+                            "aspectRatio": "1:1"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Barack Obama",
+                        "nomineeText2": "'Thanks'",
+                        "image": [{
+                            "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                            "width": 800,
+                            "height": 800,
+                            "aspectRatio": "1:1"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Sarah Palin",
+                        "nomineeText2": "Can see Russia",
+                        "image": [{
+                            "url": "http:\/\/logoonline.mtvnimages.com\/uri\/mgid:file:gsp:entertainment-assets:\/logo\/events\/honoree_fpo_800x800.jpg",
+                            "width": 800,
+                            "height": 800,
+                            "aspectRatio": "1:1"
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    }
+                ]
+            },
+
+
+            {
+                "awardTitle": "Best Movie",
+                "awardLayout": "portrait",
+                "winner": [
+                    {
+                        "winnerText1": "Star Wars: The Force Awakens",
+                        "winnerText2": "Winner Subtitle!",
+                        "image": [{
+                            "url": "http://mtv.mtvnimages.com/arc/images/events/star-wars-force-awakens-official-poster.jpg",
+                            "width": 1458,
+                            "height": 2160
+                        }],
+                        "winnerUrl": "http://www.viacom.com",
+                        "winnerFeaturedUrl": {
+                            "url": "www.mtv.com",
+                            "text": "Check out the featured url"
+                        }
+                    }
+                ],
+                "nominees": [
+                    {
+                        "nomineeText1": "Star Wars: The Force Awakens",
+                        "nomineeText2": "Nominee Nominee subtitleNominee subtitle",
+                        "image": [{
+                            "url": "http://mtv.mtvnimages.com/arc/images/events/star-wars-force-awakens-official-poster.jpg",
+                            "width": 1458,
+                            "height": 2160
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Star Wars: The Force Awakens",
+                        "nomineeText2": "Nominee Nominee subtitleNominee subtitle",
+                        "image": [{
+                            "url": "http://mtv.mtvnimages.com/arc/images/events/star-wars-force-awakens-official-poster.jpg",
+                            "width": 1458,
+                            "height": 2160
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Star Wars: The Force Awakens",
+                        "nomineeText2": "Nominee Nominee subtitleNominee subtitle",
+                        "image": [{
+                            "url": "http://mtv.mtvnimages.com/arc/images/events/star-wars-force-awakens-official-poster.jpg",
+                            "width": 1458,
+                            "height": 2160
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Star Wars: The Force Awakens",
+                        "nomineeText2": "Nominee Nominee subtitleNominee subtitle",
+                        "image": [{
+                            "url": "http://mtv.mtvnimages.com/arc/images/events/star-wars-force-awakens-official-poster.jpg",
+                            "width": 1458,
+                            "height": 2160
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Star Wars: The Force Awakens",
+                        "nomineeText2": "Nominee Nominee subtitleNominee subtitle",
+                        "image": [{
+                            "url": "http://mtv.mtvnimages.com/arc/images/events/star-wars-force-awakens-official-poster.jpg",
+                            "width": 1458,
+                            "height": 2160
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    },
+                    {
+                        "nomineeText1": "Star Wars: The Force Awakens",
+                        "nomineeText2": "Nominee Nominee subtitleNominee subtitle",
+                        "image": [{
+                            "url": "http://mtv.mtvnimages.com/arc/images/events/star-wars-force-awakens-official-poster.jpg",
+                            "width": 1458,
+                            "height": 2160
+                        }],
+                        "nomineeUrl": "http://www.viacom.com"
+                    }
+                ]
+            }
+        ]
+    }
+}

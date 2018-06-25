@@ -1,0 +1,38 @@
+{{#data}}
+    {{#show}}
+
+        <div itemtype="http://schema.org/TVSeries">
+            {{#title}}<meta itemprop="name" content="{{.}}">{{/title}}
+            {{#url}}<meta itemprop="url" content="{{.}}">{{/url}}
+            {{#description}}<meta itemprop="description" content="{{.}}">{{/description}}
+            {{#imageURL}}<meta itemprop="image" content="{{.}}">{{/imageURL}}
+        </div>
+
+        {{#styleScheme}}
+            <style>
+                {{#primary}}
+                    .ent_m098 .info a { color: {{.}}; }
+                    .ent_m098 .headline:after { background-color: {{.}}; }
+                    body.MTV2 .ent_m098 .headline { background-color: {{.}};}
+                {{/primary}}
+
+                {{#tertiary}}
+                    body.MTV2 .ent_m098 .headline { color: {{.}};}
+                {{/tertiary}}
+
+                {{#darkTheme}}
+                    .ent_m098 .headline {color: #fff;}
+                    .ent_m098 .info {color: #fff;}
+                {{/darkTheme}}
+            </style>
+        {{/styleScheme}}
+
+        {{#description}}
+            {{#headline}}<h2 class="headline headline__default section-header-lg">{{.}}</h2>{{/headline}}
+            {{#title}}<h2 class="headline headline__title section-header-lg">{{.}}</h2>{{/title}}
+
+            <div class="info">{{{.}}}</div>
+        {{/description}}
+
+    {{/show}}
+{{/data}}

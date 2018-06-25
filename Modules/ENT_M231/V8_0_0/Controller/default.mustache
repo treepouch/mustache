@@ -1,0 +1,31 @@
+{{#data}}
+    <div class="live-blog">
+        <div class="live-blog__content-holder">
+            <div class="live-blog__content">
+                {{#title}}
+                    <h2 class="live-blog__title headline">{{.}}</h2>
+                {{/title}}
+                {{^embedCode}}
+                    <h3 class="live-blog__subtitle">{{placeholderMessage}}</h3>
+                {{/embedCode}}
+                {{#embedCode}}
+                    <div class="live-blog__embed-holder">
+                    </div>
+                {{/embedCode}}
+            </div>
+            {{#settings.adSize}}
+            <div class="live-blog__ad-wrap">
+                <div class="live-blog__box-ad" data-adsize="{{.}}" data-ad-sizes="{{.}}"> </div>
+            </div>
+            {{/settings.adSize}}
+            {{#settings.displayAnchorButton}}
+                <div class="live-blog__jump-button">
+                        <div class="live-blog__jump-button-content">
+                            {{settings.anchorButtonText}}
+                            <span class="live-blog__jump-button-icon"></span>
+                        </div>
+                </div>
+            {{/settings.displayAnchorButton}}
+        </div>
+    </div>
+{{/data}}

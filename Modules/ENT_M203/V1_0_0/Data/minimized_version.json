@@ -1,0 +1,122 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m203"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "settings": {
+    "isMinimized": true
+  },
+  "data": {
+    "promoId":"rwmny3",
+    "promoType":"ENT_M203",
+    "header":{
+      "title":"Videos"
+    },
+    "nextPage":{
+      "url":"http:\/\/www.mtv-l.mtvi.com\/fandom-awards\/videos",
+      "label":"see more videos"
+    },
+    "items":[
+      {
+        "title":"Test Episode for Events",
+        "description":"This is a test episode for events so Eric can build feeds.",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/full-episodes\/d3kr9z\/2015-fandom-awards-test-episode-for-events",
+        "image":{
+          "width":1920,
+          "height":1080,
+          "url":"http:\/\/mtv.mtvnimages.com\/content\/ontv\/fandom_awards\/2015\/images\/marquee\/show-day\/1920x1080.jpg"
+        },
+        "flags":[
+          {
+            "display":"full show",
+            "type":"linelist-item-badge"
+          },
+          {
+            "display":"11:18",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "label":"Promo",
+        "title":"Shippers Rally Hard For Their Favorite Ship At The Fandom Awards",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/2gtgub\/2015-fandom-awards-shippers-rally-hard-for-their-favorite-ship-at-the-fandom-awards",
+        "image":{
+          "width":1280,
+          "height":720,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/13\/448d7a85-8690-4e6b-841f-3ff6450684e8.jpg"
+        },
+        "flags":[
+          {
+            "display":"1:01",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "label":"Promo",
+        "title":"Fans Get Excited To See Who Wins Ship of the Year",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/vzwzyb\/2015-fandom-awards-fans-get-excited-to-see-who-wins-ship-of-the-year",
+        "image":{
+          "width":953,
+          "height":511,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/13\/soty.png"
+        },
+        "flags":[
+          {
+            "display":"0:31",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "label":"Promo",
+        "title":"We've Got Insider Access To The 2015 Fandom Awards",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/mb0150\/2015-fandom-awards-we-ve-got-insider-access-to-the-2015-fandom-awards",
+        "image":{
+          "width":1280,
+          "height":720,
+          "url":"http:\/\/mtv.mtvnimages.com\/uri\/mgid:file:gsp:egvrenditions:\/mtv.com\/2015\/07\/13\/12\/48\/23\/beca72d7-cebf-498b-90c6-69c568bba96b.jpg"
+        },
+        "flags":[
+          {
+            "display":"0:30",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "title":"iJustine and Joey Graceffa Present for Fandom Army Of The Year",
+        "description":"Social stars iJustine and Joey Graceffa announce nominees for the Fandom Army Of The Year.",
+        "url":"http:\/\/www.mtv-l.mtvi.com\/video-clips\/fpc049\/2015-fandom-awards-ijustine-and-joey-graceffa-present-for-fandom-army-of-the-year",
+        "image":{
+          "width":1264,
+          "height":682,
+          "url":"http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/07\/12\/Screen%20Shot%202015-07-12%20at%208.59.50%20PM.png"
+        },
+        "flags":[
+          {
+            "display":"2:38",
+            "type":"linelist-item-label"
+          }
+        ]
+      },
+      {
+        "isAd":{
+          "adSize":"300x250"
+        }
+      }
+    ]
+  },
+  "messages":{
+
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m214"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+    "data": {
+      "promoId": "w8d58l",
+      "promoType": "ENT_M214",
+      "label": "Photo Gallery",
+      "title": "VMAs 2015 Red Carpet Fashion",
+      "description": "45 photos",
+      "url": "http://www.yahoo.com",
+      "cta": {
+        "text": "Button",
+        "url": "http://www.google.com"
+      },
+      "image": [{
+        "width": 650,
+        "height": 317,
+        "url": "http://mtv.mtvnimages.com/onair/upfronts650x317.jpg"
+      },
+        {
+          "width": 1920,
+          "height": 540,
+          "url": "http://mtv.mtvnimages.com/onair/upfronts1920x540.jpg"
+      }]
+    },
+  "messages": {}
+}

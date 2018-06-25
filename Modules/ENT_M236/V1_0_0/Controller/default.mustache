@@ -1,0 +1,21 @@
+{{#data}}
+    <div class="ent_m236-module-content page-bar--sticky">
+        <div class="ent_m236_header">
+            <a class="logo" href="/">
+                <span data-graphics="@" class="icon"></span>
+            </a>
+        </div>
+        <div class="ent_m236_scroll">
+            <div class="ent_m236_feed_filters_nav">
+                <ul class="feed-filters">
+                    {{#items}}
+                        <li class="feed-filters__filter{{#selected}} feed-filters__filter--selected{{/selected}} {{#isCollection}}collection{{/isCollection}}">
+                        <a href="{{url}}">{{#hashTag}}#{{/hashTag}}{{title}}</a>
+                    </li>
+                    {{/items}}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{{/data}}

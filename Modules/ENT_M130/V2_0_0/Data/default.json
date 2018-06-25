@@ -1,0 +1,33 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m130"
+  },
+  "data": {
+    "name": "Chidi Njokuani",
+    "title": "Welterweight world champion",
+    "records": [
+      {
+        "number": "17",
+        "label": "win"
+      },
+      {
+        "number": "4",
+        "label": "loss"
+      },
+      {
+        "number": 0,
+        "label": "draw"
+      }
+    ],
+    "thumbnail": {
+      "image": [
+        {
+          "width": 246,
+          "height": 270,
+          "url": "https://bellator.mtvnimages.com/images/shows/bellator/fighter-thumbnail-images/CHIDI-NJOKUANI-headshot-new.png"
+        }
+      ]
+    }
+  }
+}

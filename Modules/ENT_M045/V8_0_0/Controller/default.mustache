@@ -1,0 +1,30 @@
+{{#data}}
+    {{#item}}
+        {{#linksUrl}}<a href="{{.}}">{{/linksUrl}}
+            {{#image}}
+                {{> common/image }}
+            {{/image}}
+            <div class="overlay">
+                <div class="modal">
+                    <div class="info">
+                        <div class="box-slide-child-group">
+                            {{#headerText}}
+                                <div class="promo_info box-slide hvr-sweep-to-right">
+                                    <span class="headline">{{.}}</span>
+                                </div>
+                            {{/headerText}}
+                            {{#linksText}}
+                                <div class="box-slide hvr-sweep-to-left">
+                                    <div class="watch-now">
+                                        {{.}}
+                                        <span class="icon-chevron-right"></span>
+                                    </div>
+                                </div>
+                            {{/linksText}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{#linksUrl}}</a>{{/linksUrl}}
+    {{/item}}
+{{/data}}

@@ -1,0 +1,23 @@
+{{#docs}}
+    <a href="{{url_s}}" class="s_layouts_snapItem s_layouts_snapItemLink s_animation_animate s_animation_animate s_layouts_snapItem{{bucketName_s}} s_animation_animate_fadein" data-content-type="{{contentType_s}}">
+        <div class="tve_lock">
+            {{#isTveAuthRequiredForDesktop_b}}<span class="tve_lock_desktop"></span>{{/isTveAuthRequiredForDesktop_b}}
+            {{#isTveAuthRequiredForMobile_b}}<span class="tve_lock_mobile"></span>{{/isTveAuthRequiredForMobile_b}}
+        </div>
+        <div class="s_layouts_snapImageWrapper">
+            {{> common/image }}
+            {{#labelName_s}}<div class="s_layouts_snapBadge">{{.}}</div>{{/labelName_s}}
+            {{#duration_s}}<span class="s_layouts_snapItemDuration">{{.}}</span>{{/duration_s}}
+        </div>
+        <div class="s_layouts_snapItemDetails">
+            <div class="s_layouts_snapItemDetailsContainer">
+                {{#title_t}}<span class="s_layouts_snapItemTitle"><span>{{{.}}}</span></span>{{/title_t}}
+                {{#subTitle}}
+                    <span class="s_layouts_snapItemSubtitle">{{{.}}}</span>
+                {{/subTitle}}
+                {{#seasonNumber_s}}<span class="s_layouts_snapItemMetaTitle">{{seasonLabel}} {{.}}{{#episodeNumber_s}}, {{episodeLabel}} {{.}}{{/episodeNumber_s}}</span>{{/seasonNumber_s}}
+            </div>
+        </div>
+        <div class="testing_order">{{renderCount}}</div>
+    </a>
+{{/docs}}

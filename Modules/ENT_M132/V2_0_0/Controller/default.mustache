@@ -1,0 +1,28 @@
+{{#data}}
+    <div class="s_container">
+        {{#headline}}
+            <div class="s_layouts_moduleHeader s_fonts_moduleHeader s_layouts_hasFilter">
+                <div class="s_layouts_filter">
+                    <div class="s_layouts_filterTitle">{{.}}{{#subheadline}}: {{.}}{{/subheadline}}</div>
+
+                    <ul class="s_layouts_filterDropdown s_fonts_filterDropdown">
+                        {{#filterOptions}}
+                            <li class="s_layouts_filterDropdownItem {{#selected}}s_states_itemSelected{{/selected}}" data-feedurl="{{.feedURL}}">{{.title}}</li>
+                        {{/filterOptions}}
+                    </ul>
+                </div>
+            </div>
+        {{/headline}}
+
+        <ul class="s_layouts_schedule">
+            {{>Modules/ENT_M132/V2_0_0/Controller/items}}
+        </ul>
+
+
+        <div class="s_buttons_buttonWrapper">
+            {{#nextPageURL}}
+                <div class="s_buttons_button s_buttons_loadMore">More Events</div>
+            {{/nextPageURL}}
+        </div>
+    </div>
+{{/data}}

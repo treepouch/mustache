@@ -1,0 +1,27 @@
+{{#data}}
+    <div class="module_content">
+        {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+        <div class="ent_m202-wrap">
+            {{> common/image }}
+
+            <div class="ent_m202-data">
+                {{#headline}}
+                    <h2 class="ent_m202-headline">{{headline}}</h2>
+                {{/headline}}
+
+                {{#date}}
+                    <h2 class="ent_m202-subheadline">{{date}}</h2>
+                {{/date}}
+
+                {{#hosts}}
+                    <h2 class="ent_m202-subheadline">{{.}}</h2>
+                {{/hosts}}
+
+
+                {{#copy}}
+                    <div class="ent_m202-copy">{{{copy}}}</div>
+                {{/copy}}
+            </div>
+        </div>
+    </div>
+{{/data}}

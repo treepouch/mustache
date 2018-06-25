@@ -1,0 +1,46 @@
+{{#data}}
+    {{#items}}
+        <div class="secondary_item {{#extraClasses}}{{wrapper}}{{/extraClasses}}">
+            {{#url}}
+                <a class="secondary_item_wrap secondary_item_link {{#extraClasses}}{{link}}{{/extraClasses}}" href="{{.}}">
+            {{/url}}
+            {{> common/image }}
+                <div class="meta-wrap">
+                    {{#tuneIn}}
+                    <div class="label item_sticker">
+                        <span>{{.}}</span>
+                    </div>
+                    {{/tuneIn}}
+
+                    {{#headline}}
+                    <div class="header">
+                        {{.}}
+                    </div>
+                    {{/headline}}
+
+                    {{#subHeadline}}
+                    <div class="subHeader">
+                        {{.}}
+                        <span class="icon-chevron-right"></span>
+                    </div>
+                    {{/subHeadline}}
+                </div>
+            {{#url}}
+                </a>
+            {{/url}}
+        </div>
+    {{/items}}
+    {{#links}}
+        <div class="s_layouts_buttonWrapper">
+            {{#url}}
+                <a href="{{.}}" class="s_buttons_button s_buttons_buttonArrow">
+            {{/url}}
+            {{#text}}
+                {{.}}
+            {{/text}}
+            {{#url}}
+                </a>
+            {{/url}}
+        </div>
+    {{/links}}
+{{/data}}

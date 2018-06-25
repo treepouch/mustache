@@ -1,0 +1,40 @@
+{{#items}}
+    <li class="s_layouts_scheduleItem">
+
+        <div class="s_layouts_schedulePosterImg">
+
+            {{#url}}
+               <a href="{{.}}" class="thumbnail_holder">
+                    {{>common/image}}
+               </a>
+            {{/url}}
+
+        </div>
+
+        <div class="s_layouts_scheduleItemDetails">
+            {{#startDateTime}}
+                <div class="s_layouts_scheduleItemDate s_fonts_scheduleItemDate">{{.}}</div>
+            {{/startDateTime}}
+
+            {{#shortTitle}}
+                <h5 class="s_layouts_scheduleItemSubheadline s_fonts_scheduleItemSubheadline">
+                    <a href="{{#url}}{{.}}{{/url}}">{{.}}</a>
+                </h5>
+            {{/shortTitle}}
+
+            {{#title}}
+                <h3 class="s_layouts_scheduleItemHeadline s_fonts_scheduleItemHeadline">
+                    <a href="{{#url}}{{.}}{{/url}}">{{.}}</a>
+                </h3>
+            {{/title}}
+
+            {{#venue}}
+                <div class="s_layouts_scheduleItemDescription s_fonts_scheduleItemDescription">{{.}}</div>
+            {{/venue}}
+        </div>
+
+        {{#url}}
+            <a href="{{.}}" class="s_layouts_scheduleItemDetailsButton s_buttons_button">More Info</a>
+        {{/url}}
+    </li>
+{{/items}}

@@ -1,0 +1,35 @@
+{{#data}}
+<div id="about" class="vdl-module-container about-container module-inverse">
+    {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+    <div class="vdl-container">
+        <div class="items-container">
+            <div class="items-wrap">
+                <div class="vdl-item">
+                    <div class="meta-wrap">
+                        {{#header}}
+                        {{#text}}<div class="header">{{.}}</div>{{/text}}
+                        {{/header}}
+                        {{#description}}
+                        <div class="deck-wrap">
+                            <div class="deck">{{{.}}}</div>
+                        </div>
+                        {{/description}}
+                        {{#socialHandles.0}}
+                        <div class="social">
+                            <span class="header">Follow</span>
+                            <div class="icon-group">
+                                {{#socialHandles}}
+                                <a href="{{#handle}}{{.}}{{/handle}}" target="_blank">
+                                    <span class="vdl-icon-{{#network}}{{.}}{{/network}}"></span>
+                                </a>
+                                {{/socialHandles}}
+                            </div>
+                        </div>
+                        {{/socialHandles.0}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{/data}}

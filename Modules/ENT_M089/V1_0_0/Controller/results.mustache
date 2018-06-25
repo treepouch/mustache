@@ -1,0 +1,24 @@
+{{#results}}
+        <li itemscope itemtype="http://schema.org/Article">
+            <meta itemprop="url" content="{{url}}" />
+            <meta itemprop="name" content="{{title}}" />
+            <meta itemprop="description" content="{{copy}}" />
+            <h3>
+                <a href="{{url}}">
+                    <span>{{title}}</span>
+                </a>
+            </h3>
+            <p class="keyword">
+                {{{itemText}}}
+                {{#hasMoreText}}
+                    <a href="{{url}}">{{{.}}}</a>
+                {{/hasMoreText}}
+            </p>
+            <div class="tags">
+                <b>Categories: </b>
+                {{#categories}}
+                    <a href="{{url}}">{{title}}</a>
+                {{/categories}}
+            </div>
+        </li>
+{{/results}}

@@ -1,0 +1,86 @@
+{{#data}}
+    <div class="ent_m229-module-content">
+        <div class="ent_m229-wrap">
+            {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+            {{#header}}
+                <h1 class="ent_m229-module-header headline">{{header}}</h1>
+            {{/header}}
+
+            {{#awards}}
+                <div class="ent_m229-award-wrapper">
+                    {{#awardTitle}}
+                        <h2 class="ent_m229-award-title">{{awardTitle}}</h2>
+                    {{/awardTitle}}
+                    <div class="ent_m229-award-content-{{awardLayout}}">
+                        <div class="ent_m229-winner-wrap-{{awardLayout}}">
+                            {{#winner}}
+                                <div class="ent_m229-winner-image-wrap-{{awardLayout}} {{#nomineeVideoInfo}}modal-player-video-item{{/nomineeVideoInfo}}" {{#nomineeVideoInfo}}data-video-id="{{id}}" data-video-title="{{title}}" {{#vevoVideo}}data-is-vevo="vevo" data-vevo-partner-id="{{vevoConfiguration.partnerId}}" data-vevo-site-section="{{vevoConfiguration.siteSection}}"{{/vevoVideo}}{{/nomineeVideoInfo}}>
+                                    {{#winnerUrl}}<a class="ent_m229-winner-image-link" href="{{winnerUrl}}">{{/winnerUrl}}
+                                    {{> common/image }}
+                                    {{#winnerUrl}}</a>{{/winnerUrl}}
+                                </div>
+                                <div class="ent_m229-winner-meta-wrap">
+                                    {{#winnerText1}}
+                                        <div class="ent_m229-winner-title">
+                                            {{#winnerUrl}}<a class="ent_m229-winner-url" href="{{winnerUrl}}">{{/winnerUrl}}
+                                            {{winnerText1}}
+                                            {{#winnerUrl}}</a>{{/winnerUrl}}
+                                        </div>
+                                    {{/winnerText1}}
+                                    {{#winnerText2}}
+                                        <div class="ent_m229-winner-subtitle">{{winnerText2}}</div>
+                                    {{/winnerText2}}
+                                    {{#winnerText3}}
+                                        <div class="ent_m229-winner-subtitle">{{winnerText3}}</div>
+                                    {{/winnerText3}}
+                                    {{#winnerFeaturedUrl}}
+                                        <div class="ent_m229-winner-featured-url">
+                                            <a class="ent_m229-winner-featured-url-link" href="{{winnerFeaturedUrl.url}}">{{winnerFeaturedUrl.text}}</a>
+                                        </div>
+                                    {{/winnerFeaturedUrl}}
+                                </div>
+                            {{/winner}}
+                        </div>
+                        <div class="ent_m229-nominee-list-wrap-{{awardLayout}}">
+                            <ul class="ent_m229-nominee-list-{{awardLayout}}">
+                                {{#nominees}}
+                                    <li class="ent_m229-nominee-{{awardLayout}}">
+                                        <div class="ent_m229-nominee-image-wrap-{{awardLayout}} {{#nomineeVideoInfo}}modal-player-video-item{{/nomineeVideoInfo}}" {{#nomineeVideoInfo}}data-video-id="{{id}}" data-video-title="{{title}}" {{#vevoVideo}}data-is-vevo="vevo" data-vevo-partner-id="{{vevoConfiguration.partnerId}}" data-vevo-site-section="{{vevoConfiguration.siteSection}}"{{/vevoVideo}}{{/nomineeVideoInfo}}>
+                                            {{#nomineeUrl}}<a href="{{nomineeUrl}}">{{/nomineeUrl}}
+                                            {{> common/image }}
+                                            {{#nomineeUrl}}</a>{{/nomineeUrl}}
+                                        </div>
+
+                                        <div class="ent_m229-nominee-meta-wrap-{{awardLayout}}">
+                                            <div class="ent_m229-nominee-meta-{{awardLayout}}">
+                                                {{#nomineeText1}}
+                                                    <div class="ent_m229-nominee-title">
+                                                        {{#nomineeUrl}}<a href="{{nomineeUrl}}">{{/nomineeUrl}}
+                                                        {{nomineeText1}}
+                                                        {{#nomineeUrl}}</a>{{/nomineeUrl}}
+                                                    </div>
+                                                {{/nomineeText1}}
+                                                {{#nomineeText2}}
+                                                    <div class="ent_m229-nominee-subtitle">
+                                                        {{nomineeText2}}
+                                                    </div>
+                                                {{/nomineeText2}}
+                                                {{#nomineeText3}}
+                                                    <div class="ent_m229-nominee-subtitle">
+                                                        {{nomineeText3}}
+                                                    </div>
+                                                {{/nomineeText3}}
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                {{/nominees}}
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            {{/awards}}
+        </div>
+    </div>
+{{/data}}

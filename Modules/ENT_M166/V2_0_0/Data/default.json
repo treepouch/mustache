@@ -1,0 +1,129 @@
+{
+    "config": {
+        "zone": "t4_lc_promo1",
+        "moduleName": "ent_m166"
+    },
+    "data": {
+        "promoId": "6emhh9",
+        "header": {
+            "title": "Bellator Foundations",
+            "count": "36"
+        },
+        "nextPageURL": "/feeds/ent_m120_bellator/V1_0_3/5a2f4f7b-9e9e-4015-8ccb-637f7e6edfe0/15341033-4aa1-4f93-8ff7-3b6627abedd8/2/",
+        "nextPageButtonLabel":"More Videos",
+        "items": [
+            {
+                "itemId": "mgid:arc:video:spike.com:5f729740-1137-4257-bcb0-de40ff8629aa",
+                "title": "Foundations: Daniel Weichel",
+                "parentTitle": "Bellator 147",
+                "badgeTypeName":  "VIDEO CLIP",
+                "image": {
+                    "width": 1920,
+                    "height": 1080,
+                    "aspectRatio": 1.8,
+                    "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/138/bel_138_foundations_weichel.jpeg"
+                },
+                "duration": "0:57",
+                "url": "/video-clips/dk5jnf/bellator-147-foundations-daniel-weichel"
+            },
+            {
+                "itemId": "mgid:arc:video:spike.com:935d5d5a-ca0c-4b84-a51e-45aeecda5aff",
+                "title": "Foundations with Ricky Rainey",
+                "parentTitle": "Bellator 146",
+                "badgeTypeName":  "VIDEO CLIP",
+                "image": {
+                    "width": 1920,
+                    "height": 1080,
+                    "aspectRatio": 1.8,
+                    "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/146/bel_146_foundations_rainey_evergreen-2.jpeg"
+                },
+                "duration": "1:03",
+                "url": "/video-clips/w58qiu/bellator-146-foundations-with-ricky-rainey"
+            },
+            {
+                "itemId": "mgid:arc:video:spike.com:0b922e5b-5e45-431c-ae36-3fc837e8ff99",
+                "title": "Foundations with Melvin Manhoef",
+                "parentTitle": "Bellator 146",
+                "badgeTypeName":  "VIDEO CLIP",
+                "image": {
+                    "width": 1920,
+                    "height": 1080,
+                    "aspectRatio": 1.8,
+                    "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/146/bellator_146_foundations_manhoef_evergreen.jpg"
+                },
+                "duration": "1:01",
+                "url": "/video-clips/gibsm0/bellator-146-foundations-with-melvin-manhoef"
+            },
+            {
+                "itemId": "9mgid:arc:video:spike.com:32c979a-b43f-4ad3-af71-321dd4997176",
+                "title": "Foundations with Hisaki Kato",
+                "parentTitle": "Bellator 146",
+                "badgeTypeName":  "VIDEO CLIP",
+                "image": {
+                    "width": 1920,
+                    "height": 1080,
+                    "aspectRatio": 1.8,
+                    "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/146/foundations_146_kato_evergreen-1.jpg"
+                },
+                "duration": "1:31",
+                "url": "/video-clips/yjgjwa/bellator-146-foundations-with-hisaki-kato"
+            },
+            {
+                "itemId": "mgid:arc:video:spike.com:66ea0d4a-3b08-497c-bec2-b35c567c3ba4",
+                "title": "Foundations with Will Brooks",
+                "parentTitle": "Bellator 145",
+                "badgeTypeName":  "VIDEO CLIP",
+                "image": {
+                    "width": 1920,
+                    "height": 1080,
+                    "aspectRatio": 1.8,
+                    "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/145/bel145_foundations_145_brooks_date-1.jpg"
+                },
+                "duration": "1:07",
+                "url": "/video-clips/7t9ggy/bellator-145-foundations-with-will-brooks"
+            },
+            {
+                "itemId": "mgid:arc:video:spike.com:881cd194-cb8e-4531-b563-e34032adfd53",
+                "title": "Foundations with Marcin Held",
+                "parentTitle": "Bellator 145",
+                "badgeTypeName":  "VIDEO CLIP",
+                "image": {
+                    "width": 1920,
+                    "height": 1080,
+                    "aspectRatio": 1.8,
+                    "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/145/foundations_145_held_evergreen.jpg"
+                },
+                "duration": "1:26",
+                "url": "/video-clips/u6xacu/bellator-145-foundations-with-marcin-held"
+            },
+            {
+                "itemId": "mgid:arc:video:spike.com:e63525c3-0336-48e4-af8d-a8354c92674a",
+                "title": "Foundations: Rafael Carvalho",
+                "parentTitle": "Bellator 144",
+                "badgeTypeName":  "VIDEO CLIP",
+                "image": {
+                    "width": 1200,
+                    "height": 694,
+                    "aspectRatio": 1.7,
+                    "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/136/bellator_136_foundations_ra.jpg"
+                },
+                "duration": "1:08",
+                "url": "/video-clips/9rtuf0/bellator-144-foundations-rafael-carvalho"
+            },
+            {
+                "itemId": "mgid:arc:video:spike.com:c3c73590-e13f-4933-a047-56f8daf65d83",
+                "title": "Foundations with LC Davis",
+                "parentTitle": "Bellator 143",
+                "badgeTypeName":  "VIDEO CLIP",
+                "image": {
+                    "width": 1920,
+                    "height": 1080,
+                    "aspectRatio": 1.8,
+                    "url": "http://bellator.mtvnimages.com/images/shows/bellator/episodes/2015/143/foundations_lc_DAVIS_jgs2_woBUG-1.jpg"
+                },
+                "duration": "1:53",
+                "url": "/video-clips/y9wkbw/bellator-143-foundations-with-lc-davis"
+            }
+        ]
+    }
+}

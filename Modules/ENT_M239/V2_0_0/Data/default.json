@@ -1,0 +1,49 @@
+{
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "result": {
+    "settings": {
+      "context": "global"
+    },
+    "data": {
+      "promoId": "147b186b-a551-40f1-ad82-a62e9acb389d",
+      "promoType": "ENT_M239",
+      "logo": {
+        "url": "http://www.paramountnetwork-l.mtvi.com/"
+      },
+      "title": {
+        "text": "COMING 1.18.18"
+      },
+      "navigation": [
+        {
+          "title": "COMING JAN 2018"
+        }
+      ],
+      "socialHandles": [
+        {
+          "name": "facebook",
+          "value": "https://www.facebook.com/paramountnetwork/"
+        },
+        {
+          "name": "twitter",
+          "value": "https://twitter.com/ParamountNet"
+        },
+        {
+          "name": "instagram",
+          "value": "https://www.instagram.com/ParamountNetwork/"
+        },
+        {
+          "name": "tumblr",
+          "value": "http://www.paramountnetwork.tumblr.com/"
+        }
+      ]
+    }
+  },
+  "messages": {}
+}

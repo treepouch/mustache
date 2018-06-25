@@ -1,0 +1,52 @@
+{{#items}}
+	{{#adSize}}
+		<li class="ent_m241-item card-grid-item"><div class="lineList_ad" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div></li>
+	{{/adSize}}
+	{{^adSize}}
+	<li class="ent_m241-item card-grid-item">
+		<div class="ent_m241-item-image-wrap card-grid-item__image-wrap">
+			{{#url}}
+			<a href="{{url}}" class="card-grid-item-link" target="_blank">
+			{{/url}}
+			{{> common/image }}
+			{{#url}}
+			</a>
+			{{/url}}
+			{{#duration}}<div class="ent_m241-item-duration card-grid-item__duration  {{#tve}}tve-locked {{#tveDesktop}}desktop-tve-locked {{/tveDesktop}}{{#tveMobile}}mobile-tve-locked {{/tveMobile}}{{/tve}}">{{duration}}</div>{{/duration}}
+		</div>
+
+		{{#label}}<div class="ent_m241-item-label card-grid-item__label">{{label}}</div>{{/label}}
+		{{#title}}
+			<div class="ent_m241-item-title card-grid-item__textline-1">
+				{{#url}}
+				<a href="{{url}}" class="card-grid-item-link" target="_blank">
+				{{/url}}
+				{{{title}}}
+				{{#url}}
+				</a>
+				{{/url}}
+			</div>
+		{{/title}}
+		{{#subtitle}}<div class="ent_m241-item-subtitle card-grid-item__textline-2">{{{subtitle}}}</div>{{/subtitle}}
+
+		<div class="ent_m241-item-meta-wrap card-grid-item__meta-wrap">
+			{{#authorInformation}}
+				{{#authorInformation.thumbnail}}
+					<div class="ent_m241-item-author-thumbnail card-grid-item__author-thumbnail"><img src="{{authorInformation.thumbnail}}"></div>
+				{{/authorInformation.thumbnail}}
+				{{#authorInformation.name}}
+					<div class="ent_m241-item-author-name card-grid-item__author-name">{{authorInformation.name}}</div>
+				{{/authorInformation.name}}
+				{{#publishDate}}<div class="ent_m241-item-publish-date card-grid-item__author-publish-date">{{publishDate}}</div>{{/publishDate}}
+			{{/authorInformation}}
+
+			{{#metaInformation}}
+				{{#meta}}
+					<div class="ent_m241-item-video-meta card-grid-item__video-meta">{{meta}}</div>
+					{{#publishDate}}<div class="ent_m241-item-publish-date card-grid-item__video-publish-date">{{publishDate}}</div>{{/publishDate}}
+				{{/meta}}
+			{{/metaInformation}}
+
+		</div>
+	</li>{{/adSize}}
+{{/items}}

@@ -1,0 +1,18 @@
+{{#data}}
+    {{#show}}
+    <ul class="shows">
+        {{#entries}}
+        <li><a href="{{url}}" target="_blank">{{title}}</a></li>
+        {{/entries}}
+    </ul>
+    {{/show}}
+    {{#nav}}
+    <ul class="legal">
+        {{#entries}}
+            <li><a href="{{url}}" target="_blank">{{title}}</a></li>
+        {{/entries}}
+    </ul>
+    {{/nav}}
+    <div class="logo"></div>
+    <p>{{{copyright}}}</p>
+{{/data}}

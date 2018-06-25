@@ -1,0 +1,43 @@
+{{#data}}
+    <div class="module_content">
+        <div class="header">
+            <div class="utils_search">
+                <form action="/search" method="get">
+                    <div class="site_search">
+                        <div class="search_bg">
+                            <input class="query" name="keywords" placeholder="{{placeholderText}}" value="{{keywords}}" type="input" />
+                        </div>
+                        <input class="site" value="" type="submit" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="search_info">
+                <p class="left_tip">
+                    <span class="bgb">{{resultsText}}</span>
+                </p>
+                <p class="right_tip">
+                    <span class="bgb">{{#spellcheckText}}{{.}}&nbsp;<a href="/search?keywords={{spellcheckWord}}">{{spellcheckWord}}</a>?{{/spellcheckText}}</span>
+                </p>
+            </div>
+            {{#numberOfResults}}
+            <ul class="results" data-nextpageurl="{{nextPageURL}}" data-pagenumber="{{pageNumber}}" data-pagesize="{{pageSize}}">
+            {{/numberOfResults}}
+            {{> Modules/ENT_M089/V1_0_0/Controller/results}}
+            {{#numberOfResults}}
+                {{#loadMoreText}}
+                    <li class="utils_main_button load-more">
+                        <div>
+                        <a href="#" class="load-more" ignorepushstate>
+                            <span class="bgb">{{.}}</span>
+                            <span class="arrow"></span>
+                        </a>
+                        </div>
+                    </li>
+                {{/loadMoreText}}
+            </ul>
+            {{/numberOfResults}}
+        </div>
+    </div>
+{{/data}}

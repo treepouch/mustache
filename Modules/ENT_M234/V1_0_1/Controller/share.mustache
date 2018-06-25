@@ -1,0 +1,23 @@
+{{#share}}
+    <div class="live-stream__share">
+        {{#hashtag}}
+            <div class="live-stream__share-hashtag">
+                {{.}}
+            </div>
+        {{/hashtag}}
+
+        <div class="live-stream__share-group">
+            {{#cta}}
+                <div class="live-stream__share-cta">
+                    {{.}}
+                </div>
+            {{/cta}}
+
+            <ul class="live-stream__share-options">
+                {{#options}}
+                    <li class="live-stream__share-button has_icon {{.}}" data-type="{{.}}"></li>
+                {{/options}}
+            </ul>
+        </div>
+    </div>
+{{/share}}

@@ -1,0 +1,47 @@
+{{#data}}
+    <div class="module_content s_container">
+        <ul class="L001_line_list">
+            {{#items}}
+            <li class="list_item">
+                <div class="item_wrapper" name="{{urlKey}}">
+                    {{#image}}
+                        {{>common/image}}
+                    {{/image}}
+                    <div class="item_meta">
+                        <span class="headline">{{name}}</span>
+                        <span class="subHeadline">{{role}}</span>
+                    </div>
+                </div>
+                <div class="item_content_wrapper">
+                    <div class="item_content">
+                        <span class="close"></span>
+                        <div class="item_content_image">
+                            {{#image}}
+                                {{>common/image}}
+                            {{/image}}
+                        </div>
+                        <div class="item_content_details">
+                            <div class="item_content_name">{{name}}</div>
+                            {{#social}}
+                            <div class="item_content_socialwrap">
+                                {{#handles}}
+                                <a class="item_content_socialbutton has_icon {{network}}" href="{{url}}" target="_blank">
+                                    <span></span>
+                                </a>
+                                {{/handles}}
+                            </div>
+                            {{/social}}
+                            <p class="item_content_copy">{{{bio}}}</p>
+                            <div class="item_content_linkwrap">
+                                {{#links}}
+                                    <a class="item_content_linkwrap_button" href="{{url}}"><span>{{text}}</span></a>
+                                {{/links}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            {{/items}}
+        </ul>
+    </div>
+{{/data}}

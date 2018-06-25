@@ -1,0 +1,57 @@
+<div class="header">
+    {{^showSchedule}}
+        <a class="notriforce prev disabled "></a>
+    {{/showSchedule}}
+
+    {{#dateFormatted}}
+        <h2 class="date-wrap">
+            <span class="date day">{{.day}}</span>
+            <span class="date sec dot"> · </span>
+            {{^isWebView}}
+                <span class="date sec year">{{dateFormatted.date}}</span>
+            {{/isWebView}}
+            {{#isWebView}}
+                <span class="date sec year">{{dateFormatted.fullDate}}</span>
+            {{/isWebView}}
+        </h2>
+    {{/dateFormatted}}
+
+    {{^showSchedule}}
+        <a class="notriforce next"></a>
+    {{/showSchedule}}
+
+    {{#scheduleList}}
+        <ul class="nav">
+            <li data-showid="{{.currentShowId}}" class="shows">
+                <span class="current-show">{{.currentShowTitle}}</span>
+                <ul>
+                    {{#showsList}}
+                        <li data-showid="{{.showId}}" data-tvscheduleurl="{{.scheduleURL}}">{{.title}}</li>
+                    {{/showsList}}
+                </ul>
+            </li>
+        </ul>
+    {{/scheduleList}}
+</div>
+
+{{^isWebView}}
+    {{#showSchedule}}
+        <a class="show-header notriforce {{^showImage}}noimage{{/showImage}}" href="{{.showURL}} ">
+            {{#showImage}}
+                <img data-size="{{.width}}x{{.height}}" src="{{.url}}"/>
+            {{/showImage}}
+            <div class="show-info">
+                {{#showTitle}}
+                    <span class="show-title">{{.}}</span>
+                {{/showTitle}}
+                {{#showTuneIn}}
+                    <span class="show-tunein">{{{.}}}</span>
+                {{/showTuneIn}}
+            </div>
+        </a>
+    {{/showSchedule}}
+{{/isWebView}}
+
+<ul class="schedule">
+
+</ul>

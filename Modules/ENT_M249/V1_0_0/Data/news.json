@@ -1,0 +1,67 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m249"
+  },
+
+  "settings": {
+    "loadMoreLabel": "Load More"
+  },
+  "data": {
+    "title": "Latest News",
+    "items": [
+      {
+        "type": "medium",
+        "url": "http://www.spike-l.mtvi.com/articles/j4zy1w/-ink-master-shop-wars-makes-waves-on-june-6-at-10-9c",
+        "meta": {
+          "title": "Ink Master: Shop Wars Makes Waves On June 6 At 10/9c",
+          "displayDate": "4/3/17"
+        },
+        "media": {
+          "image": [
+            {
+              "width": 600,
+              "height": 347,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-6/IM_S5_Logo_blk_background_600x347.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "type": "medium",
+        "url": "http://www.spike-l.mtvi.com/articles/32flau/-record-number-of-women-tune-in-to-spikes-hit-series-ink-master",
+        "meta": {
+          "title": "Record Number Of Women Tune In To Spike's Hit Series, \"Ink Master\"",
+          "displayDate": "12/13/16"
+        },
+        "media": {
+          "image": [
+            {
+              "width": 600,
+              "height": 347,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/p_vs_nunez_blo.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "type": "medium",
+        "url": "http://www.spike-l.mtvi.com/articles/9oloya/-spike-crowns-first-ever-female-winner-ryan-ashley-as-ink-master",
+        "meta": {
+          "title": "Spike Crowns First Ever Female Winner Ryan Ashley As \"Ink Master\"",
+          "displayDate": "12/7/16"
+        },
+        "media": {
+          "image": [
+            {
+              "width": 600,
+              "height": 347,
+              "url": "http://1.images.spike.com/images/shows/inkmaster/season-8/full-eps/ash_win22.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "nextPageURL": "http://www.spike-l.mtvi.com/feeds/ent_m249/c6e46644-a123-4f66-932e-ffe4c720ecb6/58c11111-a4a2-4bee-afa7-9f6596402c90?pageNumber=2"
+  }
+}

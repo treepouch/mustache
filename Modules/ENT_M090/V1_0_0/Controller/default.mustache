@@ -1,0 +1,31 @@
+{{#data}}
+    <div class="middle">
+        <ul>
+            <li>
+                <a href="/joke-categories">all categories</a>
+            </li>
+            {{#category}}
+                <li>
+                    {{#url}}
+                        <a href="{{.}}">
+                    {{/url}}
+                    {{^url}}
+                        <span>
+                    {{/url}}
+                        {{title}}
+                    {{#url}}
+                        </a>
+                    {{/url}}
+                    {{^url}}
+                        </span>
+                    {{/url}}
+                </li>
+            {{/category}}
+            {{#joke}}
+                <li>
+                    <h1>{{title}}</h1>
+                </li>
+            {{/joke}}
+        </ul>
+    </div>
+{{/data}}

@@ -1,0 +1,120 @@
+{
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "result": {
+    "data": {
+      "promoId": "81jj9v",
+      "promoType": "ENT_M100",
+      "version": "V2_0_0",
+      "headerText": "Featured Shows",
+      "items": [
+        {
+          "shortId": "x0verb",
+          "title": "Are You The One?",
+          "tuneIn": "wednesdays 9/8c",
+          "shortDescription": "10 single guys and 10 single girls jet to Hawaii to find their perfect match. If all 10 match-up correctly, they'll win a cool $1M.",
+          "canonicalURL": "http://www.mtv-l.mtvi.com/shows/are-you-the-one",
+          "image": {
+            "width": 2300,
+            "height": 646,
+            "url": "http://mtv.mtvnimages.com/images/ayto_s5_Jumbotron2.jpg"
+          }
+        },
+        {
+          "shortId": "55vxjl",
+          "title": "Catfish: The TV Show",
+          "tuneIn": "wednesdays 8/7c",
+          "shortDescription": "Nev and Max bring together couples who've interacted solely through their screens. What will happen when they meet in real life?",
+          "canonicalURL": "http://www.mtv-l.mtvi.com/shows/catfish-the-tv-show",
+          "image": {
+            "width": 1920,
+            "height": 540,
+            "url": "http://mtv.mtvnimages.com/arc/Catfish-s6-Jumbotron2.jpg"
+          }
+        },
+        {
+          "isAd": true
+        },
+        {
+          "shortId": "d5pi58",
+          "title": "Nick Cannon Presents: Wild 'N Out",
+          "tuneIn": "Thursdays 9/8c",
+          "shortDescription": "Nick Cannon and a celebrity guest will lead two teams of improv regulars in an all-out comedy battle before a live audience.",
+          "canonicalURL": "http://www.mtv-l.mtvi.com/shows/nick-cannon-presents-wild-n-out",
+          "image": {
+            "width": 1920,
+            "height": 540,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/wild-n-out/branding/MTV_WNO_Jumbotron.jpg"
+          }
+        },
+        {
+          "shortId": "btlzj0",
+          "title": "Stranded with a Million Dollars",
+          "tuneIn": "tuesdays 10/9c",
+          "shortDescription": "The series drops 10 adventurers on an island with nothing but the clothes on their backs and a million dollars in cash.  The catch?  They can buy all of the survival supplies and creature comforts they desire, but everything is crazy expensive.",
+          "canonicalURL": "http://www.mtv-l.mtvi.com/shows/stranded",
+          "image": {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://mtv.mtvnimages.com/images/Stranded_ios_iPad_01.png"
+          }
+        },
+        {
+          "shortId": "44zpke",
+          "title": "Teen Mom",
+          "tuneIn": "premieres monday, april 17th",
+          "shortDescription": "Farrah, Maci, Amber, & Catelynn aren't teens anymore, but that doesn't mean their growing pains have stopped. Follow them on their journey.",
+          "canonicalURL": "http://www.mtv-l.mtvi.com/shows/teen-mom",
+          "image": {
+            "width": 2300,
+            "height": 2300,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/teen-mom/videos/_B9A1968-Group.jpg"
+          }
+        },
+        {
+          "shortId": "qb7lnm",
+          "title": "Teen Mom 2",
+          "tuneIn": "mondays 9/8c",
+          "shortDescription": "Jenelle, Chelsea, Kailyn, and Leah are four young women navigating complicated lives. It's not always easy being a young mom.",
+          "canonicalURL": "http://www.mtv-l.mtvi.com/shows/teen-mom-2",
+          "image": {
+            "width": 1920,
+            "height": 540,
+            "url": "http://mtv.mtvnimages.com/images/TM2_massive_01.jpg"
+          }
+        },
+        {
+          "shortId": "tlcw7l",
+          "title": "World Star TV",
+          "tuneIn": "fridays 11/10c on mtv2",
+          "shortDescription": "World Star Hip Hop isn’t just a site, it’s a movement. It’s culture, comedy, music, news, girls, and a launching pad for some of today’s hottest urban talent.  World Star TV incorporates all those qualities in one crazy, unpredictable half hour show.  Our host CP holds court in the World Star Studio with a live audience and takes down the funniest clips on World Star with his hilarious group of friends.  He’ll also sit down with emerging and established stars in the world of hip hop for exclusive World Star interviews.  It’s a brand new late night experience for the World Star generation.",
+          "canonicalURL": "http://www.mtv-l.mtvi.com/shows/world-star-tv",
+          "image": {
+            "width": 1920,
+            "height": 540,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/uncommon-sense/MTV2_WSTV_Jumbotron_B.jpg"
+          }
+        },
+        {
+          "shortId": "2kx9jl",
+          "title": "Uncommon Sense Live",
+          "tuneIn": "live fridays 11:30/10:30c on mtv2",
+          "shortDescription": "Uncommon Sense Live will be your weekly destination for honest and in-depth conversation on news stories and topics that you want to hear about. Each week, we’ll be inviting a guest on the show to open up a dialogue on an issue that’s important to them. We want you to be part of the conversation, so we’re going to be taking your calls and Skype to ask whatever you want on air. Charlamagne doesn’t hold back, so there’s no limit to what can happen on Uncommon Sense Live",
+          "canonicalURL": "http://www.mtv-l.mtvi.com/shows/uncommon-sense-live",
+          "image": {
+            "width": 1920,
+            "height": 540,
+            "url": "http://mtv.mtvnimages.com/arc/images/shows/uncommon-sense/UncommonSense_Jumbotron.jpg"
+          }
+        }
+      ]
+    }
+  },
+  "messages": {}
+}

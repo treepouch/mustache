@@ -1,0 +1,53 @@
+{{#data}}
+
+    {{#upcoming}}
+        <!-- Upcoming Event  -->
+        {{#tickets_url}}
+            <a class="event_upcoming s_buttons_button s_buttons_eventDetail s_buttons_buttonInverse" href="{{.}}" target="_blank">
+                {{settings.buyTicketsButtonLabel}}
+            </a>
+        {{/tickets_url}}
+        {{#fevo_url}}
+            <div class="fevo-button s_buttons_button s_buttons_eventDetail s_buttons_buttonInverse">
+                <a href="{{.}}" target="_blank">{{settings.fevoButtonLabel}}</a>
+            </div>
+        {{/fevo_url}}
+        {{#tickets_upgrade_url}}
+            <div class="event_upcoming s_label_promo5 s_fonts_promo5">
+                {{settings.upgradeTicketLabel}} <a href="{{.}}">{{settings.upgradeTicketButtonLabel}}</a>
+            </div>
+        {{/tickets_upgrade_url}}
+    {{/upcoming}}
+
+    {{#live_event}}
+        <!-- mainEventOnAir  -->
+        <div class="event_onair s_label_promo6 s_fonts_promo6 s_icons_hasIcon s_icons_tv">
+            <span>{{settings.watchOnTvLabel}} {{settings.tvLabel}}</span>
+        </div>
+        <div class="event_onair s_label_promo5 s_fonts_promo5">
+            {{settings.appLabel}} <a href="{{settings.appDownloadUrl}}">{{settings.downloadAppLabel}}</a>
+        </div>
+    {{/live_event}}
+
+    {{#live_prelim}}
+        <!-- prelimEventOnAir  -->
+        {{#livestreamUrl}}
+            <a class="event_livestream s_buttons_button s_buttons_eventDetail s_buttons_buttonInverse" href="{{.}}">
+                {{settings.livestreamButtonLabel}}
+            </a>
+        {{/livestreamUrl}}
+        {{#tickets_upgrade_url}}
+            <div class="event_upcoming s_label_promo5 s_fonts_promo5">
+                {{settings.upgradeTicketLabel}} <a href="{{.}}">{{settings.upgradeTicketButtonLabel}}</a>
+            </div>
+        {{/tickets_upgrade_url}}
+    {{/live_prelim}}
+    {{#past}}
+        {{#additionalLinks}}
+            <a class="event_livestream s_buttons_button s_buttons_eventDetail" href="{{url}}">
+                {{text}}
+            </a>
+        {{/additionalLinks}}
+    {{/past}}
+
+{{/data}}

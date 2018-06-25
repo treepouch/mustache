@@ -1,0 +1,42 @@
+{{#slate}}
+    <div class="player_slate content{{#.typeClass}} {{.}}{{/.typeClass}}">
+        <div id="player_slate_content" class="player_slate_content{{#.passwordForm}} auth-container{{/.passwordForm}}">
+            {{#.headline}}
+                <div class="player_slate_title">
+                    <h2>{{.}}</h2>
+                </div>
+            {{/.headline}}
+
+            {{#.description}}
+                <p class="player_slate_description">{{{.}}}</p>
+            {{/.description}}
+
+            {{#.button}}
+                <div class="player_slate_button{{#.typeClass}} {{.}}{{/.typeClass}}">{{.title}}</div>
+            {{/.button}}
+
+            {{#.passwordForm}}
+                <div class="deck">
+                    <form id="authForm" method="post" name="authForm">
+                        <input class="form-control password_input" id="password" name="password" placeholder="{{.placeholder}}" required="" type="password"/>
+                        <button class="btn btn-cta auth_submit_button" id="authSubmitBtn" type="submit">{{.buttonLabel}}</button>
+                    </form>
+                </div>
+            {{/.passwordForm}}
+
+            {{#message}}
+                <div class="player_slate_message">
+                    {{#.header}}
+                        <div class="player_slate_title">
+                            <h3>{{.}}</h3>
+                        </div>
+                    {{/.header}}
+
+                    {{#.body}}
+                        <p class="player_slate_description">{{{.}}}</p>
+                    {{/.body}}
+                </div>
+            {{/message}}
+        </div>
+    </div>
+{{/slate}}

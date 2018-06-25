@@ -1,0 +1,26 @@
+{{#data}}
+    <div class="module_content s_container">
+
+        <h2 class="headline section-header-md">related shows</h2>
+
+        <ul class="L001_line_list">
+            {{#items}}
+                <li class="S001_line_list_item">
+                    {{#url}}
+                        <a href="{{.}}" class="link_wrapper">
+                    {{/url}}
+
+                        {{> common/image }}
+
+                        {{#title}}
+                            <h3 class="s_fonts_lineListHeader">{{.}}</h3>
+                        {{/title}}
+
+                    {{#url}}
+                        </a>
+                    {{/url}}
+                </li>
+            {{/items}}
+        </ul>
+    </div>
+{{/data}}

@@ -1,0 +1,47 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m209"
+  },
+
+  "settings": {
+    "share": {
+      "options": [
+        {
+          "title": "Facebook",
+          "typeClass": "facebook"
+        },
+        {
+          "title": "Twitter",
+          "typeClass": "twitter"
+        },
+        {
+          "title": "Email",
+          "typeClass": "email"
+        }
+      ]
+    }
+  },
+
+  "data": {
+    "parentTitle": "2015 Fandom Awards",
+
+    "id": "mgid:arc:video:mtv.com:a73c7e58-14ca-43eb-83bf-3debe98120c9",
+    "promoId": "xxxx",
+    "promoType": "ent_m209",
+    "title": "sneak peek: aquapoop",
+    "description": "A deadly combination of curry and milkshakes gets messy at the beach.",
+    "displayDate": "02/06/2016 22:00",
+    "image": {
+      "url": "http://mtv.mtvnimages.com/arc/images/shows/greatest-party-story-ever/video/GPSE_102_AQUAPOOP.mp4.01_02_52_10.Still009.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+
+    "slate": {
+      "type": "unavailable_slate",
+      "headline": "Don't freak out but this video is no longer available.",
+      "description": "Feel free to watch one of the thousands of other videos just a few clicks away."
+    }
+  }
+}

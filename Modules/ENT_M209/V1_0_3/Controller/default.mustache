@@ -1,0 +1,45 @@
+{{#data}}
+    <div class="module_content player">
+        {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+        <div class="player_holder">
+            {{#image}}
+                {{<common/image}}
+                    {{$imageClass}}player_thumbnail{{/imageClass}}
+                {{/common/image}}
+            {{/image}}
+
+            {{>Modules/ENT_M209/V1_0_3/Controller/slate}}
+
+            <div class="player_video"></div>
+        </div>
+
+        {{>Modules/ENT_M209/V1_0_3/Controller/tv_provider}}
+
+        {{#settings.share.options.0}}
+            <ul class="player_share">
+                {{#settings.share.options}}
+                    <li class="player_share-button has_icon {{.typeClass}}">
+                        <span class="screen_reader_text">{{.title}}</span>
+                    </li>
+                {{/settings.share.options}}
+            </ul>
+        {{/settings.share.options.0}}
+
+        <div class="player_meta">
+            {{#parentTitle}}
+                <h2 class="player_parent-title">{{.}}</h2>
+            {{/parentTitle}}
+            {{#title}}
+                <h1 class="player_video-title">{{.}}</h1>
+            {{/title}}
+            {{#description}}
+                <p class="player_description">{{.}}</p>
+            {{/description}}
+            {{#displayDate}}
+                <div class="player_display-date">{{.}}</div>
+            {{/displayDate}}
+        </div>
+    </div>
+
+    {{> common/overlay}}
+{{/data}}

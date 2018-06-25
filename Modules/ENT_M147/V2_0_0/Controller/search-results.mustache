@@ -1,0 +1,31 @@
+{{^items}}
+    <p>No fighters were found matching your search term</p>
+{{/items}}
+
+{{#items}}
+    <li class="s_layouts_personLineListItem {{#worldChampion}}s_layouts_fighterCardWorldChampion{{/worldChampion}}">
+
+        <a class="s_layouts_fighterCardImageWrapper" href="{{#canonicalURL}}{{.}}{{/canonicalURL}}">
+            {{> common/image }}
+        </a>
+
+        <div class="s_layouts_fighterCardDetails">
+
+            <h4 class="s_fonts_fighterCardName s_layouts_fighterCardName">
+                {{#name}}
+                    <a href="{{#canonicalURL}}{{.}}{{/canonicalURL}}">{{.}}</a>
+                {{/name}}
+            </h4>
+
+            {{#worldChampion}}
+                <div class="s_fonts_fighterCardTitle s_layouts_fighterCardTitle">world champion</div>
+            {{/worldChampion}}
+
+            <ul class="s_fonts_fighterCardStatistics s_layouts_fighterCardStatistics">
+                {{#fighterClass}}<li>{{.}}</li>{{/fighterClass}}
+                {{#fighterStatistic}}<li>{{.}}</li>{{/fighterStatistic}}
+            </ul>
+        </div>
+    </li>
+{{/items}}
+</ul>

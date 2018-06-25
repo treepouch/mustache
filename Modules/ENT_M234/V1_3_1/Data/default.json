@@ -1,0 +1,194 @@
+{
+    "config": {
+        "zone": "t1_lc_promo1",
+        "moduleName": "ent_m234",
+        "events": [
+            {
+                "name": "Toggle Drawer",
+                "actions": [
+                    {
+                        "selector": ".live-stream__cameras-select",
+                        "toggleClass": "live-stream__cameras-select--active"
+                    }
+                ]
+            },
+            {
+                "name": "Toggle Now Watching",
+                "actions": [
+                    {
+                        "selector": ".live-stream__camera:first-child",
+                        "toggleClass": "live-stream__camera--selected"
+                    }
+                ]
+            },
+            {
+                "name": "Toggle Now Watching Info",
+                "actions": [
+                    {
+                        "selector": ".live-stream__player-info",
+                        "toggleClass": "live-stream__player-info--toggle"
+                    }
+                ]
+            },
+            {
+                "name": "Toggle Pinned State",
+                "actions": [
+                    {
+                        "selector": ".live-stream__cameras-select",
+                        "removeClass": "live-stream__cameras-select--active"
+                    },
+                    {
+                        "selector": ".live-stream",
+                        "toggleClass": "live-stream--pinned"
+                    }
+                ]
+            }
+        ]
+    },
+
+    "settings": {
+        "tve": {
+            "requestorID": "MTV",
+            "channelID": "MTV",
+            "providerInfoTitle": "Your TV Provider",
+            "messages": {
+                "default": {
+                    "headline": "Oh No",
+                    "description": "We seem to be having technical difficulties. It's nothing personal - please try again later."
+                },
+                "user not authorized error": {
+                    "headline": "Error",
+                    "description": "MTV is not included in your subscription package. Please contact your TV provider to add it. In the meantime, head back to the site for the latest videos."
+                },
+                "provider not available error": {
+                    "headline": "Don't See Your Provider?",
+                    "description": "If it isn't listed, don't panic. We're working hard to get all TV Providers to participate."
+                },
+                "internal authentication error": {
+                    "headline": "Error",
+                    "description": "There seems to be a technical problem. Please contact your TV provider for more details and try again later."
+                }
+            }
+        },
+        "share": {
+            "shortenerURL": "/feeds/bitly",
+            "email": {
+                "subject": "Watch {{title}} on www.mtv.com"
+            },
+            "twitter": {
+                "name": "MTV"
+            }
+        },
+        "sponsorAd": {
+            "size": "200x31"
+        },
+        "boxAd": {
+            "size": "300x250"
+        },
+        "sponsorship": {
+            "campaignID": "tacobellmovieawards"
+        },
+        "nowWatchingTitle": "now watching",
+        "watchNowTitle": "watch now",
+        "singInTitle": "sign in to watch",
+        "singInButtonTitle": "select your tv provider"
+    },
+    "data": {
+        "id": "mgid:arc:playlist:mtv.com:3e1aac08-18cf-4219-838d-b3403a649720",
+        "title": "vma 2016 live stream",
+        "image": [
+            {
+                "width": 1920,
+                "height": 1080,
+                "url": "http://mtv.mtvnimages.com/content/ontv/vma/evergreen/images/moonman/1920x1080.jpg"
+            }
+        ],
+        "playerTitle": "Live Broadcast",
+        "camerasSelect": {
+            "title": "select a camera below to watch",
+            "muxId": "mgid:arc:live:mtv.com:ef72758d-0016-4323-99a0-c037617bb878",
+            "options": [
+                {
+                    "index": 0,
+                    "title": "Live Broadcast",
+                    "tveAuth": {
+                        "desktop": true,
+                        "mobile": true
+                    },
+                    "image": [
+                        {
+                            "width": 900,
+                            "height": 600,
+                            "url": "http://mtv.mtvnimages.com/crop-images/2015/08/31/21asap2.jpg"
+                        }
+                    ]
+                },
+                {
+                    "index": 1,
+                    "title": "Best Of",
+                    "image": [
+                        {
+                            "width": 940,
+                            "height": 600,
+                            "url": "http://mtv.mtvnimages.com/crop-images/2015/08/31/demi-lovato-iggy-azalea-GettyImages-486005062.jpg"
+                        }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "title": "Audience Cam",
+                    "image": [
+                        {
+                            "width": 940,
+                            "height": 600,
+                            "url": "http://mtv.mtvnimages.com/content/ontv/vma/2014/photos/flipbooks/14-backstage-moments/454117390.jpg"
+                        }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "title": "Backstage",
+                    "image": [
+                        {
+                            "width": 1998,
+                            "height": 1567,
+                            "url": "http://mtv.mtvnimages.com/arc/images/taylor-swift-kanye-west-GettyImages-486022730.jpg"
+                        }
+                    ]
+                },
+                {
+                    "index": 4,
+                    "title": "Greenroom",
+                    "image": [
+                        {
+                            "width": 1998,
+                            "height": 1332,
+                            "url": "http://mtv.mtvnimages.com/arc/images/taylor-swift-GettyImages-486018558.jpg"
+                        }
+                    ]
+                },
+                {
+                    "index": 5,
+                    "title": "Camera",
+                    "image": [
+                        {
+                            "width": 1920,
+                            "height": 1080,
+                            "url": "http://mtv.mtvnimages.com/crop-images/2015/08/30/mt_vma_post_amp_samsung_01-1.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        "share": {
+            "hashtag": "#vmas2016",
+            "cta": "share",
+            "options": [
+                "facebook",
+                "twitter",
+                "whatsapp",
+                "email"
+            ]
+        }
+    }
+}

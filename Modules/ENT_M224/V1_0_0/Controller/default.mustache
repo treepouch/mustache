@@ -1,0 +1,14 @@
+{{#data}}
+    <div class="dictionary-list">
+        <div class="dictionary-list__alphabet">
+        {{#alphaButtons}}
+            <span class="tab-letter {{#class}}{{.}}{{/class}}" data-letter="{{letter}}">{{letter}}</span>
+        {{/alphaButtons}}
+        </div>
+        <div class="dictionary-list__inner">
+            {{#items}}
+                {{> module/vertical_linelist/writings/writings }}
+            {{/items}}
+        </div>
+    </div>
+{{/data}}

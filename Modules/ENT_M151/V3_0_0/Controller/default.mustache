@@ -1,0 +1,47 @@
+{{#data}}
+
+<div class="module_content s_container">
+    <section class="content">
+        <div class="container">
+
+            {{#headerText}}
+            <h2 class="headline">{{.}}</h2>
+            {{/headerText}}
+
+            <div class="S002_line_list_header s_fonts_moduleHeader">
+                <div class="content dropdown-btn">
+                    <span class="header_text">all shows</span>
+                    <div class="menu_button closed"></div>
+                    <div class="filter_list hide">
+                        <ul class="dropdown-menu">
+
+                            {{#shows}}
+                            <li>
+                                <a href="#" class="filter-item" data-url="{{.url}}" data-filter="{{.filter}}">
+                                    <div>{{.title}}</div>
+                                </a>
+                            </li>
+                            {{/shows}}
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="toggleable_module_content">
+                <ul class="L001_line_list s_layouts_lineList s_resets_oldDom_ul items_list">
+
+                    {{> Modules/ENT_M151/V3_0_0/Controller/items }}
+
+                </ul>
+            </div>
+
+            {{#nextPageURL}}
+            <div class="L001_line_list_load-more custom_button_hover s_buttons_button" style="display: block;" data-feed="{{.}}{{#nextPageURLqueryString}}?{{.}}{{/nextPageURLqueryString}}">
+                <span>load more</span>
+            </div>
+            {{/nextPageURL}}
+        </div>
+    </section>
+</div>
+
+{{/data}}

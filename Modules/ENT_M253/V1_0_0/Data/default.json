@@ -1,0 +1,47 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m178"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+    "data": {
+      "items":[
+        {
+          "videoUrl": "https://d12bwnd5iv0j5a.cloudfront.net/745541869SHNL/e3b1b72d-8e81-42b4-ad1c-a038e83c58a3.mp4"
+        },
+        {
+          "headerText":"mtv news",
+          "subHeaderText":"Is A Town Called Canaan The Key To Stiles' Teen Wolf Rescue?",
+          "image":[
+            {
+              "width":1944,
+              "height":1094,
+              "url":"//mtv.mtvnimages.com/arc/images/shows/teen-wolf/videos/mgid_ao_image_mtv.com_214759.jpeg"
+            }
+          ],
+          "url":"http://www.mtv.com/news/2962472/teen-wolf-stiles-rescue-canaan/",
+          "isPopup":true
+        },
+        {
+          "headerText":"Team Wolf",
+          "subHeaderText":"check out the teen wolf podcast",
+          "image":[
+            {
+              "width":1944,
+              "height":1094,
+              "url":"//mtv.mtvnimages.com/arc/images/shows/teen-wolf/videos/mgid_ao_image_mtv.com_212094.jpeg"
+            }
+          ],
+          "url":"https://itunes.apple.com/us/podcast/team-wolf-official-teen-wolf/id1176205683?mt=2",
+          "isPopup":true
+        }
+      ]
+    }
+}

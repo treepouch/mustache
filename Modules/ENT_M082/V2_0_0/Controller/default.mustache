@@ -1,0 +1,19 @@
+{{#data}}
+    <div class="module_content s_container">
+        <div class="series_header">
+        {{#franchise.images}}
+            <div data-toqueue="true" data-info="[{&quot;original&quot;: { {{#width}}{{#height}}&quot;width&quot;: {{width}}, &quot;height&quot;:{{height}}{{/height}}{{/width}} }, &quot;src&quot;: &quot;{{.url}}&quot;, {{#.alt}} &quot;alt&quot;: &quot;{{.}}&quot;,{{/.alt}} &quot;quality&quot;: 0.85},null]" class="image_holder deferred"></div>
+        {{/franchise.images}}
+        <div class="overlay"><div class="series_image_caption">{{franchise.title}}</div></div>
+    </div>
+
+    <div class="module_content toggleable_module open">
+            <div class="toggleable_module_content">
+                <ul class="L001_line_list s_layouts_lineList s_resets_oldDom_ul">
+                    {{> Modules/ENT_M082/V2_0_0/Controller/items}}
+                </ul>
+                <div class="L001_line_list_load-more custom_button_hover s_buttons_button" style="display: none;"><span>Load More</span></div>
+            </div>
+        </div>
+    </div>
+{{/data}}

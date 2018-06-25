@@ -1,0 +1,39 @@
+{{#data}}
+    <div class="content_wrapper s_container{{#type}} announcement--{{.}}{{/type}}">
+        <div class="content_wrapper s_container header">
+            {{#promo.featuredUrls}}
+                <a href="{{.}}" class="s_layouts_announcement">
+            {{/promo.featuredUrls}}
+            <div class="s_fonts_announcementText s_layouts_announcementTexts">{{promo.headline}}</div>
+            <div class="s_fonts_announcementText s_layouts_announcementTexts s_fonts_announcementCopy">{{promo.copy}}</div>
+            {{#promo.featuredUrls}}
+                </a>
+            {{/promo.featuredUrls}}
+        </div>
+        {{#promo.NewnessExpirationDate}}
+            <div class="aside_content countdown">
+                {{#promo.featuredUrls}}
+                    <a href="{{.}}" class="s_layouts_countdown">
+                {{/promo.featuredUrls}}
+                <ul class="s_layouts_countdownClocks">
+                    {{#promo.countdown}}
+                        <li class="s_layouts_countdownClocksEntity {{label}}">
+                            <span class="s_fonts_number">{{value}}</span>
+                            <span class="s_fonts_label">{{label}}</span>
+                        </li>
+                    {{/promo.countdown}}
+                </ul>
+                {{#promo.featuredUrls}}
+                    </a>
+                {{/promo.featuredUrls}}
+            </div>
+        {{/promo.NewnessExpirationDate}}
+        {{#promo.links}}
+            <div class="aside_content clickthrough">
+                <a href="{{.url}}" class="s_buttons_button s_buttons_buttonActive">
+                    {{.text}}
+                </a>
+            </div>
+        {{/promo.links}}
+    </div>
+{{/data}}

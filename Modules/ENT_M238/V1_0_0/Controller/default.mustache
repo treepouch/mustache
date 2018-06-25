@@ -1,0 +1,99 @@
+{{#data}}
+    <div class="voting-header">
+        {{#header}}
+            <h1 class="voting-header__headline">{{.}}</h1>
+        {{/header}}
+        {{#subHeader}}
+            <div class="voting-header__sub-header">{{.}}</div>
+        {{/subHeader}}
+        {{#description}}
+            <div class="voting-header__description">{{.}}</div>
+        {{/description}}
+        {{#settings.displaySponsorAd}}
+            {{#settings.campaignId}}
+                <span class="voting-module-sponsor-ad" data-adsize="{{settings.sponsorAdSize}}"
+                      data-ad-sizes="{{settings.sponsorAdSize}}" data-campaign="{{settings.campaignId}}"></span>
+            {{/settings.campaignId}}
+        {{/settings.displaySponsorAd}}
+    </div>
+
+    {{#categoriesType}}
+        <div class="voting-categories {{#type}}voting-categories__{{.}}{{/type}}" id="voting-categories">
+        {{#.header}}
+<div class="voting-categories__header">
+{{#.headline}}
+    <h2 class="voting-categories__headline">{{.}}</h2>
+{{/.headline}}
+{{#.description}}
+    <p class="voting-categories__description">{{.}}</p>
+{{/.description}}
+</div>
+{{/.header}}
+
+{{#categories}}
+    <div class="category">
+    {{#.title}}
+    <div class="category__title">
+        <h2>{{.}}</h2>
+    </div>
+{{/.title}}
+
+    <div class="category__content">
+        {{#settings.displaySponsorAd}}
+            {{#settings.campaignId}}
+                <span class="voting-module-sponsor-ad" data-adsize="{{settings.sponsorAdSize}}"
+                      data-ad-sizes="{{settings.sponsorAdSize}}" data-campaign="{{settings.campaignId}}"></span>
+            {{/settings.campaignId}}
+        {{/settings.displaySponsorAd}}
+
+        <ul class="nominees {{#externalVoting.0}} nominees--external-voting {{/externalVoting.0}}">
+            {{#externalVoting}}
+                {{>Modules/ENT_M238/V1_0_0/Controller/external-item}}
+            {{/externalVoting}}
+            {{#nominees}}
+                {{>Modules/ENT_M238/V1_0_0/Controller/item}}
+            {{/nominees}}
+        </ul>
+    </div>
+</div>
+{{/categories}}
+</div>
+{{/categoriesType}}
+
+{{#countVotedCategories}}
+    <div class="voting-categories-count">
+        <span class="voting-categories-count__voted" id="voting-categories-count__voted">{{.voted}}</span>
+        <span>/</span>
+        <span class="voting-categories-count__voted" id="voting-categories-count__voted">{{.total}}</span>
+        <span>&nbsp;voted</span>
+    </div>
+{{/countVotedCategories}}
+
+{{#countDown}}
+    <div class="count-down">
+        <h3 class="count-down__headline">daily voting closed in:</h3>
+        <div class="count-down__time">
+            <span class="count-down__hh" id="count-down__hh">{{.hh}}</span>
+            <span>:</span>
+            <span class="count-down__mm" id="count-down__mm">{{.mm}}</span>
+            <span>:</span>
+            <span class="count-down__ss" id="count-down__ss">{{.ss}}</span>
+        </div>
+        <p class="count-down__copy">Your voted will be cast at 12am tonight and you can cast new votes every day until the show airs</p>
+    </div>
+{{/countDown}}
+
+{{#settings.share}}
+    <div class="voting-module-share">
+        <h4 class="voting-module-share__title">share</h4>
+    <ul class="voting-module-share__list">
+    {{#.options}}
+    <li class="voting-module-share__button has_icon {{.typeClass}}">
+        <span class="screen_reader_text">{{.title}}</span>
+    </li>
+{{/.options}}
+</ul>
+</div>
+{{/settings.share}}
+
+{{/data}}

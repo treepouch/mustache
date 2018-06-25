@@ -1,0 +1,79 @@
+{
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "result": {
+    "settings": {},
+    "data": {
+      "title": "RETURNING FAVORITES",
+      "items": [
+        {
+          "shortId": "p402fd",
+          "headerText": "Bar Rescue",
+          "url": "http://www.spike.com/shows/bar-rescue",
+          "image": {
+            "width": 400,
+            "height": 600,
+            "url": "//paramountnetwork.mtvnimages.com/images/shows/bar-rescue/barrescue.png",
+            "ratio": 1.5,
+            "isPoster": true
+          }
+        },
+        {
+          "shortId": "z9ok8p",
+          "headerText": "Bellator",
+          "url": "http://bellator.spike.com/",
+          "image": {
+            "width": 400,
+            "height": 600,
+            "url": "//paramountnetwork.mtvnimages.com/images/shows/bellator/bellator.png",
+            "ratio": 1.5,
+            "isPoster": true
+          }
+        },
+        {
+          "shortId": "o79ovu",
+          "headerText": "Ink Master",
+          "url": "http://www.spike.com/shows/ink-master",
+          "image": {
+            "width": 400,
+            "height": 600,
+            "url": "//paramountnetwork.mtvnimages.com/images/shows/inkmaster/inkmaster.png",
+            "ratio": 1.5,
+            "isPoster": true
+          }
+        },
+        {
+          "shortId": "eam3pa",
+          "headerText": "Lip Sync Battle",
+          "url": "http://www.spike.com/shows/lip-sync-battle",
+          "image": {
+            "width": 400,
+            "height": 600,
+            "url": "//paramountnetwork.mtvnimages.com/images/shows/lip-sync-battle/lsb.png",
+            "ratio": 1.5,
+            "isPoster": true
+          }
+        },
+        {
+          "shortId": "4mylyc",
+          "headerText": "The Mist",
+          "url": "http://www.spike.com/shows/the-mist",
+          "image": {
+            "width": 400,
+            "height": 600,
+            "url": "//paramountnetwork.mtvnimages.com/images/shows/the-mist/themist.png",
+            "ratio": 1.5,
+            "isPoster": true
+          }
+        }
+      ]
+    }
+  },
+  "messages": {}
+}

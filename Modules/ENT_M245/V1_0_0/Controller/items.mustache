@@ -1,0 +1,42 @@
+{{#items}}
+	{{#adSize}}
+		<li class="ent_m245-item card-grid-item"><div class="lineList_ad" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div></li>
+	{{/adSize}}
+	{{^adSize}}
+	<li class="ent_m245-item card-grid-item">
+		<div class="ent_m245-item__image-wrap card-grid-item__image-wrap">
+			{{#url}}
+			<a href="{{url}}" target="_blank">
+			{{/url}}
+			{{> common/image }}
+			{{#url}}
+			</a>
+			{{/url}}
+			{{#duration}}<div class="ent_m245-item__duration card-grid-item__duration {{#tve}}tve-locked {{#tveDesktop}}desktop-tve-locked {{/tveDesktop}}{{#tveMobile}}mobile-tve-locked {{/tveMobile}}{{/tve}}">{{duration}}</div>{{/duration}}
+		</div>
+
+		{{#label}}<div class="ent_m245-item__label card-grid-item__label">{{label}}</div>{{/label}}
+		{{#title}}
+			<div class="ent_m245-item__textline-1 card-grid-item__textline-1">
+				{{#url}}
+				<a href="{{url}}" target="_blank">
+				{{/url}}
+				{{{title}}}
+				{{#url}}
+				</a>
+				{{/url}}
+			</div>
+		{{/title}}
+		{{#subtitle}}<div class="ent_m245__item-textline-2 card-grid-item__textline-2">{{{subtitle}}}</div>{{/subtitle}}
+
+		<div class="ent_m245-item__meta-wrap card-grid-item__meta-wrap">
+			{{#metaInformation}}
+				{{#meta}}
+					<div class="ent_m245-item__video-meta card-grid-item__video-meta">{{meta}}</div>
+				{{/meta}}
+			{{/metaInformation}}
+
+			{{#publishDate}}<div class="ent_m245-item__publish-date card-grid-item__publish-date">{{publishDate}}</div>{{/publishDate}}
+		</div>
+	</li>{{/adSize}}
+{{/items}}

@@ -1,0 +1,63 @@
+{{#isAD}}
+    <li class="nominee nominee-ad">
+        <div class="nominee-ad__ad-wrapper" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div>
+    </li>
+{{/isAD}}
+{{^isAD}}
+    <li class="nominee {{#layout}}nominee--{{.}}{{/layout}}">
+        <div class="nominee-image">
+            {{#url}}
+                <a class="nominee-image__link" href="{{.}}">
+                    {{#videoType}}
+                        <div class="nominee-image__play-icon"></div>
+                    {{/videoType}}
+            {{/url}}
+                        <div class="nominee-image__image-wrapper">
+                            {{> common/image }}
+                        </div>
+            {{#url}}
+                </a>
+            {{/url}}
+        </div>
+
+        <div class="nominee-meta">
+            <div class="nominee-meta__meta-wrapper">
+                {{#title}}
+                    <div class="nominee-meta__title">{{.}}</div>
+                {{/title}}
+                {{#description}}
+                    <div class="nominee-meta__description">{{.}}</div>
+                {{/description}}
+                {{#additionalText}}
+                    <div class="nominee-meta__additional-text">{{.}}</div>
+                {{/additionalText}}
+            </div>
+            {{#displayVoting}}
+                {{#votingDisable}}
+                <div data-voting-disable="true" class="vote-button {{#isVoted}}vote-button--voted{{/isVoted}} {{^isVoted}}vote-button--disabled{{/isVoted}}">
+                {{/votingDisable}}
+                {{^votingDisable}}
+                <div class="vote-button vote-button--active">
+                {{/votingDisable}}
+                    <div class="vote-button__spinner">spinner</div>
+                    <div class="vote-button__text-vote">vote</div>
+                    <div class="vote-button__text-voted">voted</div>
+                </div>
+            {{/displayVoting}}
+        </div>
+        <div class="nominee-overlay">
+            {{#settings.votingOverlay}}
+                {{#title}}
+                    <div class="nominee-overlay__title">
+                        {{.}}
+                    </div>
+                {{/title}}
+                {{#description}}
+                    <div class="nominee-overlay__description">
+                        {{.}}
+                    </div>
+                {{/description}}
+            {{/settings.votingOverlay}}
+        </div>
+    </li>
+{{/isAD}}

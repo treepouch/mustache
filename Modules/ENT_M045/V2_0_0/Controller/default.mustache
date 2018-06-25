@@ -1,0 +1,32 @@
+{{#data}}
+    {{#item}}
+        {{#linksUrl}}<a href="{{.}}" class="module_content">{{/linksUrl}}
+            {{#image}}
+                {{> common/image }}
+            {{/image}}
+            <div class="overlay s_layouts_textContainerWrap">
+                <div class="modal s_layouts_textContainer">
+                    <div class="info s_layouts_textWrap">
+                        <div class="box-slide-child-group">
+                            <div class="promo_info box-slide hvr-sweep-to-right">
+                                {{#headerText}}<span class="headline">{{.}}</span>{{/headerText}}
+                                {{#copy}}<h2 class="s_layouts_textContainerHeadline s_fonts_textContainerHeadline">{{.}}</h2>{{/copy}}
+                                {{#subheaderText}}<p class="s_layouts_textContainerCopy s_fonts_textContainerCopy">{{.}}</p>{{/subheaderText}}
+                            </div>
+                            {{#linksText}}
+                                <div class="box-slide hvr-sweep-to-left">
+                                    <div class="watch-now">
+                                        {{#linksUrl}}<div class="s_buttons_button s_buttons_buttonAlt">{{/linksUrl}}
+                                            {{.}}
+                                            <span class="icon-chevron-right"></span>
+                                        {{#linksUrl}}</div>{{/linksUrl}}
+                                    </div>
+                                </div>
+                            {{/linksText}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{#linksUrl}}</a>{{/linksUrl}}
+    {{/item}}
+{{/data}}

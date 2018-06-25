@@ -1,0 +1,209 @@
+{{#isEpisode}}
+    <div class="media media--episode card" data-uri="{{id}}" data-itemtype="isEpisode">
+        <div class="media__image">
+            <a href="{{url}}">
+                <span class="badge">{{badge}}</span>
+                <div class="media__content-holder">
+                    {{<common/image}}
+                        {{$imageClass}}media__content{{/imageClass}}
+                    {{/common/image}}
+                </div>
+            </a>
+        </div>
+        <div class="media__meta">
+            {{#title}}
+                <h3 class="media__title media__title--large">
+                    <a class="media__link" href="{{url}}">{{.}}</a>
+                </h3>
+            {{/title}}
+            {{#meta}}
+                {{#seasonAndEpisode}}
+                    <span class="media__title_meta">{{.}}</span>
+                {{/seasonAndEpisode}}
+            {{/meta}}
+            {{#description}}
+                <p class="media__description">{{.}}</p>
+            {{/description}}
+        </div>
+    </div>
+{{/isEpisode}}
+
+{{#isVideo}}
+    <div class="media media--video card js-media" data-uri="{{id}}" data-itemtype="isVideo" >
+        <div class="media__content-holder js-media__holder">
+            {{<common/image}}
+                {{$imageClass}}media__content{{/imageClass}}
+            {{/common/image}}
+        </div>
+
+        <div class="media__meta">
+            {{#share}}
+                {{#title}}
+                    <h3 class="media__title media__title--large"><a class="media__link" href="{{url}}">{{.}}</a></h3>
+                {{/title}}
+            {{/share}}
+            {{^share}}
+                {{#title}}
+                    <h3 class="media__title media__title--large">{{.}}</h3>
+                {{/title}}
+            {{/share}}
+
+            {{#duration}}
+                <span class="media__duration">{{.}}</span>
+            {{/duration}}
+
+            {{#description}}
+                <p class="media__description">{{.}}</p>
+            {{/description}}
+        </div>
+
+        {{#share}}
+            <ul class="card__share js-share" data-url="{{url}}" data-title="{{title}}" data-seriestitle="{{seriesTitle}}">
+                {{#options}}
+                    <li class="card__share-button icon icon--{{type}} js-share__button {{type}}-button" data-type="{{type}}" data-subject="{{subject}}" data-body="{{body}}"></li>
+                {{/options}}
+                <li class="card__share-button icon icon--whatsapp js-share__button whatsapp-button" data-type="whatsapp"  data-encoded-title="{{whatsAppEncodedTitle}}" data-series-title="{{whatsAppEncodedSeriesTitle}}">
+                    <svg class="whatsapp-icon whatsapp-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+                        <path class="whatsapp-icon-path" d="m 15.484978,12.523309 c -0.257514,-0.139458 -1.522207,-0.814475 -1.759542,-0.909961 -0.237101,-0.09514 -0.410145,-0.144796 -0.595039,0.108365 -0.18466,0.252464 -0.709425,0.817955 -0.868391,0.985375 -0.159788,0.167536 -0.313358,0.183083 -0.571107,0.04328 C 11.434089,12.61137 10.599369,12.306 9.6313743,11.385713 8.8780726,10.669624 8.3840447,9.8011989 8.2407989,9.5362044 8.0974358,9.2708619 8.239743,9.1356961 8.3759497,9.0115525 8.4981955,8.8994751 8.649771,8.7180166 8.7865643,8.5717127 8.9230056,8.4252928 8.9712235,8.3189006 9.0650782,8.1490442 9.158933,7.9791878 9.1211564,7.8261547 9.0603855,7.6940055 8.9994972,7.5623204 8.5235363,6.2664696 8.3246816,5.7394972 8.1259441,5.2124088 7.9044469,5.2907238 7.7513464,5.2848066 7.5984804,5.2795856 7.4244972,5.2510442 7.2495754,5.244779 7.0747709,5.2381657 6.7880447,5.2926961 6.5381564,5.5430718 6.2880335,5.7935635 5.5869385,6.3957182 5.5386033,7.6719613 c -0.048335,1.275431 0.8443408,2.5433207 0.9688157,2.7208347 0.1245922,0.177978 1.7046369,2.943596 4.330458,4.080961 2.626408,1.137017 2.640134,0.790342 3.121961,0.764934 0.482179,-0.02518 1.575,-0.570249 1.816676,-1.167183 0.241441,-0.597165 0.260799,-1.116248 0.199441,-1.226817 -0.06159,-0.110453 -0.233581,-0.182271 -0.490977,-0.321382 l 0,0 z M 10.668704,0.05685083 c -5.6725811,0 -10.27134646,4.54783427 -10.27134646,10.15843117 0,1.919121 0.53860894,3.714099 1.47387146,5.245359 L 0.01724581,20.910547 5.7041397,19.110116 c 1.4717597,0.804497 3.1639609,1.263481 4.9645643,1.263481 5.673519,0 10.27205,-4.548415 10.27205,-10.158315 0,-5.6105969 -4.598531,-10.15843117 -10.27205,-10.15843117 z" />
+                    </svg>
+                    whatsapp
+                </li>
+            </ul>
+        {{/share}}
+
+        <script type="application/ld+json">
+            {{> Partials/V1_0_0/common/schema.org/video_object}}
+        </script>
+    </div>
+{{/isVideo}}
+
+{{#isTerm}}
+    <div class="card" data-itemtype="isTerm" data-uri="{{id}}">
+        <div class="dictionary-card">
+            <a class="dictionary-card__wrapper js-term__holder notriforce" href="{{#destinationUrl}}{{.}}{{/destinationUrl}}">
+                <div class="dictionary-card__header">
+                    {{#audio}}
+                        <span class="js-speaker dictionary-card__speaker icon icon--speaker" data-uri="{{.}}"></span>
+                    {{/audio}}
+
+                    {{#term}}
+                        <h4 class="dictionary-card__term js-title">{{.}}</h4>
+                    {{/term}}
+                </div>
+
+                {{#partOfSpeech}}
+                    <span class="dictionary-card__meta dictionary-card__meta--short js-part-of-speech">{{.}}</span>
+                {{/partOfSpeech}}
+
+                {{#pronunciation}}
+                    <span class="dictionary-card__meta js-pronunciation">{{.}}</span>
+                {{/pronunciation}}
+
+                {{#definition}}
+                    <p class="dictionary-card__definition js-definition">{{.}}</p>
+                {{/definition}}
+            </a>
+        </div>
+
+        {{#share}}
+            <ul class="card__share js-share" data-url="{{url}}" data-title="{{title}}" data-itemid = "{{itemId}}">
+                {{#options}}
+                    <li class="card__share-button icon icon--{{type}} js-share__button {{type}}-button" data-type="{{type}}" data-subject="{{subject}}" data-usage="{{usage}}" data-partofspeech="{{partOfSpeech}}"></li>
+                {{/options}}
+                <li class="card__share-button icon icon--whatsapp js-share__button whatsapp-button" data-type="whatsapp" data-term="{{term}}" data-definition="{{definition}}">
+                    <svg class="whatsapp-icon whatsapp-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+                        <path class="whatsapp-icon-path" d="m 15.484978,12.523309 c -0.257514,-0.139458 -1.522207,-0.814475 -1.759542,-0.909961 -0.237101,-0.09514 -0.410145,-0.144796 -0.595039,0.108365 -0.18466,0.252464 -0.709425,0.817955 -0.868391,0.985375 -0.159788,0.167536 -0.313358,0.183083 -0.571107,0.04328 C 11.434089,12.61137 10.599369,12.306 9.6313743,11.385713 8.8780726,10.669624 8.3840447,9.8011989 8.2407989,9.5362044 8.0974358,9.2708619 8.239743,9.1356961 8.3759497,9.0115525 8.4981955,8.8994751 8.649771,8.7180166 8.7865643,8.5717127 8.9230056,8.4252928 8.9712235,8.3189006 9.0650782,8.1490442 9.158933,7.9791878 9.1211564,7.8261547 9.0603855,7.6940055 8.9994972,7.5623204 8.5235363,6.2664696 8.3246816,5.7394972 8.1259441,5.2124088 7.9044469,5.2907238 7.7513464,5.2848066 7.5984804,5.2795856 7.4244972,5.2510442 7.2495754,5.244779 7.0747709,5.2381657 6.7880447,5.2926961 6.5381564,5.5430718 6.2880335,5.7935635 5.5869385,6.3957182 5.5386033,7.6719613 c -0.048335,1.275431 0.8443408,2.5433207 0.9688157,2.7208347 0.1245922,0.177978 1.7046369,2.943596 4.330458,4.080961 2.626408,1.137017 2.640134,0.790342 3.121961,0.764934 0.482179,-0.02518 1.575,-0.570249 1.816676,-1.167183 0.241441,-0.597165 0.260799,-1.116248 0.199441,-1.226817 -0.06159,-0.110453 -0.233581,-0.182271 -0.490977,-0.321382 l 0,0 z M 10.668704,0.05685083 c -5.6725811,0 -10.27134646,4.54783427 -10.27134646,10.15843117 0,1.919121 0.53860894,3.714099 1.47387146,5.245359 L 0.01724581,20.910547 5.7041397,19.110116 c 1.4717597,0.804497 3.1639609,1.263481 4.9645643,1.263481 5.673519,0 10.27205,-4.548415 10.27205,-10.158315 0,-5.6105969 -4.598531,-10.15843117 -10.27205,-10.15843117 z" />
+                    </svg>
+                    whatsapp
+                </li>
+            </ul>
+        {{/share}}
+    </div>
+{{/isTerm}}
+
+{{#isImage}}
+    <div class="media card" data-itemtype="isImage" data-uri="{{id}}">
+        {{> common/image}}
+
+        {{#caption}}
+            <div class="caption media__meta media__description">{{caption}}</div>
+        {{/caption}}
+
+        {{#share}}
+            <ul class="card__share js-share" data-url="{{url}}" data-title="{{title}}" data-seriestitle="{{seriesTitle}}">
+                {{#options}}
+                    <li class="card__share-button icon icon--{{type}} js-share__button {{type}}-button" data-type="{{type}}" data-subject="{{subject}}" data-body="{{body}}"></li>
+                {{/options}}
+                <li class="card__share-button icon icon--whatsapp js-share__button whatsapp-button" data-type="whatsapp" data-series-title="{{whatsAppEncodedSeriesTitle}}" data-url="{{shortUrl}}" data-social="whatsapp">
+                    <svg class="whatsapp-icon whatsapp-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+                        <path class="whatsapp-icon-path" d="m 15.484978,12.523309 c -0.257514,-0.139458 -1.522207,-0.814475 -1.759542,-0.909961 -0.237101,-0.09514 -0.410145,-0.144796 -0.595039,0.108365 -0.18466,0.252464 -0.709425,0.817955 -0.868391,0.985375 -0.159788,0.167536 -0.313358,0.183083 -0.571107,0.04328 C 11.434089,12.61137 10.599369,12.306 9.6313743,11.385713 8.8780726,10.669624 8.3840447,9.8011989 8.2407989,9.5362044 8.0974358,9.2708619 8.239743,9.1356961 8.3759497,9.0115525 8.4981955,8.8994751 8.649771,8.7180166 8.7865643,8.5717127 8.9230056,8.4252928 8.9712235,8.3189006 9.0650782,8.1490442 9.158933,7.9791878 9.1211564,7.8261547 9.0603855,7.6940055 8.9994972,7.5623204 8.5235363,6.2664696 8.3246816,5.7394972 8.1259441,5.2124088 7.9044469,5.2907238 7.7513464,5.2848066 7.5984804,5.2795856 7.4244972,5.2510442 7.2495754,5.244779 7.0747709,5.2381657 6.7880447,5.2926961 6.5381564,5.5430718 6.2880335,5.7935635 5.5869385,6.3957182 5.5386033,7.6719613 c -0.048335,1.275431 0.8443408,2.5433207 0.9688157,2.7208347 0.1245922,0.177978 1.7046369,2.943596 4.330458,4.080961 2.626408,1.137017 2.640134,0.790342 3.121961,0.764934 0.482179,-0.02518 1.575,-0.570249 1.816676,-1.167183 0.241441,-0.597165 0.260799,-1.116248 0.199441,-1.226817 -0.06159,-0.110453 -0.233581,-0.182271 -0.490977,-0.321382 l 0,0 z M 10.668704,0.05685083 c -5.6725811,0 -10.27134646,4.54783427 -10.27134646,10.15843117 0,1.919121 0.53860894,3.714099 1.47387146,5.245359 L 0.01724581,20.910547 5.7041397,19.110116 c 1.4717597,0.804497 3.1639609,1.263481 4.9645643,1.263481 5.673519,0 10.27205,-4.548415 10.27205,-10.158315 0,-5.6105969 -4.598531,-10.15843117 -10.27205,-10.15843117 z" />
+                    </svg>
+                    whatsapp
+                </li>
+            </ul>
+        {{/share}}
+    </div>
+{{/isImage}}
+
+{{#isAd}}
+    <div class="mixed-grid__ad mixed-grid__ad--{{size}}" data-adsize="{{size}}" data-campaign="{{campaign}}"></div>
+{{/isAd}}
+
+{{#isPromo}}
+    <div class="card" data-uri="{{id}}">
+    {{#featuredUrl}}<a href="{{featuredUrl}}" class="collection-promo__info-wrapper">{{/featuredUrl}}
+        <div class="collection-promo primary-background-color--{{promo.itemId}}{{#image}} has-image{{/image}}{{#isEmbed}} embed{{/isEmbed}}">
+            {{#isEmbed}}
+                <div class="inner-wrapper hidden">
+                    {{{copy}}}
+                </div>
+            {{/isEmbed}}
+            {{^isEmbed}}
+                {{#image}}
+                    {{<common/image}}
+                        {{$imageClass}}collection-promo__background-image{{/imageClass}}
+                    {{/common/image}}
+                {{/image}}
+                <div class="collection-promo__info">
+                    {{#title}}
+                        <h1 class="collection-promo__title">{{.}}</h1>
+                    {{/title}}
+                    {{#description}}
+                        <p class="collection-promo__description">{{.}}</p>
+                    {{/description}}
+                    {{#copy}}
+                        {{{copy}}}
+                    {{/copy}}
+                </div>
+            {{/isEmbed}}
+        </div>
+    {{#featuredUrl}}</a>{{/featuredUrl}}
+    </div>
+{{/isPromo}}
+
+{{#isCollection}}
+        <div class="card" data-uri="{{id}}">
+            <a href="{{url}}" class="collection-card">
+                {{<common/image}}
+                    {{$imageClass}}collection-card__background-image{{/imageClass}}
+                {{/common/image}}
+                <div class="collection-card__info-wrapper">
+                    <div class="collection-card__info">
+                        {{#title}}
+                            <h1 class="collection-card__title">{{.}}</h1>
+                        {{/title}}
+
+                        {{#subTitle}}
+                            <p class="collection-card__subtitle">{{.}}</p>
+                        {{/subTitle}}
+
+                        {{#ad}}
+                            <div class="collection-card__sponsor-info">
+                                <div class="collection-card__sponsor-logo" data-adsize="{{size}}" data-campaign="{{campaign}}"></div>
+                            </div>
+                        {{/ad}}
+                    </div>
+                </div>
+            </a>
+        </div>
+{{/isCollection}}

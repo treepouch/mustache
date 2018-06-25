@@ -1,0 +1,116 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_l000"
+  },
+  "settings": {
+  },
+  "data": {
+    "items": [
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "caption": "Some caption",
+        "image": [
+          {
+            "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+            "width": 556,
+            "height": 312
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isAd": "true",
+        "size": "300x250"
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Fudge",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/fəj/",
+        "definition": "A 350-pound running back for the West best known for bulldozing defensive linemen with his gargantuan weight.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isCollection": true,
+        "title": "Weed",
+        "subTitle": "Collection",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://1.images.comedycentral.com/images/cc_test_images/keypeele_204_substitute_03.jpg"
+          }
+        ],
+        "ad": {
+          "size": "200x31",
+          "campaign": "campaignIdGoesHere"
+        },
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{{#data}}
+
+    <div class="hero-promo-container {{#settings.isCentered}}hero-promo-container--centered{{/settings.isCentered}}">
+        {{> common/image}}
+
+        {{^isArtist}}
+            <div class="hero-promo-content-meta-items">
+                <div class="hero-promo-content-meta-wrap">
+                    {{#label}}<div class="hero-promo-content-meta-label">{{.}}</div>{{/label}}
+                    {{#tuneIn}}<div class="hero-promo-content-meta-tunein">{{.}}</div>{{/tuneIn}}
+                    {{#title}}
+                        <div class="hero-promo-content-meta-title yup">
+                        {{#url}}<a href="{{.}}">{{/url}}{{^url}}{{#cta.url}}<a href="{{.}}">{{/cta.url}}{{/url}}
+                            {{.}}
+                        {{#url}}</a>{{/url}}{{^url}}{{#cta.url}}</a>{{/cta.url}}{{/url}}
+                        </div>
+                    {{/title}}
+                    {{#description}}<div class="hero-promo-content-meta-description">{{.}}</div>{{/description}}
+                    {{#cta.text}}
+                        {{#url}}<a href="{{.}}">{{/url}}{{^url}}{{#cta.url}}<a href="{{.}}">{{/cta.url}}{{/url}}
+                            <div class="hero-promo-load-more-btn"><span class="primary_btn">{{.}}</span></div>
+                        {{#url}}</a>{{/url}}{{^url}}{{#cta.url}}</a>{{/cta.url}}{{/url}}
+                    {{/cta.text}}
+                </div>
+            </div>
+        {{/isArtist}}
+
+        <div class="hero-promo-container-overlay-background hideWithFade"></div>
+    </div>
+
+    {{#isArtist}}
+        <div class="contentMainWrapper">
+            {{#name}}
+                <h1 class="contentHeadline">{{.}}</h1>
+            {{/name}}
+            {{#shortBio}}
+                <h2 class="contentSubHeadline">{{.}}</h2>
+            {{/shortBio}}
+        </div>
+    {{/isArtist}}
+
+{{/data}}

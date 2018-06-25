@@ -1,0 +1,33 @@
+{{#data}}
+    <div class="s_layouts_snapWrapper" tabindex="-1"><!--s_layouts_four_column -->
+        <div class="s_layouts_snap">
+            <div class="s_layouts_snapInputWrapper{{#showId}} series_specific{{/showId}}">
+                <input type="text" class="s_layouts_snapInput" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="{{placeHolderText}}">
+                {{#showId}}
+                <div class="s_layouts_snapSearchWrapper">
+                    <span class="s_layouts_this_show highlight">THIS SHOW</span>
+                    <span class="s_layouts_whole_site">WHOLE SITE</span>
+                </div>
+                {{/showId}}
+                <input type="submit" class="s_layouts_snapSubmit">
+                <div class="s_layouts_snapClose">
+                    <span class="screen-reader-text">close</span>
+                </div>
+            </div>
+            <div class="s_layouts_snapHeaderWrapper">
+                <div class="s_layouts_snapTabs">
+                    {{> Modules/ENT_M171/V3_0_0/Controller/filters}}
+                </div>
+                <div class="s_layouts_snapMessageWrapper">
+                    {{> Modules/ENT_M171/V3_0_0/Controller/message}}
+                </div>
+                <div class="s_layouts_snapHeaderOuter">
+                    {{> Modules/ENT_M171/V3_0_0/Controller/header}}
+                </div>
+            </div>
+            <div class="s_layouts_snapResultsWrapper">
+                {{> Modules/ENT_M171/V3_0_0/Controller/columns}}
+            </div>
+        </div>
+    </div>
+{{/data}}

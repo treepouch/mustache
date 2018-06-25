@@ -1,0 +1,177 @@
+{{#data}}
+    <div class="voting-module-header">
+        {{#moduleHeader}}<h1 class="voting-module-header__headline">{{.}}</h1>{{/moduleHeader}}
+        {{#moduleSubHeader}}<span class="voting-module-header__sub-header">{{.}}</span>{{/moduleSubHeader}}
+        {{#moduleDescription}}<span class="voting-module-header__description">{{.}}</span>{{/moduleDescription}}
+        {{#settings.displaySponsorAd}}
+            {{#settings.campaignId}}
+                <span class="voting-module-sponsor-ad" data-adsize="{{settings.sponsorAdSize}}" data-ad-sizes="{{settings.sponsorAdSize}}" data-campaign="{{settings.campaignId}}"></span>
+            {{/settings.campaignId}}
+        {{/settings.displaySponsorAd}}
+    </div>
+
+    <ul class="voting-catrgories" id="voting-categories">
+        {{#categories}}
+            {{^professionalCategoryBreak}}
+                <li class="category {{#layout}}category--layout-{{.}}{{/layout}}{{#categoryStatusClassName}} category--status-{{.}}{{/categoryStatusClassName}}{{#categoryTypeClassName}} category--type-{{.}}{{/categoryTypeClassName}}{{#displayVoteButton}} voting--status-open{{/displayVoteButton}}" data-item-id="{{categoryItemId}}">
+                    {{#categoryTitle}}
+                        <div class="category__title">
+                            <h2>{{.}}</h2>
+                            <div class="category__status-message"></div>
+                        </div>
+                    {{/categoryTitle}}
+                    {{#image}}
+                        {{#externalVotingLink}}
+                            {{#url}}
+                                <div class="category__content">
+                                    <div class="nominees-grid">
+                                        <a href="{{.}}" class="external-category external-category-item" {{#launchInNewWindow}} target="_blank"{{/launchInNewWindow}}>
+                                            <div class="external-category-image-wrapper">
+                                                {{> common/image }}
+                                                <div class="external-category__meta">
+                                                    {{#text}}{{.}}{{/text}}
+                                                </div>
+                                            </div>
+                                        </a>
+                                        {{#isAd}}
+                                            <div class="external-category-ad" data-adsize="{{size}}" data-ad-sizes="{{size}}"></div>
+                                        {{/isAd}}
+                                    </div>
+                                </div>
+                            {{/url}}
+                        {{/externalVotingLink}}
+                    {{/image}}
+
+                    {{^noNominees}}
+                        {{^externalVotingLink}}
+                            <div class="category__content">
+                                {{#categoryDescription}}
+                                    <div class="category__description">{{.}}</div>
+                                {{/categoryDescription}}
+                                {{#singleFeaturedVideo}}
+                                    {{#categoryVideoId}}
+                                        <div class="watch-video" video-id="{{.}}">
+                                            <span class="watch-video__button primary_btn">Watch Video</span>
+                                        </div>
+                                    {{/categoryVideoId}}
+                                {{/singleFeaturedVideo}}
+                                <ul  class="nominees nominees-grid">
+                                    {{#nominees}}
+                                        {{#isAd}}
+                                            <li class="nominee nominee-ad"><div class="nominee_ad" data-adsize="{{size}}" data-ad-sizes="{{size}}"></div></li>
+                                        {{/isAd}}
+                                        {{^isAd}}
+                                            <li class="nominee{{#videoId}} nominee-video{{/videoId}}" {{#videoId}}data-video-id="{{.}}"{{/videoId}} data-item-id="{{nomineeItemId}}">
+                                                <div class="nominee-image-wrapper">
+                                                    <div class="nominee-image">
+                                                        {{> common/image }}
+                                                    </div>
+                                                    {{#videoId}}<div class="nominee-image__play-icon"></div>{{/videoId}}
+                                                    {{#winner}}<div class="nominee-winner">Winner</div>{{/winner}}
+                                                </div>
+                                                <div class="nominee-meta-wrapper">
+                                                    <div class="nominee-meta">
+                                                        {{#nomineeTitle}}
+                                                            <span class="nominee-meta-title">{{.}}</span>
+                                                        {{/nomineeTitle}}
+                                                        {{#nomineeDescription}}
+                                                            <span class="nominee-meta-description">{{.}}</span>
+                                                        {{/nomineeDescription}}
+                                                        {{#additionalText}}
+                                                            <span class="nominee-meta-additional-text">{{.}}</span>
+                                                        {{/additionalText}}
+                                                    </div>
+                                                    {{#displayVoteButton}}
+                                                        <div class="vote-button-wrapper">
+                                                            <span class="vote-button-copy">vote</span>
+                                                        </div>
+                                                    {{/displayVoteButton}}
+                                                </div>
+                                            </li>
+                                        {{/isAd}}
+                                    {{/nominees}}
+                                </ul>
+                            </div>
+                        {{/externalVotingLink}}
+                    {{/noNominees}}
+                </li>
+            {{/professionalCategoryBreak}}
+            {{#professionalCategoryBreak}}
+                <li class="pofessional-category-header-container">
+                    {{#professionalCategoryHeader}}<span class="pofessional-category-header">{{.}}</span>{{/professionalCategoryHeader}}
+                    {{#professionalCategorySubHeader}}<span class="professional-category-sub-header">{{.}}</span>{{/professionalCategorySubHeader}}
+                </li>
+            {{/professionalCategoryBreak}}
+        {{/categories}}
+    </ul>
+
+    <div class="voting-categories-count">
+        <span class="voting-categories-count__voted" id="voting-categories-count__voted"></span>
+        <span>/</span>
+        <span class="voting-categories-count__total" id="voting-categories-count__total"></span>
+        <span>&nbsp;voted</span>
+    </div>
+
+    {{#countDown}}
+        <div class="count-down">
+            <h3 class="count-down__headline">{{countdownTitle}}</h3>
+            <div class="count-down__time">
+                <span class="count-down__dd" id="count-down__dd"></span>
+                <span>:</span>
+                <span class="count-down__hh" id="count-down__hh"></span>
+                <span>:</span>
+                <span class="count-down__mm" id="count-down__mm"></span>
+                <span>:</span>
+                <span class="count-down__ss" id="count-down__ss"></span>
+            </div>
+            <p class="count-down__copy">{{countdownSubTitle}}</p>
+        </div>
+    {{/countDown}}
+
+    {{#settings}}
+        {{#share}}
+            <div class="voting-module-share">
+                <h4 class="voting-module-share__title">share</h4>
+                <ul class="voting-module-share__list">
+                    {{#options}}
+                        <li class="voting-module-share__button has_icon {{typeClass}}">
+                            <span class="screen_reader_text">{{title}}</span>
+                        </li>
+                    {{/options}}
+                </ul>
+            </div>
+        {{/share}}
+    {{/settings}}
+    <div id="modal" class="modal hide">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            {{#thankYouModal}}
+                <div class="thankyou hide">
+                    {{#thankyouModal.image}}
+                        <div class="thankyou__image">
+                            {{> common/image }}
+                        </div>
+                    {{/thankyouModal.image}}
+                    {{#thankyouTitle}}<span class="thankyou__title">{{.}}</span>{{/thankyouTitle}}
+                    {{#thankyouSubTitle}}<span class="thankyou__subTitle">{{.}}</span>{{/thankyouSubTitle}}
+                    {{#settings}}
+                        {{#share}}
+                            <div class="voting-module-share">
+                                <h4 class="voting-module-share__title">share</h4>
+                                <ul class="voting-module-share__list">
+                                    {{#options}}
+                                        <li class="voting-module-share__button has_icon {{typeClass}}">
+                                            <span class="screen_reader_text">{{title}}</span>
+                                        </li>
+                                    {{/options}}
+                                </ul>
+                            </div>
+                        {{/share}}
+                    {{/settings}}
+                </div>
+            {{/thankYouModal}}
+
+            <span class="repeat-voting hide">You have already voted for this category!</span>
+        </div>
+    </div>
+{{/data}}

@@ -1,0 +1,74 @@
+{
+    "config": {
+        "zone": "t2_lc_promo1",
+        "moduleName": "ent_m236"
+    },
+    "data": {
+        "promoId": "aj234",
+        "promoType": "ENT_M236",
+        "settings": {},
+        "promotedItems": [
+            {
+                "title": "Thanksgiving Test Collection",
+                "url": "/collection/8nd9oi/thanksgiving-test-collection"
+            }
+        ],
+        "items": [
+            {
+                "title": "All Topics",
+                "selected": true,
+                "url": "/"
+            },
+            {
+                "title": "Thanksgiving Test Collection",
+                "isCollection": true,
+                "url": "http://www.mtvu-l.mtvi.com/collection/8nd9oi/thanksgiving-test-collection"
+            },
+            {
+                "title": "Holiday Test Collection",
+                "isCollection": true,
+                "url": "http://www.mtvu-l.mtvi.com/collection/e6ya9i/holiday-test-collection"
+            }
+            {
+                "title": "Finals",
+                "url": "/shows/finals",
+                "hashTag": true
+            },
+            {
+                "title": "Halloween",
+                "url": "/shows/halloween",
+                "hashTag": true
+            },
+            {
+                "title": "Newsfeed",
+                "url": "/shows/newsfeed",
+                "hashTag": true
+            },
+            {
+                "title": "College Hacks",
+                "url": "/shows/college-hacks",
+                "hashTag": true
+            },
+            {
+                "title": "Take Note",
+                "url": "/shows/take-note",
+                "hashTag": true
+            },
+            {
+                "title": "Meal Plan",
+                "url": "/shows/meal-plan",
+                "hashTag": true
+            },
+            {
+                "title": "Pop Quiz",
+                "url": "/shows/pop-quiz",
+                "hashTag": true
+            },
+            {
+                "title": "Casting Call",
+                "url": "/shows/casting-call",
+                "hashTag": true
+            }
+        ]
+    }
+}

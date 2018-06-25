@@ -1,0 +1,1084 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_m206"
+  },
+  "data": {
+    "promo": {
+      "shortId": "fuscta",
+      "displayType": "default",
+      "promoType": "ENT_M206"
+    },
+    "headline": "2015 Movie Awards: Red Carpet Fashion",
+    "items": [
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-rose-469501576.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-rose-469501540.jpg",
+          "width": 600,
+          "height": 875,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Amber Rose on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amy-schumer-469507604.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Amy Schumer on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/jennifer-lopez-469508460.jpg",
+          "width": 600,
+          "height": 758,
+          "thumbWidth": 320,
+          "thumbHeight": 400,
+          "caption": "Jennifer Lopez on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amy-schumer-469505446.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Amy Schumer on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/jennifer-lopez-469508068.jpg",
+          "width": 600,
+          "height": 853,
+          "thumbWidth": 280,
+          "thumbHeight": 400,
+          "caption": "Jennifer Lopez on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/kelly-osbourne-469500582.jpg",
+          "width": 600,
+          "height": 883,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Kelly Osbourne on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/jennifer-lopez-469508490.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Jennifer Lopez on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/kelly-osborne-469500576.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Kelly Osbourne on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/scarlett-johansson-469509218.jpg",
+          "width": 600,
+          "height": 908,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Scarlett Johansson on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/charli-xcx-469504360.jpg",
+          "width": 600,
+          "height": 843,
+          "thumbWidth": 286,
+          "thumbHeight": 400,
+          "caption": "Charli XCX on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/scarlett-johansson-469509480.jpg",
+          "width": 600,
+          "height": 784,
+          "thumbWidth": 305,
+          "thumbHeight": 400,
+          "caption": "Scarlett Johansson on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/charli-xcx-469504584.jpg",
+          "width": 600,
+          "height": 851,
+          "thumbWidth": 280,
+          "thumbHeight": 400,
+          "caption": "Charli XCX on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amy-schumer-469507616.jpg",
+          "width": 600,
+          "height": 825,
+          "thumbWidth": 286,
+          "thumbHeight": 400,
+          "caption": "Amy Schumer on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/scarlett-johansson-469511498.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Scarlett Johansson on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/fall-out-boy-469508578.jpg",
+          "width": 806,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 300,
+          "caption": "Fall Out Boy on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/scarlett-johansson-469511688.jpg",
+          "width": 600,
+          "height": 873,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Scarlett Johansson on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/bella-thorne-469504854.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Bella Thorne on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/scarlett-johansson-469512064.jpg",
+          "width": 902,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 267,
+          "caption": "Scarlett Johansson on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/ashley-rickards-469501092.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Ashley Rickards on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/katie-stevens-469501298.jpg",
+          "width": 600,
+          "height": 861,
+          "thumbWidth": 280,
+          "thumbHeight": 400,
+          "caption": "Katie Stevens on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/arden-cho-469501136.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Arden Cho on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/greer-grammer-469504312.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Greer Grammer on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/miles-teller-469511328.jpg",
+          "width": 600,
+          "height": 902,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Miles Teller on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/shailene-woodley-469512050.jpg",
+          "width": 600,
+          "height": 829,
+          "thumbWidth": 286,
+          "thumbHeight": 400,
+          "caption": "Shailene Woodley on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/farrah-abraham-469500624.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Farrah Abraham on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/miles-teller-and-keleigh-sperry-469511414.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Miles Teller and Keleigh Sperry on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/shailene-woodley-469512140.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Shailene Woodley on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/bai-ling-469501054.jpg",
+          "width": 600,
+          "height": 925,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Bai Ling on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/plain-white-ts-469519952.jpg",
+          "width": 903,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 267,
+          "caption": "Plain White Ts on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/shailene-woodley-469512378.jpg",
+          "width": 600,
+          "height": 868,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Shailene Woodley on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/amber-nichole-and-tito-ortiz-469505332.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Amber Nichole and Tito Ortiz on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/holland-roden-469508118.jpg",
+          "width": 600,
+          "height": 841,
+          "thumbWidth": 286,
+          "thumbHeight": 400,
+          "caption": "Holland Roden on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/shailene-woodley-469512792.jpg",
+          "width": 901,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 267,
+          "caption": "Shailene Woodley on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/fetty-wap-469504390.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Fetty Wap on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/shaline-woodley-469515968.jpg",
+          "width": 600,
+          "height": 902,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Shailene Woodley on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/emily-ratajkowski-469507758.jpg",
+          "width": 600,
+          "height": 872,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Emily Ratajkowski on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/jessie-j-469503926.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Jessie J on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/todrick-hall-469501338.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Todrick Hall on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/emily-ratajkowski-469507890.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Emily Ratajkowski on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/cara-delevingne-469509126.jpg",
+          "width": 600,
+          "height": 855,
+          "thumbWidth": 280,
+          "thumbHeight": 400,
+          "caption": "Cara Delevingne on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/todrick-hall-469521478.jpg",
+          "width": 903,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 267,
+          "caption": "Todrick Hall on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/bea-miller-469501604.jpg",
+          "width": 600,
+          "height": 845,
+          "thumbWidth": 286,
+          "thumbHeight": 400,
+          "caption": "Beau Miller on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/cara-delevingne-469511404.jpg",
+          "width": 600,
+          "height": 862,
+          "thumbWidth": 280,
+          "thumbHeight": 400,
+          "caption": "Cara Delevingne on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/tyler-posey-469521518.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Tyler Posey on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/brett-davern-469504594.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Brett Davern on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/rachel-antonoff-469500934.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Rachel Antonoff on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/rebel-wilson-469508488.jpg",
+          "width": 600,
+          "height": 902,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Rebel Wilson on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/brittany-snow-469504862.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Brittany Snow on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/john-greene-469516630.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "John Green on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/rebel-wilson-469516136.jpg",
+          "width": 901,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 267,
+          "caption": "Rebel Wilson on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/halston-sage-469503858.jpg",
+          "width": 600,
+          "height": 843,
+          "thumbWidth": 286,
+          "thumbHeight": 400,
+          "caption": "Spencer Grammer on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/hailee-steinfeld-469509492.jpg",
+          "width": 600,
+          "height": 832,
+          "thumbWidth": 286,
+          "thumbHeight": 400,
+          "caption": "Hailee Steinfeld on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/bridget-regan-469508058.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Bridget Regan on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/anna-camp-469507858.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Anna Camp on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/bailey-de-young-469505342.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Bailey de Young on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/halston-sage-469504496.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Holston Sage on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/arden-cho-469515850.jpg",
+          "width": 600,
+          "height": 902,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Arden Cho on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/judd-apatow-and-iris-apatow-469507686.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Judd Apatow and Iris Apatow on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/victoria-justice-469508154.jpg",
+          "width": 600,
+          "height": 879,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Victoria Justice on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/justice-smith-469512968.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Justice Smith on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/victoria-justice-469516324.jpg",
+          "width": 600,
+          "height": 850,
+          "thumbWidth": 280,
+          "thumbHeight": 400,
+          "caption": "Victoria Justice on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/mark-ruffalo-and-keen-ruffalo-469512220.jpg",
+          "width": 600,
+          "height": 902,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Mark Ruffalo and Keen Ruffalo on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/victoria-justice-469508188.jpg",
+          "width": 600,
+          "height": 874,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Victoria Justice on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/kiersey-clemons-469503880.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Kiersey Clemons on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/michael-b-jordan-469512218.jpg",
+          "width": 600,
+          "height": 842,
+          "thumbWidth": 286,
+          "thumbHeight": 400,
+          "caption": "Michael B. Jordan on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/zuri-hall-469504764.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Zuri Hall on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/david-magidoff-and-derek-gaines-469515824.jpg",
+          "width": 839,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 286,
+          "caption": "David Magidoff and Derek Gaines on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/max-joseph-469507780.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Max Joseph on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/fetty-wap-and-ty-dolla-sign-469504664.jpg",
+          "width": 843,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 286,
+          "caption": "Fetty Wap and Ty Dolla $ign on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/cara-delevingne-469518086.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Cara Delevingne on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/cara-delevingne-469518100.jpg",
+          "width": 901,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 267,
+          "caption": "Cara Delevingne on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/hailee-steinfeld-469522550.jpg",
+          "width": 600,
+          "height": 867,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Hailee Steinfeld on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/machine-gun-kelly-469505262.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Machine Gun Kelly on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/keltie-knight-469501038.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Keltie Knight on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/nat-wolff-469508972.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Nat Wolff on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/alex-wolff-469516602.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Alex Wolff on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/alex-wolff-469516606.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Alex Wolff on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/hana-mae-lee-469509080.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Hana Mae Lee on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/casey-jon-deidrick-469522316.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Casey Jon Deidrick on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/ryan-cooper-casey-jon-deidrick-and-john-garet-stoker-469522276.jpg",
+          "width": 600,
+          "height": 875,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Ryan Cooper, Casey Jon Deidrick, and John Garet Stoker on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/katherine-mcnamara-469504600.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Katherine Mcnamara on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/helen-estabrook-469509016.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Helen Estabrook on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/maia-mitchell-469504832.jpg",
+          "width": 600,
+          "height": 877,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Maia Mitchell on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/paul-rodriguez-469504856.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Paul Rodriguez on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/bai-ling-469501076.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Bai Ling on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/bai-ling-469501696.jpg",
+          "width": 900,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 267,
+          "caption": "Bai Ling on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/ty-dolla-sign-469504444.jpg",
+          "width": 600,
+          "height": 880,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Ty Dolla $ign on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/spencer-grammer-469516510.jpg",
+          "width": 600,
+          "height": 854,
+          "thumbWidth": 280,
+          "thumbHeight": 400,
+          "caption": "Spencer Grammer on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/bridget-regan-469519784.jpg",
+          "width": 903,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 267,
+          "caption": "Bridget Regan on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/anna-camp-469521412.jpg",
+          "width": 600,
+          "height": 902,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Anna Camp on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/redfoo-469511654.jpg",
+          "width": 600,
+          "height": 902,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Redfoo on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/redfoo-and-guest-469512284.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Redfoo and guest on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/stefanie-scott-469500162.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Stefanie Scott on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/ryan-cooper-469522356.jpg",
+          "width": 600,
+          "height": 902,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Ryan Cooper on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/tinashe-469505118.jpg",
+          "width": 600,
+          "height": 903,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Tinashe on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/will-brooks-469500844.jpg",
+          "width": 600,
+          "height": 842,
+          "thumbWidth": 286,
+          "thumbHeight": 400,
+          "caption": "Will Brooks on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/willow-shields-469505158.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Willow Shields on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/zach-gilford-469501206.jpg",
+          "width": 600,
+          "height": 884,
+          "thumbWidth": 275,
+          "thumbHeight": 400,
+          "caption": "Zach Gilford on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/cara-delevingne-and-nat-wolff-469516122.jpg",
+          "width": 796,
+          "height": 600,
+          "thumbWidth": 400,
+          "thumbHeight": 300,
+          "caption": "Cara Delevingne and Nat Wolff on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/jillian-bell-469522022.jpg",
+          "width": 600,
+          "height": 900,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Jillian Bell on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/joel-courtney-469519996.jpg",
+          "width": 600,
+          "height": 901,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Joel Courtney on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      },
+      {
+        "image": {
+          "url": "http:\/\/mtv.mtvnimages.com\/crop-images\/2015\/04\/12\/laura-marano-469515854.jpg",
+          "width": 600,
+          "height": 902,
+          "thumbWidth": 267,
+          "thumbHeight": 400,
+          "caption": "Lauren Marano on the red carpet at the 2015 MTV Movie Awards in Los Angeles, California."
+        }
+      }
+    ]
+  },
+  "settings": {
+    "promoParameters": {
+      "ad": {
+        "sponsoredAd": true,
+        "itemAd": true
+      }
+    },
+    "socialHandlers": {
+      "galleryShare": [
+        {
+          "title": "Facebook",
+          "typeClass": "facebook"
+        },
+        {
+          "title": "Twitter",
+          "typeClass": "twitter"
+        }
+      ],
+      "itemShare": [
+        {
+          "title": "Facebook",
+          "typeClass": "facebook"
+        },
+        {
+          "title": "Twitter",
+          "typeClass": "twitter"
+        },
+        {
+          "title": "Pinterest",
+          "typeClass": "pinterest"
+        },
+        {
+          "title": "Whatsapp",
+          "typeClass": "whatsapp"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{{#data}}
+    <section id="section-primetime">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="label item_sticker">tonight</div>
+                </div>
+
+                {{#ptsInformation}}
+                    <div class="{{^fullHourShow}}col-lg-4{{/fullHourShow}}{{#fullHourShow}}col-lg-9{{/fullHourShow}} col-md-12 col-sm-12 headline show-tunein-info">
+                        <span class="muted">{{.tuneIn}}</span>
+
+                        {{#showURL}}
+                            <a href="{{.}}">
+                                <span class="series-name">{{seriesName}}</span>
+                            </a>
+                        {{/showURL}}
+
+                        {{^showURL}}
+                            <span class="series-name">{{.seriesName}}</span>
+                        {{/showURL}}
+                    </div>
+                {{/ptsInformation}}
+
+                {{#tvSchedulePageURL}}
+                    <div class="col-lg-3 call-to-action pull-right">
+                        <a href="{{.}}" class="btn btn-primary btn-cta">
+                            <span>full tv schedule<span class="icon-chevron-right"></span> </span>
+                        </a>
+                    </div>
+                {{/tvSchedulePageURL}}
+            </div>
+        </div>
+    </section>
+{{/data}}

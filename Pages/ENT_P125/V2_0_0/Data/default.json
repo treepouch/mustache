@@ -1,0 +1,14 @@
+{
+  "cmsPageInformation": {
+    "title": "ENT_P125",
+    "templateType": "standard"
+  },
+
+  "modules": [
+    {
+      "moduleName": "ENT_M006_Fragment",
+      "dataSetName": "default.json",
+      "zone": "footer"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{{#data}}
+    {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+    <div class="s_articleHero">
+
+    {{<common/image}}
+        {{$imageClass}}article-hero{{/imageClass}}
+    {{/common/image}}
+
+     </div>
+    <div class="s_articleMainWrapper">
+        <div class="s_articleContentWrapper">
+            {{#header}}
+                <div class="s_container">
+                    {{#title}}
+                        <h1 class="s_fonts_articleHeadline s_layouts_articleHeadline">{{.}}</h1>
+                    {{/title}}
+
+                    {{#subhead}}
+                        <h3 class="s_fonts_articleSubHeadline s_layouts_articleSubHeadline">{{.}}</h3>
+                    {{/subhead}}
+
+                    {{#publishedDate}}
+                        <div class="s_fonts_articleText">{{.}}</div>
+                    {{/publishedDate}}
+
+                    <div id="shareMarkup">
+                        <ul>
+                            {{#settings.share}}
+                                <li class="has_icon {{.typeClass}} share_btn s_icons_hasIcon s_icons_{{.typeClass}} share_btn">
+                                    <span class="screen_reader_text">{{.title}}</span>
+                                </li>
+                            {{/settings.share}}
+                        </ul>
+                    </div>
+                </div>
+            {{/header}}
+
+            {{#copy}}
+                <div class="s_fonts_articleText s_layouts_articleText">
+                    {{{.}}}
+                </div>
+            {{/copy}}
+
+            {{#tags}}
+            <div class="article-tags-container">
+                <h4 class="article-tags-headline">{{tags.headline}}:</h4>
+                <ul class="article-tags">
+                {{#tag_list}}
+                    <li><a href="{{url}}" class="article-tag">{{text}}</a></li>
+                {{/tag_list}}
+                </ul>
+            </div>
+            {{/tags}}
+        </div>
+        <div class="s_articleSidebar">
+            {{#settings.ad.adSize}}
+                <div class="s_layouts_articleAdWrapper">
+                    <div class="ad-label">{{settings.ad.label}}</div>
+                    <div class="ad_{{.}}" id="ad_{{.}}" data-adsize="{{.}}" data-ad-sizes="{{.}}" data-allowontablet="true"></div>
+                </div>
+            {{/settings.ad.adSize}}
+        </div>
+    </div>
+{{/data}}

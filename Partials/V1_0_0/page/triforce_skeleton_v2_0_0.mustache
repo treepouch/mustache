@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+{{$head}}
+{{! media_url helper needed }}
+{{$cssLinks}}<link rel="stylesheet" type="text/css" href="/media/base.css" />{{/cssLinks}}
+{{$additionalCSSLinks}}{{/additionalCSSLinks}}
+
+<link rel="dns-prefetch" href="//repo.cc.com">
+<link rel="dns-prefetch" href="//btg.mtvnservices.com">
+<link rel="dns-prefetch" href="//media.mtvnservices.com">
+<link rel="dns-prefetch" href="//media-utils.mtvnservices.com">
+
+{{$dnsPrefetchExtras}}{{/dnsPrefetchExtras}}
+
+{{$metaHeader}}
+    <title>{{cmsPageInformation.title}}</title>
+{{/metaHeader}}
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1">
+<script>
+    var triforceManifestURL = "{{triforceManifestURL}}";
+    var triforceManifestFeed = {{{triforceManifestJSON}}};
+</script>
+{{/head}}
+</head>
+<body class="triforce_rendered">
+{{$body}}
+<div id="background_holder">
+{{$leaderboard}}
+    {{#settings.killLeaderBoard}}
+        <div id="leaderboard" class="primary_background" data-adsize="
+        {{#settings.isHomepage}}
+            {{#cmsPageInformation.parameters.desktopBannerAd}}
+                {{cmsPageInformation.parameters.desktopBannerAd}}
+            {{/cmsPageInformation.parameters.desktopBannerAd}}
+            {{^cmsPageInformation.parameters.desktopBannerAd}}728x90{{/cmsPageInformation.parameters.desktopBannerAd}}
+        {{/settings.isHomepage}}
+        {{^settings.isHomepage}}728x90{{/settings.isHomepage}}"></div>
+    <div class="leaderboard center mobile primary_background" data-adsize="300x50" style="display: none"></div>
+    {{/settings.killLeaderBoard}}
+{{/leaderboard}}
+{{$header}}
+    {{#globalModules.header}}
+        <div id="header" class="module {{moduleClass}}" data-tfstatic="true">
+        {{> page/cdn_include}}
+        </div>
+    {{/globalModules.header}}
+{{/header}}
+    <div id="content_holder" data-initial="true">
+    {{#moduleListing.tiers}}
+        <div id="{{tier}}" class="tier_{{cols}}_col">
+            {{#tier.tierWrapper}}<div class="tier_wrapper">{{/tier.tierWrapper}}
+                {{#left.0}}
+                    <div id="{{tierShort}}_lc" class="tier_lc">
+                        {{#left}}
+                            <div id="{{tierShort}}_lc_promo{{index}}" class="module {{moduleClass}}"{{#fragmentUrl}} data-tfstatic="true"{{/fragmentUrl}}>
+                                {{#fragmentUrl}}
+                                    {{> page/cdn_include}}
+                                {{/fragmentUrl}}
+                            </div>
+                        {{/left}}
+                    </div>
+                {{/left.0}}
+
+                {{#middle.0}}
+                    <div id="{{tierShort}}_mc" class="tier_mc">
+                        {{#middle}}
+                            <div id="{{tierShort}}_mc_promo{{index}}" class="module {{moduleClass}}"{{#fragmentUrl}} data-tfstatic="true"{{/fragmentUrl}}>
+                                {{#fragmentUrl}}
+                                    {{> page/cdn_include}}
+                                {{/fragmentUrl}}
+                            </div>
+                        {{/middle}}
+                    </div>
+                {{/middle.0}}
+
+                {{#right.0}}
+                    <div id="{{tierShort}}_rc" class="tier_rc">
+                        {{#right}}
+                            <div id="{{tierShort}}_rc_promo{{index}}" class="module {{moduleClass}}"{{#fragmentUrl}} data-tfstatic="true"{{/fragmentUrl}}>
+                                {{#fragmentUrl}}
+                                    {{> page/cdn_include}}
+                                {{/fragmentUrl}}
+                            </div>
+                        {{/right}}
+                    </div>
+                {{/right.0}}
+            {{#tier.tierWrapper}}</div>{{/tier.tierWrapper}}
+        </div>
+    {{/moduleListing.tiers}}
+    </div>
+    {{#globalModules.footer}}
+    <div id="footer" class="module {{moduleClass}}" data-tfstatic="true">
+    {{> page/cdn_include}}
+    </div>
+    {{/globalModules.footer}}
+</div>
+</div>
+{{$activityIndicator}}
+<div id="activityIndicator"><img src="/sitewide/images/ajax_loader.gif" alt="Loading..."/></div>
+{{/activityIndicator}}
+{{/body}}
+{{$footer}}
+{{$footerJSLinks}}
+
+<script type="text/javascript" src="/sitewide/js/jquery-2.1.0.min.js"></script>
+{{! media_url helper needed }}
+<script type="text/javascript" src="/media/base.js"></script>
+<script>
+    (function() {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+        }
+        _fbq.push(['addPixelId', '331289063738687']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=331289063738687&amp;ev=PixelInitialized" /></noscript>
+
+{{/footerJSLinks}}
+{{$additionalFooterJSLinks}}{{/additionalFooterJSLinks}}
+{{#primaryModules}}
+    {{#$scriptURL}}
+        <script src="{{scriptURL}}" async data-tfmodulescript="{{name}}" onload="this.setAttribute('data-loaded', 'true')"></script>
+    {{/$scriptURL}}
+{{/primaryModules}}
+{{/footer}}
+</body>

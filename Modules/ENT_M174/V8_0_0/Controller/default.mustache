@@ -1,0 +1,72 @@
+{{#data}}
+    <div class="module_content s_container">
+        {{#trending}}
+        <div class="trending-stories-body">
+            {{#headerText}}<header class="section-header-md">{{.}}</header>{{/headerText}}
+            <div class="L001_line_list">
+                {{#items}}
+                <li class="S001_line_list_item{{classModifier}}">
+                    {{#url}}<a href="{{.}}" class="link_wrapper">{{/url}}
+                        {{#image}}
+                        <div class="s_layouts_lineListItemImageWrapper">
+                            {{> common/image }}
+                        </div>
+                        {{/image}}
+                        {{#title}}
+                        <div class="content">
+                            <h3 class="s_fonts_lineListHeader">{{{.}}}</h3>
+                        </div>
+                        {{/title}}
+                    {{#url}}</a>{{/url}}
+                    {{#timeAgo}}<span class="time-stamp">{{.}}</span>{{/timeAgo}}
+                    {{#score}}<span class="trend-box {{.}}" style="background: url(&quot;http://mtv.mtvnimages.com/images/trending-icon-01.png&quot;), linear-gradient(to top, currentColor, currentColor {{.}}%, #333 20%);"></span>{{/score}}
+                </li>
+                {{/items}}
+            </div>
+            {{#links}}
+            <div class="cta-button">
+                {{#text}}<div class="s_buttons_button btn js_btn_showMore"><span>{{.}}</span></div>{{/text}}
+            </div>
+            {{/links}}
+        </div>
+        {{/trending}}
+        {{#latest}}
+        <div class="latest-stories-body{{#trendingEmpty}} trending-empty open" style="height: auto{{/trendingEmpty}}">
+            <div class="latest-stories-bodywrap">
+                {{#headerText}}<header class="section-header-md">{{.}}</header>{{/headerText}}
+                <div class="L001_line_list">
+                    {{#items}}
+                    <li class="S001_line_list_item ">
+                        <div class="s_layouts_lineListItemImageWrapper">
+                            {{#url}}<a href="{{.}}" class="link_wrapper">{{/url}}
+                                {{#image}}
+                                    {{> common/image }}
+                                {{/image}}
+                            {{#url}}</a>{{/url}}
+                            {{#categoryUrl}}<a class="s_layouts_lineListBadge s_fonts_badge item_sticker" href="{{.}}">{{/categoryUrl}}
+                                {{#categories}}<span>{{.}}</span>{{/categories}}
+                            {{#categoryUrl}}</a>{{/categoryUrl}}
+                        </div>
+                        {{#title}}
+                            <div class="content">
+                                {{#url}}<a href="{{.}}" class="link_wrapper">{{/url}}
+                                    <h3 class="s_fonts_lineListHeader">{{{.}}}</h3>
+                                {{#url}}</a>{{/url}}
+                            </div>
+                        {{/title}}
+                        {{#timeAgo}}<span class="time-stamp">{{.}}</span>{{/timeAgo}}
+                    </li>
+                    {{/items}}
+                </div>
+                {{#links}}
+                <div class="cta-button">
+                    {{#url}}<a class="s_buttons_button btn btn-cta js_btn_browseNews" href="{{.}}">{{/url}}
+                        {{#text}}<span>{{.}}<span class="icon-chevron-right"></span></span>{{/text}}
+                    {{#url}}</a>{{/url}}
+                </div>
+                {{/links}}
+            </div>
+        </div>
+        {{/latest}}
+    </div>
+{{/data}}

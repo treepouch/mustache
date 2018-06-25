@@ -1,0 +1,48 @@
+{{#data}}
+    <div class="module_content rightrail">
+        {{#schema}}<script type="application/ld+json">{{{.}}}</script>{{/schema}}
+        <!--
+        {{#settings.adSize}}
+            <div class="rightrail-ad" data-adsize="{{settings.adSize}}" data-ad-sizes="{{settings.adSize}}"></div>
+        {{/settings.adSize}}
+        -->
+
+        <div class="rightrail-container">
+            {{#title}}
+                <div class="rightrail-header"><span>{{.}}</span></div>
+            {{/title}}
+            <ul class="rightrail-list-wrapper">
+                {{#items}}
+                    <li class="rightrail-item" {{#id}}data-mgid="{{.}}"{{/id}}>
+                        {{#url}}<a class="rightrail-item-link-wrapper" href="{{.}}">{{/url}}
+                        <div class="rightrail-item-image-wrapper">
+                            {{#badge}}
+                                <div class="rightrail-item-badge">
+                                    {{#headline}}
+                                        <span class="rightrail-item-badge-headline">{{headline}}</span>
+                                    {{/headline}}
+                                    {{#subheadline}}
+                                        <span class="rightrail-item-badge-subheadline">{{subheadline}}</span>
+                                    {{/subheadline}}
+                                </div>
+                            {{/badge}}
+                            {{#authTve}}
+                                <div class="rightrail-item-tve-lock"></div>
+                            {{/authTve}}
+                            {{> common/image }}
+                            {{#duration}}
+                                <div class="rightrail-item-duration-badge">{{.}}</div>
+                            {{/duration}}
+                        </div>
+                        <div class="rightrail-item-meta-wrapper">
+                            {{#meta}}<span class="rightrail-item-meta">{{.}}</span>{{/meta}}
+                            {{#title}}<span class="rightrail-item-title">{{.}}</span>{{/title}}
+                            {{#date}}<span class="rightrail-item-date">{{date}}</span>{{/date}}
+                        </div>
+                        {{#url}}</a>{{/url}}
+                    </li>
+                {{/items}}
+            </ul>
+        </div>
+    </div>
+{{/data}}

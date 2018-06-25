@@ -1,0 +1,27 @@
+{
+    "config": {
+        "zone": "t1_lc_promo1",
+        "moduleName": "ent_m219"
+    },
+
+    "settings": {
+        "share": {
+            "twitter": {
+                "name": "comedycentral"
+            },
+            "email": {
+                "subject": "Watch {{title}} on www.cc.com"
+            }
+        }
+    },
+
+    "data": {
+        "promoId": "1cey20",
+        "videoUrl": "https://d12bwnd5iv0j5a.cloudfront.net/745541869SHNL/beec3824-0d07-4394-a501-55ccdbe70c92.mp4",
+        "featuredUrl": "http://jokes.cc.com",
+        "mobileImageUrl": "http://1.images.comedycentral.com/images/shows/key_and_peele/loop_thumbnail.gif",
+        "headline": "All The Everrrrything",
+        "subHeadline": "All Key and Peele videos, GIFs, Memes in one place. Share all your favorite Moments",
+        "adSize": "200x31"
+    }
+}

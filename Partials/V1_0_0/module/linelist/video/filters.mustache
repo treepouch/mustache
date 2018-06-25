@@ -1,0 +1,10 @@
+<h2 class="s_layouts_filterTitle content s_fonts_moduleHeader">
+    <div class="menu_button closed"></div>
+    <span class="header_text">{{header.title}}</span>
+    <span class="itemCount s_fonts_moduleHeaderCount">{{header.count}}</span>
+</h2>
+<ul class="s_layouts_filterDropdown s_fonts_filterDropdown s_layouts_filterOpened">
+    {{#header.filters}}
+        <li class="s_layouts_filterDropdownItem{{#.isSelected}} s_states_itemSelected{{/.isSelected}}" data-feedurl="{{url}}">{{name}}</li>
+    {{/header.filters}}
+</ul>

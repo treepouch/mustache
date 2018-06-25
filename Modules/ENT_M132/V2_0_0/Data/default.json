@@ -1,0 +1,200 @@
+{
+    "data": {
+        "promoId": "5clmle",
+        "promoType": "ENT_M132",
+        "headline": "Past Events",
+        "filterOptions": [
+            {
+                "title": "All",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "2018",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/89e444b5-9655-4b37-9802-4e82a2239a87?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "2017",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/110152b5-cd84-48ae-a226-78d024344dc8?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "2016",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/b7719891-6c44-4356-9c47-ef71e453634f?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "2015",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/23673df8-a48f-40c5-9696-94f0fd51cd65?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "2014",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/f0247792-a74f-4b09-ae18-50da38a61b4a?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "Summer Series 2013",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/d2c86ac0-7a6e-4f4b-b516-a40c1265fa17?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "2013",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/c975ae76-a620-4257-a48a-2f32b04258bf?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "Season 8",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/8378682f-f6c7-4554-8946-9735430eb9f7?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "Season 7",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/97bef1b2-1b1b-45ed-b7a4-676d3bc6b483?gjmfgds%D0%B2%D1%84%D1%8B="
+            },
+            {
+                "title": "2012",
+                "feedURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/1/548113f9-94af-4282-a1b9-5a3bb55d0f8f?gjmfgds%D0%B2%D1%84%D1%8B="
+            }
+        ],
+        "nextPageURL": "http://bellator.spike-l.mtvi.com/feeds/ent_m132/22e05d1f-d243-4141-a7cc-1086477a004c/2?gjmfgds%D0%B2%D1%84%D1%8B=",
+        "totalCount": 194,
+        "items": [
+            {
+                "itemId": "65dbccdb-85c7-4862-be90-c911734ab31a",
+                "startDateTime": "Jul 14, 2017",
+                "title": "Campos vs. Girtz 3",
+                "shortTitle": "Bellator 181",
+                "url": "http://bellator.spike-l.mtvi.com/events/syc56o/bellator-181-campos-vs-girtz-3",
+                "venue": {
+                    "title": "Global Event Center at WinStar World Casino & Resort",
+                    "address": "777 Casino Avenue",
+                    "city": "Thackerville",
+                    "state": "OK",
+                    "zipCode": 73459
+                }
+            },
+            {
+                "itemId": "917dabc5-a8be-4b4f-9801-c0c8d2d5ad9d",
+                "startDateTime": "Jun 24, 2017",
+                "title": "Sonnen vs. Silva",
+                "shortTitle": "Bellator NYC",
+                "url": "http://bellator.spike-l.mtvi.com/events/cn25t3/bellator-nyc-sonnen-vs-silva",
+                "venue": {
+                    "title": "Madison Square Garden",
+                    "address": "4 Pennsylvania Plaza",
+                    "city": "New York",
+                    "state": "NY",
+                    "country": "USA",
+                    "zipCode": 10001
+                }
+            },
+            {
+                "itemId": "30b9f17f-9b20-4677-a2e5-d46d73992f6f",
+                "startDateTime": "Jun 24, 2017",
+                "title": "Davis vs. Bader",
+                "shortTitle": "Bellator 180",
+                "url": "http://bellator.spike-l.mtvi.com/events/65su78/bellator-180-davis-vs-bader",
+                "venue": {
+                    "title": "Madison Square Garden",
+                    "address": "4 Pennsylvania Plaza",
+                    "city": "New York",
+                    "state": "NY",
+                    "country": "USA",
+                    "zipCode": 10001
+                }
+            },
+            {
+                "itemId": "a32484b1-d980-4fa9-82b3-e7ef43520777",
+                "startDateTime": "May 19, 2017",
+                "title": "Daley vs. MacDonald",
+                "shortTitle": "Bellator 179",
+                "url": "http://bellator.spike-l.mtvi.com/events/3pmxg9/bellator-179-daley-vs-macdonald",
+                "venue": {
+                    "title": "The SSE Arena, Wembley",
+                    "address": "Arena Square, Engineers Way",
+                    "city": "London",
+                    "state": "UK",
+                    "country": "UK"
+                }
+            },
+            {
+                "itemId": "f05f96d9-2434-4c6c-bd7d-5434197b760e",
+                "startDateTime": "Apr 21, 2017",
+                "title": "Straus vs. Pitbull 4",
+                "shortTitle": "Bellator 178",
+                "url": "http://bellator.spike-l.mtvi.com/events/8t7jed/bellator-178-straus-vs-pitbull-4",
+                "venue": {
+                    "title": "Mohegan Sun Arena",
+                    "city": "Uncasville",
+                    "state": "CT",
+                    "country": "United States"
+                }
+            },
+            {
+                "itemId": "11bee09f-452b-43b7-96f6-b96b194af3e7",
+                "startDateTime": "Apr 14, 2017",
+                "title": "Dantas vs. Higo",
+                "shortTitle": "Bellator 177",
+                "url": "http://bellator.spike-l.mtvi.com/events/nlw38o/bellator-177-dantas-vs-higo",
+                "venue": {
+                    "title": "Budapest Sports Arena",
+                    "address": "Stefánia út 2",
+                    "city": "Budapest",
+                    "state": "Hungary",
+                    "country": "Hungary",
+                    "zipCode": 1143
+                }
+            },
+            {
+                "itemId": "eb8d78f1-4a4d-422b-a145-ffc1708e072b",
+                "startDateTime": "Apr 8, 2017",
+                "title": "Carvalho vs. Manhoef 2",
+                "shortTitle": "Bellator 176",
+                "url": "http://bellator.spike-l.mtvi.com/events/4v39oq/bellator-176-carvalho-vs-manhoef-2",
+                "venue": {
+                    "title": "Pala Alpitour",
+                    "address": "Via Filadelfia 82 10134",
+                    "city": "Torino",
+                    "state": "Italy",
+                    "country": "Italy"
+                }
+            },
+            {
+                "itemId": "3168a62a-07bb-499c-b458-3cff3cbfab48",
+                "startDateTime": "Mar 31, 2017",
+                "title": "Rampage vs. King Mo 2",
+                "shortTitle": "Bellator 175",
+                "url": "http://bellator.spike-l.mtvi.com/events/io245k/bellator-175-rampage-vs-king-mo-2",
+                "venue": {
+                    "title": "Allstate Arena",
+                    "address": "6920 Mannheim Rd.",
+                    "city": "Rosemont",
+                    "state": "IL",
+                    "country": "USA",
+                    "zipCode": 60018
+                }
+            },
+            {
+                "itemId": "32ec7875-83ba-4f32-ad8b-1d2e745db998",
+                "startDateTime": "Mar 3, 2017",
+                "title": "Coenen vs. Budd",
+                "shortTitle": "Bellator 174",
+                "url": "http://bellator.spike-l.mtvi.com/events/0aeo01/bellator-174-coenen-vs-budd",
+                "venue": {
+                    "title": "Global Event Center at WinStar World Casino & Resort",
+                    "address": "777 Casino Avenue",
+                    "city": "Thackerville",
+                    "state": "OK",
+                    "zipCode": 73459
+                }
+            },
+            {
+                "itemId": "8125a41c-e87a-4074-8a70-7f573ae342c5",
+                "startDateTime": "Feb 24, 2017",
+                "title": "McGeary vs. McDermott",
+                "shortTitle": "Bellator 173",
+                "url": "http://bellator.spike-l.mtvi.com/events/x7djzb/bellator-173-mcgeary-vs-mcdermott",
+                "venue": {
+                    "title": "SSE Arena Belfast",
+                    "address": "2 Queens Quay",
+                    "city": "Belfast",
+                    "state": "Ireland",
+                    "country": "Ireland"
+                }
+            }
+        ]
+    }
+}

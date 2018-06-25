@@ -1,0 +1,63 @@
+{{#data}}
+    <div class="module_content toggleable_module open">
+        <div id="tve_banner_holder">
+            {{> Modules/ENT_M112/V3_0_0/Controller/tveBanner}}
+        </div>
+
+        <div id="sub-filter" class="col-lg-3">
+            <label>available episodes
+                <input type="checkbox" id="available_episodes" name="available_episodes" checked>
+                <label for="available_episodes"> <span></span></label>
+            </label>
+            {{#promo}}{{#parameters}}
+                {{#messageBody1}}<a class="tooltip" href="#" title="{{.}}"><span class="info-hover" title=""></span></a>{{/messageBody1}}
+                {{^messageBody1}}<a class="tooltip" href="#" title="Due to certain rights and restrictions, some episodes expire. Check the box to view episodes you can play now. For the full episode guide uncheck the box."><span class="info-hover" title=""></span></a>{{/messageBody1}}
+            {{/parameters}}{{/promo}}
+        </div>
+        <div class="S002_line_list_header s_fonts_moduleHeader">
+            <div class="content dropdown-btn">
+
+                <span class="header_text section-header-lg">{{#defaultFilter}}{{.}}{{/defaultFilter}}{{^defaultFilter}}All Episodes{{/defaultFilter}}</span>
+                <div class="menu_button open"></div>
+
+                <div class="filter_list">
+                    <ul>
+                        {{#filters}}
+                            <li>{{.name}}<span>{{.count}} episodes</span></li>
+                        {{/filters}}
+                    </ul>
+                </div>
+                <span class="itemCount s_fonts_moduleHeaderCount">{{#itemCount}}{{.}}{{/itemCount}}{{^itemCount}}0{{/itemCount}} episodes</span>
+
+            </div>
+        </div>
+        <div class="toggleable_module_content">
+            {{#colors}}{{#primaryColor}}
+                <style>
+                    .S001_line_list_item .link_wrapper:hover h3, .S001_line_list_item .link_wrapper:hover h4{  color:{{.}};  }
+                </style>
+            {{/primaryColor}}{{/colors}}
+            <ul class="L001_line_list s_layouts_lineList s_resets_oldDom_ul">
+                {{> Modules/ENT_M112/V3_0_0/Controller/items}}
+            </ul>
+
+            {{#colors}}
+                <style>
+                    {{#isLOGO}}
+                        {{#primaryColor}}.ent_m112 .L001_line_list_load-more{ border-color: {{.}}; color: {{.}}; }{{/primaryColor}}
+                    {{/isLOGO}}
+                    {{^isLOGO}}
+                    .ent_m112 .L001_line_list_load-more { &nbsp;
+                        {{#primaryColor}}background-color:{{.}};{{/primaryColor}}{{#primaryTextColor}}color:{{.}};{{/primaryTextColor}}
+                    }
+                    {{/isLOGO}}
+                </style>
+            {{/colors}}
+            <div class="L001_line_list_load-more custom_button_hover s_buttons_button" style="display: none;"><span>Load More</span></div>
+        </div>
+
+        <div id="season_watch_holder">
+            {{> Modules/ENT_M112/V3_0_0/Controller/seasonMessaging}}
+        </div>
+    </div>
+{{/data}}

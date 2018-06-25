@@ -1,0 +1,24 @@
+{{#items}}
+
+    {{#isAd}}
+        <li class="box_ad"><div class="lineList_ad" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div></li>
+    {{/isAd}}
+
+    {{^isAd}}
+    <li class="S001_line_list_item s_layouts_lineListItem s_layouts_lineListVideoItem {{#fullEpisode.desktop.authorization}}{{#tve}}tve_locked{{/tve}}{{/fullEpisode.desktop.authorization}}">
+        <a class="link_wrapper" href="{{canonicalURL}}">
+            <div class="thumbnail_holder s_layouts_lineListItemImageWrapper {{#episodeType}}full_ep{{/episodeType}}">
+                {{#showEpisodeFlag}}{{#season}}<div class="item_label s_layouts_lineListBadge s_fonts_badge"><small>Full Ep</small><span>{{episodeAiringOrder}}</span></div>{{/season}}{{/showEpisodeFlag}}
+                {{#distPolicy}}{{#.authTve}}<div class="s_tve_lock"></div>{{/.authTve}}{{/distPolicy}}
+                {{#images}}<div data-toqueue="true" data-info="[{&quot;original&quot;: { {{#width}}{{#height}}&quot;width&quot;: {{width}}, &quot;height&quot;:{{height}}{{/height}}{{/width}} }, &quot;src&quot;: &quot;{{.url}}&quot;, {{#.alt}} &quot;alt&quot;: &quot;{{.}}&quot;,{{/.alt}} &quot;quality&quot;: 0.85},null]" class="image_holder deferred"></div>{{/images}}
+                {{#durationFormatted}}<div class="s_layouts_lineListDurationBadge">{{.}}</div>{{/durationFormatted}}
+            </div>
+            {{#season}}{{#number}}<h4>{{{.}}}</h4>{{/number}}{{/season}}
+            {{#shortTitle}}<h3 class="s_fonts_lineListHeader">{{.}}</h3>{{/shortTitle}}
+            {{#shortDescription}}<p>{{.}}</p>{{/shortDescription}}
+            {{#airDateNY}}<span class="s_episodeAirDate">aired {{shortMonth}}/{{day}}/{{shortYear}}</span>{{/airDateNY}}
+        </a>
+    </li>
+    {{/isAd}}
+
+{{/items}}

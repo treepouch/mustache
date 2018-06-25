@@ -1,0 +1,33 @@
+{{#slate}}
+    <div class="player_slate content{{#.typeClass}} {{.}}{{/.typeClass}}">
+        <div class="player_slate_content">
+            {{#.headline}}
+                <div class="player_slate_title">
+                    <h2>{{.}}</h2>
+                </div>
+            {{/.headline}}
+
+            {{#.description}}
+                <p class="player_slate_description">{{{.}}}</p>
+            {{/.description}}
+
+            {{#.button}}
+                <div class="player_slate_button{{#.typeClass}} {{.}}{{/.typeClass}}">{{.title}}</div>
+            {{/.button}}
+
+            {{#message}}
+                <div class="player_slate_message">
+                    {{#.header}}
+                        <div class="player_slate_title">
+                            <h3>{{.}}</h3>
+                        </div>
+                    {{/.header}}
+
+                    {{#.body}}
+                        <p class="player_slate_description">{{{.}}}</p>
+                    {{/.body}}
+                </div>
+            {{/message}}
+        </div>
+    </div>
+{{/slate}}

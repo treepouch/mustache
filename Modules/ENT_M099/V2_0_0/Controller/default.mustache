@@ -1,0 +1,67 @@
+{{#data}}
+    <div class="{{promoId}}">
+    {{#parentPromo}}
+        <a href="{{linkURL}}" class="{{#childPromo}}half_promo{{/childPromo}}{{^childPromo}}full_promo{{/childPromo}}">
+        {{> common/image }}
+        {{#overlays}}
+            <div class="overlay">
+                <div class="info">
+                    {{#headline}}
+                        <h2 class="headline">{{{headline}}}</h2>
+                    {{/headline}}
+                    {{#subHeadline}}
+                        <h3 class="subline">{{{subHeadline}}}</h3>
+                    {{/subHeadline}}
+                    {{#copy}}
+                        <span class="copy">{{{copy}}}</span>
+                    {{/copy}}
+                </div>
+            </div>
+        {{/overlays}}
+    </a>
+    {{/parentPromo}}
+    {{#childPromo}}
+    <div class="text_promo info">
+        {{#headline}}
+        <h2 class="headline">{{{headline}}}</h2>
+        {{/headline}}
+        {{#subHeadline}}
+        <p class="subline">{{{subHeadline}}}</p>
+        {{/subHeadline}}
+        {{#link}}
+        <a href="{{url}}" class="link Video">{{{label}}}</a>
+        {{/link}}
+    </div>
+    {{/childPromo}}
+
+    {{#colors}}
+    <style type="text/css">
+        {{#backgroundColor}}
+        .{{promoId}} .text_promo {
+            background: {{backgroundColor}};
+        }
+        {{/backgroundColor}}
+        {{#headerTextColor}}
+        .{{promoId}} .text_promo .headline {
+            color: {{headerTextColor}};
+        }
+        {{/headerTextColor}}
+        {{#subHeaderTextColor}}
+        .{{promoId}} .text_promo .subline {
+            color: {{subHeaderTextColor}};
+        }
+        {{/subHeaderTextColor}}
+        {{#buttonTextColor}}
+        .{{promoId}} .text_promo .link {
+            color: {{buttonTextColor}};
+        }
+        {{/buttonTextColor}}
+        {{#buttonColor}}
+        .{{promoId}} .text_promo .link {
+            background: {{buttonColor}};
+        }
+        {{/buttonColor}}
+    </style>
+    {{/colors}}
+    </div>
+{{/data}}

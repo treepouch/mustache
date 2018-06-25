@@ -1,0 +1,80 @@
+{{#data}}
+    <div class="s_container has_ad">
+        {{#adSize}}
+            <div class="ad_{{adSize}}" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}" data-allowontablet="true"></div>
+        {{/adSize}}
+
+        <div class="s_layouts_moduleHeader s_fonts_moduleHeader">
+            <ul class="s_layouts_socialList">
+                {{#socialHandles}}
+                    <li class="s_layouts_socialListItem">
+                        <a href="{{.socialLink}}" target="_blank" class="s_icons_hasIcon s_icons_{{.socialNetwork}}">
+                            <span class="s_states_onlyScreenReaders">{{.socialNetwork}}</span>
+                        </a>
+                    </li>
+                {{/socialHandles}}
+            </ul>
+            {{#headline}}{{.}}{{/headline}}
+        </div>
+
+        {{#fighter}}
+
+            <div class="s_layouts_details">
+
+                {{#fightsCharacteristics}}
+                    <table class="s_layouts_detailsFightStatsWrapper">
+
+                        <thead>
+                            <tr>
+                                {{#fight}}
+                                    <th colspan="2">
+                                        <svg version="1.1" baseProfile="full" width="135" height="135" viewBox="0 0 135 135" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="100%" height="100%" fill="white" />
+                                            <g stroke-width="3" fill="transparent">
+                                                <circle cx="68" cy="68" r="65" stroke="#b9b9b9"></circle>
+                                                <circle cx="68" cy="68" r="65" stroke="#e2231a" stroke-dasharray="{{.ratio}}, 1000" stroke-dashoffset="{{.ratio}}" class="s_animations_ring"></circle>
+                                            </g>
+                                            <text x="50%" y="60%" text-anchor="middle" fill="#e2231a" class="s_layouts_detailsRatioNumber s_fonts_detailsRatioNumber">{{.value}}</text>
+                                            <text x="50%" y="78%" text-anchor="middle" class="s_layouts_detailsLabel s_fonts_detailsLabel">{{.label}}</text>
+                                        </svg>
+                                    </th>
+                                {{/fight}}
+                            </tr>
+                        </thead>
+
+                        {{#contest}}
+                            <tfoot>
+                                <tr>
+                                    <td class="s_fonts_detailsNumber">{{.value}}</td>
+                                    <th class="s_fonts_detailsLegend" colspan="3">{{.label}}</th>
+                                </tr>
+                            </tfoot>
+                        {{/contest}}
+
+                        <tbody>
+                            {{#fightsStatistic}}
+                                <tr>
+                                    <td class="s_fonts_detailsNumber">{{.winValue}}</td>
+                                    <th class="s_fonts_detailsLegend">{{.winLabel}}</th>
+                                    <td class="s_fonts_detailsNumber">{{.lossValue}}</td>
+                                    <th class="s_fonts_detailsLegend">{{.lossLabel}}</th>
+                                </tr>
+                            {{/fightsStatistic}}
+                        </tbody>
+
+                    </table>
+                {{/fightsCharacteristics}}
+
+                <ul class="s_layouts_detailsStatistics">
+                    {{#fighterCharacteristics}}
+                        <li class="s_layouts_detailsStatisticsItem s_fonts_detailsStatisticsItem">
+                            <span class="s_layouts_detailsLabel s_fonts_detailsLabel">{{.label}}</span>
+                            {{.value}}
+                        </li>
+                    {{/fighterCharacteristics}}
+                </ul>
+            </div>
+        {{/fighter}}
+
+    </div>
+{{/data}}

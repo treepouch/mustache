@@ -1,0 +1,45 @@
+{{#data}}
+    <div class="ent_m226-module-wrapper">
+        <div class="linelist-module-content">
+            {{#details}}
+                {{#title}}
+                    <div class="linelist-module-header">
+                        <h1 class="linelist-module-header-title">{{title}}</h1>
+                    </div>
+
+                {{/title}}
+            {{/details}}
+            <ul class="linelist-items">
+                {{#items}}
+                    {{#featuredCollection}}
+                            </ul>
+                        </div>
+                        <ul class="featured-collection">
+                            <li class="linelist-item ">
+                                <a class="linelist-link-wrapper" href="{{url}}">
+                                    <div class="linelist-item-image-wrapper">
+                                        {{> common/image }}
+                                    </div>
+                                    <div class="linelist-item-meta-wrapper">
+                                        <span class="linelist-item-meta-title">{{title}}</span>
+                                        <span class="linelist-item-meta-description">{{description}}</span>
+                                        {{#ad}}
+                                            <div class="collection-card__sponsor-info">
+                                                <div class="collection-card__sponsor-logo" data-adsize="{{size}}" data-campaign="{{campaign}}"></div>
+                                            </div>
+                                        {{/ad}}
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="linelist-module-content">
+                            <ul class="linelist-items">
+                    {{/featuredCollection}}
+                    {{^featuredCollection}}
+                        {{>Modules/ENT_M226/V1_0_0/Controller/item}}
+                    {{/featuredCollection}}
+                {{/items}}
+            </ul>
+        </div>
+    </div>
+{{/data}}

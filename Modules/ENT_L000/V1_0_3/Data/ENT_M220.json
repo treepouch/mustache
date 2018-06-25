@@ -1,0 +1,511 @@
+{
+  "config": {
+    "zone": "t1_lc_promo1",
+    "moduleName": "ent_l000"
+  },
+  "settings": {
+  },
+  "data": {
+    "items": [
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "Watch this first",
+        "description": "Allow Keegan and Jordan to usher you into the exhaustively extensive sketch library that awaits.",
+        "duration": "0:55",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Dicknanigans",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/dik'nanəgənz/",
+        "definition": "An enfluental perfomance art installation wherein two male performers dressed in matching red and green spandex bodysuits take turns hitting each other in the groin as a powerful statement on modern existence.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isCollection": true,
+        "title": "Weed",
+        "subTitle": "Collection",
+        "url": "http://www.cc-d.mtvi.com/collection/v0g5k3/key-and-peele-football",
+        "image": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "url": "http://1.images.comedycentral.com/images/cc_test_images/keypeele_204_substitute_03.jpg"
+          }
+        ],
+        "ad": {
+          "size": "200x31",
+          "campaign": "campaignIdGoesHere"
+        },
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter",
+            "email"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "caption": "Some caption",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isAd": "true",
+        "size": "300x250"
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "East/West College Bowl 2",
+        "description": "The best college athletes in the nation gear up for football fans' favorite annual tradition.",
+        "duration": "3:19",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isGif": true,
+        "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Dicknanigans",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/dik'nanəgənz/",
+        "definition": "An enfluental perfomance art installation wherein two male performers dressed in matching red and green spandex bodysuits take turns hitting each other in the groin as a powerful statement on modern existence.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:34791c44-a679-4a36-b0f4-1e1334748cb4",
+        "title": "Quarterback Concussion",
+        "description": "After taking a huge hit, the Rhinos quarterback has trouble inspiring his team in the huddle.",
+        "duration": "3:35",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_4/kp_405_concussion_qb.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "East/West College Bowl 2",
+        "description": "The best college athletes in the nation gear up for football fans' favorite annual tradition.",
+        "duration": "3:19",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Dicknanigans",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/dik'nanəgənz/",
+        "definition": "An enfluental perfomance art installation wherein two male performers dressed in matching red and green spandex bodysuits take turns hitting each other in the groin as a powerful statement on modern existence.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isGif": true,
+        "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "East/West College Bowl 2",
+        "description": "The best college athletes in the nation gear up for football fans' favorite annual tradition.",
+        "duration": "3:19",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Dicknanigans",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/dik'nanəgənz/",
+        "definition": "An enfluental perfomance art installation wherein two male performers dressed in matching red and green spandex bodysuits take turns hitting each other in the groin as a powerful statement on modern existence.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isGif": true,
+        "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isVideo": true,
+        "id": "mgid:arc:video:comedycentral.com:45bbae41-a3b5-4bf0-86da-584293aec512",
+        "title": "East/West College Bowl 2",
+        "description": "The best college athletes in the nation gear up for football fans' favorite annual tradition.",
+        "duration": "3:19",
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/KP_308_threepumps_9.jpg",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Dicknanigans",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/dik'nanəgənz/",
+        "definition": "An enfluental perfomance art installation wherein two male performers dressed in matching red and green spandex bodysuits take turns hitting each other in the groin as a powerful statement on modern existence.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isGif": true,
+        "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isTerm": true,
+        "term": "Dicknanigans",
+        "audio": "http://example.com/some.mp3",
+        "partOfSpeech": "n.",
+        "pronunciation": "/dik'nanəgənz/",
+        "definition": "An enfluental perfomance art installation wherein two male performers dressed in matching red and green spandex bodysuits take turns hitting each other in the groin as a powerful statement on modern existence.",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isGif": true,
+        "url": "https://media.giphy.com/media/26FPuDSGZ4DdImZk4/giphy.gif",
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      },
+      {
+        "isImage": true,
+        "image": [
+          {
+            "url": "http://1.images.comedycentral.com/images/shows/key_and_peele/video/season_3/kp_302_eastwest_bowl_rap.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "share": {
+          "url": "#someURL",
+          "title": "some title",
+          "options": [
+            "facebook",
+            "twitter"
+          ]
+        }
+      }
+    ]
+  }
+}

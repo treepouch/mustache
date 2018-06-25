@@ -1,0 +1,112 @@
+{
+    "config": {
+        "zone": "t1_lc_promo1",
+        "moduleName": "ent_m234",
+        "events": [
+            {
+                "name": "Show TVE no AuthZ error",
+                "actions": [
+                    {
+                        "selector": "body",
+                        "toggleClass": "show_overlay"
+                    },
+                    {
+                        "selector": ".ent_m234 .overlay",
+                        "toggleClass": "shown"
+                    },
+                    {
+                        "selector": ".ent_m234 .overlay",
+                        "toggleClass": "animate"
+                    }
+                ]
+            }
+        ]
+    },
+
+    "settings": {
+        "tve": {
+            "requestorID": "MTV",
+            "channelID": "MTV",
+            "providerInfoTitle": "Your TV Provider",
+            "messages": {
+                "default": {
+                    "headline": "Oh No",
+                    "description": "We seem to be having technical difficulties. It's nothing personal - please try again later."
+                },
+                "user not authorized error": {
+                    "headline": "Error",
+                    "description": "MTV is not included in your subscription package. Please contact your TV provider to add it. In the meantime, head back to the site for the latest videos."
+                },
+                "provider not available error": {
+                    "headline": "Don't See Your Provider?",
+                    "description": "If it isn't listed, don't panic. We're working hard to get all TV Providers to participate."
+                },
+                "internal authentication error": {
+                    "headline": "Error",
+                    "description": "There seems to be a technical problem. Please contact your TV provider for more details and try again later."
+                }
+            }
+        },
+        "share": {
+            "shortenerURL": "/feeds/bitly",
+            "email": {
+                "subject": "Watch {{title}} on www.mtv.com"
+            },
+            "twitter": {
+                "name": "MTV"
+            }
+        },
+        "sponsorAd": {
+            "size": "200x31"
+        },
+        "boxAd": {
+            "size": "300x250"
+        },
+        "sponsorship": {
+            "campaignID": "tacobellmovieawards"
+        },
+        "nowWatchingTitle": "now watching",
+        "watchNowTitle": "watch now"
+    },
+    "data": {
+        "id": "mgid:arc:playlist:mtv.com:3e1aac08-18cf-4219-838d-b3403a649720",
+        "title": "vma 2016 live stream",
+        "image": [
+            {
+                "width": 1920,
+                "height": 1080,
+                "url": "http://mtv.mtvnimages.com/content/ontv/vma/evergreen/images/moonman/1920x1080.jpg"
+            }
+        ],
+        "playerTitle": "Live Broadcast",
+        "tveAuth": {
+            "desktop": true,
+            "mobile": true
+        },
+        "share": {
+            "hashtag": "#vmas2016",
+            "cta": "share",
+            "options": [
+                "facebook",
+                "twitter",
+                "whatsapp",
+                "email"
+            ]
+        },
+
+
+        "***COMMENT***": "WE DON'T NEED IT COME IN THE FEED, IT'S USED HERE TO SHOW ON MOCK PAGE",
+        "overlay": {
+            "headline": "Error",
+            "description": "MTV is not included in your subscription package. Please contact Cablevision to add it. In the meantime, head to mtv.com for the latest videos."
+        },
+        "slate": {
+            "typeClass": "tve-locked",
+            "title": "Sign in now with your TV provider to watch the show.",
+            "button": {
+                "typeClass": "sign-in",
+                "title": "sign in"
+            }
+        }
+    }
+}

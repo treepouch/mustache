@@ -1,0 +1,281 @@
+{{#data}}
+
+    {{^settings.artistPage}}
+        {{>Modules/ENT_M238/V8_0_0/Controller/header}}
+
+        <ul class="voting__categories voting__text-mod-{{settings.languageSupport.language_font_modifier}}" id="voting__categories">
+            {{#categories}}
+                {{^professionalCategoryBreak}}
+                    <li class="voting__category {{#layout}}voting__category--layout-{{.}}{{/layout}}{{#categoryStatusClassName}} voting__category--status-{{.}}{{/categoryStatusClassName}}{{#categoryTypeClassName}} voting__category--type-{{.}}{{/categoryTypeClassName}}{{#displayVoteButton}} voting--status-open{{/displayVoteButton}} {{#votingClosed}} voting__category--status-closed{{/votingClosed}}" data-item-id="{{categoryItemId}}" id="{{#categoryHash}}{{.}}{{/categoryHash}}">
+                        {{#categoryTitle}}
+                            <div class="voting__category-title">
+                                <h2>{{.}}</h2>
+                                <div class="voting__category-status-message"></div>
+                            </div>
+                        {{/categoryTitle}}
+                        {{#image}}
+                            {{#externalVotingLink}}
+                                {{#url}}
+                                    <div class="voting__category-content">
+                                        <a href="{{.}}" class="voting__external-category" {{#launchInNewWindow}} target="_blank"{{/launchInNewWindow}}>
+                                            <div class="voting__external-category-image-wrapper">
+                                                {{> common/image }}
+                                                <div class="voting__external-category-meta">
+                                                    {{#text}}{{.}}{{/text}}
+                                                </div>
+                                            </div>
+                                        </a>
+                                        {{#isAd}}
+                                            <div class="voting__external-category-ad" data-adsize="{{size}}" data-ad-sizes="{{size}}" {{#campaignId}}data-campaign="{{.}}"{{/campaignId}} data-keys="vote_cat={{categoryHash}}"></div>
+                                        {{/isAd}}
+                                    </div>
+                                {{/url}}
+                            {{/externalVotingLink}}
+                        {{/image}}
+
+                        {{^noNominees}}
+                            {{^externalVotingLink}}
+                                <div class="voting__category-content">
+                                    <div class="voting__category-overlay voting__modal--hide">
+                                        <div class="voting__category-overlay-content">
+                                            <!--<span class="voting__category-overlay-close-btn voting__modal-close hide">X</span>-->
+                                            <div class="voting__category-overlay-progress">
+                                                <div class="voting__category-overlay-progress--bounce1"></div>
+                                                <div class="voting__category-overlay-progress--bounce2"></div>
+                                                <div class="voting__category-overlay-progress--bounce3"></div>
+                                            </div>
+                                            <div class="voting__category-overlay-vote-status hide"></div>
+                                            <div class="voting__category-overlay-vote-again-timer hide">
+                                                <div class="voting__category-overlay-vote-again-message"></div>
+                                                <!--<div><progress class="voting__category-overlay-vote-again-timer-progress-bar" value="0" max="10"></progress></div>-->
+                                            </div>
+                                            {{#sponsorships}}
+                                                <div class="voting__category-overlay-sponsor-ad-wrapper">
+                                                    <div class="voting__category-overlay-sponsor-ad-presented-by">{{settings.languageSupport.labelSponsoredBy}}</div>
+                                                    <div class="voting__category-overlay-sponsor-ad" data-adsize="{{settings.displaySponsorAd}}" data-ad-sizes="{{settings.displaySponsorAd}}" {{#campaignId}}data-campaign="{{.}}"{{/campaignId}} data-keys="vote_cat={{categoryHash}};tent_pos=vote-thankyou" data-ad-reload-interval="-1"></div>
+                                                </div>
+                                            {{/sponsorships}}
+                                        </div>
+                                    </div>
+                                    {{#sponsorships}}
+                                        <div class="voting__category-sponsor-ad-wrapper">
+                                            <div class="voting__sponsor-ad-presented-by">{{settings.languageSupport.labelSponsoredBy}}</div>
+                                            <div class="voting__sponsor-ad" data-adsize="{{settings.displaySponsorAd}}" data-ad-sizes="{{settings.displaySponsorAd}}" {{#campaignId}}data-campaign="{{.}}"{{/campaignId}}  data-keys="vote_cat={{categoryHash}};tent_pos=vote" data-ad-reload-interval="-1"></div>
+                                        </div>
+                                    {{/sponsorships}}
+                                    {{#isEmbeddable}}<span class="voting__category-embed">Embed</span>{{/isEmbeddable}}
+                                    {{#votingClosedCopy}}
+                                        <div class="voting__category-closed-info">{{.}}</div>
+                                    {{/votingClosedCopy}}
+                                    {{#categoryDescription}}
+                                        <div class="voting__category-description">{{.}}</div>
+                                    {{/categoryDescription}}
+                                    {{#singleFeaturedVideo}}
+                                        {{#categoryVideo}}
+                                            <div class="voting__watch-video">
+                                                <span class="voting__watch-video-button primary_btn" data-video-id="{{#mgid}}{{.}}{{/mgid}}">{{settings.languageSupport.votingSingleFeaturedVideoCTAButtonCopy}}</span>
+                                            </div>
+                                        {{/categoryVideo}}
+                                    {{/singleFeaturedVideo}}
+                                    <ul  class="voting__nominees-grid">
+                                        {{#nominees}}
+                                            {{#isAd}}
+                                                <li class="voting__nominee voting__nominee-ad"><div class="ad-label">{{labelAdvertisement}}</div><div class="nominee_ad" data-adsize="{{size}}" data-ad-sizes="{{size}}" {{#campaignId}}data-campaign="{{.}}"{{/campaignId}} data-keys="vote_cat={{categoryHash}}"></div></li>
+                                            {{/isAd}}
+                                            {{^isAd}}
+                                                <li class="voting__nominee{{#nomineeVideo}} voting__nominee-video{{/nomineeVideo}}" {{#nomineeVideo.mgid}}data-video-id="{{.}}"{{/nomineeVideo.mgid}} data-item-id="{{nomineeItemId}}">
+                                                    <div class="voting__nominee__image-wrapper">
+                                                        <div class="voting__nominee__image-wrapper-image">
+                                                            <div class="voting__nominee-repeat-voting-message">
+                                                                <span class="voting__nominee-repeat-voting-message__title"></span>
+                                                                <span class="voting__nominee-repeat-voting-message__sub-title"></span>
+                                                            </div>
+                                                            {{> common/image }}
+                                                        </div>
+
+                                                        {{#nomineeVideo}}
+                                                            <div class="voting__nominee__image-wrapper-play-icon"></div>
+                                                        {{/nomineeVideo}}
+
+                                                        {{#winner}}
+                                                            <div class="voting__nominee-winner">{{settings.languageSupport.votingWinnerFlag}}</div>
+                                                        {{/winner}}
+                                                    </div>
+                                                    {{#displayVoteButton}}
+                                                        <div class="voting__nominee__vote-button hide">
+                                                            <span class="voting__nominee__vote-button-copy">{{settings.languageSupport.voteButtonCopy}}</span>
+                                                        </div>
+                                                    {{/displayVoteButton}}
+                                                    <div class="voting__nominee__meta-wrapper">
+                                                        <div class="voting__nominee__meta">
+                                                            {{#nomineeTitle}}
+                                                                {{#artistUrl}}<a href="{{.}}" class="">{{/artistUrl}}
+                                                                <span class="voting__nominee__meta-title">{{.}}</span>
+                                                                {{#artistUrl}}</a>{{/artistUrl}}
+                                                            {{/nomineeTitle}}
+                                                            {{#nomineeDescription}}
+                                                                <span class="voting__nominee__meta-description">{{.}}</span>
+                                                            {{/nomineeDescription}}
+                                                            {{#additionalText}}
+                                                                <span class="voting__nominee__meta-additional-text">{{.}}</span>
+                                                            {{/additionalText}}
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            {{/isAd}}
+                                        {{/nominees}}
+                                    </ul>
+                                </div>
+                            {{/externalVotingLink}}
+                        {{/noNominees}}
+                    </li>
+                {{/professionalCategoryBreak}}
+                {{#professionalCategoryBreak}}
+                    <li class="voting__professional-category">
+                        {{#professionalCategoryHeader}}<span class="voting__professional-category-header">{{.}}</span>{{/professionalCategoryHeader}}
+                        {{#professionalCategorySubHeader}}<span class="voting__professional-category-sub-header">{{.}}</span>{{/professionalCategorySubHeader}}
+                    </li>
+                {{/professionalCategoryBreak}}
+            {{/categories}}
+        </ul>
+
+        {{#settings.authorization.isAuthorizedVoting}}
+            <div class="voting__categories-count">
+                <span class="voting__categories-count-voted" id="voting__categories-count-voted"></span>
+                <span>/</span>
+                <span class="voting__categories-count-total" id="voting__categories-count-total"></span>
+                <span>&nbsp;{{settings.languageSupport.votingStatusBarCopy}}</span>
+            </div>
+        {{/settings.authorization.isAuthorizedVoting}}
+
+        {{#countDown}}
+            {{>Modules/ENT_M238/V8_0_0/Controller/countdown}}
+        {{/countDown}}
+
+        {{#settings}}
+            {{#share}}
+                {{>Modules/ENT_M238/V8_0_0/Controller/share}}
+            {{/share}}
+        {{/settings}}
+
+        <span class="voting__login-logout-container">
+            <span class="voting__login-logout-copy"></span>
+            <span class="voting__login-logout-message"></span>
+        </span>
+
+        {{>Modules/ENT_M238/V8_0_0/Controller/modal}}
+
+        {{#settings.isWidget}}<script src="http://{{settings.siteName}}/sitewide/js/iframeResizer.contentWindow.min.js"></script>{{/settings.isWidget}}
+    {{/settings.artistPage}}
+    {{#settings.artistPage}}
+        <div class="artist-voting__content">
+            {{#moduleHeader}}
+                <div class="artist-voting-header">
+                    <h2 class="artist-voting__header-title">{{.}}</h2>
+                    <div class="artist-voting__header-description"></div>
+                </div>
+            {{/moduleHeader}}
+            <div class="artist-voting__categories-container">
+                <div class="artist-voting__categories-content">
+                    <ul class="artist-voting__categories" id="artist-voting__categories">
+                        {{#categories}}
+                            {{^professionalCategoryBreak}}
+                                <li class="artist-voting__category {{#categoryTypeClassName}} voting__category--type-{{.}}{{/categoryTypeClassName}}{{#displayVoteButton}} voting--status-open{{/displayVoteButton}}" data-item-id="{{categoryItemId}}" id="{{#categoryHash}}{{.}}{{/categoryHash}}">
+                                <div class="artist-voting__category-container">
+                                    <div class="artist-voting__category-front-side">
+                                        <div class="artist-voting__category-front-side-content">
+                                            {{#nominees}}
+                                                {{#winner}}
+                                                    <div class="artist-voting__nominee-winner">{{settings.languageSupport.votingWinnerFlag}}</div>
+                                                {{/winner}}
+                                                {{#categoryTitle}}<h1>{{.}}</h1>{{/categoryTitle}}
+                                                {{#nomineeTitle}}<h2 class="artist-voting__nominee__meta-title" data-item-id="{{nomineeItemId}}">{{.}}</h2>{{/nomineeTitle}}
+                                            {{/nominees}}
+                                        </div>
+
+
+                                            {{#displayVoteButton}}
+                                        <div class="artist-voting__category-back-side">
+                                                    <div class="artist-voting__vote-button hide">
+                                                    <div class="artist-voting__vote-label">{{settings.languageSupport.voteButtonCopy}}</div>
+                                                    <div class="voting__category-overlay-progress">
+                                                        <div class="voting__category-overlay-progress--bounce1"></div>
+                                                        <div class="voting__category-overlay-progress--bounce2"></div>
+                                                        <div class="voting__category-overlay-progress--bounce3"></div>
+                                                    </div>
+                                                    <div class="artist-voting__voted hide"></div>
+                                                </div>
+                                            <div class="artist-voting__category-back-side-content">
+                                                        {{#sponsorships}}
+                                                <div class="voting__category-sponsor-ad-wrapper">
+                                                                <div class="voting__category-sponsor-ad-presented-by">{{settings.languageSupport.labelSponsoredBy}}</div>
+                                                                <div class="voting__sponsor-ad" data-adsize="{{settings.displaySponsorAd}}" data-ad-sizes="{{settings.displaySponsorAd}}" {{#campaignId}}data-campaign="{{.}}"{{/campaignId}} data-keys="vote_cat={{categoryHash}};tent_pos=vote-thankyou" data-ad-reload-interval="-1"></div>
+                                                </div>
+                                                        {{/sponsorships}}
+                                            </div>
+                                        </div>
+                                            {{/displayVoteButton}}
+
+                                    </div>
+                                </div>
+                            </li>
+                            {{/professionalCategoryBreak}}
+                            {{#professionalCategoryBreak}}
+                                <li class="voting__professional-category">
+                                    {{#professionalCategoryHeader}}<span class="voting__professional-category-header">{{.}}</span>{{/professionalCategoryHeader}}
+                                    {{#professionalCategorySubHeader}}<span class="voting__professional-category-sub-header">{{.}}</span>{{/professionalCategorySubHeader}}
+                                </li>
+                            {{/professionalCategoryBreak}}
+                        {{/categories}}
+                    </ul>
+
+                    <div class="artist-voting__CTA">
+                        <div class="artist-voting-CTA-copy">{{settings.languageSupport.votingArtistPageCTACopy}}</div>
+                        <a class="artist-voting__CTA-button" href="{{settings.votePageUrl}}">
+                            <span class="artist-voting__CTA-button-copy">{{settings.languageSupport.votingArtistPageCTAButtonCopy}}</span>
+                        </a>
+                        </div>
+
+                </div>
+                <div class="artist-voting__ad-container voting__nominee-ad">
+                    <div class="artist-voting__ad-content">
+                        <div class="ad-label">{{settings.languageSupport.labelAdvertisement}}</div><div data-adsize="300x250" data-ad-sizes="300x250"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <ul class="artist-voting__nominated-videos">
+                {{#categories}}
+                    <li class="artist-voting__nominee-video">
+                        {{#nominees}}
+                            {{#nomineeVideo}}
+                                <div class="artist-voting__nominated-video--header">
+                                    <h2 class="artist-voting__nominated-video-title">{{settings.languageSupport.votingWatchNominatedVideo}}</h2>
+                                </div>
+                                <div class="voting__nominee__image-wrapper" data-item-id="{{nomineeItemId}}">
+                                    <div class="voting__nominee__image-wrapper-image">
+                                        <div class="voting__nominee-repeat-voting-message">
+                                            <span class="voting__nominee-repeat-voting-message__title"></span>
+                                            <span class="voting__nominee-repeat-voting-message__sub-title"></span>
+                                        </div>
+                                        {{> common/image }}
+                                    </div>
+
+                                    {{#nomineeVideo}}
+                                        <div class="voting__nominee__image-wrapper-play-icon"></div>
+                                    {{/nomineeVideo}}
+                                </div>
+                            {{/nomineeVideo}}
+                {{/nominees}}
+                    </li>
+                {{/categories}}
+            </ul>
+
+
+            {{>Modules/ENT_M238/V8_0_0/Controller/modal}}
+        </div>
+    {{/settings.artistPage}}
+
+{{/data}}

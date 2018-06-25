@@ -1,0 +1,46 @@
+{{#items}}
+	{{#adSize}}
+		<li class="{{#mobile}}ent_m244-mobile-ad{{/mobile}}{{^mobile}}ent_m244-desktop-ad{{/mobile}} ent_m244-item card-grid-item"><div class="lineList_ad" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div></li>
+	{{/adSize}}
+	{{^adSize}}
+	<li class="ent_m244-item card-grid-item">
+		<div class="ent_m244-item__image-wrap card-grid-item__image-wrap">
+			{{#url}}
+			<a href="{{url}}">
+			{{/url}}
+				{{> common/image }}
+			{{#url}}
+			</a>
+			{{/url}}
+			{{#duration}}<div class="ent_m244-item__duration card-grid-item__duration {{#tve}}tve-locked {{#tveDesktop}}desktop-tve-locked {{/tveDesktop}}{{#tveMobile}}mobile-tve-locked {{/tveMobile}}{{/tve}}">{{duration}}</div>{{/duration}}
+		</div>
+
+		{{#label}}<div class="ent_m244-item__label card-grid-item__label">{{label}}</div>{{/label}}
+		{{#title}}
+			<div class="ent_m244-item__textline-1 card-grid-item__textline-1">
+				{{#url}}
+				<a href="{{url}}">
+				{{/url}}
+				{{{title}}}
+				{{#url}}
+				</a>
+				{{/url}}
+			</div>
+		{{/title}}
+		{{#subtitle}}<div class="ent_m244__item-textline-2 card-grid-item__textline-2">{{{subtitle}}}</div>{{/subtitle}}
+
+		<div class="ent_m244-item-meta-wrap card-grid-item__meta-wrap">
+			{{#authorInformation}}
+				{{#authorInformation.thumbnail}}
+					<div class="ent_m244-item-author-thumbnail card-grid-item__author-thumbnail"><img src="{{authorInformation.thumbnail}}"></div>
+				{{/authorInformation.thumbnail}}
+				{{#authorInformation.name}}
+					<div class="ent_m244-item-author-name card-grid-item__author-name">{{authorInformation.name}}</div>
+				{{/authorInformation.name}}
+			{{/authorInformation}}
+
+			{{#publishDate}}<div class="ent_m244-item-publish-date card-grid-item__author-publish-date">{{publishDate}}</div>{{/publishDate}}
+		</div>
+	</li>
+	{{/adSize}}
+{{/items}}

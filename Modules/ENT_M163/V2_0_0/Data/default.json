@@ -1,0 +1,92 @@
+{
+    "envelope": {
+        "version": "1.0",
+        "name": "entertainment-standard-json"
+    },
+    "status": {
+        "text": "OK",
+        "code": 100
+    },
+    "result": {
+        "data": {
+            "promoId": "6vxuxc",
+            "promoType": "ENT_M163",
+            "items": [
+                {
+                    "id": "7a48cd50-d237-11e1-a549-0026b9414f30",
+                    "title": "Teen Mom 2",
+                    "type": "Show",
+                    "url": "http://www.mtv-l.mtvi.com/shows/teen-mom-2",
+                    "image": {
+                        "aspectRatio": 3.5555555555556,
+                        "width": 1920,
+                        "height": 540,
+                        "url": "http://mtv.mtvnimages.com/images/TM2_massive_01.jpg"
+                    }
+                },
+                {
+                    "id": "696b503c-ffb0-45b7-831a-cdb9e32930fa",
+                    "title": "Catfish: The TV Show",
+                    "type": "Show",
+                    "url": "http://www.mtv-l.mtvi.com/shows/catfish-the-tv-show",
+                    "image": {
+                        "aspectRatio": 3.5555555555556,
+                        "width": 1920,
+                        "height": 540,
+                        "url": "http://mtv.mtvnimages.com/arc/Catfish-s6-Jumbotron2.jpg"
+                    }
+                },
+                {
+                    "id": "7a4914c2-d237-11e1-a549-0026b9414f30",
+                    "title": "Awkward.",
+                    "type": "Show",
+                    "url": "http://www.mtv-l.mtvi.com/shows/awkward",
+                    "image": {
+                        "aspectRatio": 3.5555555555556,
+                        "width": 1920,
+                        "height": 540,
+                        "url": "http://mtv.mtvnimages.com/images/Awkward_s5b_massive.jpg"
+                    }
+                },
+                {
+                    "id": "fffc03b0-8a53-11e3-bb6f-0026b9414f30",
+                    "title": "Faking It",
+                    "type": "Show",
+                    "url": "http://www.mtv-l.mtvi.com/shows/faking-it",
+                    "image": {
+                        "aspectRatio": 3.5555555555556,
+                        "width": 1920,
+                        "height": 540,
+                        "url": "http://mtv.mtvnimages.com/images/FakingIts3_massive.jpg"
+                    }
+                },
+                {
+                    "id": "1c607cfe-cec1-11e4-9477-0026b9414f30",
+                    "title": "Scream: The TV Series",
+                    "type": "Show",
+                    "url": "http://www.mtv-l.mtvi.com/shows/scream-the-tv-series",
+                    "image": {
+                        "aspectRatio": 3.5555555555556,
+                        "width": 1920,
+                        "height": 540,
+                        "url": "http://mtv.mtvnimages.com/arc/images/shows/scream/social/Scream_S2_Jumbotron_00.jpg"
+                    }
+                },
+                {
+                    "id": "7a48a14a-d237-11e1-a549-0026b9414f30",
+                    "title": "Teen Wolf",
+                    "type": "Show",
+                    "url": "http://www.mtv-l.mtvi.com/shows/teen-wolf",
+                    "image": {
+                        "aspectRatio": 1,
+                        "width": 2300,
+                        "height": 2300,
+                        "url": "http://mtv.mtvnimages.com/arc/images/shows/teen-wolf/videos/TRUE_TEEN_DETECTIVE_WOLF_8.jpg"
+                    }
+                }
+            ]
+        },
+        "headerText": "Popular Shows"
+    },
+    "messages": {}
+}

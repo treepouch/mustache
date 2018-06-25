@@ -1,0 +1,14 @@
+{
+    "config": {
+        "zone": "t2_lc_promo1",
+        "moduleName": "ent_m239"
+    },
+    "data": {
+        "promoId": "c1ed1143-62a7-41bb-a38b-bbbc801ea539",
+        "promoType": "ENT_M239",
+        "headerTitle": "Teen Wolf",
+        "subHeaderTitle": "premieres tuesday 9\/8c",
+        "headerUrl": "http:\/\/www.mtv.com\/shows\/teen-wolf",
+        "homeUrl": "http:\/\/www.mtv.com\/"
+    }
+}

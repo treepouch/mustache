@@ -1,0 +1,49 @@
+{{#data}}
+    {{#headline}}
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <header class="section-header-md section-header-2">
+                {{.}}
+            </header>
+        </div>
+    {{/headline}}
+
+    {{#url}}
+        <a href="{{.}}">
+    {{/url}}
+
+        <div class="col-lg-12">
+            <div id="music-promo">
+                <div class="item-wrap">
+                    <div class="item promo-block group">
+                        <div class="media">
+                            <div class="image_outer_wrapper">
+                                <div class="image_inner_wrapper">
+                                    {{> common/image }}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meta-wrap">
+                            {{#tuneIn}}
+                                <div class="label item_sticker">
+                                    <span>
+                                        {{.}}
+                                    </span>
+                                </div>
+                            {{/tuneIn}}
+                            {{#subHeadline}}
+                                <div class="header">
+                                    <span class="headline-xl">
+                                        {{.}}
+                                    </span>
+                                </div>
+                            {{/subHeadline}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {{#url}}
+        </a>
+    {{/url}}
+{{/data}}

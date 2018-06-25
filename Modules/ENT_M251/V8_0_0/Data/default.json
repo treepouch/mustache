@@ -1,0 +1,29 @@
+{
+    "config": {
+        "zone": "t1_lc_promo1",
+        "moduleName": "ent_m251"
+    },
+    "envelope": {
+        "version": "1.0",
+        "name": "entertainment-standard-json"
+    },
+    "status": {
+        "text": "OK",
+        "code": 100
+    },
+    "data": {
+        "header": "CONFIG OBJECT TEST: Teen Wolf Super Special Edition",
+        "subHeader": "CONFIG OBJECT TEST It's coming. Seriously. Really. Right now.",
+        "subHeaderCountDown": "Wed, 24 May 2017 23:00:00 -0400",
+        "firstButtonLabel": "test button to google",
+        "firstButtonLink": "http://www.google.com/",
+        "secondButtonLabel": "Coming Soon",
+        "secondButtonLink": null,
+        "superHeroImage": {
+            "url": "https://mtv.mtvnimages.com/arc/images/shows/sweet-and-vicious/MTV_SV_Jumbotron_2.jpg",
+            "width": 1920,
+            "height": 540,
+            "aspectRatio": 3.5555555555556
+        }
+    }
+}

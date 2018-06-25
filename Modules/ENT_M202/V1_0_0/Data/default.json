@@ -1,0 +1,32 @@
+{
+  "config": {
+    "zone": "t2_lc_promo1",
+    "moduleName": "ent_m202"
+  },
+  "envelope": {
+    "version": "1.0",
+    "name": "entertainment-standard-json"
+  },
+  "status": {
+    "text": "OK",
+    "code": 100
+  },
+  "data": {
+    "promoId":"ccs1bo",
+    "promoType":"ENT_M202",
+    "headline":"ABOUT THE SHOW",
+    "date":"Sunday, August 30, 2015",
+    "copy":"2015 VMAs were a doozy! The main show began with our <a>hostess-with-the-mostess Miley Cyrus</a> in eye-popping fashion (literally). From rainbow sequined jumpsuits and mile-long wigs to making the audience erupt in cheers, Miley slayed in every possible way. While the VMAs had its fair share of crazy (*cough* <a>SO MUCH BEEF</a> *cough*), the best moments were the insanely good performances and spectacular acceptance speeches.\n<br\/><br\/>\n <a>Nicki Minaj</a> killed it during her mash-up of \"Trini Dem Girls\/The Night Is Still Young,\" along with her super surpise guest <a>Taylor Swift</a>! Afterwards <a>Macklemore</a> &amp; <a>Ryan Lewis</a> took over the downtown LA stage with a rousing, moped-filled performance of \"Downtown.\" <a>Bruno Mars</a> and <a>Mark Ronson</a> took home the first Moonman of the night, Best Male Video, for their hit \"Uptown Funk,\" followed by critically acclaimed singer-songwriter and R&amp;B superstar The Weeknd making his VMA debut with the first-ever televised performance of his hit single.\n<br\/><br\/>\nThe night quickly became dominated by the ladies, when \"Anaconda\" kween <a>Nicki Minaj</a> took home the award for Best Hip-Hop video, and <a>Taylor Swift</a> scooped up the Best Female Video for \"Blank Space.\" Demi continued the girl power with a beachy \"Cool For The Summer\" performance, bringing up BFF Iggy Azalea to join in on the fun, and Tori Kelly absolutely shut the Microsoft Theater DOWN when she sang \"Should've Been Us.\" Tori left us with all the feels. \n<br\/><br\/>\nJustin Bieber made his epic return to the VMA stage with a high-flying performance of \"Where Are U Now\/What Do You Mean?\", and Big Sean, Kanye West, and John Legend won Video With A Social Message for \"One Man Can Change The World.\" Kanye West was also honored with the <a>Michael Jackson Video Vanguard Award</a>, and delivered one of the most memorable VMA acceptance speeches of all time, BRUH. <a>Pharrell Williams</a> got the crowd hyped for his downtown \"Freedom\" set, and Fetty Wap took home his very first Moonman for Artist To Watch.\n<br\/><br\/>\nThe VMA audience was treated to all-out rock\/rap insanity when <a>Twenty One Pilots</a> and <a>A$AP Rocky</a> took the stage, and once they were done, the biggest award of the night, Video Of The Year went to <a>Taylor Swift</a> for \"Bad Blood.\" Just when the crowd thought the show was over, host Miley surprised everyone with a candy-colored, drag queen filled finale of her new song \"Dooo It.\" \n<br\/><br\/>\nThe <a>2015 MTV Video Music Awards</a> may have come and gone but you can re-live the whole thing! Don't forget to check out the most talked about moments of the evening and see some exclusive behind the scene photos as well. Until next time, see ya next year!",
+    "hosts":"",
+    "image":[
+      {
+        "url":"http:\/\/mtv.mtvnimages.com\/arc\/images\/events\/vmas_2015_800x800.jpg",
+        "width":800,
+        "height":800,
+        "aspectRatio":"1:1"
+      }
+    ]
+  },
+  "messages": {
+  }
+}

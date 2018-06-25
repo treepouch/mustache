@@ -1,0 +1,40 @@
+"config": {
+	"zone": "t1_lc_promo1",
+	"moduleName": "ent_m246"
+},
+
+"settings": {
+
+},
+
+"data": {
+	"navItems": [
+        {
+            "_arcv2FeedCheckPassed": true,
+            "_arcv2ContentType": "Site:PromoResource",
+            "image": null,
+            "popUp": false,
+            "text": "News",
+            "url": "t3_lc_promo2",
+            "type": null
+        },
+        {
+            "_arcv2FeedCheckPassed": true,
+            "_arcv2ContentType": "Site:PromoResource",
+            "image": null,
+            "popUp": false,
+            "text": "Videos",
+            "url": "t3_lc_promo3",
+            "type": null
+        },
+        {
+            "_arcv2FeedCheckPassed": true,
+            "_arcv2ContentType": "Site:PromoResource",
+            "image": null,
+            "popUp": false,
+            "text": "Playlists",
+            "url": "t3_lc_promo4",
+            "type": null
+        }	
+    ]
+}

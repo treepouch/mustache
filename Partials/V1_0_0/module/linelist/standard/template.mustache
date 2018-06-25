@@ -1,0 +1,35 @@
+{{#data}}
+	<div class="linelist-module-content">
+		<div class="linelist-module-header">
+			{{#header.filters.0}}
+				{{> module/linelist/standard/filters }}
+			{{/header.filters.0}}
+			{{^header.filters}}
+				{{#header.title}}
+					{{#settings.isMinimized}}
+						<h2 class="linelist-module-header-title">{{header.title}}</h2>
+					{{/settings.isMinimized}}
+					{{^settings.isMinimized}}
+						<h1 class="linelist-module-header-title">{{header.title}}</h1>
+					{{/settings.isMinimized}}
+                    {{#settings.sponsorAdSize}}
+                        {{#settings.campaignId}}
+                            <div class="linelist-sponsor-ad" data-adsize="{{settings.sponsorAdSize}}" data-ad-sizes="{{settings.sponsorAdSize}}" data-campaign="{{settings.campaignId}}"></div>
+                        {{/settings.campaignId}}
+                    {{/settings.sponsorAdSize}}
+				{{/header.title}}
+			{{/header.filters}}
+		</div>
+        <ul class="linelist-items linelist-grid effect-2" id="linelist-grid">{{> module/linelist/standard/listitems }}</ul>
+        {{^settings.isMinimized}}
+            <div class="linelist-loading-graphic"></div>
+        {{/settings.isMinimized}}
+        {{#nextPage}}
+            {{#settings.isMinimized}}<a href="{{nextPage.url}}">{{/settings.isMinimized}}
+                <div class="linelist-load-more-btn {{#settings.isMinimized}} linelist-minimized{{/settings.isMinimized}}">
+                    <span class="primary_btn">{{.label}}</span>
+                </div>
+            {{#settings.isMinimized}}</a>{{/settings.isMinimized}}
+        {{/nextPage}}
+	</div>
+{{/data}}

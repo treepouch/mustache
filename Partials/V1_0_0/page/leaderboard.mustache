@@ -1,0 +1,16 @@
+{{^cmsPageInformation.parameters.disableBannerAd}}
+    <div id="leaderboard" class="primary_background" data-adsize="
+        {{#settings.isHomepage}}
+            {{#cmsPageInformation.parameters.desktopBannerAd}}
+                {{.}}
+            {{/cmsPageInformation.parameters.desktopBannerAd}}
+            {{^cmsPageInformation.parameters.desktopBannerAd}}
+                0
+            {{/cmsPageInformation.parameters.desktopBannerAd}}
+        {{/settings.isHomepage}}
+        {{^settings.isHomepage}}
+            728x90
+        {{/settings.isHomepage}}
+    "></div>
+    <div class="leaderboard center mobile primary_background" data-adsize="300x50" style="display: none"></div>
+{{/cmsPageInformation.parameters.disableBannerAd}}

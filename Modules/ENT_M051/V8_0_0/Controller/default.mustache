@@ -1,0 +1,24 @@
+{{#data}}
+    <div class="module_wrapper {{moduleWrapperExtraClass}}">
+        {{#url}}<a href="{{.}}">{{/url}}
+            {{> common/image }}
+            <div class="content">
+                {{#headerText}}
+                    <div class="item_sticker">
+                        <span>{{.}}</span>
+                    </div>
+                {{/headerText}}
+                {{#subheaderText}}
+                    <h3>{{.}}</h3>
+                {{/subheaderText}}
+                {{#copy}}
+                    <p class="s_fonts_lineListDescription s_fonts_promoTextMain">{{.}}</p>
+                {{/copy}}
+
+                {{#ad}}
+                    <span data-adsize="{{.adSize}}" data-campaign="{{.campaign}}" data-ad-sizes="{{.adSize}}"></span>
+                {{/ad}}
+            </div>
+        {{#url}}</a>{{/url}}
+    </div>
+{{/data}}

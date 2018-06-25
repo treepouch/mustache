@@ -1,0 +1,72 @@
+{{#data}}
+    <header role="banner" id="site-header">
+        <div class="container-stretch">
+            <div class="header clearfix">
+
+                <div class="header-container">
+
+                    <div class="logo-container">
+                        {{#logo}}
+                            <a href="{{url}}">
+                                <div class="logo-wrap">
+                                    <div class="vdl-icon-nav-logo"></div>
+                                </div>
+                            </a>
+                        {{/logo}}
+                    </div>
+
+                    {{#title}}
+                        <div class="title-container">
+                            {{#url}}
+                            <a href="{{.}}">
+                            {{/url}}
+                                <div class="title-wrap">
+                                    <div class="title"><span>{{text}}</span></div>
+                                </div>
+                            {{#url}}
+                            </a>
+                            {{/url}}
+                        </div>
+                    {{/title}}
+
+                    {{#navigation.0}}
+                        <div class="nav-container">
+                            <div class="nav-wrap" data-context="{{settings.context}}">
+                                <nav role="navigation">
+                                    {{#navigation}}
+                                    <div class="nav-item">
+                                        <a href="{{.url}}"><div>{{.title}}</div></a>
+                                        {{#.entries.0}}
+                                            <div class="sub-nav">
+                                        {{/.entries.0}}
+                                            {{#.entries}}
+                                                <div><a class="nav-link" href="{{.url}}">{{.title}}</a></div>
+                                            {{/.entries}}
+                                            {{#.seeAll}}
+                                                <div>
+                                                    <a class="vdl-btn" href="{{#.URL}}{{.}}{{/.URL}}">{{#.label}}{{.}}{{/.label}}</a>
+                                                </div>
+                                            {{/.seeAll}}
+                                        {{#.entries.0}}
+                                            </div>
+                                        {{/.entries.0}}
+                                    </div>
+                                    {{/navigation}}
+                                </nav>
+                            </div>
+                        </div>
+                    {{/navigation.0}}
+
+                    <div class="search-container js-trigger-search">
+                        <div class="search-wrap"><div class="vdl-icon-search"></div></div>
+                    </div>
+
+                    <div class="modal-close-wrap">
+                        <div class="modal-close"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+{{/data}}

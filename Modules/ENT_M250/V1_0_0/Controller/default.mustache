@@ -1,0 +1,70 @@
+{{#data}}
+    <div class="ent_m250-module-content">
+        <div class="ent_m250-content-wrap">
+            <div class="ent_m250-sweepstakes-wrap">
+                {{#text1}}
+                    <div class="ent_m250-text-1">
+                        <span class="ent_m250-text-1-content">{{.}}</span>
+                    </div>
+                {{/text1}}
+
+                {{#text2}}
+                    <div class="ent_m250-text-2">
+                        <span class="ent_m250-text-2-content">{{.}}</span>
+                    </div>
+                {{/text2}}
+
+                <div class="ent_m250-copy-wrap">
+                    {{#image}}
+                        <div class="ent_m250-image-wrap">
+                            {{> common/image }}
+                        </div>
+                    {{/image}}
+                    {{#text3}}
+                        <div class="ent_m250-text-3">
+                            <span class="ent_m250-text-3-content">{{.}}</span>
+                        </div>
+                    {{/text3}}
+                </div>
+
+                {{#text4}}
+                    <div class="ent_m250-text-4">
+                        <span class="ent_m250-text-4-content">{{.}}</span>
+                    </div>
+                {{/text4}}
+
+                {{#sweepstakes}}
+                    {{#sweepstakesID}}
+                        <div class="ent_m250-sweepstakes-container" id="{{sweepstakesID}}-container">
+                            <div class="ent_m250-sponsor-ad" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div>
+                        </div>
+                    {{/sweepstakesID}}
+                {{/sweepstakes}}
+            </div>
+
+            {{#sponsorInfo}}
+                <div class="ent_m250-sponsor-wrap">
+                    <div class="ent_m250-sponsor-content">
+
+                    </div>
+
+                    <div class="ent_m250-sponsor-ad-wrap">
+                        {{#adSize}}
+                            <div class="ent_m250-sponsor-ad" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div>
+                        {{/adSize}}
+                    </div>
+                </div>
+            {{/sponsorInfo}}
+
+            {{^sponsorInfo}}
+                <div class="ent_m250-sponsor-wrap">
+                    <div class="ent_m250-sponsor-ad-wrap">
+                        {{#adSize}}
+                            <div class="ent_m250-sponsor-ad" data-adsize="{{adSize}}" data-ad-sizes="{{adSize}}"></div>
+                        {{/adSize}}
+                    </div>
+                </div>
+            {{/sponsorInfo}}
+        </div>
+    </div>
+{{/data}}

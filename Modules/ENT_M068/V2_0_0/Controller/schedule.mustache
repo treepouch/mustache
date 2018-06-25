@@ -1,0 +1,87 @@
+{{#episodesList}}
+
+    {{#isDateItem}}
+        <li class="date">
+            <span class="date">{{dateFormatted.day}}</span>
+            <span class="date sec dot"> · </span>
+            {{^isWebView}}
+                <span class="date sec year">{{dateFormatted.date}}</span>
+            {{/isWebView}}
+            {{#isWebView}}
+                <span class="date sec year">{{dateFormatted.fullDate}}</span>
+            {{/isWebView}}
+        </li>
+    {{/isDateItem}}
+
+    {{^isDateItem}}
+        <li class="{{^lightColorScheme}}dark{{/lightColorScheme}}{{#lightColorScheme}}light{{/lightColorScheme}}" >
+            <div class="clickable">
+                {{#newEpisode}}
+                    <span class="new">New</span>
+                {{/newEpisode}}
+                {{#onNow}}
+                    <span class="now">On Now</span>
+                {{/onNow}}
+                <span class="time">{{dateTimeFormatted}}
+                    <span>{{AMPMTime}}</span>
+                </span>
+
+                <span class="title {{#onNow}} active {{/onNow}}">
+                    {{^isWebView}}
+                        {{#fullEpisodeURL}}
+                            <a class="notriforce fullepisode"
+                               target="_blank"
+                               href="{{webURL}}"
+                            >Watch Full Episode
+                            </a>
+                        {{/fullEpisodeURL}}
+                    {{/isWebView}}
+
+                    {{^showSchedule}}
+                        {{#seriesName}}<h2>{{.}}</h2>{{/seriesName}}
+                        {{#episodeName}}<span>{{.}}</span>{{/episodeName}}
+                        {{#isWebView}}
+                            <span class="rating">{{parentalRating}} ({{programLength}})</span>
+                        {{/isWebView}}
+                    {{/showSchedule}}
+
+                    {{#showSchedule}}
+                        {{#episodeName}}<h2>{{.}}</h2>{{/episodeName}}
+                            <span>
+                                {{#seasonNumber}}season {{.}} &nbsp{{/seasonNumber}}
+                                {{#episodeNumber}}episode {{.}} {{/episodeNumber}}
+                            </span>
+                    {{/showSchedule}}
+                </span>
+
+                <span class="arrow">
+                    <span class="screen-reader-text">Open</span>
+                </span>
+            </div>
+
+            <div class="more-wrapper">
+                <div class="more">
+                    <div class="image">
+                        {{> common/image }}
+                    </div>
+                    {{^isWebView}}
+                        {{#fullEpisodeURL}}
+                            <a class="notriforce fullepisode_mobile"
+                               target="_blank"
+                               href="{{.webURL}}"
+                            >Watch Full Episode
+                            </a>
+                        {{/fullEpisodeURL}}
+                    {{/isWebView}}
+
+                    <div class="description">
+                        <span>{{.parentalRating}} ({{.programLength}})</span>
+                        {{#episodeDescription}}
+                            <p>{{.}}</p>
+                        {{/episodeDescription}}
+                    </div>
+                </div>
+            </div>
+        </li>
+    {{/isDateItem}}
+{{/episodesList}}

@@ -1,0 +1,38 @@
+{{#data}}
+    {{#item}}
+        <div class="module_content">
+            <div class="content s_featuredContentItem">
+                <div class="content_wrapper s_featuredContentWrapper">
+                    {{#subHeadline}}
+                        <div class="featuredItemLabel s_fonts_label s_layout_label">{{.}}</div>
+                    {{/subHeadline}}
+                    {{#headline}}
+                        <h2 class="video_title s_fonts_promoTitleMain">{{.}}</h2>
+                    {{/headline}}
+                    {{#copy}}
+                        <p class="featuredItemDescription s_fonts_promoTextMain">{{.}}</p>
+                    {{/copy}}
+                    {{#canonicalUrl}}
+                        <a class="show_more_btn s_buttons_button s_not_selectable featuredItemButton" href="{{.}}">
+                            {{#isArticle}}Read article{{/isArticle}}
+                            {{^isArticle}}Watch {{itemType}}{{/isArticle}}
+                        </a>
+                    {{/canonicalUrl}}
+                </div>
+            </div>
+
+            {{#canonicalUrl}}
+                <a class="image_link s_buttons_playHeadMedium" href="{{.}}">
+                    {{> common/image }}
+                    {{#duration}}
+                        <div class="s_layouts_lineListDurationBadge">
+                            {{.}}
+                        </div>
+                    {{/duration}}
+                </a>
+            {{/canonicalUrl}}
+
+        </div>
+
+    {{/item}}
+{{/data}}
